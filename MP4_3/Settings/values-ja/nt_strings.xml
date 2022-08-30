@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="battery_suggestion_summary">自動調整バッテリーをオンにする</string>
+    <string name="smart_battery_manager_title">自動調整バッテリー</string>
+    <string name="smart_battery_footer">バッテリー寿命を伸ばすために、自動調整バッテリーは、頻繁に使用するアプリに対してバッテリーの使用量を制限します。ご使用のスマートフォンは、時間とともにアプリがどのように使用されているかを学習します。\n\nそれらのアプリには通知が表示される場合があります。</string>
+    <string name="smart_battery_footer" product="tablet">バッテリー寿命を伸ばすために、自動調整バッテリーは、頻繁に使用するアプリに対してバッテリーの使用量を制限します。ご使用のタブレットは、時間とともにアプリがどのように使用されているかを学習します。\n\nそれらのアプリには通知が表示される場合があります。</string>
+    <string name="smart_battery_footer" product="device">バッテリー寿命を伸ばすために、自動調整バッテリーは、頻繁に使用するアプリに対してバッテリーの使用量を制限します。ご使用のデバイスは、時間とともにアプリがどのように使用されているかを学習します。\n\nそれらのアプリには通知が表示される場合があります。</string>
+    <string name="smart_battery_title">自動調整バッテリーを使用する</string>
+    <string name="battery_tip_smart_battery_summary">自動調整バッテリーをオンにする</string>
+    <string name="nt_color_temperature">色温度</string>
+    <string name="warmer">暖かい</string>
+    <string name="colder">冷たい</string>
+	        <!-- Mobile network settings screen, title of item showing the name of the default subscription
+    that will be used for data. This only appears in multi-SIM mode. [CHAR LIMIT=NONE] -->
+    <string name="data_preference">データの設定</string>
+	<string name="vibrating_for_outgoing_call_accepted_summary">発信応答時のバイブレーションモードを有効にする</string>
+</resources>

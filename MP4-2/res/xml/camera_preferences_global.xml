@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceGroup xmlns:camera="http://schemas.android.com/apk/res-auto">
+
+
+    <IconListPreference
+        camera:key="pref_camera_screenflash_key"
+        camera:defaultValue="auto"
+        camera:title="@string/pref_screenflash_title"
+        camera:icons="@array/camera_screenflash_icons"
+        camera:entries="@array/pref_camera_screenflash_entries"
+        camera:entryValues="@array/pref_camera_screenflash_entryvalues"
+        camera:generalgroup="local"
+        camera:logicalgroup="photoparams"
+        camera:uigroup="top_setting"
+        camera:level="0" />
+
+    <IconListPreference
+        camera:key="pref_camera_flashmode_key"
+        camera:defaultValue="@string/pref_camera_flashmode_default"
+        camera:title="@string/pref_camera_flashmode_title"
+        camera:icons="@array/camera_flashmode_icons"
+        camera:entries="@array/pref_camera_flashmode_entries"
+        camera:entryValues="@array/pref_camera_flashmode_entryvalues"
+        camera:generalgroup="local"
+        camera:logicalgroup="commonparams"
+        camera:level="0"
+        camera:uigroup="top_setting"
+        camera:toastId="10317" />
+
+    <IconListPreference
+        camera:key="pref_camera_self_timer_key"
+        camera:defaultValue="@string/pref_camera_selftimer_default"
+        camera:title="@string/pref_camera_selftimer_title"
+        camera:icons="@array/camera_selftimer_icons"
+        camera:entries="@array/pref_camera_selftimer_entries"
+        camera:entryValues="@array/pref_camera_selftimer_entryvalues"
+        camera:generalgroup="global"
+        camera:level="0"
+        camera:uigroup="top_setting"
+        camera:logicalgroup="photological" />
+
+    <IconListPreference
+        camera:key="pref_camera_asd_key"
+        camera:defaultValue="on"
+        camera:title="@string/pref_camera_ai_title"
+        camera:icons="@array/pref_camera_ai_icons"
+        camera:entries="@array/pref_camera_asd_entries"
+        camera:entryValues="@array/pref_camera_asd_entryvalues"
+        camera:summary="@string/perf_summary_asd"
+        camera:generalgroup="local"
+        camera:logicalgroup="photological"
+        camera:uigroup="more_setting"/>
+
+    <IconListPreference
+        camera:key="pref_camera_mesh_line_key"
+        camera:defaultValue="off"
+        camera:title="@string/pref_camera_mesh_line_title"
+        camera:icons="@array/ic_mesh_line_icons"
+        camera:entries="@array/pref_camera_toggle_entries"
+        camera:entryValues="@array/pref_camera_toggle_entryvalues"
+        camera:generalgroup="global"
+        camera:logicalgroup="commonlogical"
+        camera:uigroup="more_setting"/>
+
+    <IconListPreference
+        camera:key="pref_camera_picture_aspect_ratio_key"
+        camera:defaultValue="4:3"
+        camera:title="@string/pref_camera_picture_aspect_ratio_title"
+        camera:icons="@array/ic_picture_aspect_ratio_icons"
+        camera:entries="@array/pref_camera_picture_aspect_ratio_entries"
+        camera:entryValues="@array/pref_camera_aspect_ratio_entryvalues"
+        camera:generalgroup="local"
+        camera:logicalgroup="photoparams"
+        camera:level="1"
+        camera:uigroup="top_setting"/>
+
+    <IconListPreference
+        camera:key="pref_motion_photo_key"
+        camera:defaultValue="@string/pref_motion_photo_default"
+        camera:title="@string/pref_motion_photo_title"
+        camera:icons="@array/pref_motion_photo_icons"
+        camera:entries="@array/pref_motion_photo_entries"
+        camera:entryValues="@array/pref_motion_photo_entryvalues"
+        camera:generalgroup="global"
+        camera:level="1"
+        camera:logicalgroup="photoparams"
+        camera:uigroup="top_setting"
+        camera:toastId="10314" />
+
+    <IconListPreference
+        camera:key="pref_camera_high_picture_size_key"
+        camera:defaultValue="off"
+        camera:title="@string/pref_camera_high_picture_size_title"
+        camera:icons="@array/ic_high_size_icons"
+        camera:entries="@array/pref_camera_toggle_entries"
+        camera:entryValues="@array/pref_camera_toggle_entryvalues"
+        camera:generalgroup="global"
+        camera:logicalgroup="photoparams"
+        camera:level="1"
+        camera:uigroup="top_setting"
+        camera:toastId="10315" />
+
+    <IconListPreference
+        camera:key="pref_high_definition_key"
+        camera:title="@string/pref_high_definition_title"
+        camera:defaultValue="off"
+        camera:generalgroup="global"
+        camera:logicalgroup="photological"
+        camera:icons="@array/pref_high_definition_icons"
+        camera:entries="@array/pref_camera_switch_entries"
+        camera:entryValues="@array/pref_camera_switch_entryvalues"
+        camera:uigroup="top_setting"
+        camera:level="1"
+        camera:toastId="10318" />
+
+    <IconListPreference
+        camera:key="pref_filter_key"
+        camera:defaultValue="0"
+        camera:title="@string/pref_camera_filter_title"
+        camera:icons="@array/pref_camera_filter_icons"
+        camera:entries="@array/pref_filter_entries"
+        camera:entryValues="@array/pref_filter_entryvalues"
+        camera:generalgroup="global"
+        camera:level="1"
+        camera:logicalgroup="commonlogical"
+        camera:uigroup="top_setting"/>
+
+    <IconListPreference
+        camera:key="pref_camera_picturesize_key"
+        camera:defaultValue="1280x720"
+        camera:title="@string/pref_camera_picturesize_title"
+        camera:icons="@array/ic_picture_size_icons"
+        camera:entries="@array/pref_camera_picturesize_entries"
+        camera:entryValues="@array/pref_camera_picturesize_entryvalues"
+        camera:generalgroup="local"/>
+
+    <IconListPreference
+        camera:defaultValue="6"
+        camera:entries="@array/pref_video_quality_entries"
+        camera:entryValues="@array/pref_video_quality_entryvalues"
+        camera:generalgroup="local"
+        camera:icons="@array/video_quality_icons"
+        camera:key="pref_video_quality_key"
+        camera:level="0"
+        camera:logicalgroup="videoparams"
+        camera:title="@string/pref_video_quality_title"
+        camera:uigroup="top_setting" />
+
+    <IconListPreference
+        camera:defaultValue="6"
+        camera:entries="@array/pref_slow_motion_quality_entries"
+        camera:entryValues="@array/pref_slow_motion_quality_entryvalues"
+        camera:generalgroup="local"
+        camera:icons="@array/slow_motion_quality_icons"
+        camera:key="pref_slow_motion_quality_key"
+        camera:level="0"
+        camera:logicalgroup="videoparams"
+        camera:title="@string/pref_video_quality_title"
+        camera:uigroup="top_setting" />
+
+    <IconListPreference
+        camera:defaultValue="6"
+        camera:entries="@array/pref_slow_motion_quality_entries"
+        camera:entryValues="@array/pref_slow_motion_quality_entryvalues"
+        camera:generalgroup="local"
+        camera:icons="@array/slow_motion_quality_icons"
+        camera:key="pref_time_lapse_quality_key"
+        camera:level="0"
+        camera:logicalgroup="videoparams"
+        camera:title="@string/pref_video_quality_title"
+        camera:uigroup="top_setting" />
+
+    <IconListPreference
+        camera:key="pref_hdr_d_key"
+        camera:defaultValue="@string/pref_hdr_default"
+        camera:title="@string/pref_hdr_title"
+        camera:icons="@array/pref_hdr_icons"
+        camera:entries="@array/pref_hdr_entries"
+        camera:entryValues="@array/pref_hdr_entryvalues"
+        camera:generalgroup="global"
+        camera:logicalgroup="photoparams"
+        camera:uigroup="more_setting"/>
+
+    <IconListPreference
+        camera:key="pref_video_stabilization_key"
+        camera:defaultValue="standard"
+        camera:icons="@array/video_stabilization_icons"
+        camera:title="@string/pref_video_stabilization_title"
+        camera:entries="@array/pref_video_stabilization_entries"
+        camera:entryValues="@array/pref_video_stabilization_entryvalues"
+        camera:generalgroup="local"
+        camera:level="1"
+        camera:logicalgroup="videoparams"
+        camera:uigroup="top_setting"
+        camera:toastId="10322" />
+
+    <IconListPreference
+        camera:key="pref_video_night_key"
+        camera:defaultValue="off"
+        camera:icons="@array/video_night_icons"
+        camera:title="@string/pref_video_night_title"
+        camera:entries="@array/pref_camera_switch_entries"
+        camera:entryValues="@array/pref_camera_switch_entryvalues"
+        camera:generalgroup="local"
+        camera:level="1"
+        camera:logicalgroup="videoparams"/>
+
+    <IconListPreference
+        camera:key="pref_gender_estimate_key"
+        camera:defaultValue="on"
+        camera:icons="@array/gender_estimate_icons"
+        camera:title="@string/pref_gender_estimate_title"
+        camera:entries="@array/pref_gender_estimate_entries"
+        camera:entryValues="@array/pref_gender_estimate_entryvalues"
+        camera:generalgroup="global"
+        camera:level="1"
+        camera:logicalgroup="photological"
+        camera:uigroup="top_setting"/>
+
+    <IconListPreference
+        camera:key="pref_google_lens_key"
+        camera:defaultValue="on"
+        camera:title="@string/pref_google_lens"
+        camera:icons="@array/pref_google_lens_icons"
+        camera:entries="@array/pref_camera_pic_frame_entries"
+        camera:entryValues="@array/pref_camera_pic_frame_entryvalues"
+        camera:generalgroup="local"
+        camera:level="1"
+        camera:logicalgroup="photological"
+        camera:uigroup="top_setting"
+        />
+
+    <IconListPreference
+        camera:key="pref_video_fps_key"
+        camera:defaultValue="60"
+        camera:title="@string/pref_video_fps"
+        camera:icons="@array/pref_video_fps_icons"
+        camera:entries="@array/pref_video_fps_entries"
+        camera:entryValues="@array/pref_video_fps_entryvalues"
+        camera:generalgroup="local"
+        camera:logicalgroup="videoparams"
+        camera:uigroup="top_setting"
+        camera:level="0"
+        />
+
+    <IconListPreference
+        camera:key="pref_slow_motion_fps_key"
+        camera:defaultValue="120"
+        camera:title="@string/pref_video_fps"
+        camera:icons="@array/pref_slow_motion_fps_icons"
+        camera:entries="@array/pref_slow_motion_fps_entries"
+        camera:entryValues="@array/pref_slow_motion_fps_entryvalues"
+        camera:generalgroup="local"
+        camera:logicalgroup="videoparams"
+        camera:uigroup="top_setting"
+        camera:level="0"
+        />
+
+    <IconListPreference
+        camera:key="pref_shutter_touch_key"
+        camera:defaultValue="off"
+        camera:title="@string/pref_shutter_touch_title"
+        camera:icons="@array/pref_shutter_touch_icons"
+        camera:entries="@array/pref_camera_pic_frame_entries"
+        camera:entryValues="@array/pref_camera_pic_frame_entryvalues"
+        camera:summary="@string/perf_summary_touch_capture"
+        camera:generalgroup="global"
+        camera:uigroup="more_setting"
+        camera:logicalgroup="photological" />
+
+    <IconListPreference
+        camera:key="pref_shutter_smile_key"
+        camera:defaultValue="@string/pref_shutter_smile_default"
+        camera:title="@string/pref_shutter_smile_title"
+        camera:icons="@array/pref_shutter_smile_icons"
+        camera:entries="@array/pref_camera_pic_frame_entries"
+        camera:entryValues="@array/pref_camera_pic_frame_entryvalues"
+        camera:generalgroup="global"
+        camera:logicalgroup="photological" />
+
+    <IconListPreference
+        camera:key="pref_shutter_watermark_logo_key"
+        camera:defaultValue="@string/pref_shutter_watermark_default"
+        camera:title="@string/settings_model_watermark"
+        camera:icons="@array/pref_camera_water_mark_icons"
+        camera:entries="@array/pref_camera_watermark_entries"
+        camera:entryValues="@array/pref_camera_watermark_entryvalues"
+        camera:generalgroup="global"
+        camera:uigroup="watermark_setting"
+        camera:logicalgroup="photological"
+        />
+<!--        camera:uigroup="more_setting"  remove watermark from setting list temperately-->
+
+    <IconListPreference
+        camera:key="pref_shutter_watermark_date_key"
+        camera:defaultValue="@string/pref_shutter_watermark_default"
+        camera:title="@string/settings_time_watermark"
+        camera:icons="@array/pref_camera_water_mark_icons"
+        camera:entries="@array/pref_camera_watermark_entries"
+        camera:entryValues="@array/pref_camera_watermark_entryvalues"
+        camera:generalgroup="global"
+        camera:uigroup="watermark_setting"
+        camera:logicalgroup="photological"
+        />
+
+    <IconListPreference
+        camera:key="pref_shutter_sound_key"
+        camera:defaultValue="on"
+        camera:title="@string/pref_camera_shutter_sound_title"
+        camera:icons="@array/pref_camera_shutter_sound_icons"
+        camera:entries="@array/pref_camera_shutter_sound_entries"
+        camera:entryValues="@array/pref_camera_shutter_sound_entryvalues"
+        camera:generalgroup="global"
+        camera:uigroup="more_setting"
+        camera:logicalgroup="commonlogical" />
+    <IconListPreference
+        camera:key="pref_raw_file_key"
+        camera:defaultValue="off"
+        camera:title="@string/pref_camera_raw_file_title"
+        camera:icons="@array/pref_camera_raw_file_icons"
+        camera:entries="@array/pref_camera_raw_file_entries"
+        camera:entryValues="@array/pref_camera_raw_file_entryvalues"
+        camera:generalgroup="global"
+        camera:logicalgroup="photological" />
+    <IconListPreference
+        camera:key="pref_camera_recordlocation_key"
+        camera:defaultValue="on"
+        camera:title="@string/pref_camera_record_location_title"
+        camera:icons="@array/pref_camera_recordlocation_icons"
+        camera:entries="@array/pref_camera_recordlocation_entries"
+        camera:entryValues="@array/pref_camera_recordlocation_entryvalues"
+        camera:summary="@string/perf_summary_record_location"
+        camera:generalgroup="global"
+        camera:uigroup="more_setting"
+        camera:logicalgroup="commonlogical" />
+
+    <IconListPreference
+        camera:key="pref_capture_mirror_key"
+        camera:defaultValue="on"
+        camera:title="@string/pref_capture_mirror_title"
+        camera:icons="@array/pref_capture_mirror_icons"
+        camera:entries="@array/pref_capture_mirror_entries"
+        camera:entryValues="@array/pref_capture_mirror_entryvalues"
+        camera:generalgroup="global"
+        camera:uigroup="more_setting"
+        camera:logicalgroup="commonlogical" />
+    <IconListPreference
+        camera:key="pref_pic_struct_key"
+        camera:defaultValue="@string/pref_pic_struct_default"
+        camera:title="@string/pref_pic_struct_title"
+        camera:icons="@array/pref_pic_struct_icons"
+        camera:entries="@array/pref_pic_struct_entries"
+        camera:entryValues="@array/pref_pic_struct_entryvalues"
+        camera:generalgroup="global"
+        camera:uigroup="more_setting"
+        camera:logicalgroup="photological" />
+
+    <IconListPreference
+        camera:key="pref_histogram_key"
+        camera:defaultValue="@string/pref_camera_entry_value_off"
+        camera:title="@string/pref_histogram_title"
+        camera:entries="@array/pref_histogram_entries"
+        camera:entryValues="@array/pref_histogram_entryvalues"
+        camera:generalgroup="global"
+        camera:uigroup="expert_setting"
+        camera:logicalgroup="photological" />
+    <IconListPreference
+        camera:key="pref_level_meter_key"
+        camera:defaultValue="@string/pref_camera_entry_value_off"
+        camera:title="@string/perf_title_level_meter"
+        camera:entries="@array/pref_level_meter_entries"
+        camera:entryValues="@array/pref_level_meter_entryvalues"
+        camera:generalgroup="global"
+        camera:uigroup="expert_setting"
+        camera:logicalgroup="photological" />
+
+    <IconListPreference
+        camera:key="pref_camera_volume_key"
+        camera:defaultValue="shoot"
+        camera:title="@string/pref_camera_volume_key_title"
+        camera:entries="@array/pref_camera_volume_key_entries"
+        camera:icons="@array/pref_volume_icons"
+        camera:entryValues="@array/pref_camera_volume_key_entryvalues"
+        camera:generalgroup="global"
+        camera:logicalgroup="photological" />
+    <IconListPreference
+        camera:key="pref_camera_zsd_key"
+        camera:defaultValue="on"
+        camera:title="@string/pref_camera_zsd_title"
+        camera:icons="@array/pref_camera_zsd_icons"
+        camera:entries="@array/pref_camera_zsd_entries"
+        camera:entryValues="@array/pref_camera_zsd_entryvalues"
+        camera:generalgroup="local"
+        camera:logicalgroup="commonparams" />
+    <IconListPreference
+        camera:key="pref_camera_videomute_key"
+        camera:defaultValue="off"
+        camera:title="@string/pref_camera_recordaudio_title"
+        camera:icons="@array/pref_camera_recordaudio_icons"
+        camera:entries="@array/pref_camera_recordaudio_entries"
+        camera:entryValues="@array/pref_camera_recordaudio_entryvalues"
+        camera:generalgroup="global"
+        camera:logicalgroup="videological" />
+        />
+    <IconListPreference
+        camera:key="pref_camera_antibanding_key"
+        camera:defaultValue="auto"
+        camera:title="@string/pref_camera_antibanding_title"
+        camera:icons="@array/pref_camera_antibanding_icons"
+        camera:entries="@array/pref_camera_antibanding_entries"
+        camera:entryValues="@array/pref_camera_antibanding_entryvalues"
+        camera:generalgroup="global"
+        camera:logicalgroup="commonparams" />
+
+    <IconListPreference
+        camera:key="pref_restore_default_key"
+        camera:defaultValue="@string/pref_restore_default"
+        camera:title="@string/pref_restore_detail"
+        camera:icons="@array/pref_restore_default_icons"
+        camera:entries="@array/pref_camera_pic_frame_entries"
+        camera:entryValues="@array/pref_camera_pic_frame_entryvalues"
+        camera:generalgroup="global"
+        camera:uigroup="more_setting" />
+
+    <IconListPreference
+        camera:key="pref_save_pos_key"
+        camera:defaultValue="phone"
+        camera:title="@string/pref_camera_save_pos_title"
+        camera:icons="@array/pref_camera_save_pos_icons"
+        camera:entries="@array/pref_camera_save_pos_entries"
+        camera:entryValues="@array/pref_camera_save_pos_entryvalues"
+        camera:generalgroup="global"
+        camera:logicalgroup="photological" />
+
+    <IconListPreference
+        camera:key="pref_video_record_red_light_key"
+        camera:defaultValue="off"
+        camera:title="@string/pref_video_record_red_light_key_title"
+        camera:entries="@array/pref_video_record_red_light_entries"
+        camera:entryValues="@array/pref_video_record_red_light_entryvalues"
+        camera:icons="@array/pref_video_record_red_light_icons"
+        camera:generalgroup="global"
+        camera:uigroup="top_setting|more_setting"
+        camera:level="1"
+        camera:logicalgroup="videoparams"
+        camera:toastId="10323"
+        />
+
+    <ListPreference
+        camera:key="pref_video_encoder_key"
+        camera:defaultValue="h264"
+        camera:title="@string/pref_video_encoder"
+        camera:entries="@array/pref_video_encoder_entries"
+        camera:entryValues="@array/pref_video_encoder_entryvalues"
+        camera:generalgroup="global"
+        camera:logicalgroup="videoparams"
+        camera:uigroup="more_setting"
+        />
+
+    <ListPreference
+        camera:entries="@array/pref_camera_saturation_entries"
+        camera:entryValues="@array/pref_camera_saturation_entryvalues"
+        camera:generalgroup="local"
+        camera:icon="@drawable/saturation"
+        camera:key="pref_camera_saturation_key"
+        camera:logicalgroup="commonparams"
+        camera:title="@string/pref_camera_saturation_title" />
+
+    <IconListPreference
+        camera:defaultValue="@string/pref_shutterspeed_default"
+        camera:entries="@array/pref_camera_shutterspeed_entries"
+        camera:entryValues="@array/pref_camera_shutterspeed_entryvalues"
+        camera:generalgroup="local"
+        camera:icon="@drawable/shutter"
+        camera:key="pref_camera_shutterspeed_key"
+        camera:logicalgroup="commonparams"
+        camera:title="@string/pref_shutter_speed_title"/>
+
+    <IconListPreference
+        camera:defaultValue="@string/pref_exposure_default"
+        camera:entries="@array/pref_camera_exposure_entries"
+        camera:entryValues="@array/pref_camera_exposure_entryvalues"
+        camera:generalgroup="local"
+        camera:icon="@drawable/ev"
+        camera:key="pref_camera_exposure_key"
+        camera:logicalgroup="commonparams"
+        camera:title="@string/pref_exposure_title" />
+
+    <!-- ISO -->
+    <ListPreference
+        camera:defaultValue="@string/pref_camera_iso_default"
+        camera:entries="@array/pref_camera_iso_entries"
+        camera:entryValues="@array/pref_camera_iso_entryvalues"
+        camera:generalgroup="local"
+        camera:icon="@drawable/iso"
+        camera:key="pref_camera_iso_key"
+        camera:logicalgroup="commonparams"
+        camera:title="@string/pref_camera_iso_title" />
+
+    <IconListPreference
+        camera:defaultValue="@string/pref_camera_whitebalance_default"
+        camera:entries="@array/pref_camera_whitebalance_entries"
+        camera:entryValues="@array/pref_camera_whitebalance_entryvalues"
+        camera:generalgroup="local"
+        camera:icon="@drawable/wb"
+        camera:icons="@array/whitebalance_icons"
+        camera:key="pref_camera_wb_mode_key"
+        camera:logicalgroup="commonparams"
+        camera:title="@string/pref_camera_whitebalance_title"/>
+
+    <ProgressPreference
+        camera:generalgroup="local"
+        camera:icon="@drawable/mfocus"
+        camera:key="pref_manual_focus_key"
+        camera:defaultValue="-1"
+        camera:logicalgroup="commonparams"
+        camera:title="@string/manual_focus_title" />
+
+    <IconListPreference
+        camera:key="pref_exposure_metering_key"
+        camera:defaultValue="1"
+        camera:title="@string/pref_exposure_metering_title"
+        camera:icon="@drawable/ic_exposure_metering_center_weighted_selector"
+        camera:entries="@array/pref_exposure_metering_entries"
+        camera:entryValues="@array/pref_exposure_metering_entry_values"
+        camera:generalgroup="local"
+        camera:logicalgroup="photoparams"
+        camera:uigroup="debug_setting"
+        />
+
+    <IconListPreference
+        camera:key="pref_camera_id_key"
+        camera:defaultValue="@string/pref_camera_id_default"
+        camera:title="@string/pref_camera_id_title"
+        camera:icons="@array/camera_id_icons"
+        camera:entries="@array/camera_id_entries"
+        camera:entryValues="@array/camera_id_entryvalues"
+        camera:generalgroup="global"
+        camera:logicalgroup="commonparams"
+        />
+
+    <IconListPreference
+        camera:key="pref_camera_scenemode_key"
+        camera:defaultValue="@string/pref_camera_scenemode_default"
+        camera:title="@string/pref_camera_scenemode_title"
+        camera:icons="@array/camera_scenemode_icons"
+        camera:entries="@array/pref_camera_scenemode_entries"
+        camera:entryValues="@array/pref_camera_scenemode_entryvalues"
+        camera:generalgroup="local"
+        camera:logicalgroup="commonparams" />
+
+    <IconListPreference
+        camera:key="pref_super_macro_key"
+        camera:defaultValue="off"
+        camera:title="@string/macro_mode"
+        camera:icons="@array/pref_camera_super_macro_icons"
+        camera:entries="@array/pref_camera_super_macro_entries"
+        camera:entryValues="@array/pref_camera_super_macro_entries"
+        camera:generalgroup="global"
+        camera:logicalgroup="photological"/>
+
+    <ListPreference
+        camera:key="pref_face_detect_key"
+        camera:defaultValue="@string/pref_camera_face_detect_default"
+        camera:title="@string/pref_camera_face_detect_title"
+        camera:entries="@array/pref_camera_face_detect_entries"
+        camera:entryValues="@array/pref_camera_face_detect_entryvalues"
+        camera:generalgroup="local"
+        camera:logicalgroup="photological" />
+
+    <CameraModePreference
+        camera:key="pref_camera_module_key"
+        camera:defaultValue="photo"
+        camera:title="@string/pref_camera_module_title"
+        camera:topIcons="@array/pref_camera_module_icons"
+        camera:bottomIcons="@array/pref_camera_module_icons"
+        camera:entries="@array/pref_camera_module_entries"
+        camera:entryValues="@array/pref_camera_module_entryvalues"
+        camera:sortDeterminer="@array/pref_camera_module_sort_determiner"
+        camera:generalgroup="global"
+        />
+
+    <ProgressPreference
+        camera:key="pref_video_beauty_key"
+        camera:generalgroup="global"
+        camera:logicalgroup="videological" />
+
+    <ProgressPreference
+        camera:key="pref_sticker_key"
+        camera:title="@string/pref_camera_sticker_title"
+        camera:generalgroup="global"
+        camera:logicalgroup="photological"/>
+
+    <IconListPreference
+        camera:key="pref_video_time_lapse_frame_interval_key"
+        camera:defaultValue="15"
+        camera:icons="@array/video_timelapse_icons"
+        camera:title="@string/pref_video_time_lapse_frame_interval_title"
+        camera:entries="@array/pref_video_time_lapse_frame_interval_entries"
+        camera:entryValues="@array/pref_video_time_lapse_frame_interval_entryvalues"
+        camera:generalgroup="local"
+        camera:logicalgroup="videoparams" />
+
+    <ListPreference
+        camera:key="pref_long_press_shutter_button_key"
+        camera:defaultValue="@string/video_recording_value"
+        camera:title="@string/long_press_shutter_button"
+        camera:entries="@array/pref_long_press_shutter_button_entries"
+        camera:entryValues="@array/pref_long_press_shutter_button_entryvalues"
+        camera:uigroup="more_setting"
+        camera:generalgroup="global"
+        camera:logicalgroup="photological" />
+
+    <ListPreference
+        camera:defaultValue="AUTO"
+        camera:entries="@array/pref_asd_select_result_entries"
+        camera:entryValues="@array/pref_asd_select_result_entries"
+        camera:key="pref_asd_select_result_key"
+        camera:title="pref_asd_select_result_key"
+        camera:logicalgroup="commonparams"
+        />
+
+    <ProgressPreference
+        camera:defaultValue="-1"
+        camera:generalgroup="local"
+        camera:icon="@drawable/wb"
+        camera:key="pref_camera_wb_temp_key"
+        camera:logicalgroup="commonparams"
+        camera:title="@string/pref_camera_wb_temp_title"/>
+
+    <CommonPreference
+        camera:key="pref_camera2_aec_sensitivity"
+        camera:generalgroup="local"
+        camera:logicalgroup="commonparams"
+        camera:title="pref_camera2_aec_sensitivity" />
+
+    <CommonPreference
+        camera:key="pref_camera2_aec_lux_index"
+        camera:defaultValue="-1"
+        camera:generalgroup="local"
+        camera:logicalgroup="commonparams"
+        camera:title="pref_camera2_aec_lux_index" />
+
+    <IconListPreference
+        camera:key="pref_video_shdr_key"
+        camera:title="@string/hdr_type_name"
+        camera:defaultValue="off"
+        camera:generalgroup="local"
+        camera:logicalgroup="videoparams"
+        camera:icons="@array/pref_hdr_icons"
+        camera:entries="@array/pref_camera_switch_entries"
+        camera:entryValues="@array/pref_camera_switch_entryvalues"
+        camera:uigroup="top_setting"
+        camera:level="0"
+         />
+
+    <ListPreference
+        camera:key="pref_video_hdr_plus_key"
+        camera:title="@string/hdr_type_name"
+        camera:defaultValue="off"
+        camera:generalgroup="local"
+        camera:logicalgroup="videoparams"
+        camera:entries="@array/pref_camera_switch_entries"
+        camera:entryValues="@array/pref_camera_switch_entryvalues" />
+
+    <ListPreference
+        camera:key="pref_camera_ois_key"
+        camera:title="@string/video_ois_title"
+        camera:defaultValue="on"
+        camera:generalgroup="local"
+        camera:entries="@array/pref_camera_switch_entries"
+        camera:entryValues="@array/pref_camera_switch_entryvalues"
+        camera:logicalgroup="commonparams"
+        camera:uigroup="debug_setting"
+        />
+
+    <ListPreference
+        camera:key="pref_photo_mfnr_key"
+        camera:title="@string/pref_photo_mfnr_title"
+        camera:defaultValue="on"
+        camera:generalgroup="local"
+        camera:logicalgroup="photological"
+        camera:entries="@array/pref_camera_switch_entries"
+        camera:entryValues="@array/pref_camera_switch_entryvalues"
+        camera:uigroup="debug_setting"
+        />
+
+    <IconListPreference
+        camera:key="pref_pro_raw_key"
+        camera:title="@string/pref_pro_raw_title"
+        camera:defaultValue="off"
+        camera:generalgroup="global"
+        camera:logicalgroup="photological"
+        camera:icons="@array/pref_pro_raw_icons"
+        camera:entries="@array/pref_camera_switch_entries"
+        camera:entryValues="@array/pref_camera_switch_entryvalues"
+        camera:uigroup="top_setting"
+        camera:level="0" />
+
+    <ListPreference
+        camera:key="pref_debug_setting_key"
+        camera:defaultValue="off"
+        camera:title="Debug setting"
+        camera:entries="@array/pref_camera_toggle_entries"
+        camera:entryValues="@array/pref_camera_toggle_entryvalues"
+        camera:generalgroup="global"
+        camera:logicalgroup="commonlogical"
+        camera:uigroup="debug_setting"/>
+
+    <ProgressPreference
+        camera:key="pref_camera_asd_threshold"
+        camera:defaultValue="80"
+        camera:title="pref_asd_threshold_title"
+        camera:generalgroup="global"
+        camera:logicalgroup="commonlogical" />
+
+    <ListPreference
+        camera:key="pref_camera_mask_detection"
+        camera:defaultValue="on"
+        camera:title="Mask detection"
+        camera:generalgroup="local"
+        camera:entries="@array/pref_camera_switch_entries"
+        camera:entryValues="@array/pref_camera_switch_entryvalues"
+        camera:logicalgroup="commonlogical"
+        camera:uigroup="debug_setting"/>
+</PreferenceGroup>

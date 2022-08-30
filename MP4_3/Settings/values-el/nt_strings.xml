@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="battery_suggestion_summary">Ενεργοποιήστε την Προσαρμοστική μπαταρία</string>
+    <string name="smart_battery_manager_title">Προσαρμοστική μπαταρία</string>
+    <string name="smart_battery_footer">Για να παραταθεί η διάρκεια ζωής της μπαταρίας, η Προσαρμοστική μπαταρία περιορίζει τη χρήση της μπαταρίας για εφαρμογές που δεν χρησιμοποιούνται συχνά. Το τηλέφωνό σας θα μάθει πώς χρησιμοποιείτε τις εφαρμογές με την πάροδο του χρόνου. \n\nΟι ειδοποιήσεις ενδέχεται να καθυστερήσουν για αυτές τις εφαρμογές.</string>
+    <string name="smart_battery_footer" product="tablet">Για να παραταθεί η διάρκεια ζωής της μπαταρίας, η Προσαρμοστική μπαταρία περιορίζει τη χρήση της μπαταρίας για εφαρμογές που δεν χρησιμοποιούνται συχνά. Το tablet σας θα μάθει πώς χρησιμοποιείτε τις εφαρμογές με την πάροδο του χρόνου. \n\nΟι ειδοποιήσεις ενδέχεται να καθυστερήσουν για αυτές τις εφαρμογές.</string>
+    <string name="smart_battery_footer" product="device">Για να παραταθεί η διάρκεια ζωής της μπαταρίας, η Προσαρμοστική μπαταρία περιορίζει τη χρήση της μπαταρίας για εφαρμογές που δεν χρησιμοποιούνται συχνά. Η συσκευή σας θα μάθει πώς χρησιμοποιείτε τις εφαρμογές με την πάροδο του χρόνου. \n\nΟι ειδοποιήσεις ενδέχεται να καθυστερήσουν για αυτές τις εφαρμογές.</string>
+    <string name="smart_battery_title">Χρησιμοποιήστε την Προσαρμοστική μπαταρία</string>
+    <string name="battery_tip_smart_battery_summary">Ενεργοποιήστε την Προσαρμοστική μπαταρία</string>
+    <string name="nt_color_temperature">Θερμοκρασία χρώματος</string>
+    <string name="warmer">Ζεστό</string>
+    <string name="colder">Κρύο</string>
+	        <!-- Mobile network settings screen, title of item showing the name of the default subscription
+    that will be used for data. This only appears in multi-SIM mode. [CHAR LIMIT=NONE] -->
+    <string name="data_preference">Προτίμηση δεδομένων</string>
+	<string name="vibrating_for_outgoing_call_accepted_summary">Ενεργοποίηση λειτουργίας δόνησης για αποδεκτή εξερχόμενη κλήση</string>
+</resources>

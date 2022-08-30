@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="battery_suggestion_summary">Zapnúť adaptívnu batériu</string>
+    <string name="smart_battery_manager_title">Adaptívna batéria</string>
+    <string name="smart_battery_footer">Aby sa predĺžila výdrž batérie, adaptívna batéria obmedzuje využitie batérie pre aplikácie, ktoré sa často nepoužívajú. Váš telefón sa časom naučí, ako používate aplikácie. \n\nUpozornenia pre tieto aplikácie môžu byť oneskorené.</string>
+    <string name="smart_battery_footer" product="tablet">Aby sa predĺžila výdrž batérie, adaptívna batéria obmedzuje využitie batérie pre aplikácie, ktoré sa často nepoužívajú. Váš tablet sa časom naučí, ako používate aplikácie. \n\nUpozornenia pre tieto aplikácie môžu byť oneskorené.</string>
+    <string name="smart_battery_footer" product="device">Aby sa predĺžila výdrž batérie, adaptívna batéria obmedzuje využitie batérie pre aplikácie, ktoré sa často nepoužívajú. Vaše zariadenie sa časom naučí, ako používate aplikácie. \n\nUpozornenia pre tieto aplikácie môžu byť oneskorené.</string>
+    <string name="smart_battery_title">Používanie adaptívnej batérie</string>
+    <string name="battery_tip_smart_battery_summary">Zapnúť adaptívnu batériu</string>
+    <string name="nt_color_temperature">Teplota farby</string>
+    <string name="warmer">Teplá</string>
+    <string name="colder">Studená</string>
+	        <!-- Mobile network settings screen, title of item showing the name of the default subscription
+    that will be used for data. This only appears in multi-SIM mode. [CHAR LIMIT=NONE] -->
+    <string name="data_preference">Preferencie údajov</string>
+	<string name="vibrating_for_outgoing_call_accepted_summary">Povoliť vibračný režim pre prijatý odchádzajúci hovor</string>
+</resources>

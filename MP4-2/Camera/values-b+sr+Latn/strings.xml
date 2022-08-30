@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_watermark">Vodeni žig</string>
+    <string name="settings_model_watermark">Vodeni žig modela</string>
+    <string name="settings_time_watermark">Vremenski vodeni žig</string>
+</resources>

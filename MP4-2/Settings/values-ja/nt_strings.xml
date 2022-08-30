@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nt_navigation_back_button_left_side">左側の戻るボタン</string>
+    <string name="nt_navigation_back_button_right_side">右側の戻るボタン</string>
+    <string name="nt_navigation_config_title">ボタン配置</string>
+    <string name="nt_glyphs_charging_features">デバイスが接続されているときの充電の進捗状況を表示したり、充電中のデバイスを小刻みに動かします。</string>
+    <string name="nt_screen_refresh_rate_high_summary">120 Hz の最大動的リフレッシュレートでスムーズなスクロールとアニメーションを実現します。</string>
+    <string name="nt_screen_refresh_rate_standard_summary">60Hz の固定リフレッシュレートでバッテリー残量を維持します。</string>
+	
+	<!-- translate to other languages -->
+	<string name="nt_glyphs_flip_title">Glyph に切り替え</string>
+    <string name="nt_glyphs_flip_to_glyph_title">Glyph に切り替え</string>
+    <string name="nt_use_filp_to_glyph">「Glyph に切り替え」を使用する</string>
+	
+</resources>

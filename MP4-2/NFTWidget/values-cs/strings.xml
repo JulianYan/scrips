@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="nft_loading_tips">Stahování dat.</string>
+    <string name="nft_loading_tips_second">Tento proces může chvíli trvat.</string>
+
+</resources>

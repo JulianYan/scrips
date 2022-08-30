@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nt_navigation_back_button_left_side">Dugme Nazad sa leve strane</string>
+    <string name="nt_navigation_back_button_right_side">Dugme Nazad sa desne strane</string>
+    <string name="nt_navigation_config_title">Dugme Raspored</string>
+    <string name="nt_glyphs_charging_features">Prikažite napredak punjenja kada se uređaj priključi ili pomerate uređaj tokom punjenja.</string>
+    <string name="nt_screen_refresh_rate_high_summary">Dinamička brzina osvežavanja do 120 Hz za lakše pomeranje prikaza na ekranu i animacije.</string>
+    <string name="nt_screen_refresh_rate_standard_summary">Fiksna brzina osvežavanja od 60 Hz za duže trajanje baterije.</string>
+	
+	<!-- translate to other languages -->
+	<string name="nt_glyphs_flip_title">Prebaci na Glyph</string>
+    <string name="nt_glyphs_flip_to_glyph_title">Prebaci na Glyph</string>
+    <string name="nt_use_filp_to_glyph">Koristite Prebaci na Glyph</string>
+	
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="nft_loading_tips">מוריד נתונים.</string>
+    <string name="nft_loading_tips_second">ביצוע התהליך עשוי להימשך זמן מה.</string>
+
+</resources>

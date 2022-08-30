@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nt_navigation_back_button_left_side">Копче Назад од левата страна</string>
+    <string name="nt_navigation_back_button_right_side">Копче Назад од десната страна</string>
+    <string name="nt_navigation_config_title">Копче Распоред</string>
+    <string name="nt_glyphs_charging_features">Прикажите го напредокот на полнење кога уредот е приклучен или го поместувате уредот во текот на полнењето.</string>
+    <string name="nt_screen_refresh_rate_high_summary">Динамичка брзина на освежувања до 120 Hz за полесно поместување на приказот на екранот и анимациите.</string>
+    <string name="nt_screen_refresh_rate_standard_summary">Фиксна брзина на освежувања од 60 Hz за подолго траење на батеријата.</string>
+	
+	<!-- translate to other languages -->
+	<string name="nt_glyphs_flip_title">Префрли на Glyph</string>
+    <string name="nt_glyphs_flip_to_glyph_title">Префрли на Glyph</string>
+    <string name="nt_use_filp_to_glyph">Користете Префрли на Glyph</string>
+	
+</resources>

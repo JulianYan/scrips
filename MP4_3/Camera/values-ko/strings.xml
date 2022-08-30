@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_watermark_description">사진을 찍은 후 자동으로 워터마크를 추가합니다.</string>
+</resources>

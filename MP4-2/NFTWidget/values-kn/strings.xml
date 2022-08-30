@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="nft_loading_tips">ಡೇಟಾವನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ.</string>
+    <string name="nft_loading_tips_second">ಈ ಪ್ರಕ್ರಿಯೆಯು ಸ್ವಲ್ಪ ಸಮಯ ತೆಗೆದುಕೊಳ್ಳಬಹುದು.</string>
+
+</resources>

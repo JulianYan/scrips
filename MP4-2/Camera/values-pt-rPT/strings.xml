@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_watermark">Marca de água</string>
+    <string name="settings_model_watermark">Marca de água modelo</string>
+    <string name="settings_time_watermark">Marca de água da hora</string>
+</resources>

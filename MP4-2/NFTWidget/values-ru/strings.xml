@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="nft_loading_tips">Идет загрузка данных.</string>
+    <string name="nft_loading_tips_second">Этот процесс может занять некоторое время.</string>
+
+</resources>

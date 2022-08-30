@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="nft_loading_tips">Laddar ner data.</string>
+    <string name="nft_loading_tips_second">Denna process kan ta ett tag.</string>
+
+</resources>

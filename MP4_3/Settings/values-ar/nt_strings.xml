@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="battery_suggestion_summary">قم بتشغيل البطارية التكيفية</string>
+    <string name="smart_battery_manager_title">بطارية تكيفية</string>
+    <string name="smart_battery_footer">لإطالة عمر البطارية ، تعمل "البطارية التكيفية" على تقييد استخدام البطارية للتطبيقات غير المستخدمة بشكل متكرر. سيتعلم هاتفك كيفية استخدام التطبيقات بمرور الوقت. \n\nقد يتم تأخير الإخطارات لهذه التطبيقات.</string>
+    <string name="smart_battery_footer" product="tablet">لإطالة عمر البطارية ، تعمل "البطارية التكيفية" على تقييد استخدام البطارية للتطبيقات غير المستخدمة بشكل متكرر. سيتعلم جهازك اللوحي كيف تستخدم التطبيقات بمرور الوقت. \n\nقد يتم تأخير الإخطارات لهذه التطبيقات.</string>
+    <string name="smart_battery_footer" product="device">لإطالة عمر البطارية ، تعمل "البطارية التكيفية" على تقييد استخدام البطارية للتطبيقات غير المستخدمة بشكل متكرر. سيتعلم جهازك كيفية استخدام التطبيقات بمرور الوقت. \n\nقد يتم تأخير الإخطارات لهذه التطبيقات.</string>
+    <string name="smart_battery_title">استخدم بطارية تكيفية</string>
+    <string name="battery_tip_smart_battery_summary">قم بتشغيل البطارية التكيفية</string>
+    <string name="nt_color_temperature">حرارة اللون</string>
+    <string name="warmer">دافيء</string>
+    <string name="colder">بارد</string>
+	        <!-- Mobile network settings screen, title of item showing the name of the default subscription
+    that will be used for data. This only appears in multi-SIM mode. [CHAR LIMIT=NONE] -->
+    <string name="data_preference">تفضيل البيانات</string>
+	<string name="vibrating_for_outgoing_call_accepted_summary">تمكين وضع الاهتزاز للمكالمات الصادرة المقبولة</string>
+</resources>

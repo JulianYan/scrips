@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nt_navigation_back_button_left_side">Tlačítko Zpět na levé straně</string>
+    <string name="nt_navigation_back_button_right_side">Tlačítko Zpět na pravé straně</string>
+    <string name="nt_navigation_config_title">Rozložení tlačítek</string>
+    <string name="nt_glyphs_charging_features">Zobrazení průběhu nabíjení, když je zařízení připojeno k síti, nebo kývání zařízením během nabíjení.</string>
+    <string name="nt_screen_refresh_rate_high_summary">Dynamická obnovovací frekvence až 120 Hz pro plynulejší posouvání a animace.</string>
+    <string name="nt_screen_refresh_rate_standard_summary">Pevná obnovovací frekvence 60 Hz pro lepší výdrž baterie.</string>
+	
+	<!-- translate to other languages -->
+	<string name="nt_glyphs_flip_title">Převrátit na Glyph</string>
+    <string name="nt_glyphs_flip_to_glyph_title">Převrátit na Glyph</string>
+    <string name="nt_use_filp_to_glyph">Použijte převrácení na Glyph</string>
+	
+</resources>

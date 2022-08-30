@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources><!-- Confirmation dialog when restoring settings --><string name="confirm_restore_message">Doni ta rivendosni kamerën te cilësimet standarde?</string>
+	<string name="pref_camera_module_title">Modaliteti i kamerës</string><!-- Settings screen, camera selection dialog title. Users can select a camera from the phone (front-facing or back-facing). [CHAR LIMIT=20] --><string name="pref_camera_id_title">Ndrysho kamerën</string>
+	<!-- In select camera setting, back facing camera. [CHAR LIMIT=14] --><string name="pref_camera_id_entry_back">Mbrapa</string><!-- In select camera setting, front-facing camera. [CHAR LIMIT=14] --><string name="pref_camera_id_entry_front">Përpara</string><!-- Settings screen, Record location dialog choices --><string name="pref_camera_recordlocation_entry_off">Joaktive</string>
+	<string name="pref_camera_recordlocation_entry_on">Aktive</string><!-- The Video quality settings in preference [CHAR LIMIT=21] --><string name="pref_video_quality_title">Cilësia e videos</string>
+	<string name="pref_video_stabilization_title">Stabilizimi i videos</string>
+	<string name="pref_video_3dnr_title">3DNR e videos</string><!-- The Video timelapse settings in preference [CHAR LIMIT=21] --><string name="pref_video_timelapse_title">Video Timelapse</string>
+	<string name="pref_video_autozoom_title">Zmadhim automatik i videos</string>
+	<string name="video_mode">Video</string>
+	<string name="guide_auto_zoom_title">Zmadhim automatik</string>
+	<string name="guide_auto_zoom_rules">Ndërsa regjistroni, mund të gjurmoni një objekt të caktuar duke vizatuar një rreth mbi ekran dhe duke shtypur dy herë për të ndaluar gjurmimin</string>
+	<string name="toast_auto_zoom_not_activated">Zmadhimi automatik nuk është aktivizuar</string><!-- Default flash mode setting. -->
+	<!-- Settings screen, Flash mode title --><string name="pref_camera_flashmode_title">Modaliteti i blicit</string>
+	<string name="pref_screenflash_title">Blici i ekranit</string><!-- Settings screen, Flash mode dialog radio button choices --><string name="pref_camera_flashmode_entry_auto">Automatike</string>
+	<string name="pref_camera_flashmode_entry_on">Aktive</string>
+	<string name="pref_camera_flashmode_entry_off">Joaktive</string>
+	<string name="pref_camera_flashmode_entry_torch">Elektrik dore</string><!-- Default white balance setting. --><!-- Settings screen, white balance title --><string name="pref_camera_whitebalance_title">AWB</string><!-- Settings screen, White balance dialog radio button choices --><string name="pref_camera_whitebalance_entry_auto">Automatike</string>
+	<string name="pref_camera_whitebalance_entry_incandescent">Inkandeshente</string>
+	<string name="pref_camera_whitebalance_entry_daylight">Dritë dielli</string>
+	<string name="pref_camera_whitebalance_entry_fluorescent">Fluoreshente</string>
+	<string name="pref_camera_whitebalance_entry_cloudy">Me re</string>
+
+
+
+
+	<!-- Default scene mode setting. -->
+
+	<string name="pref_camera_scene_frame_title">Kuadroja e skenës</string><!-- Settings screen, Select Scene mode --><string name="pref_camera_scenemode_title">Modaliteti i skenës</string>
+	<string name="pref_hdr_title">HDR</string>
+	<string name="pref_motion_photo_title">Lëvizja</string><!-- Settings menu, scene mode choices --><string name="pref_camera_scenemode_entry_auto">Automatike</string>
+	<string name="pref_camera_scenemode_entry_night">Natë</string><!-- Scene mode optimized for taking images in the sunset. --><string name="pref_camera_scenemode_entry_sunset">Perëndimi i diellit</string><!-- Scene mode optimized for taking indoor low-lights pictures. [CHAR LIMIT=16] --><string name="pref_camera_scenemode_entry_party">Festë</string>
+	<string name="pref_restore_detail">Rivendos standardet</string><!-- Exposure settings in preference --><string name="pref_exposure_title">EV</string>
+	<string name="sugar_face_beauty_custom">E personalizuar</string>
+	<string name="sugar_eyes_beauty">Sytë</string>
+	<string name="sugar_face_thin">I qartë</string>
+	<string name="sugar_skin_smooth">I qetë</string>
+	<string name="adjust_progress">+%s</string>
+	<string name="face_beauty_custom_skin_info">Lëkurë</string>
+	<string name="face_beauty_custom_eyes_info">Sytë</string>
+	<string name="face_beauty_custom_thin_info">I hollë</string>
+	<string name="face_beauty_custom_rosy_info">Rozë</string>
+	<string name="face_beauty_custom_whitening_info">Zbardhim</string>
+	<string name="portrait_custom_info">Turbullim</string>
+
+	<string name="pref_camera_volume_key_title">Tastet e volumit</string>
+	<string name="pref_camera_volume_key_shoot">Shkrepje</string>
+	<string name="pref_camera_volume_key_zoom">Zmadhim</string>
+	<string name="pref_camera_volume_key_volume">Volumi</string>
+
+
+	<string name="photo_incapture">Bërja e fotografisë</string>
+
+	<string name="toast_location_started">Vendndodhja filloi</string>
+	<string name="toast_location_success">Vendndodhja me sukses</string>
+	<string name="toast_device_denayed">Pajisja e paaksesueshme</string>
+	<string name="toast_device_connect_failed">Lidhja e pajisjes dështoi</string>
+	<string name="toast_start_preview_failed">Fillimi i pamjes paraprake dështoi</string>
+	<string name="toast_storage_full">Memoria është plot</string>
+	<string name="toast_low_power_disable_flash">Bateria është e ulët, nuk mund të ndizet blici.</string>
+	<string name="toast_video_size_max">Madhësia e videos e ka arritur limitin.</string>
+	<string name="toast_continue_snap_max">Numri i shkrepjeve njëra pas tjetrës ka arritur limitin.</string>
+	<string name="toast_video_error">Videoja nuk mund të regjistrohet në gjendjen aktuale</string>
+	<string name="toast_video_start_fail">Mikrofoni po përdoret dhe nuk mund të përdoret për të regjistruar</string>
+	<string name="toast_video_init_size_error">Madhësia e videos është reduktuar në limit.</string>
+	<string name="toast_long_press_unavilable">Nuk mbështeten shkrepjet e vazhdueshme.</string>
+	<string name="toast_continuous_shot_off">Shkrepjet e vazhdueshme nuk janë të disponueshme.</string>
+	<string name="toast_thumbnail_empty">Nuk ka foto</string>
+	<string name="toast_clearsight_success">Fotografimi ClearSight me sukses</string>
+	<string name="toast_clearsight_failed">Fotografimi ClearSight dështoi</string>
+	<string name="toast_auto_zoom">Zmadhimi automatik është aktivizuar</string>
+	<string name="toast_video_stabilization">Stabilizuesi është aktivizuar</string>
+	<string name="guide_top">Rrëshqitni në ekran lart ose poshtë për të ndryshuar ekranin.</string>
+	<string name="guide_right">Rrëshqitni djathtas për të vendosur parametrat.</string>
+	<string name="guide_left">Rrëshqitni majtas për të vendosur modalitetet.</string>
+	<string name="voice_on_tips">thoni \"Capture\" ose \"Cheese\"</string>
+	<string name="toast_steady_capture">Mos e lëvizni telefonin ndërsa fotografoni.</string>
+	<string name="toast_dual_camera_opened">Kamera e dyfishtë është hapur</string>
+	<string name="toast_dual_camera_closed">Kamera e dyfishtë është mbyllur</string><!-- Pref -->
+
+
+
+
+
+
+
+
+
+	<string name="pref_video_quality_entry_full">Plot</string>
+
+	<string name="pref_video_stabilization_entry_on">Aktive</string>
+	<string name="pref_video_stabilization_entry_off">Joaktive</string>
+	<string name="pref_video_stabilization_entry_standard">Standarde</string>
+	<string name="pref_video_stabilization_entry_super">Super</string>
+	<string name="pref_video_3dnr_entry_on">Aktive</string>
+	<string name="pref_video_3dnr_entry_off">Joaktive</string>
+	<string name="pref_video_autozoom_entry_on">Aktive</string>
+	<string name="pref_video_autozoom_entry_off">Joaktive</string>
+	<string name="pref_camera_picturesize_title">Picture Size</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<string name="pref_camera_picture_aspect_ratio_title">Raporti i figurës</string>
+
+
+
+
+
+
+
+
+	<string name="pref_camera_picturesize_entry_16_9">Ekrani i plotë</string>
+	<string name="pref_camera_picturesize_entry_4_3">Normal</string>
+	<string name="pref_camera_picturesize_entry_1_1">Drejtkëndësh</string><!-- ISO -->
+
+	<string name="manual_focus_title">Fokusi M</string><!--  --><string name="pref_camera_edge_title">Qartësia</string>
+
+	<string name="pref_camera_hue_title">Ngjyrimi</string><!--  --><string name="pref_camera_saturation_title">Saturimi</string>
+
+	<string name="pref_camera_brightness_title">Ndriçimi</string>
+
+	<string name="pref_camera_contrast_title">Kontrasti</string>
+	<string name="pref_camera_dip_entry_low">I ulët</string>
+	<string name="pref_camera_dip_entry_middle">Mesatare</string>
+	<string name="pref_camera_dip_entry_high">I lartë</string><!-- color effect --><!-- Settings screen, Select Color effect title --><string name="pref_camera_coloreffect_title">Efekti i ngjyrave</string><!-- Settings screen, Color effect dialog radio button choices --><string name="pref_camera_coloreffect_entry_none">Asnjë</string>
+	<string name="pref_camera_coloreffect_entry_mono">Mono</string>
+	<string name="pref_camera_coloreffect_entry_sepia">Sepia</string>
+	<string name="pref_camera_coloreffect_entry_negative">Negative</string><!-- Color effect that overexposes and reverses some of the tones. --><string name="pref_camera_coloreffect_entry_solarize">Solarizo</string>
+	<string name="pref_camera_coloreffect_entry_posterize">Posterizo</string>
+	<string name="pref_camera_coloreffect_entry_whiteboard">Dërrasë e bardhë</string>
+	<string name="pref_camera_coloreffect_entry_blackboard">Dërrasë e zezë</string>
+	<string name="pref_camera_coloreffect_entry_aqua">Aqua</string>
+	<string name="pref_camera_coloreffect_entry_pastel">Pastel</string>
+	<string name="pref_camera_coloreffect_entry_mosaic">Mozaik</string>
+	<string name="pref_camera_coloreffect_entry_redtint">Nuancë e kuqe</string>
+	<string name="pref_camera_coloreffect_entry_bluetint">Nuancë blu</string>
+	<string name="pref_camera_coloreffect_entry_greentint">Nuancë jeshile</string>
+	<string name="pref_camera_coloreffect_entry_sepiablue">Sepia blu</string>
+	<string name="pref_camera_coloreffect_entry_sepiagreen">Sepia jeshile</string><!-- self timer -->
+	<string name="pref_camera_selftimer_title">Kronometri</string>
+	<string name="pref_camera_selftimer_entry_off">Joaktive</string>
+	<string name="pref_camera_selftimer_entry_3">3 sekonda</string>
+
+	<string name="pref_camera_antibanding_entry_auto">Automatike</string>
+	<string name="pref_camera_antibanding_entry_50hz">50Hz</string>
+	<string name="pref_camera_antibanding_entry_60hz">60Hz</string><!-- Scene mode Mediatek plus --> <!-- Scene mode that takes an image with as little noise as possible so details of the subject are maintained. --><string name="pref_camera_scenemode_entry_portrait">Portret</string><!-- Scene mode that takes an image of a landscape assuming all subjects are relatively far from the phone. --><string name="pref_camera_scenemode_entry_landscape">Peizazh</string><!-- Scene mode that takes night shots with long exposure and flash to illuminate the subject while still capturing darker detail in the background. --><string name="pref_camera_scenemode_entry_night_portrait">Portret natën</string><!-- Scene mode to be used in a stage show. --><string name="pref_camera_scenemode_entry_theatre">Teatër</string><!-- Scene mode optimized for taking images on the beach. --><string name="pref_camera_scenemode_entry_beach">Plazh</string><!-- Scene mode optimized for taking images in the snow. --><string name="pref_camera_scenemode_entry_snow">Borë</string><!-- Scene mode for taking a photo as sharp as possible. --><string name="pref_camera_scenemode_entry_steadyphoto">Foto e stabilizuar</string><!-- Scene mode optimized for taking images of fireworks. --><string name="pref_camera_scenemode_entry_fireworks">Fishekzjarrë</string>
+	<string name="pref_camera_scenemode_entry_sports">Sport</string>
+	<string name="pref_camera_scenemode_entry_candlelight">Dritë qiriri</string><!-- for CMCC feature --><string name="pref_camera_scenemode_entry_normal">Normal</string><!-- Video Camera --> <!-- EIS setting --><string name="pref_camera_eis_title">EIS</string>
+
+	<string name="pref_camera_eis_on">Aktive</string>
+
+	<string name="pref_camera_recordaudio_entry_off">Joaktive</string>
+	<string name="pref_camera_recordaudio_entry_on">Aktive</string><!-- ZSD songyutao --><string name="pref_camera_zsd_title">ZSD</string>
+	<string name="pref_chroma_flash_title">Blic inteligjent</string><!-- continuous shot speed --><string name="pref_camera_continuous_number_title">Shkrepje e vazhdueshme</string>
+	<string name="pref_voice_capture">Regjistrim i zërit</string>
+
+	<string name="pref_voice_entry_off">Joaktive</string>
+	<string name="pref_voice_entry_on">Aktive</string><!-- Face Detection properties  songyutao set FD dafault on --><string name="pref_camera_face_detect_title">Dallim i fytyrës</string>
+
+	<string name="pref_camera_face_detect_entry_off">Joaktive</string>
+	<string name="pref_camera_face_detect_entry_on">Aktive</string>
+	<string name="pref_camera_record_location_title">Etiketim gjeografik</string>
+	<string name="pref_camera_thumb_title">Camera Roll</string>
+	<string name="pref_camera_pic_frame_entry_off">Joaktive</string>
+	<string name="pref_camera_pic_frame_entry_on">Aktive</string>
+	<string name="pref_shutter_touch_title">Shkrepje me prekje</string>
+
+	<string name="pref_shutter_smile_title">Shkrepje me buzëqeshje</string>
+
+	<string name="pref_shutter_hand_title">Shkrepje me dorë</string>
+	<string name="pref_shutter_watermark_title">Watermark</string>
+
+	<string name="pref_camera_watermark_entry_off">Joaktive</string>
+	<string name="pref_camera_watermark_entry_on">Aktive</string>
+	<string name="pref_camera_asd_title">ASD</string>
+	<string name="pref_camera_asd_entry_off">Joaktive</string>
+	<string name="pref_camera_asd_entry_on">Aktive</string>
+	<string name="pref_camera_shutter_sound_title">Zhurma e shkrehësit</string>
+	<string name="pref_camera_shutter_sound_entry_off">Joaktive</string>
+	<string name="pref_camera_shutter_sound_entry_on">Aktive</string>
+	<string name="pref_camera_pic_level_title">Gradientuesi</string>
+	<string name="pref_camera_pic_level_entry_off">Joaktive</string>
+	<string name="pref_camera_pic_level_entry_on">Aktive</string>
+
+	<string name="pref_capture_mirror_title">Pasqyrë përpara</string>
+	<string name="pref_camera_save_pos_title">Memoria</string>
+	<string name="pref_camera_save_pos_entry_t">Karta SD</string>
+	<string name="pref_camera_save_pos_entry_p">Telefon</string>
+	<string name="pref_camera_save_pos_entry_u">USB OTG</string>
+	<string name="pref_camera_mesh_line_title">Vija e rrjetës</string>
+	<string name="pref_camera_high_picture_size_title">Madhësi e figurës së lartë</string>
+	<string name="pref_pic_struct_title">Vijat e kuadrimit</string>
+
+	<string name="pref_pic_struct_entry_off">Joaktive</string>
+	<string name="pref_pic_struct_entry_enneahedral">Vijat e rrjetës</string>
+	<string name="manual">Ekspert</string>
+	<string name="photo_mode">Foto</string>
+	<string name="panorama_mode">PANO</string>
+	<string name="beauty_mode">Bukuri fytyre</string>
+	<string name="radio_switch_to_hdr">HDR</string>
+	<string name="radio_switch_to_facebeauty_custom">Bukuri fytyre</string><!-- application infomation --><string name="app_name">Kamera</string>
+	<string name="pref_camera_selftimer_entry_5">5 sekonda</string>
+	<string name="night_mode">Natë</string>
+	<string name="radio_switch_to_beautyvideo">Video bukurie</string>
+	<string name="timelapse_mode">Timelapse</string><!-- add by zzp for pano--><string name="panorama_arcsoft_guide_shutter">Shtypni butonin e shkrehësit dhe lëvizeni telefonoin\nme ngadalë në një drejtim.</string>
+	<string name="panorama_arcsoft_warn_slowly">Ju lutem lëvizeni telefonin me ngadalë</string>
+	<string name="panorama_arcsoft_warn_back">Ju lutem lëvizeni telefonin përgjatë shigjetës</string>
+	<string name="panorama_arcsoft_warn_up">Lëvizni lart</string>
+	<string name="panorama_arcsoft_warn_down">Lëvizni poshtë</string>
+	<string name="panorama_arcsoft_warn_left">Lëvizni majtas</string>
+	<string name="panorama_arcsoft_warn_right">Lëvizni djathtas</string>
+	<string name="panorama_arcsoft_switch_capture_direction_guide">Shtypni shigjetën për të ndryshuar drejtimin e shkrepjes</string>
+	<string name="panorama_capture_guide">Poziciononi shigjetën me vijën e referencës</string>
+	<string name="panorama_toggle_mode_standard">Standarde</string>
+	<string name="panorama_toggle_mode_super">Super</string><!--time line 20141227--><string name="radio_switch_to_pip">Pamje e dyfishtë</string>
+	<string name="setting_title">Cilësimet</string>
+	<string name="mode_title">Modalitetet</string>
+	<string name="setting_top_full_hint">Nuk mund të shtohen më artikuj.</string>
+	<string name="touchless_guide_vsign_title">Gjesti V</string>
+	<string name="touchless_guide_tips_vsign_only">Mund të bëni një gjest në formë V për të fotografuar automatikisht.</string>
+	<string name="touchless_guide_text_ok">Në rregull</string>
+	<string name="touchless_guide_text_reminder">Mos trego këtë përsëri</string>
+	<string name="wideself_arcsoft_guide_shutter">Shtypni butonin e shkrehësit për të filluar</string>
+	<string name="wideself_arcsoft_guide_step_one">Ju lutem rrotulloni telefonin në një drejtim dhe më pas në drejtimin tjetër</string>
+	<string name="wideself_arcsoft_rolate_to_left">Ju lutem rrotulloni telefonin majtas me ngadalë</string>
+	<string name="wideself_arcsoft_rolate_to_right">Ju lutem rrotulloni telefonin djathtas me ngadalë</string>
+	<string name="wideself_arcsoft_cannot_use_guide">Ju lutem përdorni Wide Selfie në modalitetin portret</string>
+	<string name="wideself_arcsoft_downup_offset_warn">It is not good enough to horizontally align the photo.</string>
+	<string name="panorama_arcsoft_cannot_use_guide">Ju lutem përdorni Panorama në modalitetin Portret</string>
+	<string name="radio_switch_to_wideselfie">Wide selfie</string>
+	<string name="radio_switch_to_refocus">Fokus inteligjent</string>
+	<string name="radio_switch_to_chromaflash">Blic inteligjent</string>
+	<string name="radio_switch_to_clearsight">ClearSight</string>
+	<string name="setting_guide_message">Shtypni \"Shto te shiriti i shkurtoreve\" ose\ntërhiqeni për të shtuar shkurtore</string>
+	<string name="skip_setting_guide">E kuptova</string>
+	<string name="permission_title">Jep akses</string>
+	<string name="enable_permission_procedure">Mund të aktivizoni lejet te Cilësimet &gt; Aplikacionet &gt; %1$s &gt; Lejet</string>
+	<string name="toast_storage_full_sdcard_to_internal">Karta SD është plot, duke ruajtur te memoria e brendshme</string>
+	<string name="toast_storage_damaged_sdcard_to_internal">Ruajtja e skedarit te karta SD dështoi, duke ruajtur te memoria e brendshme</string>
+	<string name="toast_storage_full_internal_to_sdcard">Memoria e brendshme është plot, duke ruajtur te karta SD</string>
+	<string name="toast_storage_full_clean_up_to_free_space">Hapësira e memories së telefonit është plot. Ju lutem bëni pastrim për të liruar hapësirë</string>
+	<string name="secure_camera_can_not_request_permission">Ju lutem hapni telefonin në fillim për të pranuar/refuzuar kërkesat e lejeve</string>
+	<string name="shutcauts_frontcamera">Bëni një selfie</string>
+	<string name="shutcauts_backcamera">Bëj një foto</string>
+	<string name="shutcauts_frontvideo">Regjistro një video (selfie)</string>
+	<string name="shutcauts_backvideo">Regjistro një video</string>
+	<string name="pref_camera_status_detect_title">Dallimi i statusit</string>
+	<string name="pref_camera_raw_file_title">Skedar RAW</string>
+	<string name="pref_camera_filter_title">Filtër</string>
+	<string name="pref_dual_camera_title">Kamera dyshe</string>
+	<string name="pref_dual_camera_default">Joaktive</string>
+	<string name="radio_switch_to_monochrome">Bardhë e zi</string>
+
+	<string name="pref_camera_gpu_effect_focus">Fokusi</string>
+	<string name="pref_camera_gpu_effect_sepia">Sepia</string>
+	<string name="pref_camera_gpu_effect_temperature">Temperatura</string>
+	<string name="pref_camera_gpu_effect_gray">Gri</string>
+	<string name="pref_camera_gpu_effect_none">Asnjë</string>
+	<string name="pref_camera_gpu_effect_documentary">Dokumentar</string>
+	<string name="pref_camera_gpu_effect_fishEye">Sy peshku</string>
+	<string name="pref_camera_gpu_effect_tint">Nuanca</string>
+	<string name="pref_camera_gpu_effect_crossprocess">Crossprocess</string>
+	<string name="portrait_mode">Portret</string>
+	<string name="pref_camera_pref_entry_auto">Automatike</string>
+	<string name="confirm_mode_tip">Shtypni për të kaluar në modalitetin %1$s</string>
+	<string name="focal_switch_scale_tip">Shtypni ikonën për të hapur modalitetin Telefoto</string>
+	<string name="front_wide_switch_tip">Shtypni ikonën për të aktivizuar selfie në grup</string>
+	<string name="low_memory_limit">Your system is in low memory, some features limit capture size</string>
+	<string name="portrait_background_blur">Portret</string>
+	<string name="portrait_of_face_beauty">Bukuri fytyre</string>
+	<string name="asd_result_hdr">HDR është aktivizuar</string>
+	<string name="toast_face_undetected_at_portrait">Nuk është gjetur asnjë fytyrë brenda 2 metrash</string>
+	<string name="toast_face_undetected_at_sticker">Nuk është gjetur asnjë fytyrë</string>
+	<string name="toast_view_pic_vivid_at_superpixel">Kapni më shumë detaje me Super Pixel</string>
+	<string name="front_face_detected_first_tip">Shikoni kamerën për selfie më të mira</string>
+	<string name="u_screen_selfie_count_down_cancel">Anulo</string>
+	<string name="video_beauty_switch_on">Aktive</string>
+	<string name="video_beauty_switch_off">Joaktive</string>
+	<string name="image_processing_toast">Përpunim i imazhit</string>
+	<string name="short_video_not_found">Videoja nuk është gjetur</string><!-- for Android O's CTS--><string name="camera_review_done_desc">U krye</string>
+	<string name="bokeh_mode">Portret</string>
+	<string name="toast_dual_camera_bokeh">Ju lutem vazhdoni të shkrepni brenda 2 metrash</string><!-- for qcom slowmotion--><string name="pref_camera_hfr_entry_2x">X2</string>
+	<string name="pref_camera_hfr_entry_3x">X3</string>
+	<string name="pref_camera_hfr_entry_4x">X4</string>
+
+
+
+	<string name="slow_motion_mode">LËVIZJE TË NGADALTA</string>
+
+
+
+	<!-- // Camera fun mode string --><string name="radio_switch_to_fun">Camera Fun</string><!-- Default fun mode setting. -->
+	<string name="pref_camera_fun_title">Fun</string>
+	<string name="pref_camera_sticker_title">Ngjitëse</string>
+	<string name="toast_face_undetected_at_fun">Fytyra nuk është gjetur</string>
+	<string name="toast_eyes_undetected_at_fun">Mbyllni e hapni sytë për të parë efektin</string>
+	<string name="toast_mouth_undetected_at_fun">Hapni gojën për të parë efektin</string>
+	<string name="toast_short_video_tip">Mbani shtypur butonin e shkrehësit për regjistrim të videove të shkurtra</string>
+	<string name="fun_filter_none">Filtër</string>
+	<string name="fun_filter_lomo">LOMO</string>
+	<string name="fun_filter_elegant">Elegant</string>
+	<string name="fun_filter_cyan">Cianike</string>
+	<string name="fun_filter_mint">Mente</string>
+	<string name="fun_filter_led">LED</string>
+	<string name="fun_filter_eternal">E përjetshme</string>
+	<string name="fun_filter_formerly">Më parë</string>
+	<string name="fun_filter_blue">Blu</string>
+	<string name="fun_filter_oldbooth">Kabinë e vjetër</string>
+	<string name="fun_filter_milkytea">Çaj me qumësht</string>
+	<string name="fun_filter_warm">Ngrohtë</string>
+	<string name="fun_filter_norway">Norvegji</string>
+	<string name="fun_filter_cool">Freskët</string>
+	<string name="fun_filter_dew">Vesë</string>
+	<string name="fun_filter_youth">Rini</string>
+	<string name="fun_filter_shy">I ndrojtur</string>
+	<string name="fun_filter_jaipur">Xhaipur</string>
+	<string name="fun_filter_autumn">Vjeshtë</string>
+	<string name="fun_filter_japanese">Japonisht</string>
+	<string name="fun_filter_sweet">Ëmbël</string>
+	<string name="fun_filter_warren">Labirint</string>
+	<string name="fun_filter_tsukiji">Tsukixhi</string>
+	<string name="fun_filter_vivid">E gjallë</string>
+	<string name="fun_filter_facingsun">Përballë diellit</string>
+	<string name="fun_filter_purple">Lila</string>
+	<string name="pref_gender_estimate_title">Vlerësim i gjinisë</string>
+	<string name="pref_gender_estimate_entry_on">Aktive</string>
+	<string name="pref_gender_estimate_entry_off">Joaktive</string>
+	<string name="beauty_guide_top_text">Bukuri AI</string>
+	<string name="toast_motion_photo_opened">Foto me lëvizje e aktivizuar</string>
+	<string name="pref_camera_gpu_effect_vignetting">Vignetting</string><!--add for ai scene detection --><string name="ai_scene_tips_food">Ushqim</string>
+	<string name="ai_scene_tips_portrait">Portret</string>
+	<string name="ai_scene_tips_foliage">Bimë</string>
+	<string name="ai_scene_tips_sky">Qiell i kaltër</string>
+	<string name="ai_scene_tips_text">Tekst</string><!-- add for faceplus asd detection --><string name="faceplus_asd_tips_face">Portret</string>
+	<string name="faceplus_asd_tips_food">Ushqim</string>
+	<string name="faceplus_asd_tips_fruits">Frutë</string>
+	<string name="faceplus_asd_tips_flower">Lule</string>
+	<string name="faceplus_asd_tips_flowersea">Det me lule</string>
+	<string name="faceplus_asd_tips_sandbeach">Rërë</string>
+	<string name="faceplus_asd_tips_snow">Borë</string>
+	<string name="faceplus_asd_tips_bluesky">Qiell</string>
+	<string name="faceplus_asd_tips_night">Natë</string>
+	<string name="faceplus_asd_tips_sunrise">Lindje dhe perëndim dielli</string>
+	<string name="faceplus_asd_tips_qr">Kodi QR</string>
+	<string name="faceplus_asd_tips_businesscard">Karta e emrit</string>
+	<string name="faceplus_asd_tips_whiteboard">Dërrasë e bardhë</string>
+	<string name="faceplus_asd_tips_idcard">ID</string>
+	<string name="faceplus_asd_tips_bankcard">Kartë krediti</string>
+	<string name="faceplus_asd_tips_cat">Mace</string>
+	<string name="faceplus_asd_tips_dog">Qen</string>
+	<string name="faceplus_asd_tips_meadow">Livadh</string>
+	<string name="faceplus_asd_tips_plants">Bimë</string>
+	<string name="toast_gender_estimate_started">Rregullimi i parametrave sipas fytyrës suaj</string>
+	<string name="beauty_guide_top_text_description">Aktivizoni funksionin e bukurisë AI dhe rregulloni parametrat sipas fytyrës suaj</string>
+	<string name="zoom_guide_title">Një mënyrë më e lehtë për të zmadhuar</string>
+	<string name="zoom_guide_content">Shtypni ikonën më sipër për të hapur këndin e gjerë dhe super zmadhimin. Ose thjesht lëvizni vertikalisht mbi ekran për të afruar ose larguar.</string>
+	<string name="video_recording">Regjistrim i videos</string>
+	<string name="micro_video_guide_content">Kur fotografia me lëvizje është e aktivizuar, çdo foto që bëni mund të përfshijë një video të shkurtër para dhe pas shkrepjes. Videoja mund të përfshihet kur e ndani foton.</string>
+	<string name="motion_photo">Foto me lëvizje</string>
+	<string name="switch_to_wide_lens_toast">Aktivizim i lentes me kënd të gjerë</string>
+	<string name="time_lapse_not_save">Nuk jemi në gjendje të ruajmë timelapse tuaj. Videoja juaj duhet të jetë të paktën %1$d sekonda e gjatë</string>
+	<string name="pref_shutter_speed_title">Shpejtësia e shkrehësit</string>
+	<string name="switch_to_wide_lens_landscape_toast">Shtypni këndin e gjerë për një pamje më të gjerë</string>
+	<string name="radio_switch_to_dual_bokeh_for_custom">Turbullim artistik</string>
+	<string name="toast_video_recording_in_call_state">Nuk mund të regjistrohet gjatë një telefonate</string>
+	<string name="pref_camera_ai_title">AI</string>
+	<string name="toast_video_3dnr_on">Pamja e natës me video është aktivizuar</string>
+	<string name="toast_storage_unavailable">Karta SD nuk është e disponueshme</string>
+	<string name="toast_landscape_open_wide_tips">Kaloni te këndi super i gjerë për të kapur edhe më shumë peizazhe ose miq.</string>
+	<string name="enable_sd_permission_title">Kamera ka nevojë për akses te karta SD</string>
+	<string name="enable_sd_permission_content">Shikoni cilësimet dhe jepni akses në \"DCIM\" te \"karta SD\”</string>
+	<string name="macro_mode">Makro</string>
+	<string name="super_macro_tip">Mbajeni telefonin (1) 3–4cm larg nga objekti.</string>
+	<string name="bokeh_offfline_processing">Përpunim offline i të dhënave bokeh…</string>
+	<string name="pref_google_lens">Google lens</string>
+	<string name="never">Asnjëherë</string>
+	<string name="toast_high_temp_disable_flash">Temperatura është tepër e lartë, nuk mund të ndizet blici.</string>
+	<string name="toast_high_temp_shutdown_camera">Temperatura është tepër e lartë, kamera do të ndalojë për 5 sekonda.</string>
+
+	<string name="bokeh_type_name">Turbullim artistik</string>
+	<string name="bokeh_type_description">Ky funksion ju jep mundësi ta modifikoni foton duke përdorur efektin e turbullimit artistik.</string>
+	<string name="hdr_type_name">HDR</string>
+	<string name="hdr_type_description">Më shumë ruajtje e detajeve në një ambient të ndriçuar nga pas</string>
+	<string name="ai_type_name">AI</string>
+	<string name="ai_type_description">Vendosni automatikisht parametrat duke përdorur dallimin AI të skenës</string>
+	<string name="timelapse_type_name">Interval kohor</string>
+	<string name="timelapse_type_description">Shfaqni një video të gjatë me shpejtësi të lartë brenda një kohe të shkurtër</string>
+	<string name="don_t_cover_the_lens">Mos e mbuloni lenten</string>
+	<string name="pref_video_time_lapse_frame_interval_title">Interval kohor</string>
+	<string name="toast_qr_code_detected">Është dalluar kod QR.\nShtypni për të vizituar</string>
+	<string name="toast_qr_code_detected_type_esim">Është dalluar profil eSIM.\nShtypni për të aktivizuar eSIM</string>
+	<string name="toast_qr_code_detected_type_url">Është dalluar kod QR.\nShtypni për të vizituar linkun</string>
+	<string name="toast_qr_code_detected_type_string">Është dalluar kod QR.\nShtypni për të kërkuar në Google</string>
+	<string name="toast_bar_code_detected_type_string">Është dalluar barkod.\nShtypni për të vizituar linkun</string>
+	<string name="toast_bar_code_detected_type_number">Është dalluar barkod produkti.\nShtypni për të kërkuar produktin</string>
+	<string name="turn_off_qr_code">Çaktivizo kodin QR</string>
+	<string name="pref_video_quality_entry_fine_text">Shumë e mirë</string>
+	<string name="pref_video_quality_entry_high_text">I lartë</string>
+	<string name="pref_exposure_metering_title">Matja e ekspozimit</string>
+	<string name="pref_exposure_metering_entry_frame_average">Frame average</string>
+	<string name="pref_exposure_metering_entry_center_weighted">Me peshë në qendër</string>
+	<string name="pref_exposure_metering_entry_spot_metering">Matja e spotit</string>
+	<string name="toast_disable_torch">Fikni elektrikun e dorës për të mos lejuar që blici të nxehet tepër</string>
+	<string name="google_location_dialog_title">Doni të shtoni informacion te fotot që bëni me aplikacionin Kamera?</string>
+	<string name="google_location_dialog_message">Kjo do të thotë që fotot tuaja do të përmbajnë informacion se ku janë bërë.</string>
+	<string name="google_location_dialog_message_lear_more">
+		<a href="https://support.google.com/photos/answer/9921876">Mëso më shumë</a>
+	</string>
+	<string name="google_location_dialog_positive">Aktivizo vendndodhjen e kamerës</string>
+	<string name="image_search_mode">Kërkimi i artikullit</string>
+	<string name="detect_result_title">Zgjidhni një artikull dhe shikoni rezultatet e kërkimit</string>
+	<string name="search_result_title">Kërkoni rezultate për artikuj të ngjashëm</string>
+	<string name="search_for_other_items">Kërkoni artikuj të tjerë</string>
+	<string name="point_format_string">%1$D pikë (%2$dx)</string><!--    <string name="price_format_string">%1$s yen</string>--><string name="view_on_rakuten_ichiba">Shikoni në Rakuten Ichiba</string>
+	<string name="view_all_results_on_rakuten_ichiba">Shikoni të gjitha rezultatet në Rakuten Ichiba</string>
+	<string name="start_new_search">Fillo kërkim të ri</string>
+	<string name="network_error">Gabim rrjeti.\nJu lutem kontrolloni lidhjen e internetit dhe provoni përsëri</string>
+	<string name="item_not_found">Nuk ishte e mundur të gjendeshin artikuj mode</string>
+	<string name="cropped_item_not_found">Ju lutem rregulloni madhësinë e zonës së kërkimit përsëri</string>
+	<string name="cropped_item_not_found_btn_text">Rregulloni zonën e kërkimit përsëri</string>
+	<string name="searching">Duke kërkuar…</string>
+	<string name="image_search_tip">Bëni një foto ose zgjidhni një imazh për të kërkuar</string>
+	<string name="image_search_processing">Duke kërkuar…</string>
+	<string name="move_and_resize_tip">Lëvizeni kuadron në çfarëdo zone për të kërkuar.\nTërhiqni cepat për të rregulluar madhësinë e kuadros.</string>
+	<string name="new_feature_image_search_guide_title">Veçori e re</string>
+	<string name="new_feature_image_search_guide_title_extra" translatable="false" />
+	<string name="new_feature_image_search_guide_content">Mund të bëni një foto dhe të kërkoni artikuj në Rakuten Ichiba</string>
+	<string name="item_search_guide_title">Çfarë është kërkimi i artikujve?</string>
+	<string name="item_search_guide_content_p1">Kërkoni artikuj në Rakuten Ichiba duke bërë foto me kamerën</string>
+	<string name="item_search_guide_content_p2">(Për momentin, vetëm artikujt e modës janë të disponueshëm për kërkim të artikujve.)</string>
+	<string name="feedback_title">Vlerësim</string>
+	<string name="feedback_content">A janë të dobishme këto rezultate?</string>
+	<string name="feedback_action">Jep vlerësim</string>
+	<string name="feedback_send">Dërgo</string>
+	<string name="feedback_response">Faleminderit për vlerësimin tuaj të çmuar.</string>
+	<string name="terms_of_use_title">Kushtet e përdorimit</string>
+	<string name="privacy_title">Politika për privatësinë</string>
+	<string name="free_shipping">Dërgesë falas</string>
+	<string name="terms_of_use_agree">Jam dakord me kushtet e përdorimit.</string>
+	<string name="start_to_use">Kërkimi i imazheve</string>
+	<string name="terms_of_use_content">Këtu janë kushtet e përdorimit.</string>
+	<string name="try_again_tips">Nuk gjetët asgjë që ju pëlqen?\nProvoni një kërkim të ri për të marrë rezultate të ndryshme</string>
+	<string name="yen">yen</string>
+	<string name="pref_video_fps">FPS</string>
+	<string name="pref_video_encoder">Enkodues</string>
+	<string name="more">Më shumë</string>
+	<string name="panorama_night_mode">Panoramim natën</string>
+	<string name="long_press_shutter_button">Mbani shtypur shkrehësin</string>
+	<string name="continuous_shot_entry">Shkrepje e vazhdueshme</string>
+
+
+	<string name="pref_camera_wb_temp_title">Temperatura e ngjyrave</string>
+
+	<string name="pref_camera_entry_off">Joaktive</string>
+	<string name="pref_camera_whitebalance_entry_custom">E personalizuar</string>
+	<string name="pref_camera_entry_on">Aktive</string>
+
+	<string name="pref_video_night_title">Video natën</string>
+	<string name="video_ois_title">OIS</string>
+	<string name="pref_photo_mfnr_title">MFNR</string>
+	<string name="remosaic_mode">Remosaic</string>
+
+	<string name="pref_high_definition_title">Definicion i lartë</string>
+	<string name="pref_pro_raw_title">Definicion i lartë</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="battery_suggestion_summary">ಅಡಾಪ್ಟಿವ್ ಬ್ಯಾಟರಿಯನ್ನು ಆನ್ ಮಾಡಿ</string>
+    <string name="smart_battery_manager_title">ಅಡಾಪ್ಟಿವ್ ಬ್ಯಾಟರಿ</string>
+    <string name="smart_battery_footer">ಬ್ಯಾಟರಿ ಅವಧಿಯನ್ನು ವಿಸ್ತರಿಸಲು, ಅಪರೂಪವಾಗಿ ಬಳಸುವ ಅಪ್ಲಿಕೇಶನ್‌ಗಳಿಗೆ ಬ್ಯಾಟರಿ ಬಳಕೆಯನ್ನು ಅಡಾಪ್ಟಿವ್ ಬ್ಯಾಟರಿಯು ಮಿತಿಗೊಳಿಸುತ್ತದೆ. ಕಾಲಾನಂತರದಲ್ಲಿ ನೀವು ಅಪ್ಲಿಕೇಶನ್‌ಗಳನ್ನು ಹೇಗೆ ಬಳಸುತ್ತೀರಿ ಎಂಬುದನ್ನು ನಿಮ್ಮ ಫೋನ್ ಕಲಿಯುತ್ತದೆ. \n\nಈ ಅಪ್ಲಿಕೇಶನ್‌ಗಳಿಗೆ ಅಧಿಸೂಚನೆಗಳು ವಿಳಂಬವಾಗಬಹುದು.</string>
+    <string name="smart_battery_footer" product="tablet">ಬ್ಯಾಟರಿ ಅವಧಿಯನ್ನು ವಿಸ್ತರಿಸಲು, ಅಪರೂಪವಾಗಿ ಬಳಸುವ ಅಪ್ಲಿಕೇಶನ್‌ಗಳಿಗೆ ಬ್ಯಾಟರಿ ಬಳಕೆಯನ್ನು ಅಡಾಪ್ಟಿವ್ ಬ್ಯಾಟರಿಯು ಮಿತಿಗೊಳಿಸುತ್ತದೆ. ಕಾಲಾನಂತರದಲ್ಲಿ ನೀವು ಅಪ್ಲಿಕೇಶನ್‌ಗಳನ್ನು ಹೇಗೆ ಬಳಸುತ್ತೀರಿ ಎಂಬುದನ್ನು ನಿಮ್ಮ ಟ್ಯಾಬ್ಲೆಟ್ ಕಲಿಯುತ್ತದೆ. \n\nಈ ಅಪ್ಲಿಕೇಶನ್‌ಗಳಿಗೆ ಅಧಿಸೂಚನೆಗಳು ವಿಳಂಬವಾಗಬಹುದು.</string>
+    <string name="smart_battery_footer" product="device">ಬ್ಯಾಟರಿ ಅವಧಿಯನ್ನು ವಿಸ್ತರಿಸಲು, ಅಪರೂಪವಾಗಿ ಬಳಸುವ ಅಪ್ಲಿಕೇಶನ್‌ಗಳಿಗೆ ಬ್ಯಾಟರಿ ಬಳಕೆಯನ್ನು ಅಡಾಪ್ಟಿವ್ ಬ್ಯಾಟರಿಯು ಮಿತಿಗೊಳಿಸುತ್ತದೆ. ಕಾಲಾನಂತರದಲ್ಲಿ ನೀವು ಅಪ್ಲಿಕೇಶನ್‌ಗಳನ್ನು ಹೇಗೆ ಬಳಸುತ್ತೀರಿ ಎಂಬುದನ್ನು ನಿಮ್ಮ ಸಾಧನವು ಕಲಿಯುತ್ತದೆ. \n\nಈ ಅಪ್ಲಿಕೇಶನ್‌ಗಳಿಗೆ ಅಧಿಸೂಚನೆಗಳು ವಿಳಂಬವಾಗಬಹುದು.</string>
+    <string name="smart_battery_title">ಅಡಾಪ್ಟಿವ್ ಬ್ಯಾಟರಿ ಬಳಸಿ</string>
+    <string name="battery_tip_smart_battery_summary">ಅಡಾಪ್ಟಿವ್ ಬ್ಯಾಟರಿಯನ್ನು ಆನ್ ಮಾಡಿ</string>
+    <string name="nt_color_temperature">ಬಣ್ಣ ತಾಪಮಾನ</string>
+    <string name="warmer">ಬೆಚ್ಚಗಿನ</string>
+    <string name="colder">ತಂಪು</string>
+	        <!-- Mobile network settings screen, title of item showing the name of the default subscription
+    that will be used for data. This only appears in multi-SIM mode. [CHAR LIMIT=NONE] -->
+    <string name="data_preference">ಡೇಟಾ ಆದ್ಯತೆ</string>
+	<string name="vibrating_for_outgoing_call_accepted_summary">ಹೊರಹೋಗುವ ಕರೆಗೆ ವೈಬ್ರೇಟ್ ಮೋಡ್ ಸಕ್ರಿಯಗೊಳಿಸುವುದನ್ನು ಸ್ವೀಕರಿಸಲಾಗಿದೆ</string>
+</resources>

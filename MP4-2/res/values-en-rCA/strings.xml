@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources><!-- Confirmation dialog when restoring settings --><string name="confirm_restore_message">Do you want to restore default camera settings?</string>
+	<string name="pref_camera_module_title">Camera Mode</string><!-- Settings screen, camera selection dialog title. Users can select a camera from the phone (front-facing or back-facing). [CHAR LIMIT=20] --><string name="pref_camera_id_title">Switch Camera</string>
+	<!-- In select camera setting, back facing camera. [CHAR LIMIT=14] --><string name="pref_camera_id_entry_back">Back</string><!-- In select camera setting, front-facing camera. [CHAR LIMIT=14] --><string name="pref_camera_id_entry_front">Front</string><!-- Settings screen, Record location dialog choices --><string name="pref_camera_recordlocation_entry_off">Off</string>
+	<string name="pref_camera_recordlocation_entry_on">On</string><!-- The Video quality settings in preference [CHAR LIMIT=21] --><string name="pref_video_quality_title">Video Quality</string>
+	<string name="pref_video_stabilization_title">Video Stabilization</string>
+	<string name="pref_video_3dnr_title">Video 3DNR</string><!-- The Video timelapse settings in preference [CHAR LIMIT=21] --><string name="pref_video_timelapse_title">Video Timelapse</string>
+	<string name="pref_video_autozoom_title">Video Auto Zoom</string>
+	<string name="video_mode">Video</string>
+	<string name="guide_auto_zoom_title">Auto Zoom</string>
+	<string name="guide_auto_zoom_rules">While recording, you can track a specified object by drawing a circle on the screen and double tap to stop tracking</string>
+	<string name="toast_auto_zoom_not_activated">Auto zoom is not activated</string><!-- Default flash mode setting. -->
+	<!-- Settings screen, Flash mode title --><string name="pref_camera_flashmode_title">Flash Mode</string>
+	<string name="pref_screenflash_title">Display Flash</string><!-- Settings screen, Flash mode dialog radio button choices --><string name="pref_camera_flashmode_entry_auto">Auto</string>
+	<string name="pref_camera_flashmode_entry_on">On</string>
+	<string name="pref_camera_flashmode_entry_off">Off</string>
+	<string name="pref_camera_flashmode_entry_torch">Torch</string><!-- Default white balance setting. --><!-- Settings screen, white balance title --><string name="pref_camera_whitebalance_title">AWB</string><!-- Settings screen, White balance dialog radio button choices --><string name="pref_camera_whitebalance_entry_auto">Auto</string>
+	<string name="pref_camera_whitebalance_entry_incandescent">Incandescent</string>
+	<string name="pref_camera_whitebalance_entry_daylight">Daylight</string>
+	<string name="pref_camera_whitebalance_entry_fluorescent">Fluorescent</string>
+	<string name="pref_camera_whitebalance_entry_cloudy">Cloudy</string>
+
+
+
+
+	<!-- Default scene mode setting. -->
+
+	<string name="pref_camera_scene_frame_title">Scene Frame</string><!-- Settings screen, Select Scene mode --><string name="pref_camera_scenemode_title">Scene Mode</string>
+	<string name="pref_hdr_title">HDR</string>
+	<string name="pref_motion_photo_title">Motion</string><!-- Settings menu, scene mode choices --><string name="pref_camera_scenemode_entry_auto">Auto</string>
+	<string name="pref_camera_scenemode_entry_night">Night</string><!-- Scene mode optimized for taking images in the sunset. --><string name="pref_camera_scenemode_entry_sunset">Sunset</string><!-- Scene mode optimized for taking indoor low-lights pictures. [CHAR LIMIT=16] --><string name="pref_camera_scenemode_entry_party">Party</string>
+	<string name="pref_restore_detail">Restore defaults</string><!-- Exposure settings in preference --><string name="pref_exposure_title">EV</string>
+	<string name="sugar_face_beauty_custom">Custom</string>
+	<string name="sugar_eyes_beauty">Eyes</string>
+	<string name="sugar_face_thin">Sharp</string>
+	<string name="sugar_skin_smooth">Smooth</string>
+	<string name="adjust_progress">+%s</string>
+	<string name="face_beauty_custom_skin_info">Skin</string>
+	<string name="face_beauty_custom_eyes_info">Eyes</string>
+	<string name="face_beauty_custom_thin_info">Thin</string>
+	<string name="face_beauty_custom_rosy_info">Rosy</string>
+	<string name="face_beauty_custom_whitening_info">Whitening</string>
+	<string name="portrait_custom_info">Blur</string>
+
+	<string name="pref_camera_volume_key_title">Volume Keys</string>
+	<string name="pref_camera_volume_key_shoot">Shoot</string>
+	<string name="pref_camera_volume_key_zoom">Zoom</string>
+	<string name="pref_camera_volume_key_volume">Volume</string>
+
+
+	<string name="photo_incapture">Taking picture</string>
+
+	<string name="toast_location_started">Location started</string>
+	<string name="toast_location_success">Location success</string>
+	<string name="toast_device_denayed">Device unaccessible</string>
+	<string name="toast_device_connect_failed">Device connection failed</string>
+	<string name="toast_start_preview_failed">Start preview failed</string>
+	<string name="toast_storage_full">Storage is full</string>
+	<string name="toast_low_power_disable_flash">Low battery, not able to turn on flashlight.</string>
+	<string name="toast_video_size_max">The size of the video has reached the limit.</string>
+	<string name="toast_continue_snap_max">The count of continuous shots has reached the limit.</string>
+	<string name="toast_video_error">Video cannot be recorded in the current state</string>
+	<string name="toast_video_start_fail">Mic is in use and cannot be used to record</string>
+	<string name="toast_video_init_size_error">The size of the video has been reduced to the limit.</string>
+	<string name="toast_long_press_unavilable">Does not support continuous shot.</string>
+	<string name="toast_continuous_shot_off">Continuous shot is not available.</string>
+	<string name="toast_thumbnail_empty">No photo</string>
+	<string name="toast_clearsight_success">ClearSight capture success</string>
+	<string name="toast_clearsight_failed">ClearSight capture failed</string>
+	<string name="toast_auto_zoom">Auto zoom has been enabled</string>
+	<string name="toast_video_stabilization">Stabilizer has been enabled</string>
+	<string name="guide_top">Swipe up or down to switch camera.</string>
+	<string name="guide_right">Swipe right to set parameters.</string>
+	<string name="guide_left">Swipe left to set modes.</string>
+	<string name="voice_on_tips">say \"Capture\" or \"Cheese\"</string>
+	<string name="toast_steady_capture">Do not move the phone while capturing.</string>
+	<string name="toast_dual_camera_opened">Dual Camera opened</string>
+	<string name="toast_dual_camera_closed">Dual Camera closed</string><!-- Pref -->
+
+
+
+
+
+
+
+
+
+	<string name="pref_video_quality_entry_full">Full</string>
+
+	<string name="pref_video_stabilization_entry_on">On</string>
+	<string name="pref_video_stabilization_entry_off">Off</string>
+	<string name="pref_video_stabilization_entry_standard">Standard</string>
+	<string name="pref_video_stabilization_entry_super">Super</string>
+	<string name="pref_video_3dnr_entry_on">On</string>
+	<string name="pref_video_3dnr_entry_off">Off</string>
+	<string name="pref_video_autozoom_entry_on">On</string>
+	<string name="pref_video_autozoom_entry_off">Off</string>
+	<string name="pref_camera_picturesize_title">Picture Size</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<string name="pref_camera_picture_aspect_ratio_title">Picture Aspect Ratio</string>
+
+
+
+
+
+
+
+
+	<string name="pref_camera_picturesize_entry_16_9">Full screen</string>
+	<string name="pref_camera_picturesize_entry_4_3">Normal</string>
+	<string name="pref_camera_picturesize_entry_1_1">Rectangle</string><!-- ISO -->
+
+	<string name="manual_focus_title">M Focus</string><!--  --><string name="pref_camera_edge_title">Sharpness</string>
+
+	<string name="pref_camera_hue_title">Hue</string><!--  --><string name="pref_camera_saturation_title">Saturation</string>
+
+	<string name="pref_camera_brightness_title">Brightness</string>
+
+	<string name="pref_camera_contrast_title">Contrast</string>
+	<string name="pref_camera_dip_entry_low">Low</string>
+	<string name="pref_camera_dip_entry_middle">Medium</string>
+	<string name="pref_camera_dip_entry_high">High</string><!-- color effect --><!-- Settings screen, Select Color effect title --><string name="pref_camera_coloreffect_title">Colour Effect</string><!-- Settings screen, Color effect dialog radio button choices --><string name="pref_camera_coloreffect_entry_none">None</string>
+	<string name="pref_camera_coloreffect_entry_mono">Mono</string>
+	<string name="pref_camera_coloreffect_entry_sepia">Sepia</string>
+	<string name="pref_camera_coloreffect_entry_negative">Negative</string><!-- Color effect that overexposes and reverses some of the tones. --><string name="pref_camera_coloreffect_entry_solarize">Solarize</string>
+	<string name="pref_camera_coloreffect_entry_posterize">Posterize</string>
+	<string name="pref_camera_coloreffect_entry_whiteboard">Whiteboard</string>
+	<string name="pref_camera_coloreffect_entry_blackboard">Blackboard</string>
+	<string name="pref_camera_coloreffect_entry_aqua">Aqua</string>
+	<string name="pref_camera_coloreffect_entry_pastel">Pastel</string>
+	<string name="pref_camera_coloreffect_entry_mosaic">Mosaic</string>
+	<string name="pref_camera_coloreffect_entry_redtint">Red tint</string>
+	<string name="pref_camera_coloreffect_entry_bluetint">Blue tint</string>
+	<string name="pref_camera_coloreffect_entry_greentint">Green tint</string>
+	<string name="pref_camera_coloreffect_entry_sepiablue">Sepia blue</string>
+	<string name="pref_camera_coloreffect_entry_sepiagreen">Sepia green</string><!-- self timer -->
+	<string name="pref_camera_selftimer_title">Self Timer</string>
+	<string name="pref_camera_selftimer_entry_off">Off</string>
+	<string name="pref_camera_selftimer_entry_3">3 seconds</string>
+
+	<string name="pref_camera_antibanding_entry_auto">Auto</string>
+	<string name="pref_camera_antibanding_entry_50hz">50Hz</string>
+	<string name="pref_camera_antibanding_entry_60hz">60Hz</string><!-- Scene mode Mediatek plus --> <!-- Scene mode that takes an image with as little noise as possible so details of the subject are maintained. --><string name="pref_camera_scenemode_entry_portrait">Portrait</string><!-- Scene mode that takes an image of a landscape assuming all subjects are relatively far from the phone. --><string name="pref_camera_scenemode_entry_landscape">Landscape</string><!-- Scene mode that takes night shots with long exposure and flash to illuminate the subject while still capturing darker detail in the background. --><string name="pref_camera_scenemode_entry_night_portrait">Night portrait</string><!-- Scene mode to be used in a stage show. --><string name="pref_camera_scenemode_entry_theatre">Theatre</string><!-- Scene mode optimized for taking images on the beach. --><string name="pref_camera_scenemode_entry_beach">Beach</string><!-- Scene mode optimized for taking images in the snow. --><string name="pref_camera_scenemode_entry_snow">Snow</string><!-- Scene mode for taking a photo as sharp as possible. --><string name="pref_camera_scenemode_entry_steadyphoto">Steady photo</string><!-- Scene mode optimized for taking images of fireworks. --><string name="pref_camera_scenemode_entry_fireworks">Fireworks</string>
+	<string name="pref_camera_scenemode_entry_sports">Sports</string>
+	<string name="pref_camera_scenemode_entry_candlelight">Candle light</string><!-- for CMCC feature --><string name="pref_camera_scenemode_entry_normal">Normal</string><!-- Video Camera --> <!-- EIS setting --><string name="pref_camera_eis_title">EIS</string>
+
+	<string name="pref_camera_eis_on">On</string>
+
+	<string name="pref_camera_recordaudio_entry_off">Off</string>
+	<string name="pref_camera_recordaudio_entry_on">On</string><!-- ZSD songyutao --><string name="pref_camera_zsd_title">ZSD</string>
+	<string name="pref_chroma_flash_title">Smart flash</string><!-- continuous shot speed --><string name="pref_camera_continuous_number_title">Continuous Shot</string>
+	<string name="pref_voice_capture">Voice capture</string>
+
+	<string name="pref_voice_entry_off">Off</string>
+	<string name="pref_voice_entry_on">On</string><!-- Face Detection properties  songyutao set FD dafault on --><string name="pref_camera_face_detect_title">Face Detection</string>
+
+	<string name="pref_camera_face_detect_entry_off">Off</string>
+	<string name="pref_camera_face_detect_entry_on">On</string>
+	<string name="pref_camera_record_location_title">Geo Tagging</string>
+	<string name="pref_camera_thumb_title">Camera Roll</string>
+	<string name="pref_camera_pic_frame_entry_off">Off</string>
+	<string name="pref_camera_pic_frame_entry_on">On</string>
+	<string name="pref_shutter_touch_title">Touch Shot</string>
+
+	<string name="pref_shutter_smile_title">Smile Shot</string>
+
+	<string name="pref_shutter_hand_title">Hand Shot</string>
+	<string name="pref_shutter_watermark_title">Water Mark</string>
+
+	<string name="pref_camera_watermark_entry_off">Off</string>
+	<string name="pref_camera_watermark_entry_on">On</string>
+	<string name="pref_camera_asd_title">ASD</string>
+	<string name="pref_camera_asd_entry_off">Off</string>
+	<string name="pref_camera_asd_entry_on">On</string>
+	<string name="pref_camera_shutter_sound_title">Shutter Sound</string>
+	<string name="pref_camera_shutter_sound_entry_off">Off</string>
+	<string name="pref_camera_shutter_sound_entry_on">On</string>
+	<string name="pref_camera_pic_level_title">Gradienter</string>
+	<string name="pref_camera_pic_level_entry_off">Off</string>
+	<string name="pref_camera_pic_level_entry_on">On</string>
+
+	<string name="pref_capture_mirror_title">Front Mirror</string>
+	<string name="pref_camera_save_pos_title">Storage</string>
+	<string name="pref_camera_save_pos_entry_t">SD card</string>
+	<string name="pref_camera_save_pos_entry_p">Phone</string>
+	<string name="pref_camera_save_pos_entry_u">USB OTG</string>
+	<string name="pref_camera_mesh_line_title">Mesh Line</string>
+	<string name="pref_camera_high_picture_size_title">High Picture Size</string>
+	<string name="pref_pic_struct_title">Framing Lines</string>
+
+	<string name="pref_pic_struct_entry_off">Off</string>
+	<string name="pref_pic_struct_entry_enneahedral">Grid lines</string>
+	<string name="manual">EXPERT</string>
+	<string name="photo_mode">PHOTO</string>
+	<string name="panorama_mode">PANO</string>
+	<string name="beauty_mode">Face beauty</string>
+	<string name="radio_switch_to_hdr">HDR</string>
+	<string name="radio_switch_to_facebeauty_custom">Face beauty</string><!-- application infomation --><string name="app_name">Camera</string>
+	<string name="pref_camera_selftimer_entry_5">5 seconds</string>
+	<string name="night_mode">Night</string>
+	<string name="radio_switch_to_beautyvideo">Beauty video</string>
+	<string name="timelapse_mode">Timelapse</string><!-- add by zzp for pano--><string name="panorama_arcsoft_guide_shutter">Press the shutter button and move your phone\nslowly in one direction</string>
+	<string name="panorama_arcsoft_warn_slowly">Please move your phone slowly</string>
+	<string name="panorama_arcsoft_warn_back">Waning move back</string>
+	<string name="panorama_arcsoft_warn_up">Move up</string>
+	<string name="panorama_arcsoft_warn_down">Move down</string>
+	<string name="panorama_arcsoft_warn_left">Move left</string>
+	<string name="panorama_arcsoft_warn_right">Move right</string>
+	<string name="panorama_arcsoft_switch_capture_direction_guide">Tap the arrow to change capture direction</string>
+	<string name="panorama_capture_guide">Align the arrow with the reference line</string>
+	<string name="panorama_toggle_mode_standard">Standard</string>
+	<string name="panorama_toggle_mode_super">Super</string><!--time line 20141227--><string name="radio_switch_to_pip">Dual view</string>
+	<string name="setting_title">Settings</string>
+	<string name="mode_title">Modes</string>
+	<string name="setting_top_full_hint">Cannot add any more items.</string>
+	<string name="touchless_guide_vsign_title">V Sign</string>
+	<string name="touchless_guide_tips_vsign_only">You can make a V shape gesture to capture automatically.</string>
+	<string name="touchless_guide_text_ok">OK</string>
+	<string name="touchless_guide_text_reminder">Do not show this again</string>
+	<string name="wideself_arcsoft_guide_shutter">Press the shutter button to start</string>
+	<string name="wideself_arcsoft_guide_step_one">Please rotate phone in one direction and then in the other direction</string>
+	<string name="wideself_arcsoft_rolate_to_left">Please rotate your phone to the left slowly</string>
+	<string name="wideself_arcsoft_rolate_to_right">Please rotate your phone to the right slowly</string>
+	<string name="wideself_arcsoft_cannot_use_guide">Please use Wide Selfie in portrait mode</string>
+	<string name="wideself_arcsoft_downup_offset_warn">It is not good enough to horizontally align the photo.</string>
+	<string name="panorama_arcsoft_cannot_use_guide">Please use Panorama in portrait mode</string>
+	<string name="radio_switch_to_wideselfie">Wide selfie</string>
+	<string name="radio_switch_to_refocus">Smart focus</string>
+	<string name="radio_switch_to_chromaflash">Smart flash</string>
+	<string name="radio_switch_to_clearsight">ClearSight</string>
+	<string name="setting_guide_message">Tap on \"Add to the shortcut bar\" or\ndrag to add the shortcut</string>
+	<string name="skip_setting_guide">Got it</string>
+	<string name="permission_title">Grant Access</string>
+	<string name="enable_permission_procedure">You can change permissions in Settings &gt; Apps &gt; %1$s &gt; Permissions</string>
+	<string name="toast_storage_full_sdcard_to_internal">SD card is full, saving to internal storage</string>
+	<string name="toast_storage_damaged_sdcard_to_internal">Saving file to SD card failed, saving to internal storage</string>
+	<string name="toast_storage_full_internal_to_sdcard">Internal storage is full, saving to SD card</string>
+	<string name="toast_storage_full_clean_up_to_free_space">Phone storage space is full. Please clean up to free space</string>
+	<string name="secure_camera_can_not_request_permission">Please unlock your phone first in order to accept/refuse permission requests</string>
+	<string name="shutcauts_frontcamera">Take a selfie</string>
+	<string name="shutcauts_backcamera">Take a photo</string>
+	<string name="shutcauts_frontvideo">Record a video (selfie)</string>
+	<string name="shutcauts_backvideo">Record a video</string>
+	<string name="pref_camera_status_detect_title">Status Detect</string>
+	<string name="pref_camera_raw_file_title">RAW File</string>
+	<string name="pref_camera_filter_title">Filter</string>
+	<string name="pref_dual_camera_title">Dual Camera</string>
+	<string name="pref_dual_camera_default">Off</string>
+	<string name="radio_switch_to_monochrome">Black &amp; White</string>
+
+	<string name="pref_camera_gpu_effect_focus">Focus</string>
+	<string name="pref_camera_gpu_effect_sepia">Sepia</string>
+	<string name="pref_camera_gpu_effect_temperature">Temperature</string>
+	<string name="pref_camera_gpu_effect_gray">Grey</string>
+	<string name="pref_camera_gpu_effect_none">None</string>
+	<string name="pref_camera_gpu_effect_documentary">Documentary</string>
+	<string name="pref_camera_gpu_effect_fishEye">Fisheye</string>
+	<string name="pref_camera_gpu_effect_tint">Tint</string>
+	<string name="pref_camera_gpu_effect_crossprocess">Crossprocess</string>
+	<string name="portrait_mode">Portrait</string>
+	<string name="pref_camera_pref_entry_auto">Auto</string>
+	<string name="confirm_mode_tip">Tap to switch to %1$s mode</string>
+	<string name="focal_switch_scale_tip">Tap on the icon to open Telephoto mode</string>
+	<string name="front_wide_switch_tip">Tap on the icon to activate group selfie</string>
+	<string name="low_memory_limit">Your system is low in memory, some features will limit capture size</string>
+	<string name="portrait_background_blur">Portrait</string>
+	<string name="portrait_of_face_beauty">Face beauty</string>
+	<string name="asd_result_hdr">HDR activated</string>
+	<string name="toast_face_undetected_at_portrait">No face detected within 2 meters</string>
+	<string name="toast_face_undetected_at_sticker">No face detected</string>
+	<string name="toast_view_pic_vivid_at_superpixel">Capture more details with Super Pixel</string>
+	<string name="front_face_detected_first_tip">Look at the camera for better selfies</string>
+	<string name="u_screen_selfie_count_down_cancel">Cancel</string>
+	<string name="video_beauty_switch_on">On</string>
+	<string name="video_beauty_switch_off">Off</string>
+	<string name="image_processing_toast">Image processing</string>
+	<string name="short_video_not_found">This video was not found</string><!-- for Android O's CTS--><string name="camera_review_done_desc">Done</string>
+	<string name="bokeh_mode">Portrait</string>
+	<string name="toast_dual_camera_bokeh">Please keep shooting within 2 meters</string><!-- for qcom slowmotion--><string name="pref_camera_hfr_entry_2x">X2</string>
+	<string name="pref_camera_hfr_entry_3x">X3</string>
+	<string name="pref_camera_hfr_entry_4x">X4</string>
+
+
+
+	<string name="slow_motion_mode">SLO-MO</string>
+
+
+
+	<!-- // Camera fun mode string --><string name="radio_switch_to_fun">Camera Fun</string><!-- Default fun mode setting. -->
+	<string name="pref_camera_fun_title">Fun</string>
+	<string name="pref_camera_sticker_title">Sticker</string>
+	<string name="toast_face_undetected_at_fun">Undetected face</string>
+	<string name="toast_eyes_undetected_at_fun">Blink your eyes to preview the effect</string>
+	<string name="toast_mouth_undetected_at_fun">Open your mouth to preview the effect</string>
+	<string name="toast_short_video_tip">Long press the shutter button for short video recording</string>
+	<string name="fun_filter_none">Filter</string>
+	<string name="fun_filter_lomo">LOMO</string>
+	<string name="fun_filter_elegant">Elegant</string>
+	<string name="fun_filter_cyan">Cyan</string>
+	<string name="fun_filter_mint">Mint</string>
+	<string name="fun_filter_led">LED</string>
+	<string name="fun_filter_eternal">Eternal</string>
+	<string name="fun_filter_formerly">Formerly</string>
+	<string name="fun_filter_blue">Blue</string>
+	<string name="fun_filter_oldbooth">Old booth</string>
+	<string name="fun_filter_milkytea">Milky tea</string>
+	<string name="fun_filter_warm">Warm</string>
+	<string name="fun_filter_norway">Norway</string>
+	<string name="fun_filter_cool">Cool</string>
+	<string name="fun_filter_dew">Dew</string>
+	<string name="fun_filter_youth">Youth</string>
+	<string name="fun_filter_shy">Shy</string>
+	<string name="fun_filter_jaipur">Jaipur</string>
+	<string name="fun_filter_autumn">Autumn</string>
+	<string name="fun_filter_japanese">Japanese</string>
+	<string name="fun_filter_sweet">Sweet</string>
+	<string name="fun_filter_warren">Warren</string>
+	<string name="fun_filter_tsukiji">Tsukiji</string>
+	<string name="fun_filter_vivid">Vivid</string>
+	<string name="fun_filter_facingsun">Facing sun</string>
+	<string name="fun_filter_purple">Purple</string>
+	<string name="pref_gender_estimate_title">Gender estimate</string>
+	<string name="pref_gender_estimate_entry_on">On</string>
+	<string name="pref_gender_estimate_entry_off">Off</string>
+	<string name="beauty_guide_top_text">AI beauty</string>
+	<string name="toast_motion_photo_opened">Motion photo activated</string>
+	<string name="pref_camera_gpu_effect_vignetting">Vignetting</string><!--add for ai scene detection --><string name="ai_scene_tips_food">Food</string>
+	<string name="ai_scene_tips_portrait">Portrait</string>
+	<string name="ai_scene_tips_foliage">Plant</string>
+	<string name="ai_scene_tips_sky">Blue sky</string>
+	<string name="ai_scene_tips_text">Text</string><!-- add for faceplus asd detection --><string name="faceplus_asd_tips_face">Portrait</string>
+	<string name="faceplus_asd_tips_food">Food</string>
+	<string name="faceplus_asd_tips_fruits">Fruit</string>
+	<string name="faceplus_asd_tips_flower">Flower</string>
+	<string name="faceplus_asd_tips_flowersea">Flower sea</string>
+	<string name="faceplus_asd_tips_sandbeach">Sand</string>
+	<string name="faceplus_asd_tips_snow">Snow</string>
+	<string name="faceplus_asd_tips_bluesky">Sky</string>
+	<string name="faceplus_asd_tips_night">Night</string>
+	<string name="faceplus_asd_tips_sunrise">Sunrise and sunset</string>
+	<string name="faceplus_asd_tips_qr">QR code</string>
+	<string name="faceplus_asd_tips_businesscard">Name card</string>
+	<string name="faceplus_asd_tips_whiteboard">Whiteboard</string>
+	<string name="faceplus_asd_tips_idcard">ID</string>
+	<string name="faceplus_asd_tips_bankcard">Credit card</string>
+	<string name="faceplus_asd_tips_cat">Cat</string>
+	<string name="faceplus_asd_tips_dog">Dog</string>
+	<string name="faceplus_asd_tips_meadow">Meadow</string>
+	<string name="faceplus_asd_tips_plants">Plant</string>
+	<string name="toast_gender_estimate_started">Adjusting parameters according to your face</string>
+	<string name="beauty_guide_top_text_description">Turn on the AI beauty function and adjust the parameters according to your face</string>
+	<string name="zoom_guide_title">An Easier Way to Zoom</string>
+	<string name="zoom_guide_content">Tap on the icon above to access wide angle and super zoom. Or simply vertically swipe on the screen to zoom in or out</string>
+	<string name="video_recording">Video recording</string>
+	<string name="micro_video_guide_content">When motion photo is on, each photo you take could include a short video before and after the shot. The video may be included when you share the photo.</string>
+	<string name="motion_photo">Motion photo</string>
+	<string name="switch_to_wide_lens_toast">Enabling wide angle lens</string>
+	<string name="time_lapse_not_save">We are not able to save your timelapse. Your video should be at least %1$d seconds long</string>
+	<string name="pref_shutter_speed_title">Shutter Speed</string>
+	<string name="switch_to_wide_lens_landscape_toast">Tap Wide Angle for a wider view</string>
+	<string name="radio_switch_to_dual_bokeh_for_custom">Artistic blur</string>
+	<string name="toast_video_recording_in_call_state">Cannot record sound during a call</string>
+	<string name="pref_camera_ai_title">AI</string>
+	<string name="toast_video_3dnr_on">Video night view activated</string>
+	<string name="toast_storage_unavailable">SD card is not available</string>
+	<string name="toast_landscape_open_wide_tips">Switch to super wide angle to catch even more landscape or friends.</string>
+	<string name="enable_sd_permission_title">Camera Needs SD Card Access</string>
+	<string name="enable_sd_permission_content">View your settings and allow access to \"DCIM\" in \"SD card\”</string>
+	<string name="macro_mode">Macro</string>
+	<string name="super_macro_tip">Keep phone (1) 3–4cm away from object.</string>
+	<string name="bokeh_offfline_processing">Offline bokeh data processing…</string>
+	<string name="pref_google_lens">Google lens</string>
+	<string name="never">Never</string>
+	<string name="toast_high_temp_disable_flash">Temperature is too high, not able to turn on flashlight.</string>
+	<string name="toast_high_temp_shutdown_camera">Temperature is too high, the camera will stop in 5 seconds</string>
+
+	<string name="bokeh_type_name">Artistic blur</string>
+	<string name="bokeh_type_description">This function allows you to edit the photo using the Artistic Blur effect.</string>
+	<string name="hdr_type_name">HDR</string>
+	<string name="hdr_type_description">More detail preservation in a backlit environment</string>
+	<string name="ai_type_name">AI</string>
+	<string name="ai_type_description">Set parameters automatically using AI scene detection</string>
+	<string name="timelapse_type_name">Timelapse</string>
+	<string name="timelapse_type_description">Show a long video with higher speed in a short time</string>
+	<string name="don_t_cover_the_lens">Don\'t cover the lens</string>
+	<string name="pref_video_time_lapse_frame_interval_title">Time Interval</string>
+	<string name="toast_qr_code_detected">QR code detected.\nTap to visit</string>
+	<string name="toast_qr_code_detected_type_esim">eSIM profile detected.\nTap to activate eSIM</string>
+	<string name="toast_qr_code_detected_type_url">QR code detected.\nTap to visit link</string>
+	<string name="toast_qr_code_detected_type_string">QR code detected.\nTap to search in Google</string>
+	<string name="toast_bar_code_detected_type_string">Barcode detected.\nTap to visit link</string>
+	<string name="toast_bar_code_detected_type_number">Product barcode detected.\nTap to search for the product</string>
+	<string name="turn_off_qr_code">Turn off QR code</string>
+	<string name="pref_video_quality_entry_fine_text">Fine</string>
+	<string name="pref_video_quality_entry_high_text">High</string>
+	<string name="pref_exposure_metering_title">Exposure Metering</string>
+	<string name="pref_exposure_metering_entry_frame_average">Frame average</string>
+	<string name="pref_exposure_metering_entry_center_weighted">Centre weighted</string>
+	<string name="pref_exposure_metering_entry_spot_metering">Spot metering</string>
+	<string name="toast_disable_torch">Disable torch to prevent flash from overheating</string>
+	<string name="google_location_dialog_title">Add Location Information to Photos You Take With Your Camera App?</string>
+	<string name="google_location_dialog_message">This means your photos will contain information about where they were taken.</string>
+	<string name="google_location_dialog_message_lear_more">
+		<a href="https://support.google.com/photos/answer/9921876">Learn more</a>
+	</string>
+	<string name="google_location_dialog_positive">Enable camera location</string>
+	<string name="image_search_mode">Item search</string>
+	<string name="detect_result_title">Select an Item and View Search Results</string>
+	<string name="search_result_title">Search Results for Similar Items</string>
+	<string name="search_for_other_items">Search for other items</string>
+	<string name="point_format_string">%1$d points (%2$dx)</string><!--    <string name="price_format_string">%1$s yen</string>--><string name="view_on_rakuten_ichiba">View on Rakuten Ichiba</string>
+	<string name="view_all_results_on_rakuten_ichiba">View all results on Rakuten Ichiba</string>
+	<string name="start_new_search">Start new search</string>
+	<string name="network_error">Network error.\nPlease check your internet connection and try again</string>
+	<string name="item_not_found">Unable to detect any fashion items</string>
+	<string name="cropped_item_not_found">Please adjust the size of the search area again</string>
+	<string name="cropped_item_not_found_btn_text">Adjust search area again</string>
+	<string name="searching">Searching…</string>
+	<string name="image_search_tip">Take a photo or choose an image to search</string>
+	<string name="image_search_processing">Searching…</string>
+	<string name="move_and_resize_tip">Move the frame to any area to search.\nDrag the corners to adjust the size of the frame.</string>
+	<string name="new_feature_image_search_guide_title">New Feature</string>
+	<string name="new_feature_image_search_guide_title_extra" translatable="false" />
+	<string name="new_feature_image_search_guide_content">You can now take a photo and search for items on Rakuten Ichiba</string>
+	<string name="item_search_guide_title">What Is Item Search?</string>
+	<string name="item_search_guide_content_p1">Search for items on Rakuten Ichiba by taking photos with your camera.</string>
+	<string name="item_search_guide_content_p2">(Only fashion items are available for Item Search at the moment.)</string>
+	<string name="feedback_title">Feedback</string>
+	<string name="feedback_content">Are these results useful?</string>
+	<string name="feedback_action">Give feedback</string>
+	<string name="feedback_send">Send</string>
+	<string name="feedback_response">Thank you for your valuable feedback.</string>
+	<string name="terms_of_use_title">Terms of Use</string>
+	<string name="privacy_title">Privacy Policy</string>
+	<string name="free_shipping">Free shipping</string>
+	<string name="terms_of_use_agree">I agree to the Terms of Use.</string>
+	<string name="start_to_use">Image Search</string>
+	<string name="terms_of_use_content">Here\'s the Terms of Use.</string>
+	<string name="try_again_tips">Didn\'t find anything you like?\nTry a new search to get different results</string>
+	<string name="yen">yen</string>
+	<string name="pref_video_fps">FPS</string>
+	<string name="pref_video_encoder">Encoder</string>
+	<string name="more">More</string>
+	<string name="panorama_night_mode">Pano night</string>
+	<string name="long_press_shutter_button">Long press shutter</string>
+	<string name="continuous_shot_entry">Continuous shot</string>
+
+
+	<string name="pref_camera_wb_temp_title">Colour Temperature</string>
+
+	<string name="pref_camera_entry_off">Off</string>
+	<string name="pref_camera_whitebalance_entry_custom">Custom</string>
+	<string name="pref_camera_entry_on">On</string>
+
+	<string name="pref_video_night_title">Night video</string>
+	<string name="video_ois_title">OIS</string>
+	<string name="pref_photo_mfnr_title">MFNR</string>
+	<string name="remosaic_mode">Remosaic</string>
+
+	<string name="pref_high_definition_title">High Definition</string>
+	<string name="pref_pro_raw_title">High Definition</string>
+</resources>

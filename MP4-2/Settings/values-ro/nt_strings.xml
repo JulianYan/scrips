@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nt_navigation_back_button_left_side">Buton Înapoi pe partea stângă</string>
+    <string name="nt_navigation_back_button_right_side">Buton Înapoi pe partea dreaptă</string>
+    <string name="nt_navigation_config_title">Structură buton</string>
+    <string name="nt_glyphs_charging_features">Afișați progresul de încărcare când dispozitivul este conectat sau scuturați dispozitivul în timpul încărcării.</string>
+    <string name="nt_screen_refresh_rate_high_summary">O rată de reîmprospătare de până la 120 Hz, pentru o derulare și animații mai fluide.</string>
+    <string name="nt_screen_refresh_rate_standard_summary">O rată de reîmprospătare de 60 Hz pentru o durată mai bună de viață a bateriei.</string>
+	
+	<!-- translate to other languages -->
+	<string name="nt_glyphs_flip_title">Întoarceți pentru Glyph</string>
+    <string name="nt_glyphs_flip_to_glyph_title">Întoarceți pentru Glyph</string>
+    <string name="nt_use_filp_to_glyph">Folosiți Întoarceți pentru Glyph</string>
+	
+</resources>

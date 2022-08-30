@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="nft_loading_tips">Подаци се преузимају.</string>
+    <string name="nft_loading_tips_second">Овај процес може да потраје.</string>
+
+</resources>

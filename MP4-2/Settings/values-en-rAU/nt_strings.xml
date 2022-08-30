@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nt_navigation_back_button_left_side">Back button on the left side</string>
+    <string name="nt_navigation_back_button_right_side">Back button on the right side</string>
+    <string name="nt_navigation_config_title">Button Layout</string>
+    <string name="nt_glyphs_charging_features">Display the charging progression when the device is plugged in or wiggle the device during charging.</string>
+    <string name="nt_screen_refresh_rate_high_summary">A dynamic refresh rate of up to 120 Hz for smoother scrolling and animations.</string>
+    <string name="nt_screen_refresh_rate_standard_summary">A fixed refresh rate of 60 Hz for better battery life.</string>
+	
+	<!-- translate to other languages -->
+	<string name="nt_glyphs_flip_title">Flip to Glyph</string>
+    <string name="nt_glyphs_flip_to_glyph_title">Flip to Glyph</string>
+    <string name="nt_use_filp_to_glyph">Use Flip to Glyph</string>
+	
+</resources>

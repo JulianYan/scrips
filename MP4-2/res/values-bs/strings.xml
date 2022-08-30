@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources><!-- Confirmation dialog when restoring settings --><string name="confirm_restore_message">Желите ли вратити подразумијеване поставке камере?</string>
+	<string name="pref_camera_module_title">Режим рада камере</string><!-- Settings screen, camera selection dialog title. Users can select a camera from the phone (front-facing or back-facing). [CHAR LIMIT=20] --><string name="pref_camera_id_title">Промијени камеру</string>
+	<!-- In select camera setting, back facing camera. [CHAR LIMIT=14] --><string name="pref_camera_id_entry_back">Задња</string><!-- In select camera setting, front-facing camera. [CHAR LIMIT=14] --><string name="pref_camera_id_entry_front">Предња</string><!-- Settings screen, Record location dialog choices --><string name="pref_camera_recordlocation_entry_off">Искључено</string>
+	<string name="pref_camera_recordlocation_entry_on">Укључено</string><!-- The Video quality settings in preference [CHAR LIMIT=21] --><string name="pref_video_quality_title">Квалитет видеозаписа</string>
+	<string name="pref_video_stabilization_title">Стабилизација видеозаписа</string>
+	<string name="pref_video_3dnr_title">3DNR видеозапис</string><!-- The Video timelapse settings in preference [CHAR LIMIT=21] --><string name="pref_video_timelapse_title">\"Timelapse\" видеозапис</string>
+	<string name="pref_video_autozoom_title">Аутоматско зумирање видеозаписа</string>
+	<string name="video_mode">Видеозапис</string>
+	<string name="guide_auto_zoom_title">Аутоматско зумирање</string>
+	<string name="guide_auto_zoom_rules">Приликом снимања можете пратити одређене предмете цртањем круга на екрану а двоструким додиром можете престати пратити предмет</string>
+	<string name="toast_auto_zoom_not_activated">Аутоматско зумирање није активирано</string><!-- Default flash mode setting. -->
+	<!-- Settings screen, Flash mode title --><string name="pref_camera_flashmode_title">Режим блица</string>
+	<string name="pref_screenflash_title">Блиц на екрану</string><!-- Settings screen, Flash mode dialog radio button choices --><string name="pref_camera_flashmode_entry_auto">Аутоматски</string>
+	<string name="pref_camera_flashmode_entry_on">Укључено</string>
+	<string name="pref_camera_flashmode_entry_off">Искључено</string>
+	<string name="pref_camera_flashmode_entry_torch">Свјетиљка</string><!-- Default white balance setting. --><!-- Settings screen, white balance title --><string name="pref_camera_whitebalance_title">AWB</string><!-- Settings screen, White balance dialog radio button choices --><string name="pref_camera_whitebalance_entry_auto">Аутоматски</string>
+	<string name="pref_camera_whitebalance_entry_incandescent">Инкандесцентна сијалица</string>
+	<string name="pref_camera_whitebalance_entry_daylight">Дневно свјетло</string>
+	<string name="pref_camera_whitebalance_entry_fluorescent">Флуоресцентно</string>
+	<string name="pref_camera_whitebalance_entry_cloudy">Облачно</string>
+
+
+
+
+	<!-- Default scene mode setting. -->
+
+	<string name="pref_camera_scene_frame_title">Оквир слике</string><!-- Settings screen, Select Scene mode --><string name="pref_camera_scenemode_title">Начин сцене</string>
+	<string name="pref_hdr_title">HDR</string>
+	<string name="pref_motion_photo_title">Покрети</string><!-- Settings menu, scene mode choices --><string name="pref_camera_scenemode_entry_auto">Аутоматски</string>
+	<string name="pref_camera_scenemode_entry_night">Ноћ</string><!-- Scene mode optimized for taking images in the sunset. --><string name="pref_camera_scenemode_entry_sunset">Залазак сунца</string><!-- Scene mode optimized for taking indoor low-lights pictures. [CHAR LIMIT=16] --><string name="pref_camera_scenemode_entry_party">Журка</string>
+	<string name="pref_restore_detail">Врати на подразумијевана подешавања</string><!-- Exposure settings in preference --><string name="pref_exposure_title">EV</string>
+	<string name="sugar_face_beauty_custom">Прилагођено</string>
+	<string name="sugar_eyes_beauty">Очи</string>
+	<string name="sugar_face_thin">Оштро</string>
+	<string name="sugar_skin_smooth">Глатко</string>
+	<string name="adjust_progress">+%s</string>
+	<string name="face_beauty_custom_skin_info">Кожа</string>
+	<string name="face_beauty_custom_eyes_info">Очи</string>
+	<string name="face_beauty_custom_thin_info">Танко</string>
+	<string name="face_beauty_custom_rosy_info">Ружичасто</string>
+	<string name="face_beauty_custom_whitening_info">Избјељивање</string>
+	<string name="portrait_custom_info">Замућење</string>
+
+	<string name="pref_camera_volume_key_title">Типке за јачину звука</string>
+	<string name="pref_camera_volume_key_shoot">Снимај</string>
+	<string name="pref_camera_volume_key_zoom">Зумиранје</string>
+	<string name="pref_camera_volume_key_volume">Волумен</string>
+
+
+	<string name="photo_incapture">Снимање слике</string>
+
+	<string name="toast_location_started">Лоцирање започето</string>
+	<string name="toast_location_success">Лоцирање успјешно</string>
+	<string name="toast_device_denayed">Уређај недоступан</string>
+	<string name="toast_device_connect_failed">Повезивање уређаја није успјело</string>
+	<string name="toast_start_preview_failed">Покретање прегледа није успело</string>
+	<string name="toast_storage_full">Простор за складиштење је пун</string>
+	<string name="toast_low_power_disable_flash">Батерија слаба, није могуће укључити батеријску лампу.</string>
+	<string name="toast_video_size_max">Величина видео снимка је достигла ограничење.</string>
+	<string name="toast_continue_snap_max">Број узастопних снимака је достигао ограничење.</string>
+	<string name="toast_video_error">Видеозапис се не може снимити у тренутном стању</string>
+	<string name="toast_video_start_fail">Микрофон је у употреби и не може се користити за снимање</string>
+	<string name="toast_video_init_size_error">Величина видеозаписа снимка је смањена до ограничења.</string>
+	<string name="toast_long_press_unavilable">Не подржава узастопно снимање.</string>
+	<string name="toast_continuous_shot_off">Узастопно снимање није доступно.</string>
+	<string name="toast_thumbnail_empty">Нема фотографије</string>
+	<string name="toast_clearsight_success">Успјешно \"ClearSight\" снимање</string>
+	<string name="toast_clearsight_failed">\"ClearSight\" снимање није успјешно</string>
+	<string name="toast_auto_zoom">Аутоматско зумирање је омогућено</string>
+	<string name="toast_video_stabilization">Стабилизатор је омогућен</string>
+	<string name="guide_top">Превуците прстом горе или доље да бисте промијенили камеру.</string>
+	<string name="guide_right">Превуците прстом десно да бисте подесили параметре.</string>
+	<string name="guide_left">Превуците прстом лијево да бисте подесили режиме.</string>
+	<string name="voice_on_tips">реците \"Capture\" или \"Cheese\"</string>
+	<string name="toast_steady_capture">Не помијерајте телефон током снимања.</string>
+	<string name="toast_dual_camera_opened">Двострука камера отворена</string>
+	<string name="toast_dual_camera_closed">Двострука камера затворена</string><!-- Pref -->
+
+
+
+
+
+
+
+
+
+	<string name="pref_video_quality_entry_full">Цијели екран</string>
+
+	<string name="pref_video_stabilization_entry_on">Укључено</string>
+	<string name="pref_video_stabilization_entry_off">Искључено</string>
+	<string name="pref_video_stabilization_entry_standard">Стандардно</string>
+	<string name="pref_video_stabilization_entry_super">Супер</string>
+	<string name="pref_video_3dnr_entry_on">Укључено</string>
+	<string name="pref_video_3dnr_entry_off">Искључено</string>
+	<string name="pref_video_autozoom_entry_on">Укључено</string>
+	<string name="pref_video_autozoom_entry_off">Искључено</string>
+	<string name="pref_camera_picturesize_title">Picture Size</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<string name="pref_camera_picture_aspect_ratio_title">Однос слике</string>
+
+
+
+
+
+
+
+
+	<string name="pref_camera_picturesize_entry_16_9">Приказ преко цијелог екрана</string>
+	<string name="pref_camera_picturesize_entry_4_3">Нормални</string>
+	<string name="pref_camera_picturesize_entry_1_1">Правоугаоник</string><!-- ISO -->
+
+	<string name="manual_focus_title">M фокус</string><!--  --><string name="pref_camera_edge_title">Оштрина</string>
+
+	<string name="pref_camera_hue_title">Нијанса</string><!--  --><string name="pref_camera_saturation_title">Засићеност</string>
+
+	<string name="pref_camera_brightness_title">Освијетљеност</string>
+
+	<string name="pref_camera_contrast_title">Контраст</string>
+	<string name="pref_camera_dip_entry_low">Низак</string>
+	<string name="pref_camera_dip_entry_middle">Средњи</string>
+	<string name="pref_camera_dip_entry_high">Висок</string><!-- color effect --><!-- Settings screen, Select Color effect title --><string name="pref_camera_coloreffect_title">Ефекат боје</string><!-- Settings screen, Color effect dialog radio button choices --><string name="pref_camera_coloreffect_entry_none">Ниједан</string>
+	<string name="pref_camera_coloreffect_entry_mono">Моно</string>
+	<string name="pref_camera_coloreffect_entry_sepia">Сепија</string>
+	<string name="pref_camera_coloreffect_entry_negative">Негатив</string><!-- Color effect that overexposes and reverses some of the tones. --><string name="pref_camera_coloreffect_entry_solarize">Соларизација</string>
+	<string name="pref_camera_coloreffect_entry_posterize">Постеризација</string>
+	<string name="pref_camera_coloreffect_entry_whiteboard">Бијела табла</string>
+	<string name="pref_camera_coloreffect_entry_blackboard">Црна табла</string>
+	<string name="pref_camera_coloreffect_entry_aqua">Водено</string>
+	<string name="pref_camera_coloreffect_entry_pastel">Пастелно</string>
+	<string name="pref_camera_coloreffect_entry_mosaic">Мозаик</string>
+	<string name="pref_camera_coloreffect_entry_redtint">Црна нијанса</string>
+	<string name="pref_camera_coloreffect_entry_bluetint">Плава нијанса</string>
+	<string name="pref_camera_coloreffect_entry_greentint">Зелена нијанса</string>
+	<string name="pref_camera_coloreffect_entry_sepiablue">Плава сепија</string>
+	<string name="pref_camera_coloreffect_entry_sepiagreen">Зелена сепија</string><!-- self timer -->
+	<string name="pref_camera_selftimer_title">Самостални тајмер</string>
+	<string name="pref_camera_selftimer_entry_off">Искључено</string>
+	<string name="pref_camera_selftimer_entry_3">3 секунде</string>
+
+	<string name="pref_camera_antibanding_entry_auto">Аутоматски</string>
+	<string name="pref_camera_antibanding_entry_50hz">50 Hz</string>
+	<string name="pref_camera_antibanding_entry_60hz">60 Hz</string><!-- Scene mode Mediatek plus --> <!-- Scene mode that takes an image with as little noise as possible so details of the subject are maintained. --><string name="pref_camera_scenemode_entry_portrait">Портрет</string><!-- Scene mode that takes an image of a landscape assuming all subjects are relatively far from the phone. --><string name="pref_camera_scenemode_entry_landscape">Пејзаж</string><!-- Scene mode that takes night shots with long exposure and flash to illuminate the subject while still capturing darker detail in the background. --><string name="pref_camera_scenemode_entry_night_portrait">Ноћни портрет</string><!-- Scene mode to be used in a stage show. --><string name="pref_camera_scenemode_entry_theatre">Позориште</string><!-- Scene mode optimized for taking images on the beach. --><string name="pref_camera_scenemode_entry_beach">Плажа</string><!-- Scene mode optimized for taking images in the snow. --><string name="pref_camera_scenemode_entry_snow">Снијег</string><!-- Scene mode for taking a photo as sharp as possible. --><string name="pref_camera_scenemode_entry_steadyphoto">Стабилна фотографија</string><!-- Scene mode optimized for taking images of fireworks. --><string name="pref_camera_scenemode_entry_fireworks">Ватромет</string>
+	<string name="pref_camera_scenemode_entry_sports">Спорт</string>
+	<string name="pref_camera_scenemode_entry_candlelight">Свијећа</string><!-- for CMCC feature --><string name="pref_camera_scenemode_entry_normal">Нормални</string><!-- Video Camera --> <!-- EIS setting --><string name="pref_camera_eis_title">EIS</string>
+
+	<string name="pref_camera_eis_on">Укључено</string>
+
+	<string name="pref_camera_recordaudio_entry_off">Искључено</string>
+	<string name="pref_camera_recordaudio_entry_on">Укључено</string><!-- ZSD songyutao --><string name="pref_camera_zsd_title">ZSD</string>
+	<string name="pref_chroma_flash_title">Паметни блиц</string><!-- continuous shot speed --><string name="pref_camera_continuous_number_title">Узастопни снимци</string>
+	<string name="pref_voice_capture">Снимање гласа</string>
+
+	<string name="pref_voice_entry_off">Искључено</string>
+	<string name="pref_voice_entry_on">Укључено</string><!-- Face Detection properties  songyutao set FD dafault on --><string name="pref_camera_face_detect_title">Детекција лица</string>
+
+	<string name="pref_camera_face_detect_entry_off">Искључено</string>
+	<string name="pref_camera_face_detect_entry_on">Укључено</string>
+	<string name="pref_camera_record_location_title">Гео означавање</string>
+	<string name="pref_camera_thumb_title">Camera Roll</string>
+	<string name="pref_camera_pic_frame_entry_off">Искључено</string>
+	<string name="pref_camera_pic_frame_entry_on">Укључено</string>
+	<string name="pref_shutter_touch_title">Снимање додиром</string>
+
+	<string name="pref_shutter_smile_title">Снимање осмијехом</string>
+
+	<string name="pref_shutter_hand_title">Снимање покретом руке</string>
+	<string name="pref_shutter_watermark_title">Водени жиг</string>
+
+	<string name="pref_camera_watermark_entry_off">Искључено</string>
+	<string name="pref_camera_watermark_entry_on">Укључено</string>
+	<string name="pref_camera_asd_title">ASD</string>
+	<string name="pref_camera_asd_entry_off">Искључено</string>
+	<string name="pref_camera_asd_entry_on">Укључено</string>
+	<string name="pref_camera_shutter_sound_title">Звук затварача</string>
+	<string name="pref_camera_shutter_sound_entry_off">Искључено</string>
+	<string name="pref_camera_shutter_sound_entry_on">Укључено</string>
+	<string name="pref_camera_pic_level_title">Мјерач нагиба</string>
+	<string name="pref_camera_pic_level_entry_off">Искључено</string>
+	<string name="pref_camera_pic_level_entry_on">Укључено</string>
+
+	<string name="pref_capture_mirror_title">Предње огледало</string>
+	<string name="pref_camera_save_pos_title">Простор за складиштење</string>
+	<string name="pref_camera_save_pos_entry_t">SD картица</string>
+	<string name="pref_camera_save_pos_entry_p">Телефон</string>
+	<string name="pref_camera_save_pos_entry_u">USB OTG</string>
+	<string name="pref_camera_mesh_line_title">Линија мреже</string>
+	<string name="pref_camera_high_picture_size_title">Велика величина слике</string>
+	<string name="pref_pic_struct_title">Линије кадра</string>
+
+	<string name="pref_pic_struct_entry_off">Искључено</string>
+	<string name="pref_pic_struct_entry_enneahedral">Линије мреже</string>
+	<string name="manual">Стручни</string>
+	<string name="photo_mode">Фотографија</string>
+	<string name="panorama_mode">ПАНОРАМА</string>
+	<string name="beauty_mode">Уљепшавање лица</string>
+	<string name="radio_switch_to_hdr">HDR</string>
+	<string name="radio_switch_to_facebeauty_custom">Уљепшавање лица</string><!-- application infomation --><string name="app_name">Камера</string>
+	<string name="pref_camera_selftimer_entry_5">5 секунди</string>
+	<string name="night_mode">Ноћ</string>
+	<string name="radio_switch_to_beautyvideo">Уљепшавање видеозаписа</string>
+	<string name="timelapse_mode">\"Timelapse\"</string><!-- add by zzp for pano--><string name="panorama_arcsoft_guide_shutter">Притисните дугме затварача и лагано помјерите телефон у једном смјеру</string>
+	<string name="panorama_arcsoft_warn_slowly">Лагано помјерите телефон</string>
+	<string name="panorama_arcsoft_warn_back">Помјерите телефон дуж стрелице</string>
+	<string name="panorama_arcsoft_warn_up">Помјерите горе</string>
+	<string name="panorama_arcsoft_warn_down">Помјерите доље</string>
+	<string name="panorama_arcsoft_warn_left">Помјерите лијево</string>
+	<string name="panorama_arcsoft_warn_right">Помјерите десно</string>
+	<string name="panorama_arcsoft_switch_capture_direction_guide">Додирните стрелицу да бисте промијенили смјер снимања</string>
+	<string name="panorama_capture_guide">Поравнајте стрелицу са референтном линијом</string>
+	<string name="panorama_toggle_mode_standard">Стандардно</string>
+	<string name="panorama_toggle_mode_super">Супер</string><!--time line 20141227--><string name="radio_switch_to_pip">Двоструки приказ</string>
+	<string name="setting_title">Поставке</string>
+	<string name="mode_title">Режими</string>
+	<string name="setting_top_full_hint">Није могуће додати више ставки.</string>
+	<string name="touchless_guide_vsign_title">Знак V</string>
+	<string name="touchless_guide_tips_vsign_only">Можете направити гест у облику слова V да бисте сними аутоматски.</string>
+	<string name="touchless_guide_text_ok">У реду</string>
+	<string name="touchless_guide_text_reminder">Не приказуј поново</string>
+	<string name="wideself_arcsoft_guide_shutter">За почетак притисните дугме затварача</string>
+	<string name="wideself_arcsoft_guide_step_one">Окрените телефон у једном смјеру а затим у другом смјеру</string>
+	<string name="wideself_arcsoft_rolate_to_left">Полако окрените телефон у лијеву страну</string>
+	<string name="wideself_arcsoft_rolate_to_right">Полако окрените телефон у десну страну</string>
+	<string name="wideself_arcsoft_cannot_use_guide">Користите Wide Selfie у режиму портрета</string>
+	<string name="wideself_arcsoft_downup_offset_warn">It is not good enough to horizontally align the photo.</string>
+	<string name="panorama_arcsoft_cannot_use_guide">Користите Панораму у режиму портрета</string>
+	<string name="radio_switch_to_wideselfie">Wide Selfie</string>
+	<string name="radio_switch_to_refocus">Паметни фокус</string>
+	<string name="radio_switch_to_chromaflash">Паметни блиц</string>
+	<string name="radio_switch_to_clearsight">\"ClearSight\"</string>
+	<string name="setting_guide_message">Додирните \"Додај у траку за пречице\" или превуците да бисте додали пречицу</string>
+	<string name="skip_setting_guide">Схватам</string>
+	<string name="permission_title">Дозволи приступ</string>
+	<string name="enable_permission_procedure">Дозволе можете промијенити у Поставке &gt; Апликације &gt; %1$s &gt; Дозволе</string>
+	<string name="toast_storage_full_sdcard_to_internal">SD картица је пуна, спремање у интерно складиште</string>
+	<string name="toast_storage_damaged_sdcard_to_internal">Спремање датотеке на SD картицу није успјело, спремање у интерно складиште</string>
+	<string name="toast_storage_full_internal_to_sdcard">Интерно складиште је пуно, спремање у SD картицу</string>
+	<string name="toast_storage_full_clean_up_to_free_space">Простор за складиштење у телефону је пун. Обришите ставке да бисте ослободили простор</string>
+	<string name="secure_camera_can_not_request_permission">Прво откључајте телефон да бисте прихватили/одбили захтјеве за дозволу</string>
+	<string name="shutcauts_frontcamera">Сними селфи</string>
+	<string name="shutcauts_backcamera">Сними фотографију</string>
+	<string name="shutcauts_frontvideo">Сними видеозапис (селфи)</string>
+	<string name="shutcauts_backvideo">Сними видеозапис</string>
+	<string name="pref_camera_status_detect_title">Откривање статуса</string>
+	<string name="pref_camera_raw_file_title">RAW датотека</string>
+	<string name="pref_camera_filter_title">Филтер</string>
+	<string name="pref_dual_camera_title">Двострука камера</string>
+	<string name="pref_dual_camera_default">Искључено</string>
+	<string name="radio_switch_to_monochrome">Црно и бијело</string>
+
+	<string name="pref_camera_gpu_effect_focus">Фокус</string>
+	<string name="pref_camera_gpu_effect_sepia">Сепија</string>
+	<string name="pref_camera_gpu_effect_temperature">Температура</string>
+	<string name="pref_camera_gpu_effect_gray">Сиво</string>
+	<string name="pref_camera_gpu_effect_none">Ниједан</string>
+	<string name="pref_camera_gpu_effect_documentary">Документарац</string>
+	<string name="pref_camera_gpu_effect_fishEye">Рибље око</string>
+	<string name="pref_camera_gpu_effect_tint">Нијанса</string>
+	<string name="pref_camera_gpu_effect_crossprocess">Crossprocess</string>
+	<string name="portrait_mode">Портрет</string>
+	<string name="pref_camera_pref_entry_auto">Аутоматски</string>
+	<string name="confirm_mode_tip">Додирните за промјену на %1$s режим</string>
+	<string name="focal_switch_scale_tip">Додирните икону да отворите Телефото режим</string>
+	<string name="front_wide_switch_tip">Додирните икону да активирате групни селфи</string>
+	<string name="low_memory_limit">Your system is in low memory, some features limit capture size</string>
+	<string name="portrait_background_blur">Портрет</string>
+	<string name="portrait_of_face_beauty">Уљепшавање лица</string>
+	<string name="asd_result_hdr">HDR активиран</string>
+	<string name="toast_face_undetected_at_portrait">Лице није препознато у 2 метра</string>
+	<string name="toast_face_undetected_at_sticker">Лице није препознато</string>
+	<string name="toast_view_pic_vivid_at_superpixel">Снимите више детаља уз Super pixels </string>
+	<string name="front_face_detected_first_tip">Гледајте у камеру за боље селфије</string>
+	<string name="u_screen_selfie_count_down_cancel">Откажи</string>
+	<string name="video_beauty_switch_on">Укључено</string>
+	<string name="video_beauty_switch_off">Искључено</string>
+	<string name="image_processing_toast">Обрада слике</string>
+	<string name="short_video_not_found">Овај видеозапис није пронађен</string><!-- for Android O's CTS--><string name="camera_review_done_desc">Готово</string>
+	<string name="bokeh_mode">Портрет</string>
+	<string name="toast_dual_camera_bokeh">Наставите снимати у оквиру 2 метра</string><!-- for qcom slowmotion--><string name="pref_camera_hfr_entry_2x">X2</string>
+	<string name="pref_camera_hfr_entry_3x">X3</string>
+	<string name="pref_camera_hfr_entry_4x">X4</string>
+
+
+
+	<string name="slow_motion_mode">Успорени снимак</string>
+
+
+
+	<!-- // Camera fun mode string --><string name="radio_switch_to_fun">Camera Fun</string><!-- Default fun mode setting. -->
+	<string name="pref_camera_fun_title">Fun</string>
+	<string name="pref_camera_sticker_title">Наљепница</string>
+	<string name="toast_face_undetected_at_fun">Неоткривено лице</string>
+	<string name="toast_eyes_undetected_at_fun">Трепните очима да бисте видјели ефекат</string>
+	<string name="toast_mouth_undetected_at_fun">Отворите уста да бисте видјели ефекат</string>
+	<string name="toast_short_video_tip">Дуго притисните дугме затварача за кратко снимање видео записа</string>
+	<string name="fun_filter_none">Филтер</string>
+	<string name="fun_filter_lomo">LOMO</string>
+	<string name="fun_filter_elegant">Елегантно</string>
+	<string name="fun_filter_cyan">Цијан</string>
+	<string name="fun_filter_mint">Мента</string>
+	<string name="fun_filter_led">LED</string>
+	<string name="fun_filter_eternal">Вјечни</string>
+	<string name="fun_filter_formerly">Претходни</string>
+	<string name="fun_filter_blue">Плава</string>
+	<string name="fun_filter_oldbooth">Стари штанд</string>
+	<string name="fun_filter_milkytea">Чај са млијеком</string>
+	<string name="fun_filter_warm">Топло</string>
+	<string name="fun_filter_norway">Норвешка</string>
+	<string name="fun_filter_cool">Хладно</string>
+	<string name="fun_filter_dew">Роса</string>
+	<string name="fun_filter_youth">Младост</string>
+	<string name="fun_filter_shy">Стидљивост</string>
+	<string name="fun_filter_jaipur">Џајпур</string>
+	<string name="fun_filter_autumn">Јесен</string>
+	<string name="fun_filter_japanese">Јапански</string>
+	<string name="fun_filter_sweet">Слатко</string>
+	<string name="fun_filter_warren">Ворен</string>
+	<string name="fun_filter_tsukiji">Цукији</string>
+	<string name="fun_filter_vivid">Живописно</string>
+	<string name="fun_filter_facingsun">Окренут према сунцу</string>
+	<string name="fun_filter_purple">Љубичасто</string>
+	<string name="pref_gender_estimate_title">Процјена пола</string>
+	<string name="pref_gender_estimate_entry_on">Укључено</string>
+	<string name="pref_gender_estimate_entry_off">Искључено</string>
+	<string name="beauty_guide_top_text">AI љепота</string>
+	<string name="toast_motion_photo_opened">Фотографија у покрету је активирана</string>
+	<string name="pref_camera_gpu_effect_vignetting">Vignetting</string><!--add for ai scene detection --><string name="ai_scene_tips_food">Храна</string>
+	<string name="ai_scene_tips_portrait">Портрет</string>
+	<string name="ai_scene_tips_foliage">Биљка</string>
+	<string name="ai_scene_tips_sky">Плаво небо</string>
+	<string name="ai_scene_tips_text">Текст</string><!-- add for faceplus asd detection --><string name="faceplus_asd_tips_face">Портрет</string>
+	<string name="faceplus_asd_tips_food">Храна</string>
+	<string name="faceplus_asd_tips_fruits">Воће</string>
+	<string name="faceplus_asd_tips_flower">Цвијеће</string>
+	<string name="faceplus_asd_tips_flowersea">Цвјетно море</string>
+	<string name="faceplus_asd_tips_sandbeach">Пијесак</string>
+	<string name="faceplus_asd_tips_snow">Снијег</string>
+	<string name="faceplus_asd_tips_bluesky">Небо</string>
+	<string name="faceplus_asd_tips_night">Ноћ</string>
+	<string name="faceplus_asd_tips_sunrise">Излазак и залазак сунца</string>
+	<string name="faceplus_asd_tips_qr">QR код</string>
+	<string name="faceplus_asd_tips_businesscard">Акредитација</string>
+	<string name="faceplus_asd_tips_whiteboard">Бијела табла</string>
+	<string name="faceplus_asd_tips_idcard">ID</string>
+	<string name="faceplus_asd_tips_bankcard">Кредитна картица</string>
+	<string name="faceplus_asd_tips_cat">Мачка</string>
+	<string name="faceplus_asd_tips_dog">Пас</string>
+	<string name="faceplus_asd_tips_meadow">Ливада</string>
+	<string name="faceplus_asd_tips_plants">Биљка</string>
+	<string name="toast_gender_estimate_started">Подешавање параметара према вашем лицу</string>
+	<string name="beauty_guide_top_text_description">Укључите функцију AI љепоте и прилагодите параметре према свом лицу</string>
+	<string name="zoom_guide_title">Лакши начин за зумирање</string>
+	<string name="zoom_guide_content">Додирните икону изнад да приступите широком углу и супер зумирању. Или једноставно вертикално превуците прстом по екрану да бисте увећали или смањили</string>
+	<string name="video_recording">Снимање видеозаписа</string>
+	<string name="micro_video_guide_content">Када је укључено фотографисање у покрету, свака фотографија коју снимите може садржавати кратки видеозапис прије или након снимка. Овај видеозапис може бити укључен када подијелите фотографију.</string>
+	<string name="motion_photo">Фотографија у покрету</string>
+	<string name="switch_to_wide_lens_toast">Омогућавање објектива за широки угао</string>
+	<string name="time_lapse_not_save">Није могуће спремити ваш \"timelapse\" снимак. Ваш видеозапис мора бити дужине од најмање %1$d секунди</string>
+	<string name="pref_shutter_speed_title">Брзина затварача</string>
+	<string name="switch_to_wide_lens_landscape_toast">Додирните Широки угао за шири преглед</string>
+	<string name="radio_switch_to_dual_bokeh_for_custom">Умјетничко замагљење</string>
+	<string name="toast_video_recording_in_call_state">Није могуће снимати током позива</string>
+	<string name="pref_camera_ai_title">AI</string>
+	<string name="toast_video_3dnr_on">Активиран преглед видеозаписа ноћу</string>
+	<string name="toast_storage_unavailable">SD картица није доступна</string>
+	<string name="toast_landscape_open_wide_tips">Промијените на супер широки угао да бисте снимили више пејзажа или пријатеља.</string>
+	<string name="enable_sd_permission_title">Камери је потребан приступ SD картици</string>
+	<string name="enable_sd_permission_content">Погледајте своје поставке и дозволите приступ \"DCIM\" у \"SD card\”</string>
+	<string name="macro_mode">Макро</string>
+	<string name="super_macro_tip">Телефон држите на удаљености од (1) 3–4 cm од предмета.</string>
+	<string name="bokeh_offfline_processing">Обрада боке података ван мреже…</string>
+	<string name="pref_google_lens">\"Google\" објектив</string>
+	<string name="never">Никада</string>
+	<string name="toast_high_temp_disable_flash">Температура је превисока, није могуће укључити батеријску лампу.</string>
+	<string name="toast_high_temp_shutdown_camera">Температура је превисока, камера ће се зауставити за 5 секунди</string>
+
+	<string name="bokeh_type_name">Умјетничко замагљење</string>
+	<string name="bokeh_type_description">Ова функција вам омогућава да уредите фотографију помоћу ефекта Умјетничког замагљења.</string>
+	<string name="hdr_type_name">HDR</string>
+	<string name="hdr_type_description">Очување више детаља у окружењу са позадинским свјетлом</string>
+	<string name="ai_type_name">AI</string>
+	<string name="ai_type_description">Аутоматски подесите параметре помоћу AI детекције сцене</string>
+	<string name="timelapse_type_name">\"Timelapse\"</string>
+	<string name="timelapse_type_description">Брже прикажите дугачки видеозапис за краће вријеме</string>
+	<string name="don_t_cover_the_lens">Немојте покривати објектив</string>
+	<string name="pref_video_time_lapse_frame_interval_title">Временски интервал</string>
+	<string name="toast_qr_code_detected">Детектован QR код.\nДодирните за посјету</string>
+	<string name="toast_qr_code_detected_type_esim">Детектован eSIM профил.\nДодирните за активирање eSIM-а</string>
+	<string name="toast_qr_code_detected_type_url">Детектован QR код.\nДодирните за посјету везе</string>
+	<string name="toast_qr_code_detected_type_string">Детектован QR код.\nДодирните за \"Google\" претрагу</string>
+	<string name="toast_bar_code_detected_type_string">Детектован баркод.\nДодирните за посјету везе</string>
+	<string name="toast_bar_code_detected_type_number">Детектован баркод производа.\nДодирните за посјету производа</string>
+	<string name="turn_off_qr_code">Искључите QR код</string>
+	<string name="pref_video_quality_entry_fine_text">Добар</string>
+	<string name="pref_video_quality_entry_high_text">Висок</string>
+	<string name="pref_exposure_metering_title">Мјерење излагања</string>
+	<string name="pref_exposure_metering_entry_frame_average">Frame average</string>
+	<string name="pref_exposure_metering_entry_center_weighted">Централно мјерење</string>
+	<string name="pref_exposure_metering_entry_spot_metering">Мјерење на тачки</string>
+	<string name="toast_disable_torch">Онемогућите додир за спрјечавање прегријавања блица</string>
+	<string name="google_location_dialog_title">Желите ли да додате информације о локацији фотографијама које снимите апликацијом Камера?</string>
+	<string name="google_location_dialog_message">То значи да ће ваше фотографије садржати информације о томе гдје су снимане.</string>
+	<string name="google_location_dialog_message_lear_more">
+		<a href="https://support.google.com/photos/answer/9921876">Сазнајте више</a>
+	</string>
+	<string name="google_location_dialog_positive">Омогући локацију камере</string>
+	<string name="image_search_mode">Претрага ставки</string>
+	<string name="detect_result_title">Одаберите ставку и прегледајте резултате претраге</string>
+	<string name="search_result_title">Резултати претраге за сличне ставке</string>
+	<string name="search_for_other_items">Претражи друге ставке</string>
+	<string name="point_format_string">%1$d поена (%2$dx)</string><!--    <string name="price_format_string">%1$s yen</string>--><string name="view_on_rakuten_ichiba">Погледај на \"Rakuten Ichiba\"</string>
+	<string name="view_all_results_on_rakuten_ichiba">Погледај све резултате на \"Rakuten Ichiba\"</string>
+	<string name="start_new_search">Започни нову претрагу</string>
+	<string name="network_error">Мрежна грешка.\nПровјерите везу са интернетом и покушајте поново</string>
+	<string name="item_not_found">Није могуће детектовати модне ставке</string>
+	<string name="cropped_item_not_found">Поново подесите величину подручја претраге</string>
+	<string name="cropped_item_not_found_btn_text">Поново подесите подручје претраге</string>
+	<string name="searching">Претрага у току…</string>
+	<string name="image_search_tip">Снимите фотографију или изаберите слику за претрагу</string>
+	<string name="image_search_processing">Претрага у току…</string>
+	<string name="move_and_resize_tip">Помјерите кадар у било које подручје за претрагу.\nПревуците ивице за подешавање величине кадра.</string>
+	<string name="new_feature_image_search_guide_title">Нова функција</string>
+	<string name="new_feature_image_search_guide_title_extra" translatable="false" />
+	<string name="new_feature_image_search_guide_content">Сада можете снимити фотографију и претражити ставке на \"Rakuten Ichiba\"</string>
+	<string name="item_search_guide_title">Шта је претрага ставки?</string>
+	<string name="item_search_guide_content_p1">Претражите ставке на \"Rakuten Ichiba\" снимањем фотографија својом камером.</string>
+	<string name="item_search_guide_content_p2">(Тренутно су за претрагу ставки доступне само модне ставке.)</string>
+	<string name="feedback_title">Повратне информације</string>
+	<string name="feedback_content">Јесу ли резултати корисни?</string>
+	<string name="feedback_action">Пошаљи повратне информације</string>
+	<string name="feedback_send">Пошаљи</string>
+	<string name="feedback_response">Хвала вам на корисним повратним информацијама.</string>
+	<string name="terms_of_use_title">Услови кориштења</string>
+	<string name="privacy_title">Правила приватности</string>
+	<string name="free_shipping">Бесплатна достава</string>
+	<string name="terms_of_use_agree">Слажем се са условима кориштења.</string>
+	<string name="start_to_use">Претрага слика</string>
+	<string name="terms_of_use_content">Ово су услови кориштења.</string>
+	<string name="try_again_tips">Нисте пронашли ништа што вам се свиђа?\nПокушајте нову претрагу за другачије резултате</string>
+	<string name="yen">јен</string>
+	<string name="pref_video_fps">FPS</string>
+	<string name="pref_video_encoder">Енкодер</string>
+	<string name="more">Више</string>
+	<string name="panorama_night_mode">Ноћна панорама</string>
+	<string name="long_press_shutter_button">Дуго притисните затварач</string>
+	<string name="continuous_shot_entry">Узастопни снимци</string>
+
+
+	<string name="pref_camera_wb_temp_title">Температура боје</string>
+
+	<string name="pref_camera_entry_off">Искључено</string>
+	<string name="pref_camera_whitebalance_entry_custom">Прилагођено</string>
+	<string name="pref_camera_entry_on">Укључено</string>
+
+	<string name="pref_video_night_title">Ноћни видеозапис</string>
+	<string name="video_ois_title">OIS</string>
+	<string name="pref_photo_mfnr_title">MFNR</string>
+	<string name="remosaic_mode">Remosaic</string>
+
+	<string name="pref_high_definition_title">Висока дефиниција</string>
+	<string name="pref_pro_raw_title">Висока дефиниција</string>
+</resources>

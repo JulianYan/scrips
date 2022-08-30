@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_watermark">वॉटरमार्क</string>
+    <string name="settings_model_watermark">मॉडेल वॉटरमार्क</string>
+    <string name="settings_time_watermark">टाइम वॉटरमार्क</string>
+</resources>

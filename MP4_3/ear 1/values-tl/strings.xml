@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="disconnect">Nakadiskonekta</string>
+    <string name="anc_personalised_title">Iniangkop na ANC</string>
+    <string name="control_double_tap_hold">Mag-tap nang dalawang beses</string>
+
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nt_navigation_back_button_left_side">Atgal mygtukas kairėje pusėje</string>
+    <string name="nt_navigation_back_button_right_side">Grįžimo mygtukas dešinėje pusėje</string>
+    <string name="nt_navigation_config_title">Mygtukų išdėstymas</string>
+    <string name="nt_glyphs_charging_features">Rodyti įkrovimo būseną, kai prietaisas prijungtas prie elektros tinklo, arba įkrovimo metu prietaisą purtyti.</string>
+    <string name="nt_screen_refresh_rate_high_summary">Dinaminis atnaujinimo dažnis iki 120 Hz kad slinkimas būtų sklandesnis ir animacija sklandesnė.</string>
+    <string name="nt_screen_refresh_rate_standard_summary">Fiksuotas 60 Hz atnaujinimo dažnis, kad ilgiau veiktų akumuliatorius.</string>
+	
+	<!-- translate to other languages -->
+	<string name="nt_glyphs_flip_title">Apverskite į Glyph</string>
+    <string name="nt_glyphs_flip_to_glyph_title">Apverskite į Glyph</string>
+    <string name="nt_use_filp_to_glyph">Naudokite Apverskite į Glyph</string>
+	
+</resources>

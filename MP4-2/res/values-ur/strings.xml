@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources><!-- Confirmation dialog when restoring settings --><string name="confirm_restore_message">کیا آپ کیمرے کی ڈیفالٹ ترتیبات کو بحال کرنا چاہتے ہیں؟</string>
+	<string name="pref_camera_module_title">کیمرہ موڈ</string><!-- Settings screen, camera selection dialog title. Users can select a camera from the phone (front-facing or back-facing). [CHAR LIMIT=20] --><string name="pref_camera_id_title">کیمرہ سوئچ کریں۔</string>
+	<!-- In select camera setting, back facing camera. [CHAR LIMIT=14] --><string name="pref_camera_id_entry_back">پیچھے</string><!-- In select camera setting, front-facing camera. [CHAR LIMIT=14] --><string name="pref_camera_id_entry_front">سامنے</string><!-- Settings screen, Record location dialog choices --><string name="pref_camera_recordlocation_entry_off">بند کریں</string>
+	<string name="pref_camera_recordlocation_entry_on">آن کریں</string><!-- The Video quality settings in preference [CHAR LIMIT=21] --><string name="pref_video_quality_title">ویڈیو کا معیار</string>
+	<string name="pref_video_stabilization_title">ویڈیو کا تواژن </string>
+	<string name="pref_video_3dnr_title">ویڈیو3DNR</string><!-- The Video timelapse settings in preference [CHAR LIMIT=21] --><string name="pref_video_timelapse_title">Video Timelapse</string>
+	<string name="pref_video_autozoom_title">ویڈیو کا خود کار زوم</string>
+	<string name="video_mode">ویڈیو </string>
+	<string name="guide_auto_zoom_title">خود کار زوم</string>
+	<string name="guide_auto_zoom_rules">آپ اسکرین پر دائرہ کھینچ کر ریکارڈنگ کے دوران کسی مخصوص چیز کو ٹریک کر سکتے ہیں، اور پھر ٹریکنگ کو روکنے کے لیے ڈبل ٹیپ کریں۔</string>
+	<string name="toast_auto_zoom_not_activated">خود کار زوم فعال نہیں ہے۔</string><!-- Default flash mode setting. -->
+	<!-- Settings screen, Flash mode title --><string name="pref_camera_flashmode_title">فلیش موڈ</string>
+	<string name="pref_screenflash_title"> فلیش دکھائیں </string><!-- Settings screen, Flash mode dialog radio button choices --><string name="pref_camera_flashmode_entry_auto">خود کار</string>
+	<string name="pref_camera_flashmode_entry_on">آن کریں</string>
+	<string name="pref_camera_flashmode_entry_off">بند کریں</string>
+	<string name="pref_camera_flashmode_entry_torch">ٹارچ</string><!-- Default white balance setting. --><!-- Settings screen, white balance title --><string name="pref_camera_whitebalance_title">AWB</string><!-- Settings screen, White balance dialog radio button choices --><string name="pref_camera_whitebalance_entry_auto">خود کار</string>
+	<string name="pref_camera_whitebalance_entry_incandescent">تاپدیپت</string>
+	<string name="pref_camera_whitebalance_entry_daylight">دن کی روشنی</string>
+	<string name="pref_camera_whitebalance_entry_fluorescent">چمکدار</string>
+	<string name="pref_camera_whitebalance_entry_cloudy">گَدلا</string>
+
+
+
+
+	<!-- Default scene mode setting. -->
+
+	<string name="pref_camera_scene_frame_title">منظر کا فریم</string><!-- Settings screen, Select Scene mode --><string name="pref_camera_scenemode_title">منظر کا موڈ</string>
+	<string name="pref_hdr_title">ایچ ڈی آر</string>
+	<string name="pref_motion_photo_title">حرکت</string><!-- Settings menu, scene mode choices --><string name="pref_camera_scenemode_entry_auto">خود کار</string>
+	<string name="pref_camera_scenemode_entry_night">رات</string><!-- Scene mode optimized for taking images in the sunset. --><string name="pref_camera_scenemode_entry_sunset">غروب آفتاب</string><!-- Scene mode optimized for taking indoor low-lights pictures. [CHAR LIMIT=16] --><string name="pref_camera_scenemode_entry_party">پارٹی</string>
+	<string name="pref_restore_detail">ڈیفالٹس بحال کریں</string><!-- Exposure settings in preference --><string name="pref_exposure_title">ای وی</string>
+	<string name="sugar_face_beauty_custom"> اپنی مرضی کے</string>
+	<string name="sugar_eyes_beauty">آنکھیں</string>
+	<string name="sugar_face_thin">تیز</string>
+	<string name="sugar_skin_smooth">صاف </string>
+	<string name="adjust_progress">+%s</string>
+	<string name="face_beauty_custom_skin_info">جلد</string>
+	<string name="face_beauty_custom_eyes_info">آنکھیں</string>
+	<string name="face_beauty_custom_thin_info">پتلا</string>
+	<string name="face_beauty_custom_rosy_info">گلابی</string>
+	<string name="face_beauty_custom_whitening_info">سفید کرنا</string>
+	<string name="portrait_custom_info">دھندلا</string>
+
+	<string name="pref_camera_volume_key_title">والیوم کے بٹن</string>
+	<string name="pref_camera_volume_key_shoot">کھینچنا/بنانا</string>
+	<string name="pref_camera_volume_key_zoom">زوم</string>
+	<string name="pref_camera_volume_key_volume">والیوم</string>
+
+
+	<string name="photo_incapture">تصویر کھینچنا</string>
+
+	<string name="toast_location_started">مقام شروع ہوا</string>
+	<string name="toast_location_success">مقام کا حصول کامیاب</string>
+	<string name="toast_device_denayed">ڈیوائس ناقابل رسائی</string>
+	<string name="toast_device_connect_failed">ڈیوائس کا کنکشن ناکام ہو گیا</string>
+	<string name="toast_start_preview_failed"> پیش منظر شروع کرنے میں ناکام ہو گیا</string>
+	<string name="toast_storage_full">اسٹوریج بھرگیا</string>
+	<string name="toast_low_power_disable_flash">بیٹری کم ہے، ٹارچ آن نہیں کر سکتے۔</string>
+	<string name="toast_video_size_max">ویڈیو کا سائز حد کو پہنچ گیا ہے۔</string>
+	<string name="toast_continue_snap_max">مسلسل شاٹس کی گنتی حد کو پہنچ گئی ہے۔</string>
+	<string name="toast_video_error">ویڈیو کو موجودہ حالت میں ریکارڈ نہیں کیا جا سکتا</string>
+	<string name="toast_video_start_fail">مائیک استعمال میں ہے اور اسے ریکارڈ کرنے کے لیے استعمال نہیں کیا جا سکتا</string>
+	<string name="toast_video_init_size_error">ویڈیو کا سائز حد سے کم کر دیا گیا ہے۔</string>
+	<string name="toast_long_press_unavilable">مسلسل شاٹ کی حمایت نہیں کرتا۔</string>
+	<string name="toast_continuous_shot_off">مسلسل شاٹ دستیاب نہیں ہے۔</string>
+	<string name="toast_thumbnail_empty">کوئی تصویر نہیں ہے</string>
+	<string name="toast_clearsight_success">ClearSight کیپچر کامیابی سے مکمل ہوا </string>
+	<string name="toast_clearsight_failed">ClearSight کیپچر ناکام ہو گیا</string>
+	<string name="toast_auto_zoom">خود کار زوم کو فعال کر دیا گیا ہے</string>
+	<string name="toast_video_stabilization">اسٹیبلائزر کو فعال کر دیا گیا ہے</string>
+	<string name="guide_top">کیمرہ سوئچ کرنے کے لیے اوپر یا نیچے سوائپ کریں۔</string>
+	<string name="guide_right">عوامل سیٹ کرنے کے لیے دائیں سوائپ کریں۔</string>
+	<string name="guide_left">موڈ سیٹ کرنے کے لیے بائیں سوائپ کریں۔</string>
+	<string name="voice_on_tips">\"کیپچر\" یا \"چیز\" بولیں۔</string>
+	<string name="toast_steady_capture">کیپچر کرتے وقت فون کو نہ ہلائیں۔</string>
+	<string name="toast_dual_camera_opened">دوہری کیمرہ کھل گیا</string>
+	<string name="toast_dual_camera_closed">دوہری کیمرہ بند ہو گیا</string><!-- Pref -->
+
+
+
+
+
+
+
+
+
+	<string name="pref_video_quality_entry_full">مکمل فریم</string>
+
+	<string name="pref_video_stabilization_entry_on">آن کریں</string>
+	<string name="pref_video_stabilization_entry_off">بند کریں</string>
+	<string name="pref_video_stabilization_entry_standard">معیار</string>
+	<string name="pref_video_stabilization_entry_super">عمدہ ترین</string>
+	<string name="pref_video_3dnr_entry_on">آن کریں</string>
+	<string name="pref_video_3dnr_entry_off">بند کریں</string>
+	<string name="pref_video_autozoom_entry_on">آن کریں</string>
+	<string name="pref_video_autozoom_entry_off">بند کریں</string>
+	<string name="pref_camera_picturesize_title">Picture Size</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<string name="pref_camera_picture_aspect_ratio_title">تصویری پہلو کا تناسب</string>
+
+
+
+
+
+
+
+
+	<string name="pref_camera_picturesize_entry_16_9">بڑی اسکرین</string>
+	<string name="pref_camera_picturesize_entry_4_3">نارمل</string>
+	<string name="pref_camera_picturesize_entry_1_1">مستطیل</string><!-- ISO -->
+
+	<string name="manual_focus_title">ایم فوکس</string><!--  --><string name="pref_camera_edge_title">نفاست</string>
+
+	<string name="pref_camera_hue_title">رنگت</string><!--  --><string name="pref_camera_saturation_title">سنترپتی</string>
+
+	<string name="pref_camera_brightness_title"> روشنی </string>
+
+	<string name="pref_camera_contrast_title">کنٹراسٹ</string>
+	<string name="pref_camera_dip_entry_low">کم</string>
+	<string name="pref_camera_dip_entry_middle">درمیانہ</string>
+	<string name="pref_camera_dip_entry_high">زیادہ</string><!-- color effect --><!-- Settings screen, Select Color effect title --><string name="pref_camera_coloreffect_title">رنگین اثر</string><!-- Settings screen, Color effect dialog radio button choices --><string name="pref_camera_coloreffect_entry_none">کوئی نہیں</string>
+	<string name="pref_camera_coloreffect_entry_mono">واحد</string>
+	<string name="pref_camera_coloreffect_entry_sepia">سیپیا</string>
+	<string name="pref_camera_coloreffect_entry_negative">منفی</string><!-- Color effect that overexposes and reverses some of the tones. --><string name="pref_camera_coloreffect_entry_solarize">سولرائز کرنا</string>
+	<string name="pref_camera_coloreffect_entry_posterize">پوسٹرائز کریں</string>
+	<string name="pref_camera_coloreffect_entry_whiteboard">وائٹ بورڈ</string>
+	<string name="pref_camera_coloreffect_entry_blackboard">بلیک بورڈ</string>
+	<string name="pref_camera_coloreffect_entry_aqua">ایکوا</string>
+	<string name="pref_camera_coloreffect_entry_pastel">پھیکا</string>
+	<string name="pref_camera_coloreffect_entry_mosaic"> موزئیک  </string>
+	<string name="pref_camera_coloreffect_entry_redtint">سرخ رنگت</string>
+	<string name="pref_camera_coloreffect_entry_bluetint">نیلی رنگت</string>
+	<string name="pref_camera_coloreffect_entry_greentint">سبز رنگت</string>
+	<string name="pref_camera_coloreffect_entry_sepiablue">سیپیا نیلا</string>
+	<string name="pref_camera_coloreffect_entry_sepiagreen">سیپیا سبز</string><!-- self timer -->
+	<string name="pref_camera_selftimer_title">سیلف ٹائمر</string>
+	<string name="pref_camera_selftimer_entry_off">بند کریں</string>
+	<string name="pref_camera_selftimer_entry_3">3 سیکنڈ</string>
+
+	<string name="pref_camera_antibanding_entry_auto">خود کار</string>
+	<string name="pref_camera_antibanding_entry_50hz">50Hz</string>
+	<string name="pref_camera_antibanding_entry_60hz">60Hz</string><!-- Scene mode Mediatek plus --> <!-- Scene mode that takes an image with as little noise as possible so details of the subject are maintained. --><string name="pref_camera_scenemode_entry_portrait">پورٹریٹ</string><!-- Scene mode that takes an image of a landscape assuming all subjects are relatively far from the phone. --><string name="pref_camera_scenemode_entry_landscape">تزئین</string><!-- Scene mode that takes night shots with long exposure and flash to illuminate the subject while still capturing darker detail in the background. --><string name="pref_camera_scenemode_entry_night_portrait">نائٹ پورٹریٹ</string><!-- Scene mode to be used in a stage show. --><string name="pref_camera_scenemode_entry_theatre">تھیٹر</string><!-- Scene mode optimized for taking images on the beach. --><string name="pref_camera_scenemode_entry_beach">ساحل سمندر</string><!-- Scene mode optimized for taking images in the snow. --><string name="pref_camera_scenemode_entry_snow">برف</string><!-- Scene mode for taking a photo as sharp as possible. --><string name="pref_camera_scenemode_entry_steadyphoto">مستحکم تصویر</string><!-- Scene mode optimized for taking images of fireworks. --><string name="pref_camera_scenemode_entry_fireworks">آتش بازی</string>
+	<string name="pref_camera_scenemode_entry_sports">کھیل</string>
+	<string name="pref_camera_scenemode_entry_candlelight">موم بتی کی روشنی</string><!-- for CMCC feature --><string name="pref_camera_scenemode_entry_normal">نارمل</string><!-- Video Camera --> <!-- EIS setting --><string name="pref_camera_eis_title">EIS</string>
+
+	<string name="pref_camera_eis_on">آن کریں</string>
+
+	<string name="pref_camera_recordaudio_entry_off">بند کریں</string>
+	<string name="pref_camera_recordaudio_entry_on">آن کریں</string><!-- ZSD songyutao --><string name="pref_camera_zsd_title">ZSD</string>
+	<string name="pref_chroma_flash_title">اسمارٹ فلیش</string><!-- continuous shot speed --><string name="pref_camera_continuous_number_title">مسلسل شاٹ</string>
+	<string name="pref_voice_capture">آواز کی گرفت</string>
+
+	<string name="pref_voice_entry_off">بند کریں</string>
+	<string name="pref_voice_entry_on">آن کریں</string><!-- Face Detection properties  songyutao set FD dafault on --><string name="pref_camera_face_detect_title">چہرہ کی شناخت</string>
+
+	<string name="pref_camera_face_detect_entry_off">بند کریں</string>
+	<string name="pref_camera_face_detect_entry_on">بند کریں</string>
+	<string name="pref_camera_record_location_title">جغرافیہ</string>
+	<string name="pref_camera_thumb_title">Camera Roll</string>
+	<string name="pref_camera_pic_frame_entry_off">بند کریں</string>
+	<string name="pref_camera_pic_frame_entry_on">آن کریں</string>
+	<string name="pref_shutter_touch_title">ٹچ شاٹ</string>
+
+	<string name="pref_shutter_smile_title">مسکراہٹ</string>
+
+	<string name="pref_shutter_hand_title">ہینڈ شاٹ</string>
+	<string name="pref_shutter_watermark_title">آبی نشان</string>
+
+	<string name="pref_camera_watermark_entry_off">بند کریں</string>
+	<string name="pref_camera_watermark_entry_on">آن کریں</string>
+	<string name="pref_camera_asd_title">ASD</string>
+	<string name="pref_camera_asd_entry_off">بند کریں</string>
+	<string name="pref_camera_asd_entry_on">آن کریں</string>
+	<string name="pref_camera_shutter_sound_title">شٹر کی آواز</string>
+	<string name="pref_camera_shutter_sound_entry_off">بند کریں</string>
+	<string name="pref_camera_shutter_sound_entry_on">آن کریں</string>
+	<string name="pref_camera_pic_level_title">گریڈینٹر</string>
+	<string name="pref_camera_pic_level_entry_off">بند کریں</string>
+	<string name="pref_camera_pic_level_entry_on">آن کریں</string>
+
+	<string name="pref_capture_mirror_title">سامنے کا عکس</string>
+	<string name="pref_camera_save_pos_title">اسٹوریج</string>
+	<string name="pref_camera_save_pos_entry_t">ایس ڈی کارڈ</string>
+	<string name="pref_camera_save_pos_entry_p">فون</string>
+	<string name="pref_camera_save_pos_entry_u">USB OTG</string>
+	<string name="pref_camera_mesh_line_title">میش لائن</string>
+	<string name="pref_camera_high_picture_size_title"> بڑا تصویر کا سائز</string>
+	<string name="pref_pic_struct_title">فریمنگ لائنیں</string>
+
+	<string name="pref_pic_struct_entry_off">بند کریں</string>
+	<string name="pref_pic_struct_entry_enneahedral">گرڈ لائنیں</string>
+	<string name="manual">ماہر</string>
+	<string name="photo_mode">تصویر</string>
+	<string name="panorama_mode">پینوراما</string>
+	<string name="beauty_mode">چہرے کی خوبصورتی</string>
+	<string name="radio_switch_to_hdr">HDR</string>
+	<string name="radio_switch_to_facebeauty_custom">چہرے کی خوبصورتی</string><!-- application infomation --><string name="app_name">کیمرہ</string>
+	<string name="pref_camera_selftimer_entry_5">5 سیکنڈ</string>
+	<string name="night_mode">رات</string>
+	<string name="radio_switch_to_beautyvideo">خوبصورت ویڈیو</string>
+	<string name="timelapse_mode">ٹائم لیپس</string><!-- add by zzp for pano--><string name="panorama_arcsoft_guide_shutter">شٹر بٹن دباتے ہوئے اپنے فون کو آہستہ آہستہ ایک سمت میں لے جائیں۔</string>
+	<string name="panorama_arcsoft_warn_slowly">براہ کرم اپنے فون کو آہستہ سے حرکت دیں</string>
+	<string name="panorama_arcsoft_warn_back">براہ کرم اپنے فون کو تیر کے ساتھ لے جائیں</string>
+	<string name="panorama_arcsoft_warn_up">اوپر حرکت دیں</string>
+	<string name="panorama_arcsoft_warn_down">نیچے حرکت دیں</string>
+	<string name="panorama_arcsoft_warn_left">بائیں حرکت دیں</string>
+	<string name="panorama_arcsoft_warn_right">دائیں حرکت دیں</string>
+	<string name="panorama_arcsoft_switch_capture_direction_guide">کیپچر کی سمت تبدیل کرنے کے لیے تیر کو ٹیپ کریں</string>
+	<string name="panorama_capture_guide">حوالہ لائن کے ساتھ تیر کو سیدھ میں رکھیں</string>
+	<string name="panorama_toggle_mode_standard">معیار</string>
+	<string name="panorama_toggle_mode_super">عمدہ ترین</string><!--time line 20141227--><string name="radio_switch_to_pip">دوہری منظر</string>
+	<string name="setting_title">ترتیبات</string>
+	<string name="mode_title">موڈز</string>
+	<string name="setting_top_full_hint">مزید آئٹمز شامل نہیں کر سکتے۔</string>
+	<string name="touchless_guide_vsign_title">وی علامت</string>
+	<string name="touchless_guide_tips_vsign_only">آپ خود بخود کیپچر کرنے کے لیے V شکل کا اشارہ بنا سکتے ہیں۔</string>
+	<string name="touchless_guide_text_ok">اوکے</string>
+	<string name="touchless_guide_text_reminder">یہ دوبارہ مت دکھایں</string>
+	<string name="wideself_arcsoft_guide_shutter">شروع کرنے کے لیے شٹر بٹن دبائیں</string>
+	<string name="wideself_arcsoft_guide_step_one">براہ کرم فون کو پہلے ایک سمت اور پھر دوسری سمت گھمائیں</string>
+	<string name="wideself_arcsoft_rolate_to_left">براہ کرم اپنے فون کو آہستہ آہستہ بائیں طرف گھمائیں</string>
+	<string name="wideself_arcsoft_rolate_to_right">براہ کرم اپنے فون کو آہستہ آہستہ  دائیں طرف گھمائیں</string>
+	<string name="wideself_arcsoft_cannot_use_guide">براہ کرم پورٹریٹ موڈ میں Wide Selfie استعمال کریں</string>
+	<string name="wideself_arcsoft_downup_offset_warn">It is not good enough to horizontally align the photo.</string>
+	<string name="panorama_arcsoft_cannot_use_guide">براہ کرم پینورما کو پورٹریٹ موڈ میں استعمال کریں</string>
+	<string name="radio_switch_to_wideselfie">کشادہ سیلفی</string>
+	<string name="radio_switch_to_refocus">اسمارٹ فوکس</string>
+	<string name="radio_switch_to_chromaflash">اسمارٹ فلیش</string>
+	<string name="radio_switch_to_clearsight">ClearSight</string>
+	<string name="setting_guide_message">\"شارٹ کٹ بار میں شامل کریں\" پر ٹیپ کریں یا\nشارٹ کٹ شامل کرنے کے لیے کھینچیں۔</string>
+	<string name="skip_setting_guide">مل گیا</string>
+	<string name="permission_title">رسائی فراہم کریں</string>
+	<string name="enable_permission_procedure">آپ ترتیبات &gt; ایپس &gt; %1$s &gt; اجازتوں میں اجازتیں تبدیل کر سکتے ہیں۔</string>
+	<string name="toast_storage_full_sdcard_to_internal">SD کارڈ بھرا ہوا ہے، لہذا اندرونی اسٹوریج میں محفوظ ہو رہا ہے۔</string>
+	<string name="toast_storage_damaged_sdcard_to_internal">فائلSD کارڈ میں محفوظ نہیں ہوئی، لہذا یہ اندرونی اسٹوریج میں محفوظ ہو رہا ہے۔</string>
+	<string name="toast_storage_full_internal_to_sdcard">اندرونی اسٹوریج بھرا ہوا ہے، لہذا SD کارڈ میں محفوظ ہو رہا ہے</string>
+	<string name="toast_storage_full_clean_up_to_free_space">فون اسٹوریج کی جگہ بھری ہوئی ہے۔ براہ کرم خالی ہونے تک صاف کریں</string>
+	<string name="secure_camera_can_not_request_permission">اجازت کی درخواستوں کو قبول یا مسترد کرنے کے لیے براہ کرم پہلے اپنے فون کو ان لاک کریں۔</string>
+	<string name="shutcauts_frontcamera">سیلفی لیں</string>
+	<string name="shutcauts_backcamera">تصویر بنائیں </string>
+	<string name="shutcauts_frontvideo">Record. a video (selfie)</string>
+	<string name="shutcauts_backvideo">ریکارڈ ویڈیو </string>
+	<string name="pref_camera_status_detect_title">اسٹیٹس کا پتہ لگانا</string>
+	<string name="pref_camera_raw_file_title">RAW فائل</string>
+	<string name="pref_camera_filter_title">فلٹر</string>
+	<string name="pref_dual_camera_title">دوہری کیمرہ</string>
+	<string name="pref_dual_camera_default">بند کریں</string>
+	<string name="radio_switch_to_monochrome">سیاہ سفید</string>
+
+	<string name="pref_camera_gpu_effect_focus">فوکس</string>
+	<string name="pref_camera_gpu_effect_sepia">سیپیا</string>
+	<string name="pref_camera_gpu_effect_temperature">درجہ حرارت</string>
+	<string name="pref_camera_gpu_effect_gray">سرمئی</string>
+	<string name="pref_camera_gpu_effect_none">کوئی نہیں</string>
+	<string name="pref_camera_gpu_effect_documentary">دستاویزی</string>
+	<string name="pref_camera_gpu_effect_fishEye">سپاٹ نظر</string>
+	<string name="pref_camera_gpu_effect_tint">رنگت</string>
+	<string name="pref_camera_gpu_effect_crossprocess">Crossprocess</string>
+	<string name="portrait_mode">پورٹریٹ</string>
+	<string name="pref_camera_pref_entry_auto">خوکار</string>
+	<string name="confirm_mode_tip">%1$s ٹیپ موڈ پر سوئچ کرنے کے لیے </string>
+	<string name="focal_switch_scale_tip">ٹیلی فوٹو موڈ کھولنے کے لیے آئیکن پر ٹیپ کریں</string>
+	<string name="front_wide_switch_tip">گروپ سیلفی کو فعال کرنے کے لیے آئیکن پر ٹیپ کریں۔</string>
+	<string name="low_memory_limit">Your system is in low memory, some features limit capture size</string>
+	<string name="portrait_background_blur">پورٹریٹ</string>
+	<string name="portrait_of_face_beauty">چہرے کی خوبصورتی</string>
+	<string name="asd_result_hdr">HDR فعال ہو گیا</string>
+	<string name="toast_face_undetected_at_portrait">2 میٹر کے اندر کوئی چہرہ نہیں ملا</string>
+	<string name="toast_face_undetected_at_sticker">کوئی چہرہ نہیں ملا ۔</string>
+	<string name="toast_view_pic_vivid_at_superpixel">Super Pixel کے ساتھ مزید تفصیلات کیپچر کریں۔</string>
+	<string name="front_face_detected_first_tip">بہتر سیلفیز کے لیے کیمرہ کی طرف دیکھیں</string>
+	<string name="u_screen_selfie_count_down_cancel">منسوخ کریں</string>
+	<string name="video_beauty_switch_on"> آن کریں</string>
+	<string name="video_beauty_switch_off">بند کریں</string>
+	<string name="image_processing_toast">امیج پروسیسنگ</string>
+	<string name="short_video_not_found">یہ ویڈیو نہیں ملی</string><!-- for Android O's CTS--><string name="camera_review_done_desc">ہو گیا</string>
+	<string name="bokeh_mode">پورٹریٹ</string>
+	<string name="toast_dual_camera_bokeh">براہ کرم 2 میٹر کے اندر شوٹنگ جاری رکھیں </string><!-- for qcom slowmotion--><string name="pref_camera_hfr_entry_2x">X2</string>
+	<string name="pref_camera_hfr_entry_3x">X3</string>
+	<string name="pref_camera_hfr_entry_4x">X4</string>
+
+
+
+	<string name="slow_motion_mode">SLO-MO</string>
+
+
+
+	<!-- // Camera fun mode string --><string name="radio_switch_to_fun">Camera Fun</string><!-- Default fun mode setting. -->
+	<string name="pref_camera_fun_title">Fun</string>
+	<string name="pref_camera_sticker_title">اسٹیکر</string>
+	<string name="toast_face_undetected_at_fun">ناقابل شناخت چہرہ</string>
+	<string name="toast_eyes_undetected_at_fun">اثر کا جائزہ لینے کے لیے اپنی آنکھیں جھپکیں</string>
+	<string name="toast_mouth_undetected_at_fun">اثر کا جائزہ لینے کے لیے اپنا منہ کھولیں</string>
+	<string name="toast_short_video_tip">مختصر ویڈیو ریکارڈنگ کے لیے شٹر بٹن کو دیر تک دبائیں</string>
+	<string name="fun_filter_none">فلٹر</string>
+	<string name="fun_filter_lomo">LOMO</string>
+	<string name="fun_filter_elegant">مزین</string>
+	<string name="fun_filter_cyan">سیان</string>
+	<string name="fun_filter_mint">ٹکسال</string>
+	<string name="fun_filter_led">LED</string>
+	<string name="fun_filter_eternal">ابدی</string>
+	<string name="fun_filter_formerly">سابقہ</string>
+	<string name="fun_filter_blue">نیلا</string>
+	<string name="fun_filter_oldbooth">پرانا بوتھ</string>
+	<string name="fun_filter_milkytea">دودھ والی چائے</string>
+	<string name="fun_filter_warm">گرم</string>
+	<string name="fun_filter_norway">ناروے</string>
+	<string name="fun_filter_cool">ٹھنڈا</string>
+	<string name="fun_filter_dew">اوس</string>
+	<string name="fun_filter_youth">جوانی</string>
+	<string name="fun_filter_shy">شرمیلا</string>
+	<string name="fun_filter_jaipur">جے پور</string>
+	<string name="fun_filter_autumn">خزاں</string>
+	<string name="fun_filter_japanese">جاپانی</string>
+	<string name="fun_filter_sweet">میٹھا</string>
+	<string name="fun_filter_warren">وارن</string>
+	<string name="fun_filter_tsukiji">سوکیجی</string>
+	<string name="fun_filter_vivid">شوخ</string>
+	<string name="fun_filter_facingsun">سورج دیکھنا </string>
+	<string name="fun_filter_purple">جامنی</string>
+	<string name="pref_gender_estimate_title">جنس کا تخمینہ</string>
+	<string name="pref_gender_estimate_entry_on"> آن کریں</string>
+	<string name="pref_gender_estimate_entry_off">بند کریں</string>
+	<string name="beauty_guide_top_text">AI خوبصورتی</string>
+	<string name="toast_motion_photo_opened">موشن فوٹو فعال ہو گیا ہے</string>
+	<string name="pref_camera_gpu_effect_vignetting">Vignetting</string><!--add for ai scene detection --><string name="ai_scene_tips_food">کھانا</string>
+	<string name="ai_scene_tips_portrait">پورٹریٹ</string>
+	<string name="ai_scene_tips_foliage">پودا</string>
+	<string name="ai_scene_tips_sky">نیلا آسمان</string>
+	<string name="ai_scene_tips_text">متن</string><!-- add for faceplus asd detection --><string name="faceplus_asd_tips_face">پورٹریٹ</string>
+	<string name="faceplus_asd_tips_food">کھانا</string>
+	<string name="faceplus_asd_tips_fruits">پھل</string>
+	<string name="faceplus_asd_tips_flower">پھول</string>
+	<string name="faceplus_asd_tips_flowersea">پھولوں کا سمندر</string>
+	<string name="faceplus_asd_tips_sandbeach">ریت</string>
+	<string name="faceplus_asd_tips_snow">برف</string>
+	<string name="faceplus_asd_tips_bluesky">آسمان</string>
+	<string name="faceplus_asd_tips_night">رات</string>
+	<string name="faceplus_asd_tips_sunrise">طلوع آفتاب اور غروب آفتاب</string>
+	<string name="faceplus_asd_tips_qr">QR کوڈ</string>
+	<string name="faceplus_asd_tips_businesscard">نام کارڈ</string>
+	<string name="faceplus_asd_tips_whiteboard">وائٹ بورڈ</string>
+	<string name="faceplus_asd_tips_idcard">ID</string>
+	<string name="faceplus_asd_tips_bankcard">کریڈٹ کارڈ</string>
+	<string name="faceplus_asd_tips_cat">بلی</string>
+	<string name="faceplus_asd_tips_dog">کتا</string>
+	<string name="faceplus_asd_tips_meadow">چراگاه</string>
+	<string name="faceplus_asd_tips_plants">پودا</string>
+	<string name="toast_gender_estimate_started">اپنے چہرے کی شکل کے مطابق پیرامیٹرز کو ترتیب دیں</string>
+	<string name="beauty_guide_top_text_description">AI بیوٹی فنکشن کو آن کریں اور اپنے چہرے کی شکل کے مطابق پیرامیٹرز کو ترتیب دیں۔</string>
+	<string name="zoom_guide_title">زوم کرنے کا ایک آسان طریقہ</string>
+	<string name="zoom_guide_content">وسیع زاویہ اور سپر زوم تک رسائی کے لیے اوپر کے آئیکن پر ٹیپ کریں۔ یا زوم ان یا آؤٹ کرنے کے لیے اسکرین پر عمودی طور پر سوائپ کریں</string>
+	<string name="video_recording">ویڈیو ریکارڈنگ</string>
+	<string name="micro_video_guide_content">جب موشن فوٹو آن ہوتا ہے، تو آپ کی ہر تصویر میں شاٹ سے پہلے اور بعد میں ایک مختصر ویڈیو شامل ہو سکتی ہے۔ تصاویر کا اشتراک کرتے وقت ویڈیوز شامل کیے جا سکتے ہیں۔</string>
+	<string name="motion_photo">موشن فوٹو</string>
+	<string name="switch_to_wide_lens_toast">وسیع زاویہ لینز کو فعال کرنا</string>
+	<string name="time_lapse_not_save">ہم آپ کے ٹائم لیپس کو محفوظ نہیں کر سکتے ۔ آپ کا ویڈیو کم از کم %1$d سیکنڈ کا ہونا چاہیے</string>
+	<string name="pref_shutter_speed_title">شٹر سپیڈ</string>
+	<string name="switch_to_wide_lens_landscape_toast">وسیع منظر کے لیے وسیع زاویہ کو ٹیپ کریں </string>
+	<string name="radio_switch_to_dual_bokeh_for_custom">فنکارانہ دھندلا پن</string>
+	<string name="toast_video_recording_in_call_state">کال کے دوران ریکارڈ نہیں کیا جا سکتا</string>
+	<string name="pref_camera_ai_title">AI</string>
+	<string name="toast_video_3dnr_on">ویڈیو نائٹ ویو کو فعال کر دیا گیا</string>
+	<string name="toast_storage_unavailable">SD کارڈ دستیاب نہیں ہے</string>
+	<string name="toast_landscape_open_wide_tips">مزید زمین کی تزئین یا دوستوں کو پکڑنے کے لیے سپر وسیع زاویہ پر سوئچ کریں۔</string>
+	<string name="enable_sd_permission_title">کیمرے کو SD کارڈ تک رسائی کی ضرورت ہے</string>
+	<string name="enable_sd_permission_content">اپنی ترتیبات دیکھیں اور \"SD کارڈ\" میں \"DCIM\" تک رسائی کی اجازت دیں</string>
+	<string name="macro_mode">وسیع</string>
+	<string name="super_macro_tip">فون (1) چیز سے 3–4 سینٹی میٹر دور رکھیں۔</string>
+	<string name="bokeh_offfline_processing">آف لائن بوکیہ ڈیٹا پروسیسنگ…</string>
+	<string name="pref_google_lens">گوگل لینز</string>
+	<string name="never">کبھی نہیں</string>
+	<string name="toast_high_temp_disable_flash">درجہ حرارت بہت زیادہ ہے؛ ٹارچ کو آن نہیں کیا جا سکتا۔</string>
+	<string name="toast_high_temp_shutdown_camera">درجہ حرارت بہت زیادہ ہے، کیمرہ 5 سیکنڈ میں بند ہو جائے گا۔</string>
+
+	<string name="bokeh_type_name">فنکارانہ دھندلا پن</string>
+	<string name="bokeh_type_description">یہ فنکشن آپ کو فنکارانہ دھندلا پن اثر کا استعمال کرتے ہوئے تصویر میں ترمیم کرنے کی اجازت دیتا ہے۔</string>
+	<string name="hdr_type_name">HDR</string>
+	<string name="hdr_type_description">بیک لِٹ ماحول میں مزید تفصیل کا تحفظ</string>
+	<string name="ai_type_name">AI</string>
+	<string name="ai_type_description">AI منظر کا پتہ لگانے کا استعمال کرتے ہوئے پیرامیٹرز خود بخود سیٹ کریں</string>
+	<string name="timelapse_type_name">ٹائم لیپس</string>
+	<string name="timelapse_type_description">مختصر وقت میں تیز رفتار کے ساتھ ایک لمبی ویڈیو دکھائیں</string>
+	<string name="don_t_cover_the_lens">لینز کو نہ ڈھانپیں۔</string>
+	<string name="pref_video_time_lapse_frame_interval_title">وقت وقفہ</string>
+	<string name="toast_qr_code_detected">QR کوڈ کا پتہ چلا۔\nدیکھنے کے لیے ٹیپ کریں ۔</string>
+	<string name="toast_qr_code_detected_type_esim">eSIM پروفائل کا پتہ چلا۔\nای سم کو فعال کرنے کے لیے ٹیپ کریں ۔</string>
+	<string name="toast_qr_code_detected_type_url">QR کوڈ کا پتہ چلا۔\nلنک دیکھنے کے لیے ٹیپ کریں ۔ </string>
+	<string name="toast_qr_code_detected_type_string">QR کوڈ کا پتہ چلا۔\nGoogle میں تلاش کرنے کے لیے ٹیپ کریں۔</string>
+	<string name="toast_bar_code_detected_type_string">بارکوڈ کا پتہ چلا۔\nلنک دیکھنے کے لیے ٹیپ کریں۔</string>
+	<string name="toast_bar_code_detected_type_number">پروڈکٹ بار کوڈ کا پتہ چلا۔\nپروڈکٹ تلاش کرنے کے لیے ٹیپ کریں۔</string>
+	<string name="turn_off_qr_code">QR کوڈ کو بند کریں</string>
+	<string name="pref_video_quality_entry_fine_text">اچھی</string>
+	<string name="pref_video_quality_entry_high_text">زیادہ</string>
+	<string name="pref_exposure_metering_title">ایکسپوزر میٹرنگ</string>
+	<string name="pref_exposure_metering_entry_frame_average">فریم اوسط</string>
+	<string name="pref_exposure_metering_entry_center_weighted">مرکز وزنی</string>
+	<string name="pref_exposure_metering_entry_spot_metering">جگہ کی پیمائش</string>
+	<string name="toast_disable_torch">فلیش کو زیادہ گرم ہونے سے روکنے کے لیے ٹارچ کو غیر فعال کریں</string>
+	<string name="google_location_dialog_title">کیا آپ کیمرہ ایپ کے ذریعے لی گئی تصاویر میں مقام کی معلومات شامل کر سکتے ہیں؟</string>
+	<string name="google_location_dialog_message">اس کا مطلب ہے کہ آپ کی تصاویر اس بارے میں معلومات پر مشتمل ہوں گی کہ وہ کہاں لی گئی تھیں۔</string>
+	<string name="google_location_dialog_message_lear_more">
+		<a href="https://support.google.com/photos/answer/9921876">اورجانیے</a>
+	</string>
+	<string name="google_location_dialog_positive">کیمرے کے مقام کو فعال کریں</string>
+	<string name="image_search_mode">آئٹم کی تلاش</string>
+	<string name="detect_result_title">ایک آئٹم منتخب کریں اور تلاش کے نتائج دیکھیں</string>
+	<string name="search_result_title">اسی طرح کی آئٹمز کے لیے تلاش کے نتائج</string>
+	<string name="search_for_other_items">دیگر آئٹمز تلاش کریں</string>
+	<string name="point_format_string">%1$d پوائنٹس (%2$dx)</string><!--    <string name="price_format_string">%1$s yen</string>--><string name="view_on_rakuten_ichiba">Rakuten Ichiba کی آواز سے دیکھیں</string>
+	<string name="view_all_results_on_rakuten_ichiba">Rakuten Ichiba میں تمام کم آواز دیکھیں</string>
+	<string name="start_new_search">نئی تلاش شروع کریں</string>
+	<string name="network_error">نیٹ ورک خراب ہے۔\براہ کرم اپنا انٹرنیٹ کنکشن چیک کریں اور دوبارہ کوشش کریں</string>
+	<string name="item_not_found">کسی بھی فیشن آئٹم کا پتہ لگانے سے قاصر ہے</string>
+	<string name="cropped_item_not_found">براہ کرم تلاش کے علاقے کا سائز دوبارہ ترتیب دیں</string>
+	<string name="cropped_item_not_found_btn_text">تلاش کے علاقے کو دوبارہ ترتیب دیں</string>
+	<string name="searching">تلاش جاری ہے…</string>
+	<string name="image_search_tip">تلاش کرنے کے لیے تصویر لیں یا تصویر منتخب کریں۔</string>
+	<string name="image_search_processing">تلاش جاری ہے…</string>
+	<string name="move_and_resize_tip">تلاش کرنے کے لیے فریم کو کسی بھی علاقے میں منتقل کریں۔\nفریم کا سائز ترتیب کرنے کے لیے کونوں کو کھینچیں۔</string>
+	<string name="new_feature_image_search_guide_title">نئی سہولت</string>
+	<string name="new_feature_image_search_guide_title_extra" translatable="false" />
+	<string name="new_feature_image_search_guide_content">اب آپ تصویر لے سکتے ہیں اور Rakuten Ichiba پر آئٹمز تلاش کر سکتے ہیں</string>
+	<string name="item_search_guide_title">آئٹم کی تلاش کیا ہے؟</string>
+	<string name="item_search_guide_content_p1">اپنے کیمرے سے تصاویر لے کر Rakuten Ichiba پر آئٹمز تلاش کریں۔</string>
+	<string name="item_search_guide_content_p2">(اس وقت آئٹم کی تلاش کے لیے صرف فیشن کی آئٹم دستیاب ہیں۔)</string>
+	<string name="feedback_title">تاثرات</string>
+	<string name="feedback_content">کیا یہ نتائج مفید ہیں؟</string>
+	<string name="feedback_action">رائے دیں</string>
+	<string name="feedback_send">بھیجیں</string>
+	<string name="feedback_response">آپ کی قیمتی آراء کا شکریہ۔</string>
+	<string name="terms_of_use_title">استعمال کرنے کی شرائط</string>
+	<string name="privacy_title">رازداری کی پالیسی</string>
+	<string name="free_shipping">مفت ترسیل</string>
+	<string name="terms_of_use_agree">مجھے استعمال کی شرائط منظور ہیں.</string>
+	<string name="start_to_use">تصویر کی تلاش</string>
+	<string name="terms_of_use_content">استعمال کی شرائط یہ ہیں</string>
+	<string name="try_again_tips">اپنی پسند کی کوئی چیز نہیں ملی؟ مختلف نتائج حاصل کرنے کے لیے نئی تلاش کی کوشش کریں۔</string>
+	<string name="yen">ین</string>
+	<string name="pref_video_fps">FPS</string>
+	<string name="pref_video_encoder">انکوڈر</string>
+	<string name="more">مزید</string>
+	<string name="panorama_night_mode">پینوراما رات</string>
+	<string name="long_press_shutter_button">شٹرکو طویل دبائیں</string>
+	<string name="continuous_shot_entry">مسلسل شاٹ</string>
+
+
+	<string name="pref_camera_wb_temp_title">رنگ کا درجہ حرارت</string>
+
+	<string name="pref_camera_entry_off">بند کریں</string>
+	<string name="pref_camera_whitebalance_entry_custom">اپنی مرضی کے</string>
+	<string name="pref_camera_entry_on"> آن کریں</string>
+
+	<string name="pref_video_night_title">رات کی ویڈیو</string>
+	<string name="video_ois_title">OIS</string>
+	<string name="pref_photo_mfnr_title">MFNR</string>
+	<string name="remosaic_mode">Remosaic</string>
+
+	<string name="pref_high_definition_title">اعلی معیار</string>
+	<string name="pref_pro_raw_title">اعلی معیار</string>
+</resources>

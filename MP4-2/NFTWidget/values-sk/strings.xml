@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="nft_loading_tips">Sťahovanie údajov.</string>
+    <string name="nft_loading_tips_second">Tento proces môže chvíľu trvať.</string>
+
+</resources>

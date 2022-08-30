@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nt_navigation_back_button_left_side">왼쪽의 뒤로 버튼</string>
+    <string name="nt_navigation_back_button_right_side">오른쪽의 뒤로 버튼</string>
+    <string name="nt_navigation_config_title">버튼 레이아웃</string>
+    <string name="nt_glyphs_charging_features">장치가 연결되었을 경우 충전 진행률을 표시하거나 충전 중에 장치를 흔듭니다.</string>
+    <string name="nt_screen_refresh_rate_high_summary">부드러운 스크롤 및 애니메이션을 위한 최대 120Hz의 동적 재생 빈도.</string>
+    <string name="nt_screen_refresh_rate_standard_summary">배터리 사용시간을 연장하는 60Hz의 고정 재생 빈도.</string>
+	
+	<!-- translate to other languages -->
+	<string name="nt_glyphs_flip_title">Glyph로 뒤집기</string>
+    <string name="nt_glyphs_flip_to_glyph_title">Glyph로 뒤집기</string>
+    <string name="nt_use_filp_to_glyph">Glyph로 뒤집기 사용</string>
+	
+</resources>

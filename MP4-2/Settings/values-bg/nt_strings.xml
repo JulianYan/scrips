@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nt_navigation_back_button_left_side">Заден бутон отляво</string>
+    <string name="nt_navigation_back_button_right_side">Заден бутон отдясно</string>
+    <string name="nt_navigation_config_title">Разположение на бутоните</string>
+    <string name="nt_glyphs_charging_features">Изведете на дисплея напредъка на зареждането, когато устройството е включено в контакта или разклатете устройството по време на зареждане.</string>
+    <string name="nt_screen_refresh_rate_high_summary">Динамична честота на опресняване до 120 Hz за по-плавно превъртане и анимации.</string>
+    <string name="nt_screen_refresh_rate_standard_summary">Фиксирана честота на опресняване 60 Hz за по-дълъг живот на батерията.</string>
+	
+	<!-- translate to other languages -->
+	<string name="nt_glyphs_flip_title">Обърнете на Glyph</string>
+    <string name="nt_glyphs_flip_to_glyph_title">Обърнете на Glyph</string>
+    <string name="nt_use_filp_to_glyph">Използвайте Обърнете на Glyph</string>
+	
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="battery_suggestion_summary">ਅਨੁਕੂਲਿਤ ਬੈਟਰੀ ਚਾਲੂ ਕਰੋ</string>
+    <string name="smart_battery_manager_title">ਅਨੁਕੂਲਿਤ ਬੈਟਰੀ</string>
+    <string name="smart_battery_footer">ਬੈਟਰੀ ਦੀ ਮਿਆਦ ਵਧਾਉਣ ਲਈ, ਅਨੁਕੂਲਿਤ ਬੈਟਰੀ ਘੱਟ ਵਰਤੋਂ ਵਾਲੀਆਂ ਐਪਸ ਲਈ ਬੈਟਰੀ ਵਰਤੋਂ ਨੂੰ ਸੀਮਿਤ ਕਰਦੀ ਹੈ। ਤੁਹਾਡਾ ਫੋਨ ਸਿੱਖੇਗਾ ਕਿ ਕਿਵੇਂ ਸਮੇਂ ਨਾਲ ਐਪਸ ਵਰਤਣੀਆਂ ਹਨ। \n\nਇਹਨਾਂ ਐਪਸ ਲਈ ਨੋਟੀਫਿਕੇਸ਼ਨ ਵਿੱਚ ਦੇਰੀ ਹੋ ਸਕਦੀ ਹੈ।</string>
+    <string name="smart_battery_footer" product="tablet">ਬੈਟਰੀ ਦੀ ਮਿਆਦ ਵਧਾਉਣ ਲਈ, ਅਨੁਕੂਲਿਤ ਬੈਟਰੀ ਘੱਟ ਵਰਤੋਂ ਵਾਲੀਆਂ ਐਪਸ ਲਈ ਬੈਟਰੀ ਵਰਤੋਂ ਨੂੰ ਸੀਮਿਤ ਕਰਦੀ ਹੈ। ਤੁਹਾਡਾ ਟੈਬਲੇਟ ਸਿੱਖੇਗਾ ਕਿ ਕਿਵੇਂ ਸਮੇਂ ਨਾਲ ਐਪਸ ਵਰਤਣੀਆਂ ਹਨ। \n\nਇਹਨਾਂ ਐਪਸ ਲਈ ਨੋਟੀਫਿਕੇਸ਼ਨ ਵਿੱਚ ਦੇਰੀ ਹੋ ਸਕਦੀ ਹੈ।</string>
+    <string name="smart_battery_footer" product="device">ਬੈਟਰੀ ਦੀ ਮਿਆਦ ਵਧਾਉਣ ਲਈ, ਅਨੁਕੂਲਿਤ ਬੈਟਰੀ ਘੱਟ ਵਰਤੋਂ ਵਾਲੀਆਂ ਐਪਸ ਲਈ ਬੈਟਰੀ ਵਰਤੋਂ ਨੂੰ ਸੀਮਿਤ ਕਰਦੀ ਹੈ। ਤੁਹਾਡਾ ਡਿਵਾਈਸ ਸਿੱਖੇਗਾ ਕਿ ਕਿਵੇਂ ਸਮੇਂ ਨਾਲ ਐਪਸ ਵਰਤਣੀਆਂ ਹਨ। \n\nਇਹਨਾਂ ਐਪਸ ਲਈ ਨੋਟੀਫਿਕੇਸ਼ਨ ਵਿੱਚ ਦੇਰੀ ਹੋ ਸਕਦੀ ਹੈ।</string>
+    <string name="smart_battery_title">ਅਨੁਕੂਲਿਤ ਬੈਟਰੀ ਵਰਤੋ</string>
+    <string name="battery_tip_smart_battery_summary">ਅਨੁਕੂਲਿਤ ਬੈਟਰੀ ਚਾਲੂ ਕਰੋ</string>
+    <string name="nt_color_temperature">ਰੰਗ ਦਾ ਤਾਪਮਾਨ</string>
+    <string name="warmer">ਨਿੱਘਾ</string>
+    <string name="colder">ਠੰਡਾ</string>
+	        <!-- Mobile network settings screen, title of item showing the name of the default subscription
+    that will be used for data. This only appears in multi-SIM mode. [CHAR LIMIT=NONE] -->
+    <string name="data_preference">ਡੇਟਾ ਤਰਜੀਹ</string>
+	<string name="vibrating_for_outgoing_call_accepted_summary">ਕੀਤੀਆਂ ਕਾਲਾਂ ਦੀ ਸਵੀਕ੍ਰਿਤੀ  ਲਈ ਵਾਇਬ੍ਰੇਟਿੰਗ ਮੋਡ ਚਾਲੂ ਕਰੋ</string>
+</resources>

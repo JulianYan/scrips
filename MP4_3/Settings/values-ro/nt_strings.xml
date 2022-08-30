@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="battery_suggestion_summary">Porniți Bateria adaptivă</string>
+    <string name="smart_battery_manager_title">Baterie adaptivă</string>
+    <string name="smart_battery_footer">Pentru a extinde durata de viață a bateriei, Bateria adaptivă limitează utilizarea bateriei pentru aplicațiile care nu sunt utilizate frecvent. Pe parcursul timpului, telefonul dvs. va învăța modul în care utilizați aplicațiile. \n\nNotificările pot fi întârziate pentru aceste aplicații.</string>
+    <string name="smart_battery_footer" product="tablet">Pentru a extinde durata de viață a bateriei, Bateria adaptivă limitează utilizarea bateriei pentru aplicațiile care nu sunt utilizate frecvent. Pe parcursul timpului, tableta dvs. va învăța modul în care utilizați aplicațiile. \n\nNotificările pot fi întârziate pentru aceste aplicații.</string>
+    <string name="smart_battery_footer" product="device">Pentru a extinde durata de viață a bateriei, Bateria adaptivă limitează utilizarea bateriei pentru aplicațiile care nu sunt utilizate frecvent. Pe parcursul timpului, dispozitivul dvs. va învăța modul în care utilizați aplicațiile. \n\nNotificările pot fi întârziate pentru aceste aplicații.</string>
+    <string name="smart_battery_title">Utilizați Bateria adaptivă</string>
+    <string name="battery_tip_smart_battery_summary">Porniți Bateria adaptivă</string>
+    <string name="nt_color_temperature">Temperatura culorii</string>
+    <string name="warmer">Cald</string>
+    <string name="colder">Rece</string>
+	        <!-- Mobile network settings screen, title of item showing the name of the default subscription
+    that will be used for data. This only appears in multi-SIM mode. [CHAR LIMIT=NONE] -->
+    <string name="data_preference">Preferință date</string>
+	<string name="vibrating_for_outgoing_call_accepted_summary">Activați modul vibrație la acceptarea apelului efectuat</string>
+</resources>

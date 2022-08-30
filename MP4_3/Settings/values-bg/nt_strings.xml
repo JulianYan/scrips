@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="battery_suggestion_summary">Включване на Адаптивна батерия</string>
+    <string name="smart_battery_manager_title">Адаптивна батерия</string>
+    <string name="smart_battery_footer">За удължаване живота на батерията, Адаптивна батерия ограничава използването на батерията за приложения, които не се използват често. С времето Вашият телефон ще разбере как използвате приложенията. \n\nИзвестията за тези приложения може да бъдат забавени.</string>
+    <string name="smart_battery_footer" product="tablet">За удължаване живота на батерията, Адаптивна батерия ограничава използването на батерията за приложения, които не се използват често. С времето Вашият таблет ще разбере как използвате приложенията. \n\nИзвестията за тези приложения може да бъдат забавени.</string>
+    <string name="smart_battery_footer" product="device">За удължаване живота на батерията, Адаптивна батерия ограничава използването на батерията за приложения, които не се използват често. С времето Вашето устройство ще разбере как използвате приложенията. \n\nИзвестията за тези приложения може да бъдат забавени.</string>
+    <string name="smart_battery_title">Използване на Адаптивна батерия</string>
+    <string name="battery_tip_smart_battery_summary">Включване на Адаптивна батерия</string>
+    <string name="nt_color_temperature">Цветна температура</string>
+    <string name="warmer">Топло</string>
+    <string name="colder">Хладно</string>
+	        <!-- Mobile network settings screen, title of item showing the name of the default subscription
+    that will be used for data. This only appears in multi-SIM mode. [CHAR LIMIT=NONE] -->
+    <string name="data_preference">Предпочитание за данни</string>
+	<string name="vibrating_for_outgoing_call_accepted_summary">Прието включването на режим с вибриране за изходящите разговори</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_watermark">ವಾಟರ್‌ಮಾರ್ಕ್‌</string>
+    <string name="settings_model_watermark">ಮಾದರಿ ವಾಟರ್‌ಮಾರ್ಕ್‌</string>
+    <string name="settings_time_watermark">ಟೈಮ್‌ ವಾಟರ್‌ಮಾರ್ಕ್‌</string>
+</resources>

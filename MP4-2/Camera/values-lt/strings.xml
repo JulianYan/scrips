@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_watermark">Vandens ženklas</string>
+    <string name="settings_model_watermark">Modelio vandens ženklas</string>
+    <string name="settings_time_watermark">Laiko vandens ženklas</string>
+</resources>

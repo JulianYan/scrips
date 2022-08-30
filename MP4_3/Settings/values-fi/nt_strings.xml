@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="battery_suggestion_summary">Kytke adaptiivinen akku päälle</string>
+    <string name="smart_battery_manager_title">Adaptiivinen akku</string>
+    <string name="smart_battery_footer">Adaptiivinen akku pyrkii pidentämään akunkestoa rajoittamalla harvoin käytettyjen sovellusten akunkäyttöä. Puhelin oppii ajan mittaan, miten käytät sovelluksia. \n\nNäiden sovellusten ilmoitukset saattavat viivästyä.</string>
+    <string name="smart_battery_footer" product="tablet">Adaptiivinen akku pyrkii pidentämään akunkestoa rajoittamalla harvoin käytettyjen sovellusten akunkäyttöä. Tabletti oppii ajan mittaan, miten käytät sovelluksia. \n\nNäiden sovellusten ilmoitukset saattavat viivästyä.</string>
+    <string name="smart_battery_footer" product="device">Adaptiivinen akku pyrkii pidentämään akunkestoa rajoittamalla harvoin käytettyjen sovellusten akunkäyttöä. Laite oppii ajan mittaan, miten käytät sovelluksia. \n\nNäiden sovellusten ilmoitukset saattavat viivästyä.</string>
+    <string name="smart_battery_title">Käytä adaptiivista akkua</string>
+    <string name="battery_tip_smart_battery_summary">Kytke adaptiivinen akku päälle</string>
+    <string name="nt_color_temperature">Värilämpötila</string>
+    <string name="warmer">Lämmin</string>
+    <string name="colder">Viileä</string>
+	        <!-- Mobile network settings screen, title of item showing the name of the default subscription
+    that will be used for data. This only appears in multi-SIM mode. [CHAR LIMIT=NONE] -->
+    <string name="data_preference">Ensisijainen datayhteys</string>
+	<string name="vibrating_for_outgoing_call_accepted_summary">Ota värinätila käyttöön vastatuille lähteville puheluille</string>
+</resources>

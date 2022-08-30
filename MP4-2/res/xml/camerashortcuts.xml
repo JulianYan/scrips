@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_back_video"
+        android:shortcutDisabledMessage="@string/shutcauts_backvideo"
+        android:shortcutId="backvideo"
+        android:shortcutLongLabel="@string/shutcauts_backvideo"
+        android:shortcutShortLabel="@string/shutcauts_backvideo">
+        <intent
+            android:action="android.media.action.SHORTCUT_CAMERA"
+            android:targetClass="com.nothing.camera.activity.CameraShortCutActivity"
+            android:targetPackage="com.nothing.camera">
+            <extra
+                android:name="android.intent.extras.CAMERA_FACING"
+                android:value="0" />
+            <extra
+                android:name="android.intent.extras.CAMERA_SUB_MODE"
+                android:value="video" />
+        </intent>
+    </shortcut>
+
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_portrait_camera"
+        android:shortcutDisabledMessage="@string/shutcauts_portrait_camera"
+        android:shortcutId="portraitcamera"
+        android:shortcutLongLabel="@string/shutcauts_portrait_camera"
+        android:shortcutShortLabel="@string/shutcauts_portrait_camera">
+        <intent
+            android:action="android.media.action.SHORTCUT_CAMERA"
+            android:targetClass="com.nothing.camera.activity.CameraShortCutActivity"
+            android:targetPackage="com.nothing.camera">
+            <extra
+                android:name="android.intent.extras.CAMERA_FACING"
+                android:value="0" />
+            <extra
+                android:name="android.intent.extras.CAMERA_SUB_MODE"
+                android:value="bokeh" />
+        </intent>
+    </shortcut>
+
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_macro_camera"
+        android:shortcutDisabledMessage="@string/shutcauts_macro_camera"
+        android:shortcutId="macrocamera"
+        android:shortcutLongLabel="@string/shutcauts_macro_camera"
+        android:shortcutShortLabel="@string/shutcauts_macro_camera">
+        <intent
+            android:action="android.media.action.SHORTCUT_CAMERA"
+            android:targetClass="com.nothing.camera.activity.CameraShortCutActivity"
+            android:targetPackage="com.nothing.camera">
+            <extra
+                android:name="android.intent.extras.CAMERA_FACING"
+                android:value="0" />
+            <extra
+                android:name="android.intent.extras.CAMERA_SUB_MODE"
+                android:value="macro" />
+        </intent>
+
+    </shortcut>
+
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_selfie_photo"
+        android:shortcutDisabledMessage="@string/shutcauts_frontcamera"
+        android:shortcutId="selfiephoto"
+        android:shortcutLongLabel="@string/shutcauts_frontcamera"
+        android:shortcutShortLabel="@string/shutcauts_frontcamera">
+        <intent
+            android:action="android.media.action.SHORTCUT_CAMERA"
+            android:targetClass="com.nothing.camera.activity.CameraShortCutActivity"
+            android:targetPackage="com.nothing.camera">
+            <extra
+                android:name="android.intent.extras.CAMERA_FACING"
+                android:value="1" />
+        </intent>
+
+    </shortcut>
+    <!-- more shortcuts can go here -->
+</shortcuts>

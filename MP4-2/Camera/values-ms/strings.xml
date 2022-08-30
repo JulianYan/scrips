@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_watermark">Tera air</string>
+    <string name="settings_model_watermark">Tera air model</string>
+    <string name="settings_time_watermark">Tera air masa</string>
+</resources>

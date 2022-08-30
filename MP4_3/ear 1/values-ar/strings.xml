@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="disconnect">انقطع الاتصال</string>
+    <string name="anc_personalised_title">تخصيص ANC</string>
+    <string name="control_double_tap_hold">انقر نقرًا مزدوجًا مع الاستمرار</string>
+
+</resources>

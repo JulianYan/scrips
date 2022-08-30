@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="disconnect">Desconectado</string>
+    <string name="anc_personalised_title">ANC personalizable</string>
+    <string name="control_double_tap_hold">Tocar dos veces y mantener presionado</string>
+
+</resources>

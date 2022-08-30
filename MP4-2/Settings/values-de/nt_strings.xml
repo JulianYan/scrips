@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nt_navigation_back_button_left_side">Zurück-Taste auf der linken Seite</string>
+    <string name="nt_navigation_back_button_right_side">Zurück-Taste auf der rechten Seite</string>
+    <string name="nt_navigation_config_title">Tasten-Layout</string>
+    <string name="nt_glyphs_charging_features">Zeigt den Ladefortschritt an, wenn das Gerät angeschlossen ist bzw. schütteln Sie während des Ladevorgangs das Gerät.</string>
+    <string name="nt_screen_refresh_rate_high_summary">Eine dynamische Bildwiederholfrequenz von bis zu 120 Hz für flüssigere Bildläufe und Animationen.</string>
+    <string name="nt_screen_refresh_rate_standard_summary">Eine feste Bildwiederholfrequenz von 60 Hz sorgt für eine längere Akkulaufzeit.</string>
+	
+	<!-- translate to other languages -->
+	<string name="nt_glyphs_flip_title">Umdrehen für Glyph</string>
+    <string name="nt_glyphs_flip_to_glyph_title">Umdrehen für Glyph</string>
+    <string name="nt_use_filp_to_glyph">Umdrehen für Glyph verwenden</string>
+	
+</resources>

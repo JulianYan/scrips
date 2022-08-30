@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_watermark">Vandmærke</string>
+    <string name="settings_model_watermark">Vandmærke med visning af model</string>
+    <string name="settings_time_watermark">Vandmærke med visning af klokkeslet</string>
+</resources>

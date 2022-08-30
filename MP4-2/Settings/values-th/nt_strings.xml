@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nt_navigation_back_button_left_side">ปุ่มย้อนกลับที่ด้านซ้าย</string>
+    <string name="nt_navigation_back_button_right_side">ปุ่มย้อนกลับที่ด้านขวา</string>
+    <string name="nt_navigation_config_title">ผังจัดวางตำแหน่งปุ่ม</string>
+    <string name="nt_glyphs_charging_features">แสดงความคืบหน้าการชาร์จเมื่อเสียบปลั๊กเข้ากับตัวอุปกรณ์หรือขยับอุปกรณ์ไปมาระหว่างชาร์จ</string>
+    <string name="nt_screen_refresh_rate_high_summary">อัตราการรีเฟรชแบบไม่คงที่สูงถึง 120 Hz เพื่อการเลื่อนและการแสดงภาพเคลื่อนไหวที่ราบรื่นยิ่งขึ้น</string>
+    <string name="nt_screen_refresh_rate_standard_summary">อัตราการรีเฟรชแบบคงที่ 60 Hz เพื่อการประหยัดแบตเตอรี่ที่ดีกว่า </string>
+	
+	<!-- translate to other languages -->
+	<string name="nt_glyphs_flip_title">พลิกไปยัง Glyph</string>
+    <string name="nt_glyphs_flip_to_glyph_title">พลิกไปยัง Glyph</string>
+    <string name="nt_use_filp_to_glyph">ใช้พลิกไปยัง Glyph</string>
+	
+</resources>

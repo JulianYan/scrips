@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="battery_suggestion_summary">Vklopite prilagoditveno baterijo</string>
+    <string name="smart_battery_manager_title">Prilagoditvena baterija</string>
+    <string name="smart_battery_footer">Da bi podaljšala življenje baterije, prilagoditvena baterija omejuje uporabo aplikacij, katerih ne uporabljate pogosto. Vaš telefon se bo sčasoma naučil, kako uporabljate aplikacije. \n\nZa te aplikacije bodo morda obvestila zapoznela.</string>
+    <string name="smart_battery_footer" product="tablet">Da bi podaljšala življenje baterije, prilagoditvena baterija omejuje uporabo aplikacij, katerih ne uporabljate pogosto. Vaš tablični računalnik se bo sčasoma naučil, kako uporabljate aplikacije. \n\nZa te aplikacije bodo morda obvestila zapoznela.</string>
+    <string name="smart_battery_footer" product="device">Da bi podaljšala življenje baterije, prilagoditvena baterija omejuje uporabo aplikacij, katerih ne uporabljate pogosto. Vaša naprava se bo sčasoma naučila, kako uporabljate aplikacije. \n\nZa te aplikacije bodo morda obvestila zapoznela.</string>
+    <string name="smart_battery_title">Uporabite prilagoditveno baterijo</string>
+    <string name="battery_tip_smart_battery_summary">Vklopite prilagoditveno baterijo</string>
+    <string name="nt_color_temperature">Temperatura barve</string>
+    <string name="warmer">Tople</string>
+    <string name="colder">Hladne</string>
+	        <!-- Mobile network settings screen, title of item showing the name of the default subscription
+    that will be used for data. This only appears in multi-SIM mode. [CHAR LIMIT=NONE] -->
+    <string name="data_preference">Izbira glede podatkov</string>
+	<string name="vibrating_for_outgoing_call_accepted_summary">Omogoči vibriranje ob sprejetju klica s strani osebe, ki jo kličete</string>
+</resources>

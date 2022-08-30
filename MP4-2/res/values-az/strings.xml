@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources><!-- Confirmation dialog when restoring settings --><string name="confirm_restore_message">Standart kamera parametrlərini bərpa etmək istəyirsinizmi?</string>
+	<string name="pref_camera_module_title">Kamera rejimi</string><!-- Settings screen, camera selection dialog title. Users can select a camera from the phone (front-facing or back-facing). [CHAR LIMIT=20] --><string name="pref_camera_id_title">Kameranı dəyiş</string>
+	<!-- In select camera setting, back facing camera. [CHAR LIMIT=14] --><string name="pref_camera_id_entry_back">Geri</string><!-- In select camera setting, front-facing camera. [CHAR LIMIT=14] --><string name="pref_camera_id_entry_front">Ön</string><!-- Settings screen, Record location dialog choices --><string name="pref_camera_recordlocation_entry_off">Qapalı</string>
+	<string name="pref_camera_recordlocation_entry_on">Açıq</string><!-- The Video quality settings in preference [CHAR LIMIT=21] --><string name="pref_video_quality_title">Video keyfiyyəti</string>
+	<string name="pref_video_stabilization_title">Video tarazlaşdırma</string>
+	<string name="pref_video_3dnr_title">Video 3DNR</string><!-- The Video timelapse settings in preference [CHAR LIMIT=21] --><string name="pref_video_timelapse_title">Video Timelapse</string>
+	<string name="pref_video_autozoom_title">Video avtomatik yaxınlaşdırma</string>
+	<string name="video_mode">Video</string>
+	<string name="guide_auto_zoom_title">Avtomatik yaxınlaşdırma</string>
+	<string name="guide_auto_zoom_rules">Çəkiliş zamanı ekranda dairə çəkərək müəyyən bir obyekti izləyə və iki dəfə vurmaqla dayandıra bilərsiniz</string>
+	<string name="toast_auto_zoom_not_activated">Avtomatik yaxınlaşdırma aktivləşdirilməyib</string><!-- Default flash mode setting. -->
+	<!-- Settings screen, Flash mode title --><string name="pref_camera_flashmode_title">Fleş rejimi</string>
+	<string name="pref_screenflash_title">Fleşi göstər</string><!-- Settings screen, Flash mode dialog radio button choices --><string name="pref_camera_flashmode_entry_auto">Avto</string>
+	<string name="pref_camera_flashmode_entry_on">Açıq</string>
+	<string name="pref_camera_flashmode_entry_off">Qapalı</string>
+	<string name="pref_camera_flashmode_entry_torch">Fənər</string><!-- Default white balance setting. --><!-- Settings screen, white balance title --><string name="pref_camera_whitebalance_title">AWB</string><!-- Settings screen, White balance dialog radio button choices --><string name="pref_camera_whitebalance_entry_auto">Avto</string>
+	<string name="pref_camera_whitebalance_entry_incandescent">Parlayan</string>
+	<string name="pref_camera_whitebalance_entry_daylight">Gün işığı</string>
+	<string name="pref_camera_whitebalance_entry_fluorescent">Flüoresan</string>
+	<string name="pref_camera_whitebalance_entry_cloudy">Buludlu</string>
+
+
+
+
+	<!-- Default scene mode setting. -->
+
+	<string name="pref_camera_scene_frame_title">Ekran çərçivəsi</string><!-- Settings screen, Select Scene mode --><string name="pref_camera_scenemode_title">Ekran rejimi</string>
+	<string name="pref_hdr_title">HDR</string>
+	<string name="pref_motion_photo_title">Hərəkət</string><!-- Settings menu, scene mode choices --><string name="pref_camera_scenemode_entry_auto">Avto</string>
+	<string name="pref_camera_scenemode_entry_night">Gecə</string><!-- Scene mode optimized for taking images in the sunset. --><string name="pref_camera_scenemode_entry_sunset">Qürub</string><!-- Scene mode optimized for taking indoor low-lights pictures. [CHAR LIMIT=16] --><string name="pref_camera_scenemode_entry_party">Şənlik</string>
+	<string name="pref_restore_detail">Standartları bərpa et</string><!-- Exposure settings in preference --><string name="pref_exposure_title">EV</string>
+	<string name="sugar_face_beauty_custom">Şəxsi</string>
+	<string name="sugar_eyes_beauty">Gözlər</string>
+	<string name="sugar_face_thin">İti</string>
+	<string name="sugar_skin_smooth">Hamar</string>
+	<string name="adjust_progress">+%s</string>
+	<string name="face_beauty_custom_skin_info">Qabıq</string>
+	<string name="face_beauty_custom_eyes_info">Gözlər</string>
+	<string name="face_beauty_custom_thin_info">İncə</string>
+	<string name="face_beauty_custom_rosy_info">Çəhrayı</string>
+	<string name="face_beauty_custom_whitening_info">Ağartma</string>
+	<string name="portrait_custom_info">Bulanıq</string>
+
+	<string name="pref_camera_volume_key_title">Səs düymələri</string>
+	<string name="pref_camera_volume_key_shoot">Çək</string>
+	<string name="pref_camera_volume_key_zoom">Yaxınlaşdır</string>
+	<string name="pref_camera_volume_key_volume">Səs</string>
+
+
+	<string name="photo_incapture">Şəkil çəkilişi</string>
+
+	<string name="toast_location_started">Yer işə salındı</string>
+	<string name="toast_location_success">Yer uğurludur</string>
+	<string name="toast_device_denayed">Cihaz əlçatan deyil</string>
+	<string name="toast_device_connect_failed">Cihazla əlaqə uğursuz oldu</string>
+	<string name="toast_start_preview_failed">Önbaxışın işə salınması uğursuz oldu</string>
+	<string name="toast_storage_full">Yaddaş doludur</string>
+	<string name="toast_low_power_disable_flash">Batareya azdır, fənəri yandırmaq mümkün deyil.</string>
+	<string name="toast_video_size_max">Videonun ölçüsü son həddə çatdı.</string>
+	<string name="toast_continue_snap_max">Davamlı çəkilişlərin sayı son həddə çatdı.</string>
+	<string name="toast_video_error">Cari vəziyyətdə video çəkmək mümkün deyil</string>
+	<string name="toast_video_start_fail">Mikrofon istifadə edilir və yazmaq üçün istifadə etmək mümkün deyil</string>
+	<string name="toast_video_init_size_error">Videonun ölçüsü son həddə qədər azaldıldı.</string>
+	<string name="toast_long_press_unavilable">Davamlı çəkiliş dəstəklənmir.</string>
+	<string name="toast_continuous_shot_off">Davamlı çəkiliş mümkün deyil.</string>
+	<string name="toast_thumbnail_empty">Foto yoxdur</string>
+	<string name="toast_clearsight_success">ClearSight çəkilişi uğurludur</string>
+	<string name="toast_clearsight_failed">ClearSight çəkilişi uğursuzdur</string>
+	<string name="toast_auto_zoom">Avtomatik yaxınlaşdırma aktivləşdirildi</string>
+	<string name="toast_video_stabilization">Tarazlayıcı aktivləşdirildi</string>
+	<string name="guide_top">Kameranı dəyişmək üçün yuxarı və ya aşağı sürüşdürün.</string>
+	<string name="guide_right">Parametrləri təyin etmək üçün sağa sürüşdürün.</string>
+	<string name="guide_left">Rejimləri təyin etmək üçün sola sürüşdürün.</string>
+	<string name="voice_on_tips">\"Çəkiliş\" və ya \"Pendir\” deyin</string>
+	<string name="toast_steady_capture">Çəkiliş zamanı telefonu hərəkət etdirməyin.</string>
+	<string name="toast_dual_camera_opened">İkili kamera açıldı</string>
+	<string name="toast_dual_camera_closed">İkili kamera bağlandı</string><!-- Pref -->
+
+
+
+
+
+
+
+
+
+	<string name="pref_video_quality_entry_full">Tam</string>
+
+	<string name="pref_video_stabilization_entry_on">Açıq</string>
+	<string name="pref_video_stabilization_entry_off">Qapalı</string>
+	<string name="pref_video_stabilization_entry_standard">Standart</string>
+	<string name="pref_video_stabilization_entry_super">Super</string>
+	<string name="pref_video_3dnr_entry_on">Açıq</string>
+	<string name="pref_video_3dnr_entry_off">Qapalı</string>
+	<string name="pref_video_autozoom_entry_on">Açıq</string>
+	<string name="pref_video_autozoom_entry_off">Qapalı</string>
+	<string name="pref_camera_picturesize_title">Picture Size</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<string name="pref_camera_picture_aspect_ratio_title">Şəkil çərçivə nisbəti</string>
+
+
+
+
+
+
+
+
+	<string name="pref_camera_picturesize_entry_16_9">Tam ekran</string>
+	<string name="pref_camera_picturesize_entry_4_3">Normal</string>
+	<string name="pref_camera_picturesize_entry_1_1">Düzbucaqlı</string><!-- ISO -->
+
+	<string name="manual_focus_title">M Fokus</string><!--  --><string name="pref_camera_edge_title">İtilik</string>
+
+	<string name="pref_camera_hue_title">Ton</string><!--  --><string name="pref_camera_saturation_title">Saturasiya</string>
+
+	<string name="pref_camera_brightness_title">Parlaqlıq</string>
+
+	<string name="pref_camera_contrast_title">Kontrast</string>
+	<string name="pref_camera_dip_entry_low">Aşağı</string>
+	<string name="pref_camera_dip_entry_middle">Orta</string>
+	<string name="pref_camera_dip_entry_high">Yüksək</string><!-- color effect --><!-- Settings screen, Select Color effect title --><string name="pref_camera_coloreffect_title">Rəng effekti</string><!-- Settings screen, Color effect dialog radio button choices --><string name="pref_camera_coloreffect_entry_none">Heç biri</string>
+	<string name="pref_camera_coloreffect_entry_mono">Mono</string>
+	<string name="pref_camera_coloreffect_entry_sepia">Sepiya</string>
+	<string name="pref_camera_coloreffect_entry_negative">Neqativ</string><!-- Color effect that overexposes and reverses some of the tones. --><string name="pref_camera_coloreffect_entry_solarize">Solarizasiya</string>
+	<string name="pref_camera_coloreffect_entry_posterize">Plakat tərzi vermək</string>
+	<string name="pref_camera_coloreffect_entry_whiteboard">Ağ lövhə</string>
+	<string name="pref_camera_coloreffect_entry_blackboard">Qara lövhə</string>
+	<string name="pref_camera_coloreffect_entry_aqua">Su</string>
+	<string name="pref_camera_coloreffect_entry_pastel">Pastel</string>
+	<string name="pref_camera_coloreffect_entry_mosaic">Mozaika</string>
+	<string name="pref_camera_coloreffect_entry_redtint">Qırmızı ton</string>
+	<string name="pref_camera_coloreffect_entry_bluetint">Mavi ton</string>
+	<string name="pref_camera_coloreffect_entry_greentint">Yaşıl ton</string>
+	<string name="pref_camera_coloreffect_entry_sepiablue">Sepiya mavi</string>
+	<string name="pref_camera_coloreffect_entry_sepiagreen">Sepiya yaşıl</string><!-- self timer -->
+	<string name="pref_camera_selftimer_title">Avtomatik taymer</string>
+	<string name="pref_camera_selftimer_entry_off">Qapalı</string>
+	<string name="pref_camera_selftimer_entry_3">3 saniyə</string>
+
+	<string name="pref_camera_antibanding_entry_auto">Avto</string>
+	<string name="pref_camera_antibanding_entry_50hz">50Hz</string>
+	<string name="pref_camera_antibanding_entry_60hz">60Hz</string><!-- Scene mode Mediatek plus --> <!-- Scene mode that takes an image with as little noise as possible so details of the subject are maintained. --><string name="pref_camera_scenemode_entry_portrait">Portret</string><!-- Scene mode that takes an image of a landscape assuming all subjects are relatively far from the phone. --><string name="pref_camera_scenemode_entry_landscape">Mənzərə</string><!-- Scene mode that takes night shots with long exposure and flash to illuminate the subject while still capturing darker detail in the background. --><string name="pref_camera_scenemode_entry_night_portrait">Gecə portreti</string><!-- Scene mode to be used in a stage show. --><string name="pref_camera_scenemode_entry_theatre">Teatr</string><!-- Scene mode optimized for taking images on the beach. --><string name="pref_camera_scenemode_entry_beach">Çimərlik</string><!-- Scene mode optimized for taking images in the snow. --><string name="pref_camera_scenemode_entry_snow">Qar</string><!-- Scene mode for taking a photo as sharp as possible. --><string name="pref_camera_scenemode_entry_steadyphoto">Sabit foto</string><!-- Scene mode optimized for taking images of fireworks. --><string name="pref_camera_scenemode_entry_fireworks">Atəşfəşanlıq</string>
+	<string name="pref_camera_scenemode_entry_sports">İdman</string>
+	<string name="pref_camera_scenemode_entry_candlelight">Şam işığı</string><!-- for CMCC feature --><string name="pref_camera_scenemode_entry_normal">Normal</string><!-- Video Camera --> <!-- EIS setting --><string name="pref_camera_eis_title">EIS</string>
+
+	<string name="pref_camera_eis_on">Açıq</string>
+
+	<string name="pref_camera_recordaudio_entry_off">Qapalı</string>
+	<string name="pref_camera_recordaudio_entry_on">Açıq</string><!-- ZSD songyutao --><string name="pref_camera_zsd_title">ZSD</string>
+	<string name="pref_chroma_flash_title">Ağıllı fleş</string><!-- continuous shot speed --><string name="pref_camera_continuous_number_title">Davamlı çəkiliş</string>
+	<string name="pref_voice_capture">Səs yazma</string>
+
+	<string name="pref_voice_entry_off">Qapalı</string>
+	<string name="pref_voice_entry_on">Açıq</string><!-- Face Detection properties  songyutao set FD dafault on --><string name="pref_camera_face_detect_title">Üz tanıma</string>
+
+	<string name="pref_camera_face_detect_entry_off">Qapalı</string>
+	<string name="pref_camera_face_detect_entry_on">Açıq</string>
+	<string name="pref_camera_record_location_title">Geomövqe əlavəsi</string>
+	<string name="pref_camera_thumb_title">Camera Roll</string>
+	<string name="pref_camera_pic_frame_entry_off">Qapalı</string>
+	<string name="pref_camera_pic_frame_entry_on">Açıq</string>
+	<string name="pref_shutter_touch_title">Toxunmalı çəkiliş</string>
+
+	<string name="pref_shutter_smile_title">Təbəssüm çəkilişi</string>
+
+	<string name="pref_shutter_hand_title">Əl çəkilişi</string>
+	<string name="pref_shutter_watermark_title">Filiqran</string>
+
+	<string name="pref_camera_watermark_entry_off">Qapalı</string>
+	<string name="pref_camera_watermark_entry_on">Açıq</string>
+	<string name="pref_camera_asd_title">ASD</string>
+	<string name="pref_camera_asd_entry_off">Qapalı</string>
+	<string name="pref_camera_asd_entry_on">Açıq</string>
+	<string name="pref_camera_shutter_sound_title">Deklanşer səsi</string>
+	<string name="pref_camera_shutter_sound_entry_off">Qapalı</string>
+	<string name="pref_camera_shutter_sound_entry_on">Açıq</string>
+	<string name="pref_camera_pic_level_title">Bucaqölçən</string>
+	<string name="pref_camera_pic_level_entry_off">Qapalı</string>
+	<string name="pref_camera_pic_level_entry_on">Açıq</string>
+
+	<string name="pref_capture_mirror_title">Ön güzgü</string>
+	<string name="pref_camera_save_pos_title">Yaddaş</string>
+	<string name="pref_camera_save_pos_entry_t">SD kart</string>
+	<string name="pref_camera_save_pos_entry_p">Telefon</string>
+	<string name="pref_camera_save_pos_entry_u">USB OTG</string>
+	<string name="pref_camera_mesh_line_title">Tor xətti</string>
+	<string name="pref_camera_high_picture_size_title">Yüksək şəkil ölçüsü</string>
+	<string name="pref_pic_struct_title">Çərçivə xətləri</string>
+
+	<string name="pref_pic_struct_entry_off">Qapalı</string>
+	<string name="pref_pic_struct_entry_enneahedral">Şəbəkə xətləri</string>
+	<string name="manual">Peşəkar</string>
+	<string name="photo_mode">Foto</string>
+	<string name="panorama_mode">PANORAMA</string>
+	<string name="beauty_mode">Face Beauty</string>
+	<string name="radio_switch_to_hdr">HDR</string>
+	<string name="radio_switch_to_facebeauty_custom">Face Beauty</string><!-- application infomation --><string name="app_name">Kamera</string>
+	<string name="pref_camera_selftimer_entry_5">5 saniyə</string>
+	<string name="night_mode">Gecə</string>
+	<string name="radio_switch_to_beautyvideo">Beauty Video</string>
+	<string name="timelapse_mode">Timelapse</string><!-- add by zzp for pano--><string name="panorama_arcsoft_guide_shutter">Deklanşer düyməsinə basın və telefonunuzu\nyavaş-yavaş bir istiqamətdə hərəkət etdirin</string>
+	<string name="panorama_arcsoft_warn_slowly">Lütfən telefonunuzu yavaş-yavaş hərəkət etdirin</string>
+	<string name="panorama_arcsoft_warn_back">Lütfən telefonunuzu ox boyunca hərəkət etdirin</string>
+	<string name="panorama_arcsoft_warn_up">Yuxarı hərəkət</string>
+	<string name="panorama_arcsoft_warn_down">Aşağı hərəkət</string>
+	<string name="panorama_arcsoft_warn_left">Sola hərəkət</string>
+	<string name="panorama_arcsoft_warn_right">Sağa hərəkət</string>
+	<string name="panorama_arcsoft_switch_capture_direction_guide">Çəkiliş istiqamətini dəyişmək üçün oxa vurun</string>
+	<string name="panorama_capture_guide">Oxu istinad xətti ilə uyğunlaşdırın</string>
+	<string name="panorama_toggle_mode_standard">Standart</string>
+	<string name="panorama_toggle_mode_super">Super</string><!--time line 20141227--><string name="radio_switch_to_pip">İkili görünüş</string>
+	<string name="setting_title">Parametrlər</string>
+	<string name="mode_title">Rejimlər</string>
+	<string name="setting_top_full_hint">Başqa element əlavə etmək mümkün deyil.</string>
+	<string name="touchless_guide_vsign_title">V işarəsi</string>
+	<string name="touchless_guide_tips_vsign_only">Avtomatik çəkiliş üçün V fiquru göstərə bilərsiniz.</string>
+	<string name="touchless_guide_text_ok">OLDU</string>
+	<string name="touchless_guide_text_reminder">Bunu bir daha göstərmə</string>
+	<string name="wideself_arcsoft_guide_shutter">Başlamaq üçün deklanşer düyməsinə basın</string>
+	<string name="wideself_arcsoft_guide_step_one">Lütfən telefonu əvvəlcə bir, sonra isə digər istiqamətdə fırladın</string>
+	<string name="wideself_arcsoft_rolate_to_left">Lütfən telefonu yavaşca sola fırladın</string>
+	<string name="wideself_arcsoft_rolate_to_right">Lütfən telefonu yavaşca sağa fırladın</string>
+	<string name="wideself_arcsoft_cannot_use_guide">Lütfən portret rejimində Wide Selfie-dən istifadə edin</string>
+	<string name="wideself_arcsoft_downup_offset_warn">It is not good enough to horizontally align the photo.</string>
+	<string name="panorama_arcsoft_cannot_use_guide">Lütfən portret rejimində Panoramadan istifadə edin</string>
+	<string name="radio_switch_to_wideselfie">Wide Selfie</string>
+	<string name="radio_switch_to_refocus">Ağıllı fokus</string>
+	<string name="radio_switch_to_chromaflash">Ağıllı fleş</string>
+	<string name="radio_switch_to_clearsight">ClearSight</string>
+	<string name="setting_guide_message">Qısayol əlavə etmək üçün \"Qısayol çubuğuna əlavə et\" vurun və ya\nsürükləyin</string>
+	<string name="skip_setting_guide">Anladım</string>
+	<string name="permission_title">Girişə icazə ver</string>
+	<string name="enable_permission_procedure">İcazələri Parametrlər &gt; Proqramlar &gt; %1$s &gt; İcazələr bölməsindən dəyişə bilərsiniz</string>
+	<string name="toast_storage_full_sdcard_to_internal">SD kart doludur, daxili yaddaşda saxlanılır</string>
+	<string name="toast_storage_damaged_sdcard_to_internal">SD kartda saxlama uğursuz oldu, daxili yaddaşda saxlanılır</string>
+	<string name="toast_storage_full_internal_to_sdcard">Daxili yaddaş doludur, SD kartda saxlanılır</string>
+	<string name="toast_storage_full_clean_up_to_free_space">Telefon yaddaşında yer doludur. Lütfən yer boşaltmaq üçün təmizləyin</string>
+	<string name="secure_camera_can_not_request_permission">İcazə sorğularını qəbul/rədd etmək üçün lütfən əvvəlcə telefon kilidini açın</string>
+	<string name="shutcauts_frontcamera">Selfi çəkin</string>
+	<string name="shutcauts_backcamera">Foto çəkin</string>
+	<string name="shutcauts_frontvideo">Video çəkin (selfi)</string>
+	<string name="shutcauts_backvideo">Video çəkin</string>
+	<string name="pref_camera_status_detect_title">Status Aşkarlama</string>
+	<string name="pref_camera_raw_file_title">RAW fayl</string>
+	<string name="pref_camera_filter_title">Filtr</string>
+	<string name="pref_dual_camera_title">İkili kamera</string>
+	<string name="pref_dual_camera_default">Qapalı</string>
+	<string name="radio_switch_to_monochrome">Ağ və Qara</string>
+
+	<string name="pref_camera_gpu_effect_focus">Fokus</string>
+	<string name="pref_camera_gpu_effect_sepia">Sepiya</string>
+	<string name="pref_camera_gpu_effect_temperature">Temperatur</string>
+	<string name="pref_camera_gpu_effect_gray">Boz</string>
+	<string name="pref_camera_gpu_effect_none">Heç biri</string>
+	<string name="pref_camera_gpu_effect_documentary">Sənədli film</string>
+	<string name="pref_camera_gpu_effect_fishEye">Balıq gözü linza</string>
+	<string name="pref_camera_gpu_effect_tint">Ton</string>
+	<string name="pref_camera_gpu_effect_crossprocess">Crossprocess</string>
+	<string name="portrait_mode">Portret</string>
+	<string name="pref_camera_pref_entry_auto">Avto</string>
+	<string name="confirm_mode_tip">%1$s rejiminə keçmək üçün vur</string>
+	<string name="focal_switch_scale_tip">Telefoto rejimini açmaq üçün piktoqrama vurun</string>
+	<string name="front_wide_switch_tip">Qrup selfisini aktivləşdirmək üçün piktoqrama vurun</string>
+	<string name="low_memory_limit">Your system is in low memory, some features limit capture size</string>
+	<string name="portrait_background_blur">Portret</string>
+	<string name="portrait_of_face_beauty">Face Beauty</string>
+	<string name="asd_result_hdr">HDR aktivləşdirildi</string>
+	<string name="toast_face_undetected_at_portrait">2 metr daxilində üz aşkarlanmadı</string>
+	<string name="toast_face_undetected_at_sticker">Üz aşkarlanmadı</string>
+	<string name="toast_view_pic_vivid_at_superpixel">Super Pixel ilə daha çox təfərrüatı yaxala</string>
+	<string name="front_face_detected_first_tip">Daha yaxşı selfilər üçün kameraya baxın</string>
+	<string name="u_screen_selfie_count_down_cancel">Ləğv et</string>
+	<string name="video_beauty_switch_on">Açıq</string>
+	<string name="video_beauty_switch_off">Qapalı</string>
+	<string name="image_processing_toast">Şəkil emalı</string>
+	<string name="short_video_not_found">Bu video tapılmadı</string><!-- for Android O's CTS--><string name="camera_review_done_desc">Hazırdır</string>
+	<string name="bokeh_mode">Portret</string>
+	<string name="toast_dual_camera_bokeh">Lütfən 2 metr daxilində çəkməyə davam edin</string><!-- for qcom slowmotion--><string name="pref_camera_hfr_entry_2x">X2</string>
+	<string name="pref_camera_hfr_entry_3x">X3</string>
+	<string name="pref_camera_hfr_entry_4x">X4</string>
+
+
+
+	<string name="slow_motion_mode">SLO-MO</string>
+
+
+
+	<!-- // Camera fun mode string --><string name="radio_switch_to_fun">Camera Fun</string><!-- Default fun mode setting. -->
+	<string name="pref_camera_fun_title">Fun</string>
+	<string name="pref_camera_sticker_title">Stiker</string>
+	<string name="toast_face_undetected_at_fun">Aşkarlanmamış üz</string>
+	<string name="toast_eyes_undetected_at_fun">Effektə önbaxış üçün göz qırpın</string>
+	<string name="toast_mouth_undetected_at_fun">Effektə önbaxış üçün ağzınızı açın</string>
+	<string name="toast_short_video_tip">Qısa video çəkilişi üçün deklanşer düyməsinə uzun basın</string>
+	<string name="fun_filter_none">Filtr</string>
+	<string name="fun_filter_lomo">LOMO</string>
+	<string name="fun_filter_elegant">Zərif</string>
+	<string name="fun_filter_cyan">Açıq-mavi</string>
+	<string name="fun_filter_mint">Nanə</string>
+	<string name="fun_filter_led">LED</string>
+	<string name="fun_filter_eternal">Əbədi</string>
+	<string name="fun_filter_formerly">Əvvəlki</string>
+	<string name="fun_filter_blue">Mavi</string>
+	<string name="fun_filter_oldbooth">Köhnə kabinə</string>
+	<string name="fun_filter_milkytea">Südlü çay</string>
+	<string name="fun_filter_warm">İlıq</string>
+	<string name="fun_filter_norway">Norveç</string>
+	<string name="fun_filter_cool">Sərin</string>
+	<string name="fun_filter_dew">Şeh</string>
+	<string name="fun_filter_youth">Gənclik</string>
+	<string name="fun_filter_shy">Utancaq</string>
+	<string name="fun_filter_jaipur">Caypur</string>
+	<string name="fun_filter_autumn">Payız</string>
+	<string name="fun_filter_japanese">Yapon</string>
+	<string name="fun_filter_sweet">Şirin</string>
+	<string name="fun_filter_warren">Uorren</string>
+	<string name="fun_filter_tsukiji">Tsukiji</string>
+	<string name="fun_filter_vivid">Canlı</string>
+	<string name="fun_filter_facingsun">Günəşə tərəf</string>
+	<string name="fun_filter_purple">Bənövşəyi</string>
+	<string name="pref_gender_estimate_title">Gender təxmini</string>
+	<string name="pref_gender_estimate_entry_on">Açıq</string>
+	<string name="pref_gender_estimate_entry_off">Qapalı</string>
+	<string name="beauty_guide_top_text">AI gözəllik</string>
+	<string name="toast_motion_photo_opened">Hərəkətli foto aktivləşdirildi</string>
+	<string name="pref_camera_gpu_effect_vignetting">Vignetting</string><!--add for ai scene detection --><string name="ai_scene_tips_food">Qida</string>
+	<string name="ai_scene_tips_portrait">Portret</string>
+	<string name="ai_scene_tips_foliage">Bitki</string>
+	<string name="ai_scene_tips_sky">Mavi səma</string>
+	<string name="ai_scene_tips_text">Mətn</string><!-- add for faceplus asd detection --><string name="faceplus_asd_tips_face">Portret</string>
+	<string name="faceplus_asd_tips_food">Qida</string>
+	<string name="faceplus_asd_tips_fruits">Meyvə</string>
+	<string name="faceplus_asd_tips_flower">Çiçək</string>
+	<string name="faceplus_asd_tips_flowersea">Çiçək dənizi</string>
+	<string name="faceplus_asd_tips_sandbeach">Qum</string>
+	<string name="faceplus_asd_tips_snow">Qar</string>
+	<string name="faceplus_asd_tips_bluesky">Səma</string>
+	<string name="faceplus_asd_tips_night">Gecə</string>
+	<string name="faceplus_asd_tips_sunrise">Gün çıxışı və qürub</string>
+	<string name="faceplus_asd_tips_qr">QR kod</string>
+	<string name="faceplus_asd_tips_businesscard">Adlıq</string>
+	<string name="faceplus_asd_tips_whiteboard">Ağ lövhə</string>
+	<string name="faceplus_asd_tips_idcard">İD</string>
+	<string name="faceplus_asd_tips_bankcard">Kredit kartı</string>
+	<string name="faceplus_asd_tips_cat">Pişik</string>
+	<string name="faceplus_asd_tips_dog">İt</string>
+	<string name="faceplus_asd_tips_meadow">Çəmənlik</string>
+	<string name="faceplus_asd_tips_plants">Bitki</string>
+	<string name="toast_gender_estimate_started">Parametrlər üzünüzə görə tənzimlənir</string>
+	<string name="beauty_guide_top_text_description">AI gözəllik funksiyasını yandırın və parametrləri üzünüzə görə tənzimləyin</string>
+	<string name="zoom_guide_title">Asan yaxınlaşdırma üsulu</string>
+	<string name="zoom_guide_content">Geniş bucaq və super yaxınlaşdırmadan istifadə etmək üçün yuxarıdakı piktoqrama vurun. Yaxud yaxınlaşdırmaq və ya uzaqlaşdırmaq üçün ekranda şaquli olaraq sürüşdürün</string>
+	<string name="video_recording">Video çəkiliş</string>
+	<string name="micro_video_guide_content">Hərəkətli foto açıq olanda çəkdiyiniz hər şəkildə çəkilişdən əvvəl və sonra qısa video ola bilər. Fotonu paylaşanda video da əlavə edilə bilər.</string>
+	<string name="motion_photo">Hərəkətli foto</string>
+	<string name="switch_to_wide_lens_toast">Geniş bucaqlı linza aktivləşdirilir</string>
+	<string name="time_lapse_not_save">Timelapse-i yaddaşda saxlaya bilmirik. Videonuz ən az %1$d saniyə uzunluqda olmalıdır</string>
+	<string name="pref_shutter_speed_title">Deklanşer sürəti</string>
+	<string name="switch_to_wide_lens_landscape_toast">Daha geniş görünüş üçün Geniş bucaq seçiminə vurun</string>
+	<string name="radio_switch_to_dual_bokeh_for_custom">Bədii bulanıqlıq</string>
+	<string name="toast_video_recording_in_call_state">Zəng ərzində çəkiliş mümkün deyil</string>
+	<string name="pref_camera_ai_title">AI</string>
+	<string name="toast_video_3dnr_on">Video gecə görünüşü aktivləşdirildi</string>
+	<string name="toast_storage_unavailable">SD kart mümkün deyil</string>
+	<string name="toast_landscape_open_wide_tips">Daha çox mənzərə və ya dostlarınızı çəkmək üçün super geniş bucağa keçin.</string>
+	<string name="enable_sd_permission_title">Kamera üçün SD Kart Girişi lazımdır</string>
+	<string name="enable_sd_permission_content">Parametrlərinizə baxın və \"SD kartda\” \"DCIM\" girişinə icazə verin</string>
+	<string name="macro_mode">Makro</string>
+	<string name="super_macro_tip">Telefonu obyektdən (1) 3–4 sm aralıda tutun.</string>
+	<string name="bokeh_offfline_processing">Oflayn boke məlumat emalı…</string>
+	<string name="pref_google_lens">Google lens</string>
+	<string name="never">Heç vaxt</string>
+	<string name="toast_high_temp_disable_flash">Temperatur çox yüksəkdir, fənəri yandırmaq mümkün deyil.</string>
+	<string name="toast_high_temp_shutdown_camera">Temperatur çox yüksəkdir, kamera 5 saniyə ərzində dayanacaq</string>
+
+	<string name="bokeh_type_name">Bədii bulanıqlıq</string>
+	<string name="bokeh_type_description">Bu funksiya sizə Bədii bulanıqlıq effektindən istifadə edərək foto redaktə etməyə imkan verir.</string>
+	<string name="hdr_type_name">HDR</string>
+	<string name="hdr_type_description">Arxası işıqlı mühitdə daha çox təfərrüat qorunur</string>
+	<string name="ai_type_name">AI</string>
+	<string name="ai_type_description">AI səhnə aşkarlamasından istifadə edərək parametrləri təyin edin</string>
+	<string name="timelapse_type_name">Time lapse</string>
+	<string name="timelapse_type_description">Qısa müddətdə sürətli olaraq uzun videonu göstər</string>
+	<string name="don_t_cover_the_lens">Linzanın üstünü örtməyin</string>
+	<string name="pref_video_time_lapse_frame_interval_title">Vaxt intervalı</string>
+	<string name="toast_qr_code_detected">QR kod aşkarlandı.\nZiyarət üçün vurun</string>
+	<string name="toast_qr_code_detected_type_esim">eSIM profili aşkarlandı.\neSIM aktivləşdirmək üçün vurun</string>
+	<string name="toast_qr_code_detected_type_url">QR kod aşkarlandı.\nKeçid üçün vurun</string>
+	<string name="toast_qr_code_detected_type_string">QR kod aşkarlandı.\nGoogle axtarışı üçün vurun</string>
+	<string name="toast_bar_code_detected_type_string">Barkod aşkarlandı.\nKeçid üçün vurun</string>
+	<string name="toast_bar_code_detected_type_number">Məhsul barkodu aşkarlandı.\nMəhsulu axtarmaq üçün vurun</string>
+	<string name="turn_off_qr_code">QR kodu söndür</string>
+	<string name="pref_video_quality_entry_fine_text">İncə</string>
+	<string name="pref_video_quality_entry_high_text">Yüksək</string>
+	<string name="pref_exposure_metering_title">Ekspozisiya ölçümü</string>
+	<string name="pref_exposure_metering_entry_frame_average">Frame average</string>
+	<string name="pref_exposure_metering_entry_center_weighted">Mərkəz çəkili</string>
+	<string name="pref_exposure_metering_entry_spot_metering">Nöqtə ölçümü</string>
+	<string name="toast_disable_torch">Fleşin həddən artıq isinməsinin qarşısını almaq üçün fənəri deaktivləşdirin</string>
+	<string name="google_location_dialog_title">Kamera proqramınızla çəkdiyiniz fotolara yer məlumatı əlavə edilsinmi?</string>
+	<string name="google_location_dialog_message">Digər sözlə, fotolarınızda onların harda çəkildiyi haqqında məlumat olacaq.</string>
+	<string name="google_location_dialog_message_lear_more">
+		<a href="https://support.google.com/photos/answer/9921876">Daha ətraflı</a>
+	</string>
+	<string name="google_location_dialog_positive">Kamera yerini aktivləşdir</string>
+	<string name="image_search_mode">Element axtarışı</string>
+	<string name="detect_result_title">Element seç və Axtarış nəticələrinə bax</string>
+	<string name="search_result_title">Bənzər elementlər üzrə Axtarış nəticələri</string>
+	<string name="search_for_other_items">Digər elementləri axtar</string>
+	<string name="point_format_string">%1$d xal (%2$dx)</string><!--    <string name="price_format_string">%1$s yen</string>--><string name="view_on_rakuten_ichiba">Rakuten Ichiba-da bax</string>
+	<string name="view_all_results_on_rakuten_ichiba">Bütün nəticələrə Rakuten Ichiba-da bax</string>
+	<string name="start_new_search">Yeni axtarışa başla</string>
+	<string name="network_error">Şəbəkə səhvi.\nLütfən internet bağlantınızı yoxlayıb yenidən cəhd edin</string>
+	<string name="item_not_found">Dəb elementləri aşkarlamaq mümkün olmadı</string>
+	<string name="cropped_item_not_found">Lütfən axtarış sahəsinin ölçüsünü yenidən tənzimləyin</string>
+	<string name="cropped_item_not_found_btn_text">Axtarış sahəsini yenidən tənzimləyin</string>
+	<string name="searching">Axtarılır…</string>
+	<string name="image_search_tip">Axtarılacaq foto çəkin və ya şəkil seçin</string>
+	<string name="image_search_processing">Axtarılır…</string>
+	<string name="move_and_resize_tip">Axtarış üçün çərçivəni istədiyiniz sahəyə çəkin.\nÇərçivə ölçüsünü tənzimləmək üçün küncləri sürükləyin.</string>
+	<string name="new_feature_image_search_guide_title">Yeni xüsusiyyət</string>
+	<string name="new_feature_image_search_guide_title_extra" translatable="false" />
+	<string name="new_feature_image_search_guide_content">İndi foto çəkib Rakuten Ichiba-da elementləri axtara bilərsiniz</string>
+	<string name="item_search_guide_title">Element axtarışı nədir?</string>
+	<string name="item_search_guide_content_p1">Kameranızla foto çəkərək Rakuten Ichiba-da elementləri axtarın.</string>
+	<string name="item_search_guide_content_p2">(Hazırda yalnız dəb elementlərinin axtarışı mümkündür.)</string>
+	<string name="feedback_title">Əks-əlaqə</string>
+	<string name="feedback_content">Bu nəticələr faydalı idimi?</string>
+	<string name="feedback_action">Rəy verin</string>
+	<string name="feedback_send">Göndər</string>
+	<string name="feedback_response">Dəyərli rəyiniz üçün təşəkkür edirik.</string>
+	<string name="terms_of_use_title">İstifadə şərtləri</string>
+	<string name="privacy_title">Məxfilik siyasəti</string>
+	<string name="free_shipping">Pulsuz çatdırılma</string>
+	<string name="terms_of_use_agree">İstifadə şərtləri ilə razılaşıram.</string>
+	<string name="start_to_use">Təsvir axtarışı</string>
+	<string name="terms_of_use_content">İstifadə şərtləri bunlardır.</string>
+	<string name="try_again_tips">Bəyəndiyiniz bir şey tapmadınız?\nFərqli nəticələr əldə etmək üçün yeni axtarış edin</string>
+	<string name="yen">yen</string>
+	<string name="pref_video_fps">FPS</string>
+	<string name="pref_video_encoder">Kodlaşdırıcı</string>
+	<string name="more">Əlavə</string>
+	<string name="panorama_night_mode">Panorama gecəsi</string>
+	<string name="long_press_shutter_button">Deklanşerə uzun basma</string>
+	<string name="continuous_shot_entry">Davamlı çəkiliş</string>
+
+
+	<string name="pref_camera_wb_temp_title">Rəng temperaturu</string>
+
+	<string name="pref_camera_entry_off">Qapalı</string>
+	<string name="pref_camera_whitebalance_entry_custom">Şəxsi</string>
+	<string name="pref_camera_entry_on">Açıq</string>
+
+	<string name="pref_video_night_title">Gecə videosu</string>
+	<string name="video_ois_title">OIS</string>
+	<string name="pref_photo_mfnr_title">MFNR</string>
+	<string name="remosaic_mode">Remosaic</string>
+
+	<string name="pref_high_definition_title">Yüksək dəqiqlik</string>
+	<string name="pref_pro_raw_title">Yüksək dəqiqlik</string>
+</resources>

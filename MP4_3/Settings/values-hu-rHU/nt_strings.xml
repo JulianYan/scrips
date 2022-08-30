@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="battery_suggestion_summary">Az Adaptív akkumulátor bekapcsolása</string>
+    <string name="smart_battery_manager_title">Adaptív akkumulátor</string>
+    <string name="smart_battery_footer">Az akkumulátor élettartamának meghosszabbítása érdekében az Adaptív akkumulátor korlátozza a ritkán használt alkalmazások akkumulátorhasználatát. A telefonja idővel megtanulja, hogyan használja az alkalmazásokat. \n\nEzeknek az alkalmazásoknak az értesítéseit késleltethetik.</string>
+    <string name="smart_battery_footer" product="tablet">Az akkumulátor élettartamának meghosszabbítása érdekében az Adaptív akkumulátor korlátozza a ritkán használt alkalmazások akkumulátorhasználatát. A táblagépe idővel megtanulja, hogyan használja az alkalmazásokat. \n\nEzeknek az alkalmazásoknak az értesítéseit késleltethetik.</string>
+    <string name="smart_battery_footer" product="device">Az akkumulátor élettartamának meghosszabbítása érdekében az Adaptív akkumulátor korlátozza a ritkán használt alkalmazások akkumulátorhasználatát. A készüléke idővel megtanulja, hogyan használja az alkalmazásokat. \n\nEzeknek az alkalmazásoknak az értesítéseit késleltethetik.</string>
+    <string name="smart_battery_title">Használja az Adaptív akkumulátort</string>
+    <string name="battery_tip_smart_battery_summary">Az Adaptív akkumulátor bekapcsolása</string>
+    <string name="nt_color_temperature">Színhőmérséklet</string>
+    <string name="warmer">Meleg</string>
+    <string name="colder">Hideg</string>
+	        <!-- Mobile network settings screen, title of item showing the name of the default subscription
+    that will be used for data. This only appears in multi-SIM mode. [CHAR LIMIT=NONE] -->
+    <string name="data_preference">Adatpreferencia</string>
+	<string name="vibrating_for_outgoing_call_accepted_summary">Vibráló üzemmód engedélyezése, amikor a kimenő hívást elfogadják</string>
+</resources>

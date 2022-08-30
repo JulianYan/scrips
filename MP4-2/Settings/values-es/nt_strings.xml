@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nt_navigation_back_button_left_side">Botón Atrás en el lado izquierdo</string>
+    <string name="nt_navigation_back_button_right_side">Botón Atrás en el lado derecho</string>
+    <string name="nt_navigation_config_title">Disposición de los botones</string>
+    <string name="nt_glyphs_charging_features">Muestra la progresión de la carga cuando el dispositivo está conectado o cuando mueve el dispositivo durante la carga.</string>
+    <string name="nt_screen_refresh_rate_high_summary">Una frecuencia de actualización dinámica de hasta 120 Hz para unas animaciones y un desplazamiento más fluidos.</string>
+    <string name="nt_screen_refresh_rate_standard_summary">Una frecuencia de actualización fija de 60 Hz para obtener una mayor autonomía de la batería.</string>
+	
+	<!-- translate to other languages -->
+	<string name="nt_glyphs_flip_title">Voltear a Glyph</string>
+    <string name="nt_glyphs_flip_to_glyph_title">Voltear a Glyph</string>
+    <string name="nt_use_filp_to_glyph">Usar Voltear a Glyph</string>
+	
+</resources>

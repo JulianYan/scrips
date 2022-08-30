@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="battery_suggestion_summary">Adaptieve batterij inschakelen</string>
+    <string name="smart_battery_manager_title">Adaptieve batterij</string>
+    <string name="smart_battery_footer">Om de levensduur van de batterij te verlengen, beperkt Adaptieve batterij het batterijgebruik voor weinig gebruikte apps. Uw telefoon zal na verloop van tijd leren hoe u uw apps gebruikt. \n\nDe meldingen kunnen voor deze apps vertraagd zijn.</string>
+    <string name="smart_battery_footer" product="tablet">Om de levensduur van de batterij te verlengen, beperkt Adaptieve batterij het batterijgebruik voor weinig gebruikte apps. Uw tablet zal na verloop van tijd leren hoe u uw apps gebruikt. \n\nDe meldingen kunnen voor deze apps vertraagd zijn.</string>
+    <string name="smart_battery_footer" product="device">Om de levensduur van de batterij te verlengen, beperkt Adaptieve batterij het batterijgebruik voor weinig gebruikte apps. Uw apparaat zal na verloop van tijd leren hoe u uw apps gebruikt. \n\nDe meldingen kunnen voor deze apps vertraagd zijn.</string>
+    <string name="smart_battery_title">Adaptieve batterij gebruiken</string>
+    <string name="battery_tip_smart_battery_summary">Adaptieve batterij inschakelen</string>
+    <string name="nt_color_temperature">Kleurtemperatuur</string>
+    <string name="warmer">Warm</string>
+    <string name="colder">Koel</string>
+	        <!-- Mobile network settings screen, title of item showing the name of the default subscription
+    that will be used for data. This only appears in multi-SIM mode. [CHAR LIMIT=NONE] -->
+    <string name="data_preference">Gegevensvoorkeur</string>
+	<string name="vibrating_for_outgoing_call_accepted_summary">Inschakelen trilmodus wanneer de uitgaande oproep wordt geaccepteerd</string>
+</resources>

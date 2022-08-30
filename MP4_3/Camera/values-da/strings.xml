@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_watermark_description">Tilføj automatisk et vandmærke, når der er taget et foto.</string>
+</resources>

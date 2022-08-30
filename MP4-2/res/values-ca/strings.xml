@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources><!-- Confirmation dialog when restoring settings --><string name="confirm_restore_message">Voleu restaurar la configuració predeterminada de la càmera?</string>
+	<string name="pref_camera_module_title">Mode de càmera</string><!-- Settings screen, camera selection dialog title. Users can select a camera from the phone (front-facing or back-facing). [CHAR LIMIT=20] --><string name="pref_camera_id_title">Activar la càmera</string>
+	<!-- In select camera setting, back facing camera. [CHAR LIMIT=14] --><string name="pref_camera_id_entry_back">Enrere</string><!-- In select camera setting, front-facing camera. [CHAR LIMIT=14] --><string name="pref_camera_id_entry_front">Frontal</string><!-- Settings screen, Record location dialog choices --><string name="pref_camera_recordlocation_entry_off">Desactivat</string>
+	<string name="pref_camera_recordlocation_entry_on">Activat</string><!-- The Video quality settings in preference [CHAR LIMIT=21] --><string name="pref_video_quality_title">Qualitat del vídeo</string>
+	<string name="pref_video_stabilization_title">Estabilització del vídeo</string>
+	<string name="pref_video_3dnr_title">Vídeo 3DNR</string><!-- The Video timelapse settings in preference [CHAR LIMIT=21] --><string name="pref_video_timelapse_title">Filmació d\'intervals de vídeo</string>
+	<string name="pref_video_autozoom_title">Zoom automàtic de vídeo</string>
+	<string name="video_mode">Vídeo</string>
+	<string name="guide_auto_zoom_title">Zoom automàtic</string>
+	<string name="guide_auto_zoom_rules">Durant l’enregistrament, podeu seguir un objecte concret. Per fer-ho, dibuixeu un cercle a la pantalla i feu dos tocs per aturar el seguiment</string>
+	<string name="toast_auto_zoom_not_activated">El zoom automàtic no està activat</string><!-- Default flash mode setting. -->
+	<!-- Settings screen, Flash mode title --><string name="pref_camera_flashmode_title">Mode Flaix</string>
+	<string name="pref_screenflash_title">Mostrar flaix</string><!-- Settings screen, Flash mode dialog radio button choices --><string name="pref_camera_flashmode_entry_auto">Automàtic</string>
+	<string name="pref_camera_flashmode_entry_on">Activat</string>
+	<string name="pref_camera_flashmode_entry_off">Desactivat</string>
+	<string name="pref_camera_flashmode_entry_torch">Llanterna</string><!-- Default white balance setting. --><!-- Settings screen, white balance title --><string name="pref_camera_whitebalance_title">AWB</string><!-- Settings screen, White balance dialog radio button choices --><string name="pref_camera_whitebalance_entry_auto">Automàtic</string>
+	<string name="pref_camera_whitebalance_entry_incandescent">Incandescent</string>
+	<string name="pref_camera_whitebalance_entry_daylight">Llum del dia</string>
+	<string name="pref_camera_whitebalance_entry_fluorescent">Fluorescent</string>
+	<string name="pref_camera_whitebalance_entry_cloudy">Ennuvolat</string>
+
+
+
+
+	<!-- Default scene mode setting. -->
+
+	<string name="pref_camera_scene_frame_title">Marc de l’escena</string><!-- Settings screen, Select Scene mode --><string name="pref_camera_scenemode_title">Mode d’escena</string>
+	<string name="pref_hdr_title">HDR</string>
+	<string name="pref_motion_photo_title">Moviment</string><!-- Settings menu, scene mode choices --><string name="pref_camera_scenemode_entry_auto">Automàtic</string>
+	<string name="pref_camera_scenemode_entry_night">Nit</string><!-- Scene mode optimized for taking images in the sunset. --><string name="pref_camera_scenemode_entry_sunset">Posta de sol</string><!-- Scene mode optimized for taking indoor low-lights pictures. [CHAR LIMIT=16] --><string name="pref_camera_scenemode_entry_party">Festa</string>
+	<string name="pref_restore_detail">Restaurar valors predeterminats</string><!-- Exposure settings in preference --><string name="pref_exposure_title">EV</string>
+	<string name="sugar_face_beauty_custom">Personalitzat</string>
+	<string name="sugar_eyes_beauty">Ulls</string>
+	<string name="sugar_face_thin">Nítid</string>
+	<string name="sugar_skin_smooth">Suau</string>
+	<string name="adjust_progress">+%s</string>
+	<string name="face_beauty_custom_skin_info">Pell</string>
+	<string name="face_beauty_custom_eyes_info">Ulls</string>
+	<string name="face_beauty_custom_thin_info">Prim</string>
+	<string name="face_beauty_custom_rosy_info">Rosaci</string>
+	<string name="face_beauty_custom_whitening_info">Blanquejador</string>
+	<string name="portrait_custom_info">Difuminat</string>
+
+	<string name="pref_camera_volume_key_title">Tecles de volum</string>
+	<string name="pref_camera_volume_key_shoot">Enregistrar</string>
+	<string name="pref_camera_volume_key_zoom">Zoom</string>
+	<string name="pref_camera_volume_key_volume">Volum</string>
+
+
+	<string name="photo_incapture">S’està fent la foto</string>
+
+	<string name="toast_location_started">Ubicació iniciada</string>
+	<string name="toast_location_success">Ubicació amb èxit</string>
+	<string name="toast_device_denayed">Dispositiu no accessible</string>
+	<string name="toast_device_connect_failed">Error de connexió del dispositiu</string>
+	<string name="toast_start_preview_failed">Error d’inicialització de la vista prèvia</string>
+	<string name="toast_storage_full">L’emmagatzematge és ple</string>
+	<string name="toast_low_power_disable_flash">Bateria baixa. No es pot activar el flaix.</string>
+	<string name="toast_video_size_max">La mida del vídeo sobrepassa el límit.</string>
+	<string name="toast_continue_snap_max">El recompte d’enregistraments continuats ha sobrepassat el límit.</string>
+	<string name="toast_video_error">El vídeo no es pot enregistrar en l\'estat actual</string>
+	<string name="toast_video_start_fail">El micròfon s’està fent servir i no es pot utilitzar per enregistrar</string>
+	<string name="toast_video_init_size_error">La mida del vídeo s’ha reduït fins al límit.</string>
+	<string name="toast_long_press_unavilable">No admet enregistrament continuat.</string>
+	<string name="toast_continuous_shot_off">L\'enregistrament continuat no està disponible.</string>
+	<string name="toast_thumbnail_empty">No hi cap fotografia</string>
+	<string name="toast_clearsight_success">Captura ClearSight amb èxit</string>
+	<string name="toast_clearsight_failed">Error amb la captura ClearSight</string>
+	<string name="toast_auto_zoom">S\'ha activat el zoom automàtic</string>
+	<string name="toast_video_stabilization">S’ha activat l\'estabilitzador</string>
+	<string name="guide_top">Llisqueu amunt o avall per activar la càmera.</string>
+	<string name="guide_right">Llisqueu cap a la dreta per establir els paràmetres.</string>
+	<string name="guide_left">Llisqueu cap a l’esquerra per configurar els modes.</string>
+	<string name="voice_on_tips">digueu \"Captura\" o \"Patata\"</string>
+	<string name="toast_steady_capture">No moveu el telèfon durant la captura.</string>
+	<string name="toast_dual_camera_opened">Càmera dual oberta</string>
+	<string name="toast_dual_camera_closed">Càmera dual tancada</string><!-- Pref -->
+
+
+
+
+
+
+
+
+
+	<string name="pref_video_quality_entry_full">Complet</string>
+
+	<string name="pref_video_stabilization_entry_on">Activat</string>
+	<string name="pref_video_stabilization_entry_off">Desactivat</string>
+	<string name="pref_video_stabilization_entry_standard">Estàndard</string>
+	<string name="pref_video_stabilization_entry_super">Súper</string>
+	<string name="pref_video_3dnr_entry_on">Activat</string>
+	<string name="pref_video_3dnr_entry_off">Desactivat</string>
+	<string name="pref_video_autozoom_entry_on">Activat</string>
+	<string name="pref_video_autozoom_entry_off">Desactivat</string>
+	<string name="pref_camera_picturesize_title">Picture Size</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<string name="pref_camera_picture_aspect_ratio_title">Relació d’aspecte de la imatge</string>
+
+
+
+
+
+
+
+
+	<string name="pref_camera_picturesize_entry_16_9">Pantalla completa</string>
+	<string name="pref_camera_picturesize_entry_4_3">Normal</string>
+	<string name="pref_camera_picturesize_entry_1_1">Rectangle</string><!-- ISO -->
+
+	<string name="manual_focus_title">M Focus</string><!--  --><string name="pref_camera_edge_title">Nitidesa</string>
+
+	<string name="pref_camera_hue_title">To</string><!--  --><string name="pref_camera_saturation_title">Saturació</string>
+
+	<string name="pref_camera_brightness_title">Brillantor</string>
+
+	<string name="pref_camera_contrast_title">Contrast</string>
+	<string name="pref_camera_dip_entry_low">Baix</string>
+	<string name="pref_camera_dip_entry_middle">Mitjà</string>
+	<string name="pref_camera_dip_entry_high">Alt</string><!-- color effect --><!-- Settings screen, Select Color effect title --><string name="pref_camera_coloreffect_title">Efecte de color</string><!-- Settings screen, Color effect dialog radio button choices --><string name="pref_camera_coloreffect_entry_none">Cap</string>
+	<string name="pref_camera_coloreffect_entry_mono">Mono</string>
+	<string name="pref_camera_coloreffect_entry_sepia">Sèpia</string>
+	<string name="pref_camera_coloreffect_entry_negative">Negatiu</string><!-- Color effect that overexposes and reverses some of the tones. --><string name="pref_camera_coloreffect_entry_solarize">Solaritzar</string>
+	<string name="pref_camera_coloreffect_entry_posterize">Posteritzar</string>
+	<string name="pref_camera_coloreffect_entry_whiteboard">Pissarra</string>
+	<string name="pref_camera_coloreffect_entry_blackboard">Pissarra negra</string>
+	<string name="pref_camera_coloreffect_entry_aqua">Aiguamarina</string>
+	<string name="pref_camera_coloreffect_entry_pastel">Pastel</string>
+	<string name="pref_camera_coloreffect_entry_mosaic">Mosaic</string>
+	<string name="pref_camera_coloreffect_entry_redtint">Matís vermell</string>
+	<string name="pref_camera_coloreffect_entry_bluetint">Matís blau</string>
+	<string name="pref_camera_coloreffect_entry_greentint">Matís verd</string>
+	<string name="pref_camera_coloreffect_entry_sepiablue">Blau sèpia</string>
+	<string name="pref_camera_coloreffect_entry_sepiagreen">Verd sèpia</string><!-- self timer -->
+	<string name="pref_camera_selftimer_title">Temporitzador</string>
+	<string name="pref_camera_selftimer_entry_off">Desactivat</string>
+	<string name="pref_camera_selftimer_entry_3">3 segons</string>
+
+	<string name="pref_camera_antibanding_entry_auto">Automàtic</string>
+	<string name="pref_camera_antibanding_entry_50hz">50 Hz</string>
+	<string name="pref_camera_antibanding_entry_60hz">60 Hz</string><!-- Scene mode Mediatek plus --> <!-- Scene mode that takes an image with as little noise as possible so details of the subject are maintained. --><string name="pref_camera_scenemode_entry_portrait">Retrat</string><!-- Scene mode that takes an image of a landscape assuming all subjects are relatively far from the phone. --><string name="pref_camera_scenemode_entry_landscape">Paisatge</string><!-- Scene mode that takes night shots with long exposure and flash to illuminate the subject while still capturing darker detail in the background. --><string name="pref_camera_scenemode_entry_night_portrait">Retrat nocturn</string><!-- Scene mode to be used in a stage show. --><string name="pref_camera_scenemode_entry_theatre">Cinema</string><!-- Scene mode optimized for taking images on the beach. --><string name="pref_camera_scenemode_entry_beach">Platja</string><!-- Scene mode optimized for taking images in the snow. --><string name="pref_camera_scenemode_entry_snow">Neu</string><!-- Scene mode for taking a photo as sharp as possible. --><string name="pref_camera_scenemode_entry_steadyphoto">Foto estable</string><!-- Scene mode optimized for taking images of fireworks. --><string name="pref_camera_scenemode_entry_fireworks">Focs artificials</string>
+	<string name="pref_camera_scenemode_entry_sports">Esports</string>
+	<string name="pref_camera_scenemode_entry_candlelight">Llum d’espelma</string><!-- for CMCC feature --><string name="pref_camera_scenemode_entry_normal">Normal</string><!-- Video Camera --> <!-- EIS setting --><string name="pref_camera_eis_title">EIS</string>
+
+	<string name="pref_camera_eis_on">Activat</string>
+
+	<string name="pref_camera_recordaudio_entry_off">Desactivat</string>
+	<string name="pref_camera_recordaudio_entry_on">Activat</string><!-- ZSD songyutao --><string name="pref_camera_zsd_title">ZSD</string>
+	<string name="pref_chroma_flash_title">Flaix intel·ligent</string><!-- continuous shot speed --><string name="pref_camera_continuous_number_title">Enregistrament continuat</string>
+	<string name="pref_voice_capture">Captura de veu</string>
+
+	<string name="pref_voice_entry_off">Desactivat</string>
+	<string name="pref_voice_entry_on">Activat</string><!-- Face Detection properties  songyutao set FD dafault on --><string name="pref_camera_face_detect_title">Detecció facial</string>
+
+	<string name="pref_camera_face_detect_entry_off">Desactivat</string>
+	<string name="pref_camera_face_detect_entry_on">Activat</string>
+	<string name="pref_camera_record_location_title">Geoetiquetatge</string>
+	<string name="pref_camera_thumb_title">Camera Roll</string>
+	<string name="pref_camera_pic_frame_entry_off">Desactivat</string>
+	<string name="pref_camera_pic_frame_entry_on">Activat</string>
+	<string name="pref_shutter_touch_title">Captura amb un toc</string>
+
+	<string name="pref_shutter_smile_title">Captura amb somriure</string>
+
+	<string name="pref_shutter_hand_title">Captura amb la mà</string>
+	<string name="pref_shutter_watermark_title">Marca d\'aigua</string>
+
+	<string name="pref_camera_watermark_entry_off">Desactivat</string>
+	<string name="pref_camera_watermark_entry_on">Activat</string>
+	<string name="pref_camera_asd_title">ASD</string>
+	<string name="pref_camera_asd_entry_off">Desactivat</string>
+	<string name="pref_camera_asd_entry_on">Activat</string>
+	<string name="pref_camera_shutter_sound_title">So de l’obturador</string>
+	<string name="pref_camera_shutter_sound_entry_off">Desactivat</string>
+	<string name="pref_camera_shutter_sound_entry_on">Activat</string>
+	<string name="pref_camera_pic_level_title">Gradient</string>
+	<string name="pref_camera_pic_level_entry_off">Desactivat</string>
+	<string name="pref_camera_pic_level_entry_on">Activat</string>
+
+	<string name="pref_capture_mirror_title">Mirall frontal</string>
+	<string name="pref_camera_save_pos_title">Emmagatzematge</string>
+	<string name="pref_camera_save_pos_entry_t">Targeta SD</string>
+	<string name="pref_camera_save_pos_entry_p">Telèfon</string>
+	<string name="pref_camera_save_pos_entry_u">USB OTG</string>
+	<string name="pref_camera_mesh_line_title">Línia de malla</string>
+	<string name="pref_camera_high_picture_size_title">Mida de la imatge alta</string>
+	<string name="pref_pic_struct_title">Línies d\'enquadrament</string>
+
+	<string name="pref_pic_struct_entry_off">Desactivat</string>
+	<string name="pref_pic_struct_entry_enneahedral">Línies de quadrícula</string>
+	<string name="manual">Expert</string>
+	<string name="photo_mode">Foto</string>
+	<string name="panorama_mode">PANORÀMICA</string>
+	<string name="beauty_mode">Bellesa facial</string>
+	<string name="radio_switch_to_hdr">HDR</string>
+	<string name="radio_switch_to_facebeauty_custom">Bellesa facial</string><!-- application infomation --><string name="app_name">Càmera</string>
+	<string name="pref_camera_selftimer_entry_5">5 segons</string>
+	<string name="night_mode">Nit</string>
+	<string name="radio_switch_to_beautyvideo">Vídeo de bellesa</string>
+	<string name="timelapse_mode">Filmació a intervals</string><!-- add by zzp for pano--><string name="panorama_arcsoft_guide_shutter">Premeu el botó de l’obturador i moveu el telèfon\namb lentitud cap a una direcció</string>
+	<string name="panorama_arcsoft_warn_slowly">Moveu el telèfon lentament</string>
+	<string name="panorama_arcsoft_warn_back">Moveu el telèfon per la fletxa</string>
+	<string name="panorama_arcsoft_warn_up">Moveu cap amunt</string>
+	<string name="panorama_arcsoft_warn_down">Moveu cap avall</string>
+	<string name="panorama_arcsoft_warn_left">Moveu cap a l\'esquerra</string>
+	<string name="panorama_arcsoft_warn_right">Moveu cap a la dreta</string>
+	<string name="panorama_arcsoft_switch_capture_direction_guide">Toqueu la fletxa per canviar la direcció de la captura</string>
+	<string name="panorama_capture_guide">Alineeu la fletxa amb la línia de referència</string>
+	<string name="panorama_toggle_mode_standard">Estàndard</string>
+	<string name="panorama_toggle_mode_super">Súper</string><!--time line 20141227--><string name="radio_switch_to_pip">Vista dual</string>
+	<string name="setting_title">Configuració</string>
+	<string name="mode_title">Modes</string>
+	<string name="setting_top_full_hint">No es poden afegir més elements.</string>
+	<string name="touchless_guide_vsign_title">Signe V</string>
+	<string name="touchless_guide_tips_vsign_only">Podeu fer un gest en forma de V per fer la captura automàtica.</string>
+	<string name="touchless_guide_text_ok">D’acord</string>
+	<string name="touchless_guide_text_reminder">No tornar a mostrar</string>
+	<string name="wideself_arcsoft_guide_shutter">Premeu el botó de l’obturador per iniciar</string>
+	<string name="wideself_arcsoft_guide_step_one">Gireu el telèfon cap a una direcció i després cap a l\'altra</string>
+	<string name="wideself_arcsoft_rolate_to_left">Gireu el telèfon cap a l’esquerra lentament</string>
+	<string name="wideself_arcsoft_rolate_to_right">Gireu el telèfon cap a la dreta lentament</string>
+	<string name="wideself_arcsoft_cannot_use_guide">Feu servir Wide Selfie en mode retrat</string>
+	<string name="wideself_arcsoft_downup_offset_warn">It is not good enough to horizontally align the photo.</string>
+	<string name="panorama_arcsoft_cannot_use_guide">Feu servir Panorama en mode retrat</string>
+	<string name="radio_switch_to_wideselfie">Wide selfie</string>
+	<string name="radio_switch_to_refocus">Centrat intel·ligent</string>
+	<string name="radio_switch_to_chromaflash">Flaix intel·ligent</string>
+	<string name="radio_switch_to_clearsight">ClearSight</string>
+	<string name="setting_guide_message">Toqueu «Afegir a la barra de dreceres» o\narrossegueu per afegir la drecera</string>
+	<string name="skip_setting_guide">Entesos</string>
+	<string name="permission_title">Permetre l\'accés</string>
+	<string name="enable_permission_procedure">Podeu modificar els permisos a Configuració &gt; Aplicacions &gt; %1$s &gt; Permisos</string>
+	<string name="toast_storage_full_sdcard_to_internal">La targeta SD és plena. Es desarà a l\'emmagatzematge intern</string>
+	<string name="toast_storage_damaged_sdcard_to_internal">Error en desar el fitxer a la targeta SD, s\'està desant a l\'emmagatzematge intern</string>
+	<string name="toast_storage_full_internal_to_sdcard">L\'emmagatzematge intern és ple, s\'està desant a la targeta SD</string>
+	<string name="toast_storage_full_clean_up_to_free_space">L\'emmagatzematge del telèfon és ple. Allibereu espai</string>
+	<string name="secure_camera_can_not_request_permission">Primer, desbloquegeu el telèfon per acceptar/rebutjar les sol·licituds de permisos</string>
+	<string name="shutcauts_frontcamera">Fer una autofoto</string>
+	<string name="shutcauts_backcamera">Fer una autofoto</string>
+	<string name="shutcauts_frontvideo">Enregis un vídeo (autofoto)</string>
+	<string name="shutcauts_backvideo">Enregis un vídeo</string>
+	<string name="pref_camera_status_detect_title">Detecció d\'estat</string>
+	<string name="pref_camera_raw_file_title">Fitxer RAW</string>
+	<string name="pref_camera_filter_title">Filtre</string>
+	<string name="pref_dual_camera_title">Càmera dual</string>
+	<string name="pref_dual_camera_default">Desactivat</string>
+	<string name="radio_switch_to_monochrome">Blanc i negre</string>
+
+	<string name="pref_camera_gpu_effect_focus">Focus</string>
+	<string name="pref_camera_gpu_effect_sepia">Sèpia</string>
+	<string name="pref_camera_gpu_effect_temperature">Temperatura</string>
+	<string name="pref_camera_gpu_effect_gray">Gris</string>
+	<string name="pref_camera_gpu_effect_none">Cap</string>
+	<string name="pref_camera_gpu_effect_documentary">Documental</string>
+	<string name="pref_camera_gpu_effect_fishEye">Ull de peix</string>
+	<string name="pref_camera_gpu_effect_tint">Matís</string>
+	<string name="pref_camera_gpu_effect_crossprocess">Crossprocess</string>
+	<string name="portrait_mode">Retrat</string>
+	<string name="pref_camera_pref_entry_auto">Automàtic</string>
+	<string name="confirm_mode_tip">Toqueu per canviar al mode %1$s</string>
+	<string name="focal_switch_scale_tip">Toqueu la icona per obrir el mode telefoto</string>
+	<string name="front_wide_switch_tip">Toqueu la icona per activar autofoto de grup</string>
+	<string name="low_memory_limit">El sistema té poca memòria. Algunes característiques limiten la mida de la captura</string>
+	<string name="portrait_background_blur">Retrat</string>
+	<string name="portrait_of_face_beauty">Bellesa facial</string>
+	<string name="asd_result_hdr">HDR activat</string>
+	<string name="toast_face_undetected_at_portrait">No s’ha detectat cap cara en una zona de dos metres</string>
+	<string name="toast_face_undetected_at_sticker">No s’ha detectat cap cara</string>
+	<string name="toast_view_pic_vivid_at_superpixel">Captureu més detalls amb Super Pixel</string>
+	<string name="front_face_detected_first_tip">Mireu la càmera per obtenir millors autofotos</string>
+	<string name="u_screen_selfie_count_down_cancel">Cancel·lar</string>
+	<string name="video_beauty_switch_on">Activat</string>
+	<string name="video_beauty_switch_off">Desactivat</string>
+	<string name="image_processing_toast">Processament d’imatges</string>
+	<string name="short_video_not_found">No s’ha trobat el vídeo</string><!-- for Android O's CTS--><string name="camera_review_done_desc">Fet</string>
+	<string name="bokeh_mode">Retrat</string>
+	<string name="toast_dual_camera_bokeh">Seguiu enregistrant en una zona de dos metres</string><!-- for qcom slowmotion--><string name="pref_camera_hfr_entry_2x">X2</string>
+	<string name="pref_camera_hfr_entry_3x">X3</string>
+	<string name="pref_camera_hfr_entry_4x">X4</string>
+
+
+
+	<string name="slow_motion_mode">SLO-MO</string>
+
+
+
+	<!-- // Camera fun mode string --><string name="radio_switch_to_fun">Camera Fun</string><!-- Default fun mode setting. -->
+	<string name="pref_camera_fun_title">Fun</string>
+	<string name="pref_camera_sticker_title">Adhesiu</string>
+	<string name="toast_face_undetected_at_fun">Cara no detectada</string>
+	<string name="toast_eyes_undetected_at_fun">Parpellegeu per veure una vista prèvia de l\'efecte</string>
+	<string name="toast_mouth_undetected_at_fun">Obriu la boca per veure una vista prèvia de l\'efecte</string>
+	<string name="toast_short_video_tip">Manteniu premut l’obturador per enregistrar un vídeo curt</string>
+	<string name="fun_filter_none">Filtre</string>
+	<string name="fun_filter_lomo">LOMO</string>
+	<string name="fun_filter_elegant">Elegant</string>
+	<string name="fun_filter_cyan">Cian</string>
+	<string name="fun_filter_mint">Menta</string>
+	<string name="fun_filter_led">LED</string>
+	<string name="fun_filter_eternal">Etern</string>
+	<string name="fun_filter_formerly">Anteriorment</string>
+	<string name="fun_filter_blue">Blau</string>
+	<string name="fun_filter_oldbooth">Cabina antiga</string>
+	<string name="fun_filter_milkytea">Te amb llet</string>
+	<string name="fun_filter_warm">Càlid</string>
+	<string name="fun_filter_norway">Noruega</string>
+	<string name="fun_filter_cool">Fred</string>
+	<string name="fun_filter_dew">Rosada</string>
+	<string name="fun_filter_youth">Joventut</string>
+	<string name="fun_filter_shy">Tímid</string>
+	<string name="fun_filter_jaipur">Jaipur</string>
+	<string name="fun_filter_autumn">Tardor</string>
+	<string name="fun_filter_japanese">Japonès</string>
+	<string name="fun_filter_sweet">Dolç</string>
+	<string name="fun_filter_warren">Warren</string>
+	<string name="fun_filter_tsukiji">Tsukiji</string>
+	<string name="fun_filter_vivid">Vívid</string>
+	<string name="fun_filter_facingsun">Cara cap al sol</string>
+	<string name="fun_filter_purple">Púrpura</string>
+	<string name="pref_gender_estimate_title">Estimació de gènere</string>
+	<string name="pref_gender_estimate_entry_on">Activat</string>
+	<string name="pref_gender_estimate_entry_off">Desactivat</string>
+	<string name="beauty_guide_top_text">Bellesa IA</string>
+	<string name="toast_motion_photo_opened">Foto en moviment activada</string>
+	<string name="pref_camera_gpu_effect_vignetting">Efecte de vinyeta</string><!--add for ai scene detection --><string name="ai_scene_tips_food">Menjar</string>
+	<string name="ai_scene_tips_portrait">Retrat</string>
+	<string name="ai_scene_tips_foliage">Planta</string>
+	<string name="ai_scene_tips_sky">Cel blau</string>
+	<string name="ai_scene_tips_text">Text</string><!-- add for faceplus asd detection --><string name="faceplus_asd_tips_face">Retrat</string>
+	<string name="faceplus_asd_tips_food">Menjar</string>
+	<string name="faceplus_asd_tips_fruits">Fruita</string>
+	<string name="faceplus_asd_tips_flower">Flor</string>
+	<string name="faceplus_asd_tips_flowersea">Mar de flors</string>
+	<string name="faceplus_asd_tips_sandbeach">Sorra</string>
+	<string name="faceplus_asd_tips_snow">Neu</string>
+	<string name="faceplus_asd_tips_bluesky">Cel</string>
+	<string name="faceplus_asd_tips_night">Nit</string>
+	<string name="faceplus_asd_tips_sunrise">Alba i posta de sol</string>
+	<string name="faceplus_asd_tips_qr">Codi QR</string>
+	<string name="faceplus_asd_tips_businesscard">Posar nom a la targeta</string>
+	<string name="faceplus_asd_tips_whiteboard">Pissarra</string>
+	<string name="faceplus_asd_tips_idcard">ID</string>
+	<string name="faceplus_asd_tips_bankcard">Targeta de crèdit</string>
+	<string name="faceplus_asd_tips_cat">Gat</string>
+	<string name="faceplus_asd_tips_dog">Gos</string>
+	<string name="faceplus_asd_tips_meadow">Prat</string>
+	<string name="faceplus_asd_tips_plants">Planta</string>
+	<string name="toast_gender_estimate_started">S\'estan ajustant els paràmetres en funció de la cara</string>
+	<string name="beauty_guide_top_text_description">Activeu la funció bellesa IA i ajusteu els paràmetres en funció de la cara</string>
+	<string name="zoom_guide_title">Una manera més fàcil d\'ampliar i reduir</string>
+	<string name="zoom_guide_content">Toqueu la icona de dalt per accedir a l’angle ampli i al súper zoom. O llisqueu en vertical a la pantalla per ampliar o reduir</string>
+	<string name="video_recording">Enregistrament de vídeo</string>
+	<string name="micro_video_guide_content">Si heu activat la foto en moviment, cada foto que feu pot incloure un vídeo curt abans i després de la captura. El vídeo es pot incloure quan compartiu la foto.</string>
+	<string name="motion_photo">Foto en moviment</string>
+	<string name="switch_to_wide_lens_toast">S\'està activant l\'objectiu d’angle ample</string>
+	<string name="time_lapse_not_save">No es pot desar la filmació a intervals. El vídeo ha de durar com a mínim %1$d segons</string>
+	<string name="pref_shutter_speed_title">Velocitat de l’obturador</string>
+	<string name="switch_to_wide_lens_landscape_toast">Toqueu angle ample per a una vista més àmplia</string>
+	<string name="radio_switch_to_dual_bokeh_for_custom">Difuminat artístic</string>
+	<string name="toast_video_recording_in_call_state">No es pot enregistrar durant una trucada</string>
+	<string name="pref_camera_ai_title">IA</string>
+	<string name="toast_video_3dnr_on">Vista nocturna del vídeo activada</string>
+	<string name="toast_storage_unavailable">La targeta SD no està disponible</string>
+	<string name="toast_landscape_open_wide_tips">Canvieu a l\'angle súper ample per capturar més paisatge o amics.</string>
+	<string name="enable_sd_permission_title">La càmera necessita accés a la targeta SD</string>
+	<string name="enable_sd_permission_content">Consulteu la configuració i permeteu l\'accés a \"DCIM\" a \"SD card\”</string>
+	<string name="macro_mode">Macro</string>
+	<string name="super_macro_tip">Manteniu el telèfon a uns 3 o 4 centímetres de l’objecte.</string>
+	<string name="bokeh_offfline_processing">Les dades bokeh sense connexió s\'estan processant…</string>
+	<string name="pref_google_lens">Google Lens</string>
+	<string name="never">Mai</string>
+	<string name="toast_high_temp_disable_flash">La temperatura és massa baixa. No es pot activar el flaix.</string>
+	<string name="toast_high_temp_shutdown_camera">La temperatura és massa alta. La càmera s\'aturarà en cinc segons</string>
+
+	<string name="bokeh_type_name">Difuminat artístic</string>
+	<string name="bokeh_type_description">Aquesta funció us permet editar la foto amb l\'efecte difuminat artístic.</string>
+	<string name="hdr_type_name">HDR</string>
+	<string name="hdr_type_description">Més preservació de detalls en un entorn a contrallum</string>
+	<string name="ai_type_name">IA</string>
+	<string name="ai_type_description">Establiu els paràmetres automàticament amb la detecció d\'escena</string>
+	<string name="timelapse_type_name">Filmació a intervals</string>
+	<string name="timelapse_type_description">Mostreu un vídeo llarg amb més velocitat en un temps més curt</string>
+	<string name="don_t_cover_the_lens">No tapeu l’objectiu</string>
+	<string name="pref_video_time_lapse_frame_interval_title">Interval de temps</string>
+	<string name="toast_qr_code_detected">Codi QR detectat.\nToqueu per visitar-lo</string>
+	<string name="toast_qr_code_detected_type_esim">Perfil d’eSIM detectat.\nToqueu per activar l’eSIM</string>
+	<string name="toast_qr_code_detected_type_url">Codi QR detectat.\nToqueu per visitar l’enllaç</string>
+	<string name="toast_qr_code_detected_type_string">Codi QR detectat.\nToqueu per cercar a Google</string>
+	<string name="toast_bar_code_detected_type_string">Codi de barres detectat.\nToqueu per visitar l’enllaç</string>
+	<string name="toast_bar_code_detected_type_number">Codi de barres de producte detectat.\nToqueu per cercar el producte</string>
+	<string name="turn_off_qr_code">Desactivar codi QR</string>
+	<string name="pref_video_quality_entry_fine_text">Fi</string>
+	<string name="pref_video_quality_entry_high_text">Alt</string>
+	<string name="pref_exposure_metering_title">Mesurament d\'exposició</string>
+	<string name="pref_exposure_metering_entry_frame_average">Frame average</string>
+	<string name="pref_exposure_metering_entry_center_weighted">Centre ponderat</string>
+	<string name="pref_exposure_metering_entry_spot_metering">Mesurament de punts</string>
+	<string name="toast_disable_torch">Desactiveu la llanterna per evitar que el flaix se sobreescalfi</string>
+	<string name="google_location_dialog_title">Voleu afegir la informació de la ubicació a les fotos que heu fet amb l\'app de la càmera?</string>
+	<string name="google_location_dialog_message">Això significa que les fotos inclouran informació sobre el lloc on s’han fet.</string>
+	<string name="google_location_dialog_message_lear_more">
+		<a href="https://support.google.com/photos/answer/9921876">Més informació</a>
+	</string>
+	<string name="google_location_dialog_positive">Activar ubicació de la càmera</string>
+	<string name="image_search_mode">Cercar article</string>
+	<string name="detect_result_title">Seleccioneu un article per veure els resultats de cerca</string>
+	<string name="search_result_title">Resultats de cerca per articles similars</string>
+	<string name="search_for_other_items">Cercar altres articles</string>
+	<string name="point_format_string">%1$d punts (%2$dx)</string><!--    <string name="price_format_string">%1$s yen</string>--><string name="view_on_rakuten_ichiba">Veure a Rakuten Ichiba</string>
+	<string name="view_all_results_on_rakuten_ichiba">Veure resultats a Rakuten Ichiba</string>
+	<string name="start_new_search">Iniciar nova cerca</string>
+	<string name="network_error">Error de xarxa.\nComproveu la connexió a internet i torneu-ho a provar</string>
+	<string name="item_not_found">No s’ha detectat cap article de moda</string>
+	<string name="cropped_item_not_found">Torneu a ajustar la mida de l’àrea de cerca </string>
+	<string name="cropped_item_not_found_btn_text">Torneu a ajustar l’àrea de cerca</string>
+	<string name="searching">S’està cercant…</string>
+	<string name="image_search_tip">Feu una foto o trieu una imatge per cercar</string>
+	<string name="image_search_processing">S’està cercant…</string>
+	<string name="move_and_resize_tip">Moveu el marc a qualsevol zona per cercar.\nArrossegueu els extrems per ajustar la mida del marc.</string>
+	<string name="new_feature_image_search_guide_title">Nova característica</string>
+	<string name="new_feature_image_search_guide_title_extra" translatable="false" />
+	<string name="new_feature_image_search_guide_content">Ara podeu fer una foto i cercar articles a Rakuten Ichiba</string>
+	<string name="item_search_guide_title">Què és la cerca d’articles?</string>
+	<string name="item_search_guide_content_p1">Busqueu articles a Rakuten Ichiba amb fotos que hàgiu fet amb la càmera.</string>
+	<string name="item_search_guide_content_p2">(Actualment només es poden buscar articles del món de la moda).</string>
+	<string name="feedback_title">Opinió</string>
+	<string name="feedback_content">Aquests resultats són útils?</string>
+	<string name="feedback_action">Donar opinió</string>
+	<string name="feedback_send">Enviar</string>
+	<string name="feedback_response">Gràcies pels vostres comentaris.</string>
+	<string name="terms_of_use_title">Condicions d’ús</string>
+	<string name="privacy_title">Política de privacitat</string>
+	<string name="free_shipping">Enviament gratuït</string>
+	<string name="terms_of_use_agree">Accepto les condicions d’ús.</string>
+	<string name="start_to_use">Cerca d’imatge</string>
+	<string name="terms_of_use_content">Aquestes són les condicions d’ús.</string>
+	<string name="try_again_tips">No heu trobat res que us agradi?\nProveu una nova cerca per obtenir resultats diferents</string>
+	<string name="yen">Ien</string>
+	<string name="pref_video_fps">FPS</string>
+	<string name="pref_video_encoder">Codificador</string>
+	<string name="more">Més</string>
+	<string name="panorama_night_mode">Nit panoràmica</string>
+	<string name="long_press_shutter_button">Manteniu premut l\'obturador</string>
+	<string name="continuous_shot_entry">Enregistrament continuat</string>
+
+
+	<string name="pref_camera_wb_temp_title">Temperatura de color</string>
+
+	<string name="pref_camera_entry_off">Desactivat</string>
+	<string name="pref_camera_whitebalance_entry_custom">Personalitzat</string>
+	<string name="pref_camera_entry_on">Activat</string>
+
+	<string name="pref_video_night_title">Vídeo nocturn</string>
+	<string name="video_ois_title">OIS</string>
+	<string name="pref_photo_mfnr_title">MFNR</string>
+	<string name="remosaic_mode">Remosaic</string>
+
+	<string name="pref_high_definition_title">Alta definició</string>
+	<string name="pref_pro_raw_title">Alta definició</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="nft_loading_tips">Adatok letöltése</string>
+    <string name="nft_loading_tips_second">Ez folyamat eltarthat egy darabig.</string>
+
+</resources>

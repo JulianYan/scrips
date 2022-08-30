@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nt_navigation_back_button_left_side">Кнопка вяртання з левага боку</string>
+    <string name="nt_navigation_back_button_right_side">Кнопка вяртання з правага боку</string>
+    <string name="nt_navigation_config_title">Месцазнаходжанне кнопкі</string>
+    <string name="nt_glyphs_charging_features">Паказваць ход зарадкі, калі прылада падключана да сеткі, або варушыць прыладай падчас зарадкі.</string>
+    <string name="nt_screen_refresh_rate_high_summary">Дынамічная частата абнаўлення да 120 Гц для больш плаўнай пракруткі і анімацыі.</string>
+    <string name="nt_screen_refresh_rate_standard_summary">Фіксаваная частата абнаўлення 60 Гц для павелічэння тэрміну працы батарэі.</string>
+	
+	<!-- translate to other languages -->
+	<string name="nt_glyphs_flip_title">Пераключэнне на Glyph</string>
+    <string name="nt_glyphs_flip_to_glyph_title">Пераключэнне на Glyph</string>
+    <string name="nt_use_filp_to_glyph">Выкарыстаць Пераключэнне на Glyph</string>
+	
+</resources>

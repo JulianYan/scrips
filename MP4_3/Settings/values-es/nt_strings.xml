@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="battery_suggestion_summary">Activar la Batería adaptativa</string>
+    <string name="smart_battery_manager_title">Batería adaptativa</string>
+    <string name="smart_battery_footer">Para prolongar la vida de la batería, la Batería adaptativa limita el uso de la batería para las aplicaciones que se utilizan con menos frecuencia. Su teléfono aprenderá cómo utiliza las aplicaciones a lo largo del tiempo. \n\nEs posible que las notificaciones de estas aplicaciones se demoren.</string>
+    <string name="smart_battery_footer" product="tablet">Para prolongar la vida de la batería, la Batería adaptativa limita el uso de la batería para las aplicaciones que se utilizan con menos frecuencia. Su tableta aprenderá cómo utiliza las aplicaciones a lo largo del tiempo. \n\nEs posible que las notificaciones de estas aplicaciones se demoren.</string>
+    <string name="smart_battery_footer" product="device">Para prolongar la vida de la batería, la Batería adaptativa limita el uso de la batería para las aplicaciones que se utilizan con menos frecuencia. Su dispositivo aprenderá cómo utiliza las aplicaciones a lo largo del tiempo. \n\nEs posible que las notificaciones de estas aplicaciones se demoren.</string>
+    <string name="smart_battery_title">Utilizar la Batería adaptativa</string>
+    <string name="battery_tip_smart_battery_summary">Activar la Batería adaptativa</string>
+    <string name="nt_color_temperature">Temperatura de color</string>
+    <string name="warmer">Cálido</string>
+    <string name="colder">Frío</string>
+	        <!-- Mobile network settings screen, title of item showing the name of the default subscription
+    that will be used for data. This only appears in multi-SIM mode. [CHAR LIMIT=NONE] -->
+    <string name="data_preference">Preferencia de datos</string>
+	<string name="vibrating_for_outgoing_call_accepted_summary">Habilitar el modo de vibración para las llamadas salientes aceptadas</string>
+</resources>

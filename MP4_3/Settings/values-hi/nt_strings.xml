@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="battery_suggestion_summary">सुविधाजनक बैटरी ऑन करें</string>
+    <string name="smart_battery_manager_title">सुविधाजनक बैटरी</string>
+    <string name="smart_battery_footer">बैटरी लाइफ को बढ़ाने के लिए, सुविधाजनक बैटरी कभी-कभी इस्तेमाल किए जाने वाले ऐप्स के लिए बैटरी के इस्तेमाल को सीमित करती है। समय के साथ आपका फोन सीख लेगा कि आप ऐप्स का इस्तेमाल कैसे करते हैं। \n\nइन ऐप्स के लिए नोटिफिकेशन में देरी हो सकती है।</string>
+    <string name="smart_battery_footer" product="tablet">बैटरी लाइफ को बढ़ाने के लिए, सुविधाजनक बैटरी कभी-कभी इस्तेमाल किए जाने वाले ऐप्स के लिए बैटरी के इस्तेमाल को सीमित करती है। समय के साथ आपका टेबलेट सीख लेगा कि आप ऐप्स का इस्तेमाल कैसे करते हैं। \n\nइन ऐप्स के लिए नोटिफिकेशन में देरी हो सकती है।</string>
+    <string name="smart_battery_footer" product="device">बैटरी लाइफ को बढ़ाने के लिए, सुविधाजनक बैटरी कभी-कभी इस्तेमाल किए जाने वाले ऐप्स के लिए बैटरी के इस्तेमाल को सीमित करती है। समय के साथ आपका डिवाइस सीख लेगा कि आप ऐप्स का इस्तेमाल कैसे करते हैं। \n\nइन ऐप्स के लिए नोटिफिकेशन में देरी हो सकती है।</string>
+    <string name="smart_battery_title">सुविधाजनक बैटरी का इस्तेमाल करें</string>
+    <string name="battery_tip_smart_battery_summary">सुविधाजनक बैटरी ऑन करें</string>
+    <string name="nt_color_temperature">कलर तापमान</string>
+    <string name="warmer">गर्म</string>
+    <string name="colder">ठंडा</string>
+	        <!-- Mobile network settings screen, title of item showing the name of the default subscription
+    that will be used for data. This only appears in multi-SIM mode. [CHAR LIMIT=NONE] -->
+    <string name="data_preference">डेटा वरीयता</string>
+	<string name="vibrating_for_outgoing_call_accepted_summary">स्वीकार किए जाने पर आउटगोइंग कॉल के लिए वाइब्रेटिंग मोड सक्षम करें</string>
+</resources>

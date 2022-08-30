@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="nft_loading_tips">데이터를 다운로드하는 중입니다.</string>
+    <string name="nft_loading_tips_second">이 프로세스는 시간이 걸릴 수 있습니다.</string>
+
+</resources>

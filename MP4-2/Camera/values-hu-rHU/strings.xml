@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_watermark">Vízjel</string>
+    <string name="settings_model_watermark">Modell vízjel</string>
+    <string name="settings_time_watermark">Idő vízjel</string>
+</resources>

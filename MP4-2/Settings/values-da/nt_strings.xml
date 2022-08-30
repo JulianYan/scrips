@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nt_navigation_back_button_left_side">Knappen Tilbage på venstre side</string>
+    <string name="nt_navigation_back_button_right_side">Knappen Tilbage på højre side</string>
+    <string name="nt_navigation_config_title">Knaplayout</string>
+    <string name="nt_glyphs_charging_features">Vis progression for opladning, når enheden er tilsluttet, eller vip med enheden under opladning.</string>
+    <string name="nt_screen_refresh_rate_high_summary">En dynamisk opdateringshastighed på 120 Hz for jævnere rulning og animationer.</string>
+    <string name="nt_screen_refresh_rate_standard_summary">En fast opdateringsfrekvens på 60 Hz for bedre batterilevetid.</string>
+	
+	<!-- translate to other languages -->
+	<string name="nt_glyphs_flip_title">Vend til Glyph</string>
+    <string name="nt_glyphs_flip_to_glyph_title">Vend til Glyph</string>
+    <string name="nt_use_filp_to_glyph">Brug Vend til Glyph</string>
+	
+</resources>

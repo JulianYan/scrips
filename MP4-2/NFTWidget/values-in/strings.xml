@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="nft_loading_tips">Mengunduh data.</string>
+    <string name="nft_loading_tips_second">Proses ini mungkin memakan waktu cukup lama.</string>
+
+</resources>

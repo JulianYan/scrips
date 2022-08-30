@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nt_navigation_back_button_left_side">Nút quay lại ở cạnh bên trái</string>
+    <string name="nt_navigation_back_button_right_side">Nút quay lại ở cạnh bên phải</string>
+    <string name="nt_navigation_config_title">Bố cục nút</string>
+    <string name="nt_glyphs_charging_features">Hiển thị tiến trình sạc khi thiết bị đang cắm điện hoặc bị lắc trong quá trình sạc.</string>
+    <string name="nt_screen_refresh_rate_high_summary">Tốc độ làm mới động lên đến 120 Hz giúp cuộn và chạy hoạt ảnh mượt mà hơn.</string>
+    <string name="nt_screen_refresh_rate_standard_summary">Tốc độ làm mới cố định 60 Hz giúp thời lượng pin lâu hơn.</string>
+	
+	<!-- translate to other languages -->
+	<string name="nt_glyphs_flip_title">Chế độ Úp phát sáng Glyph</string>
+    <string name="nt_glyphs_flip_to_glyph_title">Chế độ Úp phát sáng Glyph</string>
+    <string name="nt_use_filp_to_glyph">Sử dụng chế độ Úp phát sáng Glyph</string>
+	
+</resources>

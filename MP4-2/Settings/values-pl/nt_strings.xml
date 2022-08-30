@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nt_navigation_back_button_left_side">Przycisk Wstecz po lewej stronie</string>
+    <string name="nt_navigation_back_button_right_side">Przycisk Wstecz po prawej stronie</string>
+    <string name="nt_navigation_config_title">Układ przycisków</string>
+    <string name="nt_glyphs_charging_features">Wyświetlenie postępu ładowania po podłączeniu urządzenia albo lub poruszanie się podczas ładowania urządzenia.</string>
+    <string name="nt_screen_refresh_rate_high_summary">Dynamiczna częstotliwość odświeżania 120 Hz zapewnia płynniejsze przewijanie i animacje.</string>
+    <string name="nt_screen_refresh_rate_standard_summary">Stała częstotliwość odświeżania 60 Hz dla lepszej żywotności baterii.</string>
+	
+	<!-- translate to other languages -->
+	<string name="nt_glyphs_flip_title">Przerzuć na Glyph</string>
+    <string name="nt_glyphs_flip_to_glyph_title">Przerzuć na Glyph</string>
+    <string name="nt_use_filp_to_glyph">Użyj przerzucenia na Glyph</string>
+	
+</resources>

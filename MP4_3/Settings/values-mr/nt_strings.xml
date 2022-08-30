@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="battery_suggestion_summary">अनुकूलीत बॅटरी चालू करा</string>
+    <string name="smart_battery_manager_title">अनुकूलीत बॅटरी</string>
+    <string name="smart_battery_footer">बॅटरीचे लाईफ वाढवण्यासाठी, अनुकूलीत बॅटरी वारंवार वापरल्या जाणार्‍या अॅप्ससाठी बॅटरी वापर मर्यादित करते. तुमचा फोन कालांतराने तुम्ही अॅप्स कसे वापरता हे शिकेल. \n\nया अॅप्ससाठी सूचनांना उशीर होऊ शकतो.</string>
+    <string name="smart_battery_footer" product="tablet">बॅटरीचे लाईफ वाढवण्यासाठी, अनुकूलीत बॅटरी वारंवार वापरल्या जाणार्‍या अॅप्ससाठी बॅटरी वापर मर्यादित करते. तुमचा टॅबलेट कालांतराने तुम्ही अॅप्स कसे वापरता हे शिकेल. \n\nया अॅप्ससाठी सूचनांना उशीर होऊ शकतो.</string>
+    <string name="smart_battery_footer" product="device">बॅटरीचे लाईफ वाढवण्यासाठी, अनुकूलीत बॅटरी वारंवार वापरल्या जाणार्‍या अॅप्ससाठी बॅटरी वापर मर्यादित करते. तुम्ही अॅप्स कसे वापरता हे तुमचे डिव्हाइस कालांतराने शिकेल. \n\nया अॅप्ससाठी सूचनांना उशीर होऊ शकतो.</string>
+    <string name="smart_battery_title">अनुकूलीत बॅटरी वापरा</string>
+    <string name="battery_tip_smart_battery_summary">अनुकूलीत बॅटरी चालू करा</string>
+    <string name="nt_color_temperature">रंग तापमान</string>
+    <string name="warmer">उबदार</string>
+    <string name="colder">कूल</string>
+	        <!-- Mobile network settings screen, title of item showing the name of the default subscription
+    that will be used for data. This only appears in multi-SIM mode. [CHAR LIMIT=NONE] -->
+    <string name="data_preference">डेटा प्राधान्य</string>
+	<string name="vibrating_for_outgoing_call_accepted_summary">स्वीकारलेल्या आउटगोइंग कॉलसाठी व्हायब्रेटिंग मोड सक्षम करा</string>
+</resources>

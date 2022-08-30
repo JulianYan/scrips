@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nt_navigation_back_button_left_side">Paluupainike vasemmassa laidassa</string>
+    <string name="nt_navigation_back_button_right_side">Paluupainike oikeassa laidassa</string>
+    <string name="nt_navigation_config_title">Painikkeiden asettelu</string>
+    <string name="nt_glyphs_charging_features">Näytä latauksen edistyminen, kun laite on kytketty verkkolaitteeseen, tai liikuta laitetta latauksen aikana.</string>
+    <string name="nt_screen_refresh_rate_high_summary">Jopa 120 Hz:n dynaaminen virkistystaajuus takaa sujuvamman selauksen ja jouhevammat animaatiot.</string>
+    <string name="nt_screen_refresh_rate_standard_summary">60 Hz:n kiinteä virkistystaajuus takaa pidemmän akunkeston.</string>
+	
+	<!-- translate to other languages -->
+	<string name="nt_glyphs_flip_title">Käännä Glyphiin</string>
+    <string name="nt_glyphs_flip_to_glyph_title">Käännä Glyphiin</string>
+    <string name="nt_use_filp_to_glyph">Käytä Käännä Glyphiin -ominaisuutta</string>
+	
+</resources>

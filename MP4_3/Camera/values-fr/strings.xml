@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_watermark_description">Ajouter automatiquement un filigrane après une prise de photo.</string>
+</resources>

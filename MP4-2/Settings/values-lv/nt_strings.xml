@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nt_navigation_back_button_left_side">Poga Atpakaļ kreisajā pusē</string>
+    <string name="nt_navigation_back_button_right_side">Poga Atpakaļ labajā pusē</string>
+    <string name="nt_navigation_config_title">Pogu izkārtojums</string>
+    <string name="nt_glyphs_charging_features">Attēlojiet uzlādes progresu, kad ierīce ir pievienota barošanas avotam, vai pakustiniet ierīci uzlādes laikā.</string>
+    <string name="nt_screen_refresh_rate_high_summary">Dinamisks līdz pat 120 Hz atsvaidzināšanas biežums vienmērīgākai ritināšanai un animāciju attēlošanai.</string>
+    <string name="nt_screen_refresh_rate_standard_summary">Fiksēts 60 Hz atsvaidzināšanas biežums ilgākam akumulatora kalpošanas laikam.</string>
+	
+	<!-- translate to other languages -->
+	<string name="nt_glyphs_flip_title">Pāriet pie Glyph</string>
+    <string name="nt_glyphs_flip_to_glyph_title">Pāriet pie Glyph</string>
+    <string name="nt_use_filp_to_glyph">Izmantot funkciju Pāriet pie Glyph</string>
+	
+</resources>

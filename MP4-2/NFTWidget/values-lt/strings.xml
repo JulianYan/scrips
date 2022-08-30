@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="nft_loading_tips">Atsisiunčiami duomenys.</string>
+    <string name="nft_loading_tips_second">Šis procesas gali šiek tiek užtrukti.</string>
+
+</resources>

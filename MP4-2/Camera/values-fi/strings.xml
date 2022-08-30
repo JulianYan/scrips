@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_watermark">Vesileima</string>
+    <string name="settings_model_watermark">Mallivesileima</string>
+    <string name="settings_time_watermark">Aikavesileima</string>
+</resources>

@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+     Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+
+    <!-- Confirmation dialog when restoring settings -->
+    <string name="confirm_restore_message">Vil du tilbakestille kamerainnstillingene?</string>
+    <string name="pref_camera_module_title">Kameramodus</string>
+    <!-- Settings screen, camera selection dialog title. Users can select a camera from the phone (front-facing or back-facing). [CHAR LIMIT=20] -->
+    <string name="pref_camera_id_title">Bytt kamera</string>
+
+    <!-- In select camera setting, back facing camera. [CHAR LIMIT=14] -->
+    <string name="pref_camera_id_entry_back">Bak</string>
+    <!-- In select camera setting, front-facing camera. [CHAR LIMIT=14] -->
+    <string name="pref_camera_id_entry_front">Foran</string>
+
+    <!-- Settings screen, Record location dialog choices -->
+    <string name="pref_camera_recordlocation_entry_off">Av</string>
+    <string name="pref_camera_recordlocation_entry_on">På</string>
+
+    <!-- The Video quality settings in preference [CHAR LIMIT=21] -->
+    <string name="pref_video_quality_title">Videokvalitet</string>
+    <string name="pref_video_stabilization_title">Videostabilisering</string>
+    <!-- The Video timelapse settings in preference [CHAR LIMIT=21] -->
+    <string name="pref_video_timelapse_title">Tidsforløpsvideo</string>
+    <string name="pref_video_autozoom_title">Automatisk videozoom</string>
+    <string name="video_mode">VIDEO</string>
+
+    <!-- Settings screen, Flash mode title -->
+    <string name="pref_camera_flashmode_title">Blitsmodus</string>
+    <string name="pref_screenflash_title">Skjermblits</string>
+
+    <!-- Settings screen, Flash mode dialog radio button choices -->
+    <string name="pref_camera_flashmode_entry_auto">Auto</string>
+    <string name="pref_camera_flashmode_entry_on">På</string>
+    <string name="pref_camera_flashmode_entry_off">Av</string>
+    <string name="pref_camera_flashmode_entry_torch">Lommelykt</string>
+    <string name="pref_camera_flashmode_entry_led">LED</string>
+
+
+    <!-- Settings screen, white balance title -->
+    <string name="pref_camera_whitebalance_title">AWB</string>
+
+    <!-- Settings screen, White balance dialog radio button choices -->
+    <string name="pref_camera_whitebalance_entry_auto">Auto</string>
+    <string name="pref_hdr_title">Live HDR</string>
+    <string name="pref_motion_photo_title">bevegelse</string>
+
+    <string name="pref_restore_detail">Tilbakestill innstillinger</string>
+
+    <!-- Exposure settings in preference -->
+    <string name="pref_exposure_title">EV</string>
+
+    <string name="pref_camera_volume_key_title">Volumtaster</string>
+    <string name="pref_camera_volume_key_shoot">Ta opp</string>
+    <string name="pref_camera_volume_key_zoom">Zoom</string>
+    <string name="pref_camera_volume_key_volume">Volum</string>
+    <string name="photo_incapture">Tar bilde</string>
+    <string name="toast_device_denayed">enheten er ikke tilgjengelig</string>
+    <string name="toast_device_connect_failed">kunne ikke koble til enheten</string>
+    <string name="toast_start_preview_failed">kunne ikke starte forhåndsvisningen</string>
+    <string name="toast_storage_full">det er tomt for lagringsplass</string>
+    <string name="toast_low_power_disable_flash">Lavt batteri. Lommelykten kan ikke åpnes.</string>
+    <string name="toast_video_size_max">Videostørrelsen har blitt justert opp til grensen.</string>
+    <string name="toast_continue_snap_max">Antall lange opptak har blitt justert opp til grensen.</string>
+    <string name="toast_video_error">Det kan ikke tas opp video i nåværende modus</string>
+    <string name="toast_video_start_fail">Mikrofonen er i bruk og det kan ikke tas opp lyd</string>
+    <string name="toast_video_init_size_error">Videostørrelsen har blitt justert ned til grensen.</string>
+    <string name="toast_long_press_unavilable">Langt opptak støttes ikke.</string>
+    <string name="toast_continuous_shot_off">Langt opptak er ikke tilgjengelig.</string>
+    <string name="toast_thumbnail_empty">ingen bilder</string>
+
+    <string name="toast_video_stabilization">stabilisering er aktivert</string>
+
+    <string name="toast_steady_capture">Ikke beveg telefonen mens det tas bilde.</string>
+
+    <string name="pref_video_quality_entry_full">Full</string>
+    <string name="pref_video_stabilization_entry_on">På</string>
+    <string name="pref_video_stabilization_entry_off">Av</string>
+    <string name="pref_video_stabilization_entry_standard">Standard</string>
+    <string name="pref_video_stabilization_entry_super">Super</string>
+    <string name="pref_camera_picturesize_title">Bildestørrelse</string>
+
+    <string name="pref_camera_picture_aspect_ratio_title">Bildets sideforhold</string>
+
+    <string name="pref_camera_picturesize_entry_16_9">Hele skjermen</string>
+    <string name="pref_camera_picturesize_entry_4_3">Normal</string>
+    <string name="pref_camera_picturesize_entry_1_1">Rektangel</string>
+
+    <string name="pref_camera_saturation_title">Metning</string>
+    <string name="pref_camera_brightness_title">Lysstyrke</string>
+    <string name="pref_camera_contrast_title">Kontrast</string>
+
+
+    <!-- self timer -->
+    <string name="pref_camera_selftimer_title">Selvutløser</string>
+    <string name="pref_camera_selftimer_entry_off">Av</string>
+    <string name="pref_camera_selftimer_entry_3">3 sekunder</string>
+    <string name="pref_camera_selftimer_entry_10">10 sekunder</string>
+
+    <!-- anti-flicker -->
+    <string name="pref_camera_antibanding_title">Antiflimring</string>
+    <string name="pref_camera_antibanding_entry_auto">Auto</string>
+    <string name="pref_camera_antibanding_entry_50hz">50 Hz</string>
+    <string name="pref_camera_antibanding_entry_60hz">60 Hz</string>
+
+
+    <!-- Video Camera -->
+    <!-- EIS setting -->
+    <string name="pref_camera_eis_title">EIS</string>
+    <string name="pref_camera_eis_on">På</string>
+    <string name="pref_camera_eis_off">Av</string>
+
+    <!-- microphone switch -->
+    <string name="pref_camera_recordaudio_title">Demping av videolyd</string>
+    <string name="pref_camera_recordaudio_entry_off">Av</string>
+    <string name="pref_camera_recordaudio_entry_on">På</string>
+
+
+    <!-- continuous shot speed -->
+    <string name="pref_camera_continuous_number_title">Langt opptak</string>
+
+
+    <string name="pref_voice_capture">Taleopptak</string>
+    <string name="pref_voice_entry_off">av</string>
+    <string name="pref_voice_entry_on">på</string>
+
+    <!-- Face Detection properties  songyutao set FD dafault on -->
+    <string name="pref_camera_face_detect_title">Ansiktsgjenkjenning</string>
+    <string name="pref_camera_face_detect_entry_off">Av</string>
+    <string name="pref_camera_face_detect_entry_on">På</string>
+    <string name="pref_camera_record_location_title">Lagre posisjon</string>
+    <string name="pref_camera_thumb_title">Kamerarull</string>
+
+    <string name="pref_camera_pic_frame_entry_off">Av</string>
+    <string name="pref_camera_pic_frame_entry_on">På</string>
+    <string name="pref_shutter_touch_title">Trykk for å ta bilde</string>
+    <string name="pref_shutter_smile_title">Ta bilde når det smiles</string>
+    <string name="pref_shutter_hand_title">Ta bilde med håndbevegelse</string>
+    <string name="pref_shutter_watermark_title">Vannmerke</string>
+    <string name="pref_camera_watermark_entry_off">Av</string>
+    <string name="pref_camera_watermark_entry_on">På</string>
+    <string name="pref_camera_asd_title">ASD</string>
+    <string name="pref_camera_asd_entry_off">Av</string>
+    <string name="pref_camera_asd_entry_on">På</string>
+
+    <string name="pref_camera_shutter_sound_title">Lukkerlyd</string>
+    <string name="pref_camera_shutter_sound_entry_off">Av</string>
+    <string name="pref_camera_shutter_sound_entry_on">På</string>
+    <string name="pref_camera_pic_level_title">Vater</string>
+    <string name="pref_camera_pic_level_entry_off">Av</string>
+    <string name="pref_camera_pic_level_entry_on">På</string>
+    <string name="pref_capture_mirror_title">Speilvendt frontkamera</string>
+    <string name="pref_camera_save_pos_title">Lagring</string>
+    <string name="pref_camera_save_pos_entry_t">SD-kort</string>
+    <string name="pref_camera_save_pos_entry_p">Telefon</string>
+    <string name="pref_camera_save_pos_entry_u">USB OTG</string>
+    <string name="pref_video_record_red_light_entry_off">av</string>
+    <string name="pref_video_record_red_light_entry_on">på</string>
+
+    <string name="pref_camera_mesh_line_title">Rutenett</string>
+    <string name="pref_camera_high_picture_size_title">Stor bildestørrelse</string>
+
+    <string name="pref_pic_struct_title">Rammelinjer</string>
+    <string name="pref_video_record_red_light_key_title">Lysindikator for opptak</string>
+    <string name="pref_pic_struct_entry_off">Av</string>
+    <string name="pref_pic_struct_entry_enneahedral">Rutenettlinjer</string>
+    <string name="manual">EKSPERT</string>
+    <string name="photo_mode">Bilde</string>
+    <string name="panorama_mode">PANORAMA</string>
+    <string name="beauty_mode">Ansiktsskjønnhet</string>
+    <string name="radio_switch_to_hdr">HDR</string>
+
+    <string name="radio_switch_to_facebeauty_custom">Ansiktsskjønnhet</string>
+    <!-- application infomation -->
+    <string name="app_name">Kamera</string>
+    <string name="pref_camera_selftimer_entry_5">5 sekunder</string>
+    <string name="night_mode">Natt</string>
+    <string name="capture_keep_steady_hint">Hold phone (1) i ro</string>
+    <string name="radio_switch_to_beautyvideo">Skjønnhetsvideo</string>
+    <string name="timelapse_mode">TIDSFORLØP</string>
+
+    <!-- add by zzp for pano-->
+    <string name="panorama_move_phone">Beveg phone (1) jevnt langs midtlinjen</string>
+    <string name="panorama_night_move_phone">Trykk på utløseren og juster sirkelen i forhold til prikken. Superpanoramamodus egner seg best til å ta bilder når det er mørkt.</string>
+    <string name="panorama_move_keep_line">Hold pilen på linjen</string>
+    <string name="panorama_night_capture_move_toast">Beveg phone (1) for å justere sirkelen i forhold til prikken</string>
+    <string name="panorama_arcsoft_guide_shutter">Trykk på utløseren og beveg telefonen \n sakte i én retning</string>
+    <string name="panorama_arcsoft_warn_slowly">Beveg telefonen sakte</string>
+    <string name="panorama_arcsoft_warn_back">Advarsel – bakoverbevegelse</string>
+
+    <string name="panorama_arcsoft_warn_up">Beveg oppover</string>
+    <string name="panorama_arcsoft_warn_down">Beveg nedover</string>
+    <string name="panorama_arcsoft_warn_left">Beveg mot venstre</string>
+    <string name="panorama_arcsoft_warn_right">Beveg mot høyre</string>
+    <string name="panorama_arcsoft_switch_capture_direction_guide">Trykk på pilen for å endre bilderetningen</string>
+    <string name="panorama_capture_guide">Juster pilen i forhold til referanselinjen</string>
+    <string name="panorama_toggle_mode_standard">STANDARD</string>
+    <string name="panorama_toggle_mode_super">SUPER</string>
+    <!--time line 20141227-->
+    <string name="radio_switch_to_pip">DualView</string>
+
+    <string name="setting_title">KAMERAINNSTILLINGER</string>
+    <string name="expert_setting_title">Ekspertmodus-funksjoner</string>
+    <string name="hold_shutter_setting_title">Hold inne utløseren</string>
+    <string name="video_encode_title">Videokoding</string>
+    <string name="group_general_title">Generelt</string>
+    <string name="group_photo_title">Bilde</string>
+    <string name="group_video_title">Video</string>
+    <string name="mode_title">Moduser</string>
+    <string name="setting_top_full_hint">Det kan ikke legges til flere elementer.</string>
+
+    <string name="panorama_arcsoft_cannot_use_guide">Bruk Panorama i portrettmodus</string>
+
+    <string name="radio_switch_to_refocus">Smartfokus</string>
+    <string name="radio_switch_to_chromaflash">Smartblits</string>
+    <string name="radio_switch_to_clearsight">ClearSight</string>
+
+    <string name="setting_guide_message">Klikk på Legg til på snarveilinjen eller \n dra for å legge til snarveien</string>
+    <string name="skip_setting_guide">OK, SKJØNNER</string>
+
+    <string name="permission_title">Gi tilgang</string>
+    <string name="enable_permission_procedure">Du kan endre tillatelser i Innstillinger &gt; Apper &gt; %1$s &gt; Tillatelser</string>
+    <string name="toast_storage_full_sdcard_to_internal">SD-kortet er fullt – lagre i det interne minnet</string>
+    <string name="toast_storage_damaged_sdcard_to_internal">Filen kunne ikke lagres på SD-kortet – lagre i det interne minnet</string>
+    <string name="toast_storage_full_internal_to_sdcard">Det interne minnet er fullt – lagre på SD-kortet</string>
+    <string name="toast_storage_full_clean_up_to_free_space">Telefonen er tom for lagringsplass. Frigi plass ved å rydde opp</string>
+    <string name="secure_camera_can_not_request_permission">Lås først opp telefonen for å godta/avslå forespørsler om tillatelse</string>
+
+    <string name="shutcauts_backcamera">Ta et bilde</string>
+
+    <string name="pref_camera_status_detect_title">Statusregistrering</string>
+
+    <string name="pref_camera_raw_file_title">RAW-fil</string>
+    <string name="pref_camera_filter_title">Filter</string>
+    <string name="pref_dual_camera_title">To kameraer</string>
+    <string name="pref_dual_camera_default">av</string>
+    <string name="portrait_mode">PORTRETT</string>
+
+    <string name="pref_camera_pref_entry_auto">Auto</string>
+
+    <string name="confirm_mode_tip">Trykk for å bytte til modusen %1$s</string>
+
+    <string name="portrait_background_blur">Portrett</string>
+    <string name="portrait_of_face_beauty">Ansiktsskjønnhet</string>
+
+    <string name="asd_result_hdr">HDR er aktivert</string>
+
+    <string name="u_screen_selfie_count_down_cancel">Avbryt</string>
+    <string name="video_beauty_switch_on">På</string>
+    <string name="video_beauty_switch_off">Av</string>
+
+    <string name="image_processing_toast">Bildebehandling</string>
+    <string name="short_video_not_found">Fant ikke denne videoen</string>
+
+    <!-- for Android O's CTS-->
+    <string name="camera_review_done_desc">Utført</string>
+    <string name="camera_review_retake_desc">Ta på nytt</string>
+    <string name="bokeh_mode">PORTRETT</string>
+    <string name="toast_dual_camera_bokeh">Ta bilder maks. 2 meter fra motivet for å få best resultat</string>
+
+    <!-- for qcom slowmotion-->
+    <string name="pref_camera_hfr_entry_2x">X2</string>
+    <string name="pref_camera_hfr_entry_3x">X3</string>
+    <string name="pref_camera_hfr_entry_4x">X4</string>
+
+    <string name="pref_camera_sticker_title">Klistremerke</string>
+    <string name="pref_gender_estimate_title">Kjønnsestimat</string>
+    <string name="pref_gender_estimate_entry_on">På</string>
+    <string name="pref_gender_estimate_entry_off">Av</string>
+
+    <string name="toast_motion_photo_opened">Bevegelsesbilde PÅ</string>
+
+    <!--add for ai scene detection -->
+    <string name="ai_scene_tips_food">Mat</string>
+    <string name="ai_scene_tips_portrait">Portrett</string>
+    <string name="ai_scene_tips_foliage">Plante</string>
+    <string name="ai_scene_tips_sky">Blå himmel</string>
+    <string name="ai_scene_tips_text">Tekst</string>
+
+    <!-- add for faceplus asd detection -->
+    <string name="faceplus_asd_tips_face">Portrett</string>
+    <string name="faceplus_asd_tips_food">Mat</string>
+    <string name="faceplus_asd_tips_fruits">Frukt</string>
+    <string name="faceplus_asd_tips_flower">Blomst</string>
+    <string name="faceplus_asd_tips_flowersea">Blomsterhav</string>
+    <string name="faceplus_asd_tips_sandbeach">Sand</string>
+    <string name="faceplus_asd_tips_snow">Snø</string>
+    <string name="faceplus_asd_tips_bluesky">Himmel</string>
+    <string name="faceplus_asd_tips_night">Natt</string>
+    <string name="faceplus_asd_tips_sunrise">Soloppgang og solnedgang</string>
+    <string name="faceplus_asd_tips_qr">QR-kode</string>
+    <string name="faceplus_asd_tips_businesscard">Navnekort</string>
+    <string name="faceplus_asd_tips_whiteboard">Whiteboard</string>
+    <string name="faceplus_asd_tips_idcard">ID</string>
+    <string name="faceplus_asd_tips_bankcard">Kredittkort</string>
+    <string name="faceplus_asd_tips_cat">Katt</string>
+    <string name="faceplus_asd_tips_dog">Hund</string>
+    <string name="faceplus_asd_tips_meadow">Eng</string>
+    <string name="faceplus_asd_tips_plants">Plante</string>
+
+    <string name="video_recording">Ta opp video</string>
+    <string name="motion_photo">Bevegelsesbilde</string>
+    <string name="time_lapse_not_save"> Tidsforløpet kan ikke lagres. Videoen må vare i minst %1$d sekunder.</string>
+    <string name="pref_shutter_speed_title">Lukkerhastighet</string>
+    <string name="radio_switch_to_dual_bokeh_for_custom">Bokeh</string>
+    <string name="toast_video_recording_in_call_state">Lyd kan ikke tas opp under samtaler</string>
+    <string name="pref_camera_ai_title">Motivgjenkjenning</string>
+
+    <string name="toast_video_3dnr_on">Videonattvisning er aktivert</string>
+    <string name="toast_storage_unavailable">SD-kort er ikke tilgjengelig</string>
+    <string name="toast_landscape_open_wide_tips">Bytt til ultravidvinkel for å få med enda mer av landskapet eller vennegjengen.</string>
+
+    <string name="enable_sd_permission_title">Kameraet må ha tilgang til SD-kortet</string>
+    <string name="enable_sd_permission_content">Gå gjennom innstillingene dine og gi tilgang til DCIM under SD-kort</string>
+    <string name="macro_mode">MAKRO</string>
+    <string name="super_macro_tip">Ta bilder maks. 4 cm fra motivet for å få best resultat</string>
+    <string name="never">Aldri</string>
+    <string name="toast_high_temp_disable_flash">Lommelykten kan ikke åpnes pga. for høy temperatur. </string>
+    <string name="toast_high_temp_shutdown_camera">Kameraet stoppes etter fem sekunder pga. for høy temperatur. </string>
+
+
+    <string name="bokeh_type_name">Bokeh</string>
+    <string name="bokeh_type_description">Dette gir deg mulighet til å redigere bokeheffekten.</string>
+    <string name="hdr_type_name">Bilde-HDR</string>
+    <string name="hdr_type_description">Større detaljrikdom i omgivelser med motlys</string>
+    <string name="ai_type_name">AI</string>
+    <string name="ai_type_description">Juster parametrene automatisk etter bildet med AI-styrt motivgjenkjenning</string>
+    <string name="timelapse_type_name">Tidsforløp</string>
+    <string name="timelapse_type_description">Vis en lang video på kortere tid med høyere hastighet</string>
+    <string name="don_t_cover_the_lens">Ikke dekk til linsen</string>
+    <string name="pref_video_time_lapse_frame_interval_title">Tidsforløp</string>
+
+    <string name="toast_qr_code_detected">QR-kode er registrert.\nTrykk for å besøke</string>
+    <string name="toast_qr_code_detected_type_esim">eSIM-profil er registrert.\nTrykk for å aktivere eSIM</string>
+    <string name="toast_qr_code_detected_type_url">QR-kode er registrert.\nTrykk for å åpne koblingen</string>
+    <string name="toast_qr_code_detected_type_string">QR-kode er registrert.\nTrykk for å søke med Google</string>
+    <string name="toast_bar_code_detected_type_string">Strekkode er registrert.\nTrykk for å åpne koblingen</string>
+    <string name="toast_bar_code_detected_type_number">Produktstrekkode er registrert.\nTrykk for å søke etter produktet</string>
+    <string name="turn_off_qr_code">Slå av QR-kode</string>
+
+    <string name="pref_video_quality_entry_fine_text">Fin</string>
+    <string name="pref_video_quality_entry_high_text">Høy</string>
+
+    <string name="pref_exposure_metering_title">Eksponeringsmåling</string>
+    <string name="pref_exposure_metering_entry_frame_average">Rammegjennomsnitt</string>
+    <string name="pref_exposure_metering_entry_center_weighted">Sentrumsvektet</string>
+    <string name="pref_exposure_metering_entry_spot_metering">Spotmåling</string>
+    <string name="toast_disable_torch">Deaktiver lommelykten for å unngå at blitsen overopphetes</string>
+    <string name="high_temperature_title_hint">Høy temperatur</string>
+    <string name="high_temperature_confirm_text">OK</string>
+    <string name="high_temperature_exit_text">Lukk nå</string>
+    <string name="high_temperature_forbid_flash">Blits ikke tilgjengelig. La phone (1) avkjøles før du fortsetter.</string>
+    <string name="high_temperature_forbid_video_recording">Stopp opptaket. La phone (1) avkjøles før du fortsetter.</string>
+    <string name="high_temperature_close_camera">Kameraet lukkes når nedtellingen er ferdig.</string>
+
+    <string name="pref_video_fps">FPS</string>
+    <string name="pref_video_encoder">Videokoding</string>
+    <string name="more">MER</string>
+    <string name="panorama_night_mode">Nattpanorama</string>
+    <string name="long_press_shutter_button">Hold inne utløseren</string>
+    <string name="continuous_shot_entry">Bildeserie</string>
+    <string name="pref_camera_wb_temp_title">Fargetemperatur</string>
+    <string name="pref_camera_entry_off">Av</string>
+    <string name="pref_camera_entry_on">På</string>
+    <string name="pref_camera_whitebalance_entry_custom" >egendefinert</string>
+    <string name="pref_video_night_title">Nattvideo</string>
+    <string name="video_ois_title">Optisk bildestabilisering</string>
+    <string name="pref_photo_mfnr_title">MFNR</string>
+    <string name="remosaic_mode">Pikselomorganisering</string>
+
+    <string name="pref_high_definition_title">Høy oppløsning</string>
+    <string name="pref_pro_raw_title">RAW-format</string>
+    <string name="beauty_video_mode">Skjønnhetsvideo</string>
+    <string name="perf_summary_record_location">Lagre posisjonsinformasjon i bilde- og videodetaljer</string>
+    <string name="perf_summary_capture_mirror">Speilvend mot venstre eller høyre når det tas bilder eller tas opp videoer med frontkameraet</string>
+    <string name="perf_summary_touch_capture">Trykk på skjermen for å ta bilde</string>
+    <string name="perf_summary_asd">De optimale innstillingene for ulike motiver som blomster, dyr og himmel brukes automatisk.</string>
+    <string name="perf_summary_expert">Bruk kun i ekspertmodus</string>
+    <string name="pref_histogram_title">Histogram</string>
+    <string name="perf_summary_level_meter">Lorem ipsum dolor sit amet, consectetur adipiscing elit</string>
+    <string name="perf_summary_video_encode">H.265-koding kan spare lagringsplass, men støttes ikke av alle apper og nettsteder.</string>
+    <string name="perf_summary_h264">Bedre kompatibilitet</string>
+    <string name="perf_summary_h265">Mer effektiv utnyttelse av lagringsplassen</string>
+    <string name="perf_expert_features">Ekspertmodus-funksjoner</string>
+    <string name="reset_setting_description">Tilbakestill kamerainnstillingene til standard</string>
+    <string name="reset_button_reset">Tilbakestill</string>
+    <string name="reset_button_cancel">Avbryt</string>
+    <string name="perf_title_level_meter">Nivå</string>
+
+    <string name="video_pause_hint">SATT PÅ PAUSE</string>
+
+    <string name="filter_name_none" >Opprinnelig</string>
+
+    <!-- camera toast -->
+    <string name="toast_motion_photo_closed">Bevegelsesbilde AV</string>
+    <string name="toast_high_picture_size_opened">50 MP Ultra HD</string>
+    <string name="toast_high_picture_size_closed">12 MP HD</string>
+    <string name="toast_flash_led_opened">Glyph fyllys</string>
+    <string name="toast_high_definition_opened">HD-portrett PÅ</string>
+    <string name="toast_high_definition_closed">HD-portrett AV</string>
+    <string name="toast_burst_shot_forbid">Bildeserie er ikke tilgjengelig i denne modusen</string>
+    <string name="toast_function_not_available">Ikke tilgjengelig for 50 MP Ultra HD</string>
+    <string name="toast_zoom_not_available">Zoom er ikke tilgjengelig i denne modusen</string>
+    <string name="toast_manual_ultra_wide_opened">Ultravidvinkel</string>
+
+    <string name="toast_doc_mode">Dokument</string>
+    <string name="toast_night_mode">Nattmodus</string>
+
+    <string name="toast_video_eis_off">Stabilisering AV</string>
+    <string name="toast_video_eis_stander">Stabilisering PÅ</string>
+    <string name="toast_video_eis_super">Ultrastabilisering PÅ</string>
+
+    <string name="toast_time_lapse_speed_for_car">Foreslått motiv: Trafikk i bevegelse</string>
+    <string name="toast_time_lapse_speed_for_crowd">Foreslått motiv: Folkemengde</string>
+    <string name="toast_time_lapse_speed_for_fast_cloud">Foreslått motiv: Skyer som beveger seg hurtig</string>
+    <string name="toast_time_lapse_speed_for_sun">Foreslått motiv: Soloppgang/-nedgang</string>
+    <string name="toast_time_lapse_speed_for_slow_cloud">Foreslått motiv: Skyer som beveger seg sakte</string>
+    <string name="toast_time_lapse_speed_for_shadow">Foreslått motiv: Skygger som beveger seg</string>
+    <string name="toast_time_lapse_speed_for_night">Foreslått motiv: Nattehimmel</string>
+
+
+    <string name="slider_beauty_text_hint">SKJØNNHET</string>
+    <string name="slider_portrait_text_hint">BOKEH</string>
+    <string name="mode_edit_title_hint">REDIGER</string>
+    <string name="mode_edit_main_interface_hint">Hovedmoduser</string>
+    <string name="mode_edit_more_interface_hint">Flere moduser</string>
+    <string name="mode_edit_drag_hint">Hold inne og dra for å omorganisere</string>
+
+    <string name="toast_manual_restore_parameter">Gjenopprettet til standardinnstillinger</string>
+    <string name="slow_motion_mode">SLO-MO</string>
+    <string name="panorama_move_slow">Saktere</string>
+    <string name="shutcauts_frontvideo">Ta opp en video (selfie)</string>
+    <string name="shutcauts_backvideo">Film en video</string>
+    <string name="shutcauts_portrait_camera">Ta et bilde</string>
+    <string name="shutcauts_macro_camera">Ta et makrobilde</string>
+    <string name="shutcauts_frontcamera">Ta en selfie</string>
+    <string name="focus_locked_hint">AE/AF låst</string>
+    <string name="toast_video_record_light_indicator_off">Opptakslys-indikator AV</string>
+    <string name="toast_video_record_light_indicator_on">Opptakslys-indikator PÅ</string>
+    <string name="mode_more_empty">Du kan omorganisere funksjonene ved å trykke på knappen nedenfor.</string>
+    <string name="move_farther_away">Flytt lengre unna</string>
+    <string name="move_closer">Kom nærmere</string>
+    <string name="reminder_clean_camera">Rengjør kameraet av og til for å ta klarere bilder.</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_watermark">வாட்டர்மார்க்</string>
+    <string name="settings_model_watermark">மாதிரி வாட்டர்மார்க்</string>
+    <string name="settings_time_watermark">நேர வாட்டர்மார்க்</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nt_navigation_back_button_left_side">ఎడమవైపు వెనుకకు బటన్</string>
+    <string name="nt_navigation_back_button_right_side">కుడి వైపున వెనుకకు బటన్</string>
+    <string name="nt_navigation_config_title">బటన్ లేఅవుట్</string>
+    <string name="nt_glyphs_charging_features">పరికరం ప్లగిన్ చేయబడినప్పుడు ఛార్జింగ్ పురోగతిని ప్రదర్శించండి లేదా ఛార్జింగ్ సమయంలో పరికరాన్ని విగ్ల్ చేయండి.</string>
+    <string name="nt_screen_refresh_rate_high_summary">సున్నితమైన స్క్రోలింగ్ మరియు యానిమేషన్‌ల కోసం 120 Hz వరకు డైనమిక్ రిఫ్రెష్ రేట్.</string>
+    <string name="nt_screen_refresh_rate_standard_summary">మెరుగైన బ్యాటరీ జీవితం కోసం 60 Hz స్థిర రిఫ్రెష్ రేట్.</string>
+	
+	<!-- translate to other languages -->
+	<string name="nt_glyphs_flip_title">Glyphకి తిప్పండి</string>
+    <string name="nt_glyphs_flip_to_glyph_title">Glyphకి తిప్పండి</string>
+    <string name="nt_use_filp_to_glyph">ఫ్లిప్ టు Glyph ఉపయోగించండి</string>
+	
+</resources>

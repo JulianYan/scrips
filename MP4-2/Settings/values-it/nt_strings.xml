@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nt_navigation_back_button_left_side">Pulsante Indietro sul lato sinistro</string>
+    <string name="nt_navigation_back_button_right_side">Pulsante Indietro sul lato destro</string>
+    <string name="nt_navigation_config_title">Disposizione pulsanti</string>
+    <string name="nt_glyphs_charging_features">Visualizzare l\'avanzamento della carica quando il dispositivo è collegato o scuotere il dispositivo durante la carica.</string>
+    <string name="nt_screen_refresh_rate_high_summary">Una frequenza d\'aggiornamento dinamica fino a 120 Hz per maggior fluidità di scorrimento e animazioni.</string>
+    <string name="nt_screen_refresh_rate_standard_summary">Una frequenza d\'aggiornamento fissa di 60 Hz per maggior durata della batteria.</string>
+	
+	<!-- translate to other languages -->
+	<string name="nt_glyphs_flip_title">Ribalta su Glyph</string>
+    <string name="nt_glyphs_flip_to_glyph_title">Ribalta su Glyph</string>
+    <string name="nt_use_filp_to_glyph">Usare ribalta su Glyph</string>
+	
+</resources>

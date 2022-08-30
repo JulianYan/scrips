@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="battery_suggestion_summary">Вклучете ја Адаптивната батерија</string>
+    <string name="smart_battery_manager_title">Адаптивна батерија</string>
+    <string name="smart_battery_footer">За да се продолжи животниот век на батеријата, Адаптивната батерија го ограничува користењето на батеријата за апликации кои ретко се користат. Вашиот телефон ќе научи како ги користите апликациите со текот на времето. \n\nИзвестувањата за овие апликации може да бидат одложени.</string>
+    <string name="smart_battery_footer" product="tablet">За да се продолжи животниот век на батеријата, Адаптивната батерија го ограничува користењето на батеријата за апликации кои ретко се користат. Вашиот таблет ќе научи како ги користите апликациите со текот на времето. \n\nИзвестувањата за овие апликации може да бидат одложени.</string>
+    <string name="smart_battery_footer" product="device">За да се продолжи животниот век на батеријата, Адаптивната батерија го ограничува користењето на батеријата за апликации кои ретко се користат. Вашиот уред ќе научи како ги користите апликациите со текот на времето. \n\nИзвестувањата за овие апликации може да бидат одложени.</string>
+    <string name="smart_battery_title">Користи Адаптивна батерија</string>
+    <string name="battery_tip_smart_battery_summary">Вклучете ја Адаптивната батерија</string>
+    <string name="nt_color_temperature">Температура на бојата</string>
+    <string name="warmer">Топло</string>
+    <string name="colder">Ладно</string>
+	        <!-- Mobile network settings screen, title of item showing the name of the default subscription
+    that will be used for data. This only appears in multi-SIM mode. [CHAR LIMIT=NONE] -->
+    <string name="data_preference">Преференци за податоци</string>
+	<string name="vibrating_for_outgoing_call_accepted_summary">Овозможете вибрирачки режим за прифатен појдовен повик</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_watermark">スタンプ</string>
+    <string name="settings_model_watermark">モデルスタンプ</string>
+    <string name="settings_time_watermark">タイムスタンプ</string>
+</resources>

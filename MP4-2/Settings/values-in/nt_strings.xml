@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nt_navigation_back_button_left_side">Tombol kembali terletak di sisi kiri</string>
+    <string name="nt_navigation_back_button_right_side">Tombol kembali terletak di sisi kanan</string>
+    <string name="nt_navigation_config_title">Tata Letak Tombol</string>
+    <string name="nt_glyphs_charging_features">Tampilkan progres pengisian daya saat perangkat dicolokkan atau goyangkan perangkat selama pengisian daya.</string>
+    <string name="nt_screen_refresh_rate_high_summary">Kecepatan muat ulang dinamis hingga 120 Hz untuk pengguliran dan animasi yang lebih lancar.</string>
+    <string name="nt_screen_refresh_rate_standard_summary">Kecepatan muat ulang tetap 60 Hz untuk masa pakai baterai yang lebih baik.</string>
+	
+	<!-- translate to other languages -->
+	<string name="nt_glyphs_flip_title">Balik untuk mengaktifkan Glyph</string>
+    <string name="nt_glyphs_flip_to_glyph_title">Balik untuk mengaktifkan Glyph</string>
+    <string name="nt_use_filp_to_glyph">Gunakan Balik untuk mengaktifkan Glyph</string>
+	
+</resources>

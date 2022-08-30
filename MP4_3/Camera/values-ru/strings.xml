@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_watermark_description">Автоматически добавлять водяной знак после фотографирования.</string>
+</resources>

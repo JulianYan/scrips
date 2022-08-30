@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="nft_loading_tips">Đang tải xuống dữ liệu.</string>
+    <string name="nft_loading_tips_second">Quá trình này có thể mất một lúc.</string>
+
+</resources>

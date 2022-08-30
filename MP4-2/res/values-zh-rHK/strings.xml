@@ -1,0 +1,768 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!--
+Copyright (C) 2007 The Android Open Source Project
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+<resources>
+
+    <!-- Confirmation dialog when restoring settings -->
+    <string name="confirm_restore_message">重設相機設定？</string>
+    <string name="pref_camera_module_title">相機模式</string>
+    <!-- Settings screen, camera selection dialog title. Users can select a camera from the phone (front-facing or back-facing). [CHAR LIMIT=20] -->
+    <string name="pref_camera_id_title">切換相機鏡頭</string>
+    <string name="pref_camera_id_default" translatable="false">0</string>
+
+    <!-- In select camera setting, back facing camera. [CHAR LIMIT=14] -->
+    <string name="pref_camera_id_entry_back">後置</string>
+    <!-- In select camera setting, front-facing camera. [CHAR LIMIT=14] -->
+    <string name="pref_camera_id_entry_front">前置</string>
+
+    <!-- Settings screen, Record location dialog choices -->
+    <string name="pref_camera_recordlocation_entry_off">關</string>
+    <string name="pref_camera_recordlocation_entry_on">開</string>
+
+    <!-- The Video quality settings in preference [CHAR LIMIT=21] -->
+    <string name="pref_video_quality_title">影片質素</string>
+    <string name="pref_video_stabilization_title">影片穩定</string>
+    <string name="pref_video_3dnr_title" translatable="false">Video 3DNR</string>
+    <!-- The Video timelapse settings in preference [CHAR LIMIT=21] -->
+    <string name="pref_video_timelapse_title">縮時影片</string>
+    <string name="pref_video_autozoom_title">影片自動縮放</string>
+    <string name="video_mode">影片</string>
+    <string name="guide_auto_zoom_title" translatable="false">Auto Zoom</string>
+    <string name="guide_auto_zoom_rules" translatable="false">During the recording, you can track a specified object by drawing a circle on the screen and double tap to stop it</string>
+    <string name="toast_auto_zoom_not_activated" translatable="false">Auto zoom is not activated</string>
+
+    <!-- Default flash mode setting. -->
+    <string name="pref_camera_flashmode_default" translatable="false">off</string>
+    <string name="pref_camera_screenflash_default" translatable="false">off</string>
+
+    <!-- Settings screen, Flash mode title -->
+    <string name="pref_camera_flashmode_title">閃光燈模式</string>
+    <string name="pref_screenflash_title">顯示閃光燈</string>
+
+    <!-- Settings screen, Flash mode dialog radio button choices -->
+    <string name="pref_camera_flashmode_entry_auto">自動</string>
+    <string name="pref_camera_flashmode_entry_on">開</string>
+    <string name="pref_camera_flashmode_entry_off">關</string>
+    <string name="pref_camera_flashmode_entry_torch">電筒</string>
+    <string name="pref_camera_flashmode_entry_led">LED 燈</string>
+
+    <!-- Default white balance setting. -->
+    <string name="pref_camera_whitebalance_default" translatable="false">auto</string>
+
+    <!-- Settings screen, white balance title -->
+    <string name="pref_camera_whitebalance_title">自動白平衡</string>
+
+    <!-- Settings screen, White balance dialog radio button choices -->
+    <string name="pref_camera_whitebalance_entry_auto">自動</string>
+    <string name="pref_camera_whitebalance_entry_incandescent" translatable="false">Incandescent</string>
+    <string name="pref_camera_whitebalance_entry_daylight" translatable="false">Daylight</string>
+    <string name="pref_camera_whitebalance_entry_fluorescent" translatable="false">Fluorescent</string>
+    <string name="pref_camera_whitebalance_entry_cloudy" translatable="false">Cloudy</string>
+    <string name="pref_camera_whitebalance_entry_value_incandescent" translatable="false">incandescent</string>
+    <string name="pref_camera_whitebalance_entry_value_daylight" translatable="false">daylight</string>
+    <string name="pref_camera_whitebalance_entry_value_cloudy_daylight" translatable="false">cloudy-daylight</string>
+
+    <string name="pref_hdr_default" translatable="false">on</string>
+    <string name="pref_motion_photo_default" translatable="false">off</string>
+    <!-- Default scene mode setting. -->
+    <string name="pref_camera_scenemode_default" translatable="false">auto</string>
+    <string name="pref_camera_scene_frame_default" translatable="false">1</string>
+    <string name="pref_camera_scene_frame_title" translatable="false">Scene frame</string>
+    <!-- Settings screen, Select Scene mode -->
+    <string name="pref_camera_scenemode_title" translatable="false">Scene mode</string>
+    <string name="pref_hdr_title">即時 HDR</string>
+    <string name="pref_motion_photo_title">動態</string>
+
+    <!-- Settings menu, scene mode choices -->
+    <string name="pref_camera_scenemode_entry_auto" translatable="false">Auto</string>
+    <string name="pref_camera_scenemode_entry_night" translatable="false">Night</string>
+    <!-- Scene mode optimized for taking images in the sunset. -->
+    <string name="pref_camera_scenemode_entry_sunset" translatable="false">Sunset</string>
+    <!-- Scene mode optimized for taking indoor low-lights pictures. [CHAR LIMIT=16] -->
+    <string name="pref_camera_scenemode_entry_party" translatable="false">Party</string>
+    <string name="pref_restore_detail">重設設定</string>
+
+    <!-- Exposure settings in preference -->
+    <string name="pref_exposure_title">曝光值</string>
+    <string name="pref_exposure_default" translatable="false">0</string>
+
+    <!-- Camera format string for new image files. Passed to java.text.SimpleDateFormat. -->
+    <string name="image_file_name_format" translatable="false">"'IMG'_yyyyMMdd_HHmmssSSS"</string>
+
+    <!-- Video Camera format string for new video files. Passed to java.text.SimpleDateFormat. -->
+    <string name="video_file_name_format" translatable="false">"'VID'_yyyyMMdd_HHmmssSSS"</string>
+
+    <!-- The text shown on the bottom-left corner of the screen to indicate that the saving is in process [CHAR LIMIT=13] -->
+    <string name="sugar_face_beauty_custom" translatable="false">Custom</string>
+    <string name="sugar_eyes_beauty" translatable="false">Eyes</string>
+    <string name="sugar_face_thin" translatable="false">Sharp</string>
+    <string name="sugar_skin_smooth" translatable="false">Smooth</string>
+
+    <string name="adjust_progress" translatable="false">+%s</string>
+    <string name="face_beauty_custom_skin_info" translatable="false">Skin</string>
+    <string name="face_beauty_custom_eyes_info" translatable="false">Eyes</string>
+    <string name="face_beauty_custom_thin_info" translatable="false">Thin</string>
+    <string name="face_beauty_custom_rosy_info" translatable="false">Rosy</string>
+    <string name="face_beauty_custom_whitening_info" translatable="false">Whitening</string>
+
+    <string name="portrait_custom_info" translatable="false">Blur</string>
+
+    <string name="pref_restore_default" translatable="false">on</string>
+    <string name="pref_camera_volume_key_title">音量按鍵</string>
+    <string name="pref_camera_volume_key_shoot">拍攝</string>
+    <string name="pref_camera_volume_key_zoom">縮放</string>
+    <string name="pref_camera_volume_key_volume">音量</string>
+    <string name="recording_time" translatable="false">00:00:00</string>
+    <string name="timeLapse_recording_time" translatable="false">00:00 | 00:00</string>
+    <string name="photo_incapture">拍攝相片</string>
+    <string name="pref_shutterspeed_default" translatable="false">0</string>
+    <string name="toast_location_started" translatable="false">location started</string>
+    <string name="toast_location_success" translatable="false">location success</string>
+    <string name="toast_device_denayed">無法存取裝置</string>
+    <string name="toast_device_connect_failed">無法連接裝置</string>
+    <string name="toast_start_preview_failed">啟動預覽失敗</string>
+    <string name="toast_storage_full">儲存空間已滿</string>
+    <string name="toast_low_power_disable_flash">電池電量低，無法開啓電筒。</string>
+    <string name="toast_video_size_max">影片的大小已經到達上限。</string>
+    <string name="toast_continue_snap_max">連續拍攝張數已達上限。</string>
+    <string name="toast_video_error">目前狀態下，無法攝錄影片</string>
+    <string name="toast_video_start_fail">咪高風正在使用中，無法錄製</string>
+    <string name="toast_video_init_size_error">影片的大小已經到達下限。</string>
+    <string name="toast_long_press_unavilable">不支援連續拍攝。</string>
+    <string name="toast_continuous_shot_off">無法提供連續拍攝功能。</string>
+    <string name="toast_thumbnail_empty">「沒有相片」</string>
+
+    <string name="toast_auto_zoom" translatable="false">Auto zoom has been opened</string>
+    <string name="toast_video_stabilization">已啟用穩定系統</string>
+
+    <string name="toast_steady_capture">拍攝時請勿移動手機。</string>
+
+    <string name="toast_dual_camera_opened" translatable="false">Dual Camera opened</string>
+    <string name="toast_dual_camera_closed" translatable="false">Dual Camera closed</string>
+
+    <!-- Pref -->
+
+    <string name="pref_video_time_lapse_frame_interval_x5" translatable="false">X5</string>
+    <string name="pref_video_time_lapse_frame_interval_x10" translatable="false">X10</string>
+    <string name="pref_video_time_lapse_frame_interval_x60" translatable="false">X60</string>
+    <string name="pref_video_time_lapse_frame_interval_x180" translatable="false">X180</string>
+    <string name="pref_video_time_lapse_frame_interval_x300" translatable="false">X300</string>
+
+
+    <string name="pref_video_quality_entry_medium" translatable="false">480P</string>
+    <string name="pref_video_quality_entry_high" translatable="false">720P</string>
+    <string name="pref_video_quality_entry_high_plus" translatable="false">720P+</string>
+    <string name="pref_video_quality_entry_fine" translatable="false">1080P</string>
+    <string name="pref_video_quality_entry_4k" translatable="false">4K</string>
+    <string name="pref_video_quality_entry_full">完整</string>
+    <string name="pref_video_quality_entry_fine_X" translatable="false">1080P+</string>
+    <string name="pref_video_stabilization_entry_on">開</string>
+    <string name="pref_video_stabilization_entry_off">關</string>
+    <string name="pref_video_stabilization_entry_standard">標準</string>
+    <string name="pref_video_stabilization_entry_super">超級</string>
+    <string name="pref_video_3dnr_entry_on" translatable="false">On</string>
+    <string name="pref_video_3dnr_entry_off" translatable="false">Off</string>
+    <string name="pref_video_autozoom_entry_on" translatable="false">On</string>
+    <string name="pref_video_autozoom_entry_off" translatable="false">Off</string>
+    <string name="pref_camera_picturesize_title">相片大小</string>
+    <string name="pref_camera_picturesize_entry_4608x3456" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_4656x3496" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_4160x3120" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_4096x3072" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_3968x2976" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_3672x2754" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_3600x2700" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_3264x2448" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_5120x3840" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_5184x3880" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_8000x6000" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_8192x6144" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_9216x6912" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_1280x720" translatable="false">16:9</string>
+    <string name="pref_camera_picturesize_entry_2560x1440" translatable="false">16:9</string>
+    <string name="pref_camera_picturesize_entry_3072x1728" translatable="false">16:9</string>
+    <string name="pref_camera_picturesize_entry_3328x1872" translatable="false">16:9</string>
+    <string name="pref_camera_picturesize_entry_3840x2160" translatable="false">16:9</string>
+    <string name="pref_camera_picturesize_entry_4096x2304" translatable="false">16:9</string>
+    <string name="pref_camera_picturesize_entry_4608x2592" translatable="false">16:9</string>
+    <string name="pref_camera_picturesize_entry_5120x2880" translatable="false">16:9</string>
+    <string name="pref_camera_picturesize_entry_5184x2916" translatable="false">16:9</string>
+    <string name="pref_camera_picturesize_entry_2304x1728" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_2328x1748" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_2592x1936" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_2592x1940" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_2592x1944" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_2048x1536" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_2304x1296" translatable="false">16:9</string>
+    <string name="pref_camera_picturesize_entry_2328x1304" translatable="false">16:9</string>
+    <string name="pref_camera_picturesize_entry_1920x1080" translatable="false">16:9</string>
+    <string name="pref_camera_picturesize_entry_1600x1200" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_1280x960" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_1024x768" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_640x480" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_720x720" translatable="false">1:1</string>
+    <string name="pref_camera_picturesize_entry_320x240" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_1080x1080" translatable="false">1:1</string>
+    <string name="pref_camera_picturesize_entry_1600x1600" translatable="false">1:1</string>
+    <string name="pref_camera_picturesize_entry_1748x1748" translatable="false">1:1</string>
+    <string name="pref_camera_picturesize_entry_1944x1944" translatable="false">1:1</string>
+    <string name="pref_camera_picturesize_entry_2976x2976" translatable="false">1:1</string>
+    <string name="pref_camera_picturesize_entry_2224x2224" translatable="false">1:1</string>
+    <string name="pref_camera_picturesize_entry_2992x2992" translatable="false">1:1</string>
+    <string name="pref_camera_picturesize_entry_3000x3000" translatable="false">1:1</string>
+    <string name="pref_camera_picturesize_entry_3016x3016" translatable="false">1:1</string>
+    <string name="pref_camera_picturesize_entry_3060x3060" translatable="false">1:1</string>
+    <string name="pref_camera_picturesize_entry_3072x3072" translatable="false">1:1</string>
+    <string name="pref_camera_picturesize_entry_3120x3120" translatable="false">1:1</string>
+    <string name="pref_camera_picturesize_entry_3472x3472" translatable="false">1:1</string>
+    <string name="pref_camera_picturesize_entry_3488x3488" translatable="false">1:1</string>
+
+    <string name="pref_camera_picturesize_entry_1440x720" translatable="false">18:9</string>
+    <string name="pref_camera_picturesize_entry_2016x1008" translatable="false">18:9</string>
+    <string name="pref_camera_picturesize_entry_2304x1152" translatable="false">18:9</string>
+    <string name="pref_camera_picturesize_entry_3168x1584" translatable="false">18:9</string>
+    <string name="pref_camera_picturesize_entry_3744x1872" translatable="false">18:9</string>
+    <string name="pref_camera_picturesize_entry_4032x2016" translatable="false">18:9</string>
+    <string name="pref_camera_picturesize_entry_4608x2304" translatable="false">18:9</string>
+    <string name="pref_camera_picturesize_entry_5184x2592" translatable="false">18:9</string>
+
+    <string name="pref_camera_picturesize_entry_4640x2198" translatable="false">19:9</string>
+    <string name="pref_camera_picturesize_entry_4598x2178" translatable="false">19:9</string>
+    <string name="pref_camera_picturesize_entry_4560x2160" translatable="false">19:9</string>
+    <string name="pref_camera_picturesize_entry_4180x1980" translatable="false">19:9</string>
+    <string name="pref_camera_picturesize_entry_4160x1970" translatable="false">19:9</string>
+    <string name="pref_camera_picturesize_entry_4032x1910" translatable="false">19:9</string>
+    <string name="pref_camera_picturesize_entry_3592x1872" translatable="false">19:9</string>
+    <string name="pref_camera_picturesize_entry_3040x1440" translatable="false">19:9</string>
+    <string name="pref_camera_picturesize_entry_2592x1228" translatable="false">19:9</string>
+    <string name="pref_camera_picturesize_entry_2432x1152" translatable="false">19:9</string>
+    <string name="pref_camera_picturesize_entry_2280x1080" translatable="false">19:9</string>
+    <string name="pref_camera_picturesize_entry_1520x720" translatable="false">19:9</string>
+
+    <string name="pref_camera_picturesize_entry_3952x1872" translatable="false">19.5:9</string>
+    <string name="pref_camera_picturesize_entry_4056x1872" translatable="false">19.5:9</string>
+    <string name="pref_camera_picturesize_entry_4032x1856" translatable="false">19.5:9</string>
+    <string name="pref_camera_picturesize_entry_4208x1936" translatable="false">19.5:9</string>
+    <string name="pref_camera_picturesize_entry_4608x2144" translatable="false">19.5:9</string>
+    <string name="pref_camera_picturesize_entry_4608x2128" translatable="false">19.5:9</string>
+    <string name="pref_camera_picturesize_entry_3744x1728" translatable="false">19.5:9</string>
+    <string name="pref_camera_picturesize_entry_3120x1440" translatable="false">19.5:9</string>
+    <string name="pref_camera_picturesize_entry_2496x1152" translatable="false">19.5:9</string>
+
+
+    <string name="pref_camera_picturesize_entry_4624x2080" translatable="false">20:9</string>
+    <string name="pref_camera_picturesize_entry_4160x1872" translatable="false">20:9</string>
+    <string name="pref_camera_picturesize_entry_4096x1848" translatable="false">20:9</string>
+    <string name="pref_camera_picturesize_entry_4080x1836" translatable="false">20:9</string>
+    <string name="pref_camera_picturesize_entry_3200x1440" translatable="false">20:9</string>
+    <string name="pref_camera_picturesize_entry_2560x1152" translatable="false">20:9</string>
+    <string name="pref_camera_picturesize_entry_2400x1080" translatable="false">20:9</string>
+    <string name="pref_camera_picturesize_entry_2328x1048" translatable="false">20:9</string>
+
+    <string name="pref_camera_picturesize_entry_3264x1440" translatable="false">20.5:9</string>
+    <string name="pref_camera_picturesize_entry_1632x720" translatable="false">20.5:9</string>
+
+    <string name="pref_camera_picturesize_entry_1x1" translatable="false">1:1</string>
+    <string name="pref_camera_picturesize_entry_16x9" translatable="false">16:9</string>
+    <string name="pref_camera_picturesize_entry_4x3" translatable="false">4:3</string>
+
+    <string name="pref_camera_picture_aspect_ratio_title">相片長闊比</string>
+    <string name="pref_camera_picture_aspect_ratio_entry_1x1" translatable="false">1:1</string>
+    <string name="pref_camera_picture_aspect_ratio_entry_16x9" translatable="false">16:9</string>
+    <string name="pref_camera_picture_aspect_ratio_entry_18x9" translatable="false">18:9</string>
+    <string name="pref_camera_picture_aspect_ratio_entry_19x9" translatable="false">19:9</string>
+    <string name="pref_camera_picture_aspect_ratio_entry_19_5x9" translatable="false">19.5:9</string>
+    <string name="pref_camera_picture_aspect_ratio_entry_20x9" translatable="false">20:9</string>
+    <string name="pref_camera_picture_aspect_ratio_entry_20_5x9" translatable="false">20.5:9</string>
+    <string name="pref_camera_picture_aspect_ratio_entry_4x3" translatable="false">4:3</string>
+
+    <string name="pref_camera_picturesize_entry_16_9">全螢幕</string>
+    <string name="pref_camera_picturesize_entry_4_3">正常</string>
+    <string name="pref_camera_picturesize_entry_1_1">長方形</string>
+    <!-- ISO -->
+    <string name="pref_camera_iso_default" translatable="false">auto</string>
+    <string name="pref_camera_iso_title" translatable="false">ISO</string>
+    <string name="manual_focus_title" translatable="false">M focus</string>
+    <!-- <string name="pref_camera_edge_default" translatable="false">middle</string> -->
+    <string name="pref_camera_edge_title" translatable="false">Sharpness</string>
+    <string name="pref_camera_hue_default" translatable="false">middle</string>
+    <string name="pref_camera_hue_title" translatable="false">Hue</string>
+
+    <!-- <string name="pref_camera_saturation_default" translatable="false">middle</string> -->
+    <string name="pref_camera_saturation_title">飽和度</string>
+    <string name="pref_camera_brightness_default" translatable="false">middle</string>
+    <string name="pref_camera_brightness_title">亮度</string>
+    <string name="pref_camera_contrast_default" translatable="false">middle</string>
+    <string name="pref_camera_contrast_title">對比度</string>
+    <string name="pref_camera_dip_entry_low" translatable="false">Low</string>
+    <string name="pref_camera_dip_entry_middle" translatable="false">Medium</string>
+    <string name="pref_camera_dip_entry_high" translatable="false">High</string>
+
+    <!-- color effect -->
+    <string name="pref_camera_coloreffect_default" translatable="false">none</string>
+
+    <!-- Settings screen, Select Color effect title -->
+    <string name="pref_camera_coloreffect_title" translatable="false">Color effect</string>
+
+    <!-- Settings screen, Color effect dialog radio button choices -->
+    <string name="pref_camera_coloreffect_entry_none" translatable="false">None</string>
+    <string name="pref_camera_coloreffect_entry_mono" translatable="false">Mono</string>
+    <string name="pref_camera_coloreffect_entry_sepia" translatable="false">Sepia</string>
+    <string name="pref_camera_coloreffect_entry_negative" translatable="false">Negative</string>
+    <!-- Color effect that overexposes and reverses some of the tones. -->
+    <string name="pref_camera_coloreffect_entry_solarize" translatable="false">Solarize</string>
+    <string name="pref_camera_coloreffect_entry_posterize" translatable="false">Posterize</string>
+    <string name="pref_camera_coloreffect_entry_whiteboard" translatable="false">Whiteboard</string>
+    <string name="pref_camera_coloreffect_entry_blackboard" translatable="false">Blackboard</string>
+    <string name="pref_camera_coloreffect_entry_aqua" translatable="false">Aqua</string>
+    <string name="pref_camera_coloreffect_entry_pastel" translatable="false">Pastel</string>
+    <string name="pref_camera_coloreffect_entry_mosaic" translatable="false">Mosaic</string>
+    <string name="pref_camera_coloreffect_entry_redtint" translatable="false">Red tint</string>
+    <string name="pref_camera_coloreffect_entry_bluetint" translatable="false">Blue tint</string>
+    <string name="pref_camera_coloreffect_entry_greentint" translatable="false">Green tint</string>
+    <string name="pref_camera_coloreffect_entry_sepiablue" translatable="false">Sepia Blue</string>
+    <string name="pref_camera_coloreffect_entry_sepiagreen" translatable="false">Sepia Green</string>
+
+    <!-- self timer -->
+    <string name="pref_camera_selftimer_default" translatable="false">0</string>
+    <string name="pref_camera_selftimer_title">自拍計時器</string>
+    <string name="pref_camera_selftimer_entry_off">關</string>
+    <string name="pref_camera_selftimer_entry_3">3 秒</string>
+    <string name="pref_camera_selftimer_entry_10">10 秒</string>
+
+    <!-- anti-flicker -->
+    <!-- string name="pref_camera_antibanding_default" translatable="false">auto</string -->
+    <string name="pref_camera_antibanding_title">防抖動</string>
+    <string name="pref_camera_antibanding_entry_auto">自動</string>
+    <string name="pref_camera_antibanding_entry_50hz">50Hz</string>
+    <string name="pref_camera_antibanding_entry_60hz">60Hz</string>
+
+    <!-- Scene mode Mediatek plus -->
+    <!-- Scene mode that takes an image with as little noise as possible so details of the subject are maintained. -->
+    <string name="pref_camera_scenemode_entry_portrait" translatable="false">Portrait</string>
+    <!-- Scene mode that takes an image of a landscape assuming all subjects are relatively far from the phone. -->
+    <string name="pref_camera_scenemode_entry_landscape" translatable="false">Landscape</string>
+    <!-- Scene mode that takes night shots with long exposure and flash to illuminate the subject while still capturing darker detail in the background. -->
+    <string name="pref_camera_scenemode_entry_night_portrait" translatable="false">Night portrait</string>
+    <!-- Scene mode to be used in a stage show. -->
+    <string name="pref_camera_scenemode_entry_theatre" translatable="false">Theatre</string>
+    <!-- Scene mode optimized for taking images on the beach. -->
+    <string name="pref_camera_scenemode_entry_beach" translatable="false">Beach</string>
+    <!-- Scene mode optimized for taking images in the snow. -->
+    <string name="pref_camera_scenemode_entry_snow" translatable="false">Snow</string>
+    <!-- Scene mode for taking a photo as sharp as possible. -->
+    <string name="pref_camera_scenemode_entry_steadyphoto" translatable="false">Steady photo</string>
+    <!-- Scene mode optimized for taking images of fireworks. -->
+    <string name="pref_camera_scenemode_entry_fireworks" translatable="false">Fireworks</string>
+    <string name="pref_camera_scenemode_entry_sports" translatable="false">Sports</string>
+    <string name="pref_camera_scenemode_entry_candlelight" translatable="false">Candle light</string>
+    <!-- for CMCC feature -->
+    <string name="pref_camera_scenemode_entry_normal" translatable="false">Normal</string>
+
+    <!-- Video Camera -->
+    <!-- EIS setting -->
+    <string name="pref_camera_eis_title">電子防震</string>
+    <string name="pref_camera_eis_default" translatable="false">off</string>
+    <string name="pref_camera_eis_on">開</string>
+    <string name="pref_camera_eis_off">關</string>
+
+    <!-- microphone switch -->
+    <!-- string name="pref_camera_recordaudio_default" translatable="false">off</string -->
+    <string name="pref_camera_recordaudio_title">影片靜音</string>
+    <string name="pref_camera_recordaudio_entry_off">關</string>
+    <string name="pref_camera_recordaudio_entry_on">開</string>
+
+
+    <!-- ZSD songyutao -->
+    <string name="pref_camera_zsd_title" translatable="false">ZSD</string>
+    <string name="pref_chroma_flash_title" translatable="false">Smart flash</string>
+
+    <!-- continuous shot speed -->
+    <string name="pref_camera_continuous_number_title">連續拍攝</string>
+
+
+    <string name="pref_voice_capture">錄製聲音</string>
+    <string name="pref_voice_default" translatable="false">off</string>
+    <string name="pref_voice_entry_off">關</string>
+    <string name="pref_voice_entry_on">開</string>
+
+    <!-- Face Detection properties  songyutao set FD dafault on -->
+    <string name="pref_camera_face_detect_title">面容識別</string>
+    <string name="pref_camera_face_detect_default" translatable="false">on</string>
+    <string name="pref_camera_face_detect_entry_off">關</string>
+    <string name="pref_camera_face_detect_entry_on">開</string>
+    <string name="pref_camera_record_location_title">儲存地點</string>
+    <string name="pref_camera_thumb_title">相機膠卷</string>
+
+    <string name="pref_camera_pic_frame_entry_off">關</string>
+    <string name="pref_camera_pic_frame_entry_on">開</string>
+    <string name="pref_shutter_touch_title">點按拍攝相片</string>
+    <string name="pref_shutter_smile_default" translatable="false">off</string>
+    <string name="pref_shutter_smile_title">微笑拍攝</string>
+    <string name="pref_shutter_hand_default" translatable="false">off</string>
+    <string name="pref_shutter_hand_title">手勢拍攝</string>
+    <string name="pref_shutter_watermark_title">水印</string>
+    <string name="pref_shutter_watermark_default" translatable="false">off</string>
+    <string name="pref_camera_watermark_entry_off">關</string>
+    <string name="pref_camera_watermark_entry_on">開</string>
+    <string name="pref_camera_asd_title">ASD</string>
+    <string name="pref_camera_asd_entry_off">關</string>
+    <string name="pref_camera_asd_entry_on">開</string>
+
+    <string name="pref_camera_shutter_sound_title">快門聲音</string>
+    <string name="pref_camera_shutter_sound_entry_off">關</string>
+    <string name="pref_camera_shutter_sound_entry_on">開</string>
+    <string name="pref_camera_pic_level_title">水平儀</string>
+    <string name="pref_camera_pic_level_entry_off">關</string>
+    <string name="pref_camera_pic_level_entry_on">開</string>
+    <string name="pref_continuous_onoff_default" translatable="false">on</string>
+    <string name="pref_capture_mirror_title">鏡像前置相機</string>
+    <string name="pref_camera_save_pos_title">儲存空間</string>
+    <string name="pref_camera_save_pos_entry_t">SD 咭</string>
+    <string name="pref_camera_save_pos_entry_p">電話</string>
+    <string name="pref_camera_save_pos_entry_u">USB 即插即用</string>
+    <string name="pref_video_record_red_light_entry_off">關</string>
+    <string name="pref_video_record_red_light_entry_on">開</string>
+
+    <string name="pref_camera_mesh_line_title">網格</string>
+    <string name="pref_camera_high_picture_size_title">高畫質相片尺寸</string>
+
+    <string name="pref_pic_struct_title">框架線</string>
+    <string name="pref_video_record_red_light_key_title">攝錄指示燈</string>
+    <string name="pref_pic_struct_default" translatable="false">off</string>
+    <string name="pref_pic_struct_entry_off">關</string>
+    <string name="pref_pic_struct_entry_enneahedral">網格線</string>
+    <string name="manual">專家</string>
+    <string name="photo_mode">相片</string>
+    <string name="panorama_mode">全景</string>
+    <string name="beauty_mode">美顏</string>
+    <string name="radio_switch_to_hdr">高動態範圍</string>
+
+    <string name="radio_switch_to_facebeauty_custom">美顏</string>
+    <!-- application infomation -->
+    <string name="app_name">相機</string>
+    <string name="pref_camera_selftimer_entry_5">5 秒</string>
+    <string name="night_mode">晚間</string>
+    <string name="capture_keep_steady_hint">保持 phone (1) 固定</string>
+    <string name="radio_switch_to_beautyvideo">美化影片</string>
+    <string name="timelapse_mode">縮時攝影</string>
+
+    <!-- add by zzp for pano-->
+    <string name="panorama_move_phone">請沿著中央線穩定移動 Phone(1)</string>
+    <string name="panorama_night_move_phone">按下快門並對準圓點，超級全景模式更適合拍攝夜景</string>
+    <string name="panorama_move_keep_line">維持箭嘴在線上</string>
+    <string name="panorama_move_slow">慢一點</string>
+    <string name="panorama_night_capture_move_toast">移動 phone (1) 以令圓圈與點對齊</string>
+    <string name="panorama_arcsoft_guide_shutter">按下快門按鍵並慢慢地向一個方向移動手機</string>
+    <string name="panorama_arcsoft_warn_slowly">請慢慢移動手機</string>
+    <string name="panorama_arcsoft_warn_back">警告移後</string>
+
+    <string name="panorama_arcsoft_warn_up">向上移動</string>
+    <string name="panorama_arcsoft_warn_down">向下移動</string>
+    <string name="panorama_arcsoft_warn_left">向左移動</string>
+    <string name="panorama_arcsoft_warn_right">向右移動</string>
+    <string name="panorama_arcsoft_switch_capture_direction_guide">點按箭嘴以更改拍攝方向</string>
+    <string name="panorama_capture_guide">將箭嘴與對照線對齊</string>
+    <string name="panorama_toggle_mode_standard">標準</string>
+    <string name="panorama_toggle_mode_super">超級</string>
+    <!--time line 20141227-->
+    <string name="radio_switch_to_pip">雙視圖</string>
+
+    <string name="setting_title">相機設定</string>
+    <string name="expert_setting_title">專家模式功能</string>
+    <string name="hold_shutter_setting_title">按住快門</string>
+    <string name="video_encode_title">影片編碼</string>
+    <string name="group_general_title">一般</string>
+    <string name="group_photo_title">相片</string>
+    <string name="group_video_title">影片</string>
+    <string name="mode_title">模式</string>
+    <string name="setting_top_full_hint">不能再增加任何項目。</string>
+
+    <string name="panorama_arcsoft_cannot_use_guide">請在直向模式使用全景拍攝</string>
+
+    <string name="radio_switch_to_refocus">智能對焦</string>
+    <string name="radio_switch_to_chromaflash">智能閃光燈</string>
+    <string name="radio_switch_to_clearsight">清晰視野</string>
+
+    <string name="setting_guide_message">點按增加到捷徑欄或拖動以增加捷徑</string>
+    <string name="skip_setting_guide">知道</string>
+
+    <string name="permission_title">授予存取</string>
+    <string name="enable_permission_procedure">你可以稍後在「設定」&gt;「應用程式」&gt; %1$s &gt;「權限」中更改權限</string>
+    <string name="toast_storage_full_sdcard_to_internal">SD 咭儲存空間已滿，儲存到內部儲存空間</string>
+    <string name="toast_storage_damaged_sdcard_to_internal">儲存檔案到 SD 咭失敗，儲存到內部儲存空間</string>
+    <string name="toast_storage_full_internal_to_sdcard">內部儲存空間已滿，儲存到 SD 咭儲存空間</string>
+    <string name="toast_storage_full_clean_up_to_free_space">手機儲存空間已滿。請清除檔案以獲取可用空間</string>
+    <string name="secure_camera_can_not_request_permission">請先將手機解鎖，以接受/拒絕權限請求</string>
+
+    <string name="pref_camera_status_detect_title">狀態偵測</string>
+
+    <string name="pref_camera_raw_file_title">RAW 檔案</string>
+    <string name="pref_camera_filter_title">過濾工具</string>
+    <string name="pref_dual_camera_title">雙相機</string>
+    <string name="pref_dual_camera_default">關</string>
+    <string name="portrait_mode">人像</string>
+
+    <string name="pref_camera_pref_entry_auto">自動</string>
+
+    <string name="confirm_mode_tip">點按以切換到 %1$s 模式</string>
+
+    <string name="focal_switch_scale_tip" translatable="false">Tap on the icon to open Telephoto mode</string>
+    <string name="front_wide_switch_tip" translatable="false">Tap on the icon to activate group selfie</string>
+    <string name="low_memory_limit" translatable="false">Your system is in low memory, some features limit capture size</string>
+    <string name="portrait_background_blur">人像</string>
+    <string name="portrait_of_face_beauty">美顏</string>
+
+    <string name="asd_result_hdr">HDR 已啟用</string>
+    <string name="toast_face_undetected_at_portrait" translatable="false">No face detected within 2 meters</string>
+    <string name="toast_face_undetected_at_sticker" translatable="false">No face detected</string>
+    <string name="toast_view_pic_vivid_at_superpixel" translatable="false">Capture more details on picture with Super Pixel</string>
+    <string name="front_face_detected_first_tip" translatable="false">Look at the lens for better selfies</string>
+
+    <string name="u_screen_selfie_count_down_cancel">取消</string>
+    <string name="video_beauty_switch_on">開</string>
+    <string name="video_beauty_switch_off">關</string>
+
+    <string name="image_processing_toast">影片處理</string>
+    <string name="short_video_not_found">找不到這個影片</string>
+
+    <!-- for Android O's CTS-->
+    <string name="camera_review_done_desc">完成</string>
+    <string name="camera_review_retake_desc">重新拍攝</string>
+    <string name="bokeh_mode">人像</string>
+    <string name="toast_dual_camera_bokeh">在 2 米內拍攝對象，以獲得最佳效果</string>
+
+    <!-- for qcom slowmotion-->
+    <string name="pref_camera_hfr_entry_2x">X2</string>
+    <string name="pref_camera_hfr_entry_3x">X3</string>
+    <string name="pref_camera_hfr_entry_4x">X4</string>
+
+    <string name="pref_camera_hfr_value_2x" translatable="false">hfr60</string>
+    <string name="pref_camera_hfr_value_3x" translatable="false">hfr90</string>
+    <string name="pref_camera_hfr_value_4x" translatable="false">hfr120</string>
+    <string name="slow_motion_mode">慢動作</string>
+    <string name="pref_camera_hsr_value_off" translatable="false">off</string>
+    <string name="pref_camera_hsr_value_2x" translatable="false">hsr60</string>
+    <string name="pref_camera_hsr_entry_2x" translatable="false">X2</string>
+    <string name="pref_camera_hsr_entry_off" translatable="false">Off</string>
+
+    <string name="pref_camera_sticker_title">貼圖</string>
+    <string name="pref_gender_estimate_title">性別估計</string>
+    <string name="pref_gender_estimate_entry_on">開</string>
+    <string name="pref_gender_estimate_entry_off">關</string>
+
+    <string name="toast_motion_photo_opened">動態相片開啟</string>
+
+    <!--add for ai scene detection -->
+    <string name="ai_scene_tips_food">食物</string>
+    <string name="ai_scene_tips_portrait">人像</string>
+    <string name="ai_scene_tips_foliage">盆栽</string>
+    <string name="ai_scene_tips_sky">藍天</string>
+    <string name="ai_scene_tips_text">文字</string>
+
+    <!-- add for faceplus asd detection -->
+    <string name="faceplus_asd_tips_face">人像</string>
+    <string name="faceplus_asd_tips_food">食物</string>
+    <string name="faceplus_asd_tips_fruits">水果</string>
+    <string name="faceplus_asd_tips_flower">花</string>
+    <string name="faceplus_asd_tips_flowersea">花海</string>
+    <string name="faceplus_asd_tips_sandbeach">沙</string>
+    <string name="faceplus_asd_tips_snow">雪</string>
+    <string name="faceplus_asd_tips_bluesky">天空</string>
+    <string name="faceplus_asd_tips_night">晚間</string>
+    <string name="faceplus_asd_tips_sunrise">日出和日落</string>
+    <string name="faceplus_asd_tips_qr">QR 碼</string>
+    <string name="faceplus_asd_tips_businesscard">咭片</string>
+    <string name="faceplus_asd_tips_whiteboard">白板</string>
+    <string name="faceplus_asd_tips_idcard">身份證</string>
+    <string name="faceplus_asd_tips_bankcard">信用咭</string>
+    <string name="faceplus_asd_tips_cat">貓</string>
+    <string name="faceplus_asd_tips_dog">狗</string>
+    <string name="faceplus_asd_tips_meadow">草地</string>
+    <string name="faceplus_asd_tips_plants">盆栽</string>
+
+    <string name="video_recording">拍攝影片</string>
+    <string name="motion_photo">動態相片</string>
+    <string name="switch_to_wide_lens_toast" translatable="false">Opening wide angle lens</string>
+    <string name="time_lapse_not_save"> 我們無法儲存你的縮時攝影。你的影片應該至少為 %1$d 秒</string>
+    <string name="pref_shutter_speed_title">快門速度</string>
+    <string name="radio_switch_to_dual_bokeh_for_custom">散景</string>
+    <string name="toast_video_recording_in_call_state">通話時無法錄音</string>
+    <string name="pref_camera_ai_title">場景識別</string>
+
+    <string name="toast_video_3dnr_on">影片夜景檢視已啟用</string>
+    <string name="toast_storage_unavailable">SD 咭不可用</string>
+    <string name="toast_landscape_open_wide_tips">切換到超廣角以拍攝更多風景或朋友。</string>
+
+    <string name="enable_sd_permission_title">相機需要 SD 咭存取</string>
+    <string name="enable_sd_permission_content">查看你的設定並允許存取「SD 咭」中的「DCIM」</string>
+    <string name="macro_mode">微距</string>
+    <string name="super_macro_tip">在 4 厘米拍攝主體，以獲得最佳效果</string>
+    <string name="bokeh_offfline_processing" translatable="false">Offline bokeh data processing……</string>
+    <string name="pref_google_lens" translatable="false">Google Lens</string>
+    <string name="never">從不</string>
+    <string name="toast_high_temp_disable_flash">溫度過高，無法開啓電筒。</string>
+    <string name="toast_high_temp_shutdown_camera">溫度太高，5 秒後相機會停止運作。</string>
+    <string name="provider_authority" translatable="false">com.nothing.camera.provider.SpecialTypeProvider</string>
+
+
+    <string name="bokeh_type_name">散景</string>
+    <string name="bokeh_type_description">此特殊類型允許你編輯散景效果。</string>
+    <string name="hdr_type_name">相片 HDR</string>
+    <string name="hdr_type_description">在背光環境中攝入更多細節</string>
+    <string name="ai_type_name">AI</string>
+    <string name="ai_type_description">使用 AI 場景偵測，自動為相片調整適當的參數</string>
+    <string name="timelapse_type_name">縮時攝影</string>
+    <string name="timelapse_type_description">短時間內以更高的速度顯示長影片</string>
+    <string name="don_t_cover_the_lens">請不要遮蓋鏡頭</string>
+    <string name="pref_video_time_lapse_frame_interval_title">時間間隔</string>
+
+    <string name="toast_qr_code_detected">偵測到 QR 碼。點按以存取</string>
+    <string name="toast_qr_code_detected_type_esim">已偵測到 eSIM 設定檔。點按以啓用 eSIM</string>
+    <string name="toast_qr_code_detected_type_url">偵測到 QR 碼。點按以瀏覽連結</string>
+    <string name="toast_qr_code_detected_type_string">偵測到 QR 碼。點按以在 Google 搜尋</string>
+    <string name="toast_bar_code_detected_type_string">偵測到條碼。點按以瀏覽連結</string>
+    <string name="toast_bar_code_detected_type_number">偵測到產品條碼。點按以搜尋產品</string>
+    <string name="turn_off_qr_code">關閉 QR 碼</string>
+
+    <string name="pref_video_quality_entry_fine_text">細緻</string>
+    <string name="pref_video_quality_entry_high_text">高</string>
+
+    <string name="pref_exposure_metering_title">曝光測光</string>
+    <string name="pref_exposure_metering_entry_frame_average">平均幀數</string>
+    <string name="pref_exposure_metering_entry_center_weighted">中心重點</string>
+    <string name="pref_exposure_metering_entry_spot_metering">點測光</string>
+    <string name="toast_disable_torch">停用電筒以防止閃光燈過熱</string>
+    <string name="high_temperature_title_hint">高溫</string>
+    <string name="high_temperature_confirm_text">確認</string>
+    <string name="high_temperature_exit_text">現在關閉</string>
+    <string name="high_temperature_forbid_flash">閃光燈不可用。在繼續前將 phone (1) 冷卻下來。</string>
+    <string name="high_temperature_forbid_video_recording">停止拍攝。在繼續前將 phone (1) 冷卻下來。</string>
+    <string name="high_temperature_close_camera">倒數計時結束時相機將關閉。</string>
+
+    <string name="google_location_dialog_title" translatable="false">Add location information to photos you take with your camera app?</string>
+    <string name="google_location_dialog_message" translatable="false">This means your photos will contain information about where they were taken.</string>
+    <string name="google_location_dialog_message_lear_more" translatable="false"><a href='https://support.google.com/photos/answer/9921876'>Learn more</a></string>
+    <string name="google_location_dialog_positive" translatable="false">Enable Camera Location</string>
+
+    <string name="pref_video_fps">FPS</string>
+    <string name="pref_video_encoder">影片編碼</string>
+    <string name="more">更多</string>
+    <string name="panorama_night_mode">夜間全景</string>
+    <string name="long_press_shutter_button">按住快門</string>
+    <string name="continuous_shot_entry">連拍</string>
+    <string name="continuous_shot_value" translatable="false">continuous_shot</string>
+    <string name="video_recording_value" translatable="false">video_recording</string>
+    <string name="pref_camera_wb_temp_title">色溫</string>
+    <string name="pref_camera_entry_value_off" translatable="false">off</string>
+    <string name="pref_camera_entry_value_on" translatable="false">on</string>
+    <string name="pref_camera_entry_off">關</string>
+    <string name="pref_camera_entry_on">開</string>
+    <string name="pref_camera_whitebalance_entry_custom" >自訂</string>
+    <string name="pref_video_night_title">晚間影片</string>
+    <string name="video_ois_title">光學防震</string>
+    <string name="pref_photo_mfnr_title">mfnr</string>
+    <string name="remosaic_mode">馬賽克</string>
+    <string name="test" translatable="false">Test</string>
+
+    <string name="pref_high_definition_title">高清</string>
+    <string name="pref_pro_raw_title">拍攝 RAW 原始格式</string>
+    <string name="beauty_video_mode">美化影片</string>
+    <string name="perf_summary_record_location">在照片和影片詳細資訊中儲存位置的資訊</string>
+    <string name="perf_summary_capture_mirror">前置鏡頭用於攝影和影片拍攝時向左或向右鏡像變化</string>
+    <string name="perf_summary_touch_capture">點按螢幕拍攝相片</string>
+    <string name="perf_summary_asd">自動為花卉、動物和天空等不同場景採用最佳設定。</string>
+    <string name="perf_summary_expert">僅適用於專家模式</string>
+    <string name="pref_histogram_title">柱狀圖</string>
+    <string name="perf_summary_level_meter">Lorem ipsum dolor sit amet, consectetur adipiscing elit</string>
+    <string name="perf_summary_video_encode">H.265 編碼可以節省儲存空間，但可能不支援某些應用程式和網站。</string>
+    <string name="perf_summary_h264">更好的兼容度</string>
+    <string name="perf_summary_h265">更好的儲存效率</string>
+    <string name="perf_expert_features">專家模式功能</string>
+    <string name="reset_setting_description">重設相機設定為預設</string>
+    <string name="reset_button_reset">重設</string>
+    <string name="reset_button_cancel">取消</string>
+    <string name="perf_title_level_meter">水平儀</string>
+
+    <string name="video_pause_hint">暫停</string>
+
+    <string name="filter_name_none" >原始</string>
+    <string name="filter_name_1" translatable="false">West</string>
+    <string name="filter_name_2" translatable="false">Palma</string>
+    <string name="filter_name_3" translatable="false">Metro</string>
+    <string name="filter_name_4" translatable="false">Eiffel</string>
+    <string name="filter_name_5" translatable="false">Blush</string>
+    <string name="filter_name_6" translatable="false">Modena</string>
+    <string name="filter_name_7" translatable="false">Reel</string>
+    <string name="filter_name_8" translatable="false">Vogue</string>
+    <string name="filter_name_9" translatable="false">Ollie</string>
+    <string name="filter_name_10" translatable="false">Bazaar</string>
+    <string name="filter_name_11" translatable="false">Alpaca</string>
+    <string name="filter_name_12" translatable="false">Vista</string>
+
+    <string name="pref_llhdr_title" translatable="false">llhdr</string>
+    <string name="pref_llhdr_lux" translatable="false">lux</string>
+
+    <!-- camera toast -->
+    <string name="toast_motion_photo_closed">動態相片關閉</string>
+    <string name="toast_high_picture_size_opened">5,000 萬像素超高清</string>
+    <string name="toast_high_picture_size_closed">1,200 萬像素高清</string>
+    <string name="toast_flash_led_opened">Glyph 補光</string>
+    <string name="toast_high_definition_opened">高清人像開啓</string>
+    <string name="toast_high_definition_closed">高清人像關閉</string>
+    <string name="toast_burst_shot_forbid">在此模式下不可使用連續拍攝</string>
+    <string name="toast_function_not_available">不適用於 5,000 萬像素超高清</string>
+    <string name="toast_zoom_not_available">無法在此模式下使用縮放</string>
+    <string name="toast_manual_ultra_wide_opened">超廣角</string>
+    <string name="toast_manual_restore_parameter">恢復到預設設定</string>
+
+    <string name="toast_doc_mode">文件</string>
+    <string name="toast_night_mode">晚間模式</string>
+
+    <string name="toast_video_eis_off">穩定關閉</string>
+    <string name="toast_video_eis_stander">穩定開啓</string>
+    <string name="toast_video_eis_super">超穩定開啓</string>
+
+    <string name="toast_time_lapse_speed_for_car">推薦場景：川流不息的交通</string>
+    <string name="toast_time_lapse_speed_for_crowd">推薦場景：行人人群</string>
+    <string name="toast_time_lapse_speed_for_fast_cloud">推薦場景：快速漂動的雲</string>
+    <string name="toast_time_lapse_speed_for_sun">推薦場景：日出 / 日落</string>
+    <string name="toast_time_lapse_speed_for_slow_cloud">推薦場景：慢速漂動的雲</string>
+    <string name="toast_time_lapse_speed_for_shadow">推薦場景：移動的陰影</string>
+    <string name="toast_time_lapse_speed_for_night">推薦場景：晚空</string>
+
+
+    <string name="slider_beauty_text_hint">美化</string>
+    <string name="slider_portrait_text_hint">散景</string>
+    <string name="slider_time_lapse_text_hint">速度</string>
+    <string name="mode_edit_title_hint">編輯</string>
+    <string name="mode_edit_main_interface_hint">主模式</string>
+    <string name="mode_edit_more_interface_hint">更多模式</string>
+    <string name="mode_edit_drag_hint">按住並拖動以重新排列</string>
+
+    <string name="shutcauts_frontvideo">前置錄像</string>
+    <string name="shutcauts_frontcamera">前置相機</string>
+    <string name="shutcauts_backcamera">後置相機</string>
+    <string name="shutcauts_backvideo">後置錄像</string>
+    <string name="shutcauts_portrait_camera">人像拍攝</string>
+    <string name="shutcauts_macro_camera">微距拍攝</string>
+    <string name="focus_locked_hint">自動曝光/自動對焦鎖定</string>
+    <string name="toast_video_record_light_indicator_off">錄像指示燈關閉</string>
+    <string name="toast_video_record_light_indicator_on">錄像指示燈開啟</string>
+    <string name="mode_more_empty">單擊下面的按鈕可以重新排列功能</string>
+    <string name="move_farther_away">移遠一點</string>
+    <string name="move_closer">移近一點</string>
+    <string name="reminder_clean_camera">每隔一段時間清潔一次相機，以拍攝更清晰的照片。</string>
+</resources>

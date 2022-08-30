@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nt_navigation_back_button_left_side">Кнопка «Назад» з лівого боку</string>
+    <string name="nt_navigation_back_button_right_side">Кнопка «Назад» з правого боку</string>
+    <string name="nt_navigation_config_title">Розташування кнопок</string>
+    <string name="nt_glyphs_charging_features">Відображати процес заряджання, коли пристрій підключено до мережі, або хитати пристрій під час заряджання.</string>
+    <string name="nt_screen_refresh_rate_high_summary">Динамічна частота оновлення до 120 Гц для більш плавного прокручування й анімації.</string>
+    <string name="nt_screen_refresh_rate_standard_summary">Фіксована частота оновлення 60 Гц для збільшення часу роботи батареї.</string>
+	
+	<!-- translate to other languages -->
+	<string name="nt_glyphs_flip_title">Перемкнути на Glyph</string>
+    <string name="nt_glyphs_flip_to_glyph_title">Перемкнути на Glyph</string>
+    <string name="nt_use_filp_to_glyph">Використати «Перемкнути на Glyph»</string>
+	
+</resources>

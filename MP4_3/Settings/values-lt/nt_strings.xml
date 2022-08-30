@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="battery_suggestion_summary">Įjungti adaptyviąją bateriją</string>
+    <string name="smart_battery_manager_title">Adaptyvioji baterija</string>
+    <string name="smart_battery_footer">Siekiant prailginti baterijos tarnavimo laiką, funkcija adaptyvioji baterija riboja retai naudojamų programų baterijos naudojimą. Laikui bėgant telefonas perpras, kaip naudojate programėles. \n\nŠių programėlių pranešimai gali būti atidėti.</string>
+    <string name="smart_battery_footer" product="tablet">Siekiant prailginti baterijos tarnavimo laiką, funkcija adaptyvioji baterija riboja retai naudojamų programų baterijos naudojimą. Laikui bėgant planšetinis kompiuteris perpras, kaip naudojate programėles. \n\nŠių programėlių pranešimai gali būti atidėti.</string>
+    <string name="smart_battery_footer" product="device">Siekiant prailginti baterijos tarnavimo laiką, funkcija adaptyvioji baterija riboja retai naudojamų programų baterijos naudojimą. Laikui bėgant prietaisas perpras, kaip naudojate programėles. \n\nŠių programėlių pranešimai gali būti atidėti.</string>
+    <string name="smart_battery_title">Naudoti adaptyviąją bateriją</string>
+    <string name="battery_tip_smart_battery_summary">Įjungti adaptyviąją bateriją</string>
+    <string name="nt_color_temperature">Spalvų temperatūra</string>
+    <string name="warmer">Šilta</string>
+    <string name="colder">Šalta</string>
+	        <!-- Mobile network settings screen, title of item showing the name of the default subscription
+    that will be used for data. This only appears in multi-SIM mode. [CHAR LIMIT=NONE] -->
+    <string name="data_preference">Duomenų pirmenybė</string>
+	<string name="vibrating_for_outgoing_call_accepted_summary">Įjungti vibravimo režimą, kai priimamas išeinantis skambutis</string>
+</resources>

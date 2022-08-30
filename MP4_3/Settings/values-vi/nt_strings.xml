@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="battery_suggestion_summary">Bật chế độ Tiết kiệm Pin</string>
+    <string name="smart_battery_manager_title">Tiết kiệm Pin</string>
+    <string name="smart_battery_footer">Để tăng thời lượng pin, chế độ Tiết kiệm Pin sẽ giới hạn mức sử dụng pin đối với các ứng dụng ít sử dụng. Điện thoại của bạn sẽ dần biết được cách bạn sử dụng ứng dụng. \n\nThông báo từ các ứng dụng này có thể đến chậm hơn.</string>
+    <string name="smart_battery_footer" product="tablet">Để tăng thời lượng pin, chế độ Tiết kiệm Pin sẽ giới hạn mức sử dụng pin đối với các ứng dụng ít sử dụng. Máy tính bảng của bạn sẽ dần biết được cách bạn sử dụng ứng dụng. \n\nThông báo từ các ứng dụng này có thể đến chậm hơn.</string>
+    <string name="smart_battery_footer" product="device">Để tăng thời lượng pin, chế độ Tiết kiệm Pin sẽ giới hạn mức sử dụng pin đối với các ứng dụng ít sử dụng. Thiết bị của bạn sẽ dần biết được cách bạn sử dụng ứng dụng. \n\nThông báo từ các ứng dụng này có thể đến chậm hơn.</string>
+    <string name="smart_battery_title">Sử dụng chế độ Tiết kiệm Pin</string>
+    <string name="battery_tip_smart_battery_summary">Bật chế độ Tiết kiệm Pin</string>
+    <string name="nt_color_temperature">Nhiệt độ màu</string>
+    <string name="warmer">Nóng</string>
+    <string name="colder">Lạnh</string>
+	        <!-- Mobile network settings screen, title of item showing the name of the default subscription
+    that will be used for data. This only appears in multi-SIM mode. [CHAR LIMIT=NONE] -->
+    <string name="data_preference">Tùy chọn dữ liệu</string>
+	<string name="vibrating_for_outgoing_call_accepted_summary">Bật chế độ rung khi người nhận nhấc máy</string>
+</resources>

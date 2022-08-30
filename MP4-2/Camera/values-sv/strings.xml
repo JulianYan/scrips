@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_watermark">Vattenstämpel</string>
+    <string name="settings_model_watermark">Modell vattenstämpel</string>
+    <string name="settings_time_watermark">Tid vattenstämpel</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="disconnect">Ngắt kết nối</string>
+    <string name="anc_personalised_title">Tính năng ANC theo nhu cầu</string>
+    <string name="control_double_tap_hold">Chạm hai lần và giữ</string>
+
+</resources>

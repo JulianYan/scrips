@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources><!-- Confirmation dialog when restoring settings --><string name="confirm_restore_message">Камера одатий созламаларини тиклайсизми?</string>
+	<string name="pref_camera_module_title">Камера режими</string><!-- Settings screen, camera selection dialog title. Users can select a camera from the phone (front-facing or back-facing). [CHAR LIMIT=20] --><string name="pref_camera_id_title">Камерани алмаштириш</string>
+	<!-- In select camera setting, back facing camera. [CHAR LIMIT=14] --><string name="pref_camera_id_entry_back">Орқа</string><!-- In select camera setting, front-facing camera. [CHAR LIMIT=14] --><string name="pref_camera_id_entry_front">Олд</string><!-- Settings screen, Record location dialog choices --><string name="pref_camera_recordlocation_entry_off">Ўчиқ</string>
+	<string name="pref_camera_recordlocation_entry_on">Ёниқ</string><!-- The Video quality settings in preference [CHAR LIMIT=21] --><string name="pref_video_quality_title">Видео сифати</string>
+	<string name="pref_video_stabilization_title">Видеони барқарорлаш</string>
+	<string name="pref_video_3dnr_title">Видео 3DNR</string><!-- The Video timelapse settings in preference [CHAR LIMIT=21] --><string name="pref_video_timelapse_title">Видео таймлапс</string>
+	<string name="pref_video_autozoom_title">Видеони авто-масштаблаш</string>
+	<string name="video_mode">Видео</string>
+	<string name="guide_auto_zoom_title">Авто-масштаблаш</string>
+	<string name="guide_auto_zoom_rules">Ёзиб олиш пайтида экранда айлана чизиш орқали муайян объектни кузатиш ва икки марта босиб кузатувни бекор қилишингиз мумкин</string>
+	<string name="toast_auto_zoom_not_activated">Авто-масштаблаш фаоллаштирилмаган</string><!-- Default flash mode setting. -->
+	<!-- Settings screen, Flash mode title --><string name="pref_camera_flashmode_title">Чақноқ режими</string>
+	<string name="pref_screenflash_title">Дисплейдаги чақноқ</string><!-- Settings screen, Flash mode dialog radio button choices --><string name="pref_camera_flashmode_entry_auto">Авто</string>
+	<string name="pref_camera_flashmode_entry_on">Ёниқ</string>
+	<string name="pref_camera_flashmode_entry_off">Ўчиқ</string>
+	<string name="pref_camera_flashmode_entry_torch">Фонар</string><!-- Default white balance setting. --><!-- Settings screen, white balance title --><string name="pref_camera_whitebalance_title">AWB</string><!-- Settings screen, White balance dialog radio button choices --><string name="pref_camera_whitebalance_entry_auto">Авто</string>
+	<string name="pref_camera_whitebalance_entry_incandescent">Қизиган</string>
+	<string name="pref_camera_whitebalance_entry_daylight">Кундузи</string>
+	<string name="pref_camera_whitebalance_entry_fluorescent">Флуоресцент</string>
+	<string name="pref_camera_whitebalance_entry_cloudy">Булутли</string>
+
+
+
+
+	<!-- Default scene mode setting. -->
+
+	<string name="pref_camera_scene_frame_title">Саҳна кадри</string><!-- Settings screen, Select Scene mode --><string name="pref_camera_scenemode_title">Саҳна режими</string>
+	<string name="pref_hdr_title">HDR</string>
+	<string name="pref_motion_photo_title">Ҳаракат</string><!-- Settings menu, scene mode choices --><string name="pref_camera_scenemode_entry_auto">Авто</string>
+	<string name="pref_camera_scenemode_entry_night">Тун</string><!-- Scene mode optimized for taking images in the sunset. --><string name="pref_camera_scenemode_entry_sunset">Қуёш ботиши</string><!-- Scene mode optimized for taking indoor low-lights pictures. [CHAR LIMIT=16] --><string name="pref_camera_scenemode_entry_party">Базм</string>
+	<string name="pref_restore_detail">Одатийларни тиклаш</string><!-- Exposure settings in preference --><string name="pref_exposure_title">EV</string>
+	<string name="sugar_face_beauty_custom">Махсус</string>
+	<string name="sugar_eyes_beauty">Кўзлар</string>
+	<string name="sugar_face_thin">Тиниқ</string>
+	<string name="sugar_skin_smooth">Равон</string>
+	<string name="adjust_progress">+%s</string>
+	<string name="face_beauty_custom_skin_info">Тери</string>
+	<string name="face_beauty_custom_eyes_info">Кўзлар</string>
+	<string name="face_beauty_custom_thin_info">Юпқа</string>
+	<string name="face_beauty_custom_rosy_info">Қизғиш</string>
+	<string name="face_beauty_custom_whitening_info">Оқартириш</string>
+	<string name="portrait_custom_info">Хиралаштириш</string>
+
+	<string name="pref_camera_volume_key_title">Товуш баландлиги тугмалари</string>
+	<string name="pref_camera_volume_key_shoot">Тасвирга олиш</string>
+	<string name="pref_camera_volume_key_zoom">Масштаб</string>
+	<string name="pref_camera_volume_key_volume">Товуш баландлиги</string>
+
+
+	<string name="photo_incapture">Суратга олинмоқда</string>
+
+	<string name="toast_location_started">Жойлашув аниқланмоқда</string>
+	<string name="toast_location_success">Жойлашув аниқланди</string>
+	<string name="toast_device_denayed">Қурилмага уланиш имконсиз</string>
+	<string name="toast_device_connect_failed">Қурилмага уланилмади</string>
+	<string name="toast_start_preview_failed">Разм солиш амалга ошмади</string>
+	<string name="toast_storage_full">Хотирада жой қолмаган</string>
+	<string name="toast_low_power_disable_flash">Батарея қуввати кам, фонарни ёқиш имконсиз.</string>
+	<string name="toast_video_size_max">Видео ҳажми лимитга етди.</string>
+	<string name="toast_continue_snap_max">Кетма-кет суратга олишлар сони лимитга етди.</string>
+	<string name="toast_video_error">Бу ҳолатда видеога олиш имконсиз</string>
+	<string name="toast_video_start_fail">Микрофон ишлатилмоқда ва ундан ёзиб олиш учун фойдаланиш имконсиз</string>
+	<string name="toast_video_init_size_error">Видео ҳажми лимитга мослаб қисқартирилди.</string>
+	<string name="toast_long_press_unavilable">Кетма-кет суратга олиш ишламайди.</string>
+	<string name="toast_continuous_shot_off">Кетма-кет суратга олиш имконсиз.</string>
+	<string name="toast_thumbnail_empty">Ҳеч қандай сурат топилмади</string>
+	<string name="toast_clearsight_success">ClearSight тасвири олинди</string>
+	<string name="toast_clearsight_failed">ClearSight тасвири олинмади</string>
+	<string name="toast_auto_zoom">Авто-масштаблаш функцияси ёқилди</string>
+	<string name="toast_video_stabilization">Барқарорлаш функцияси ёқилди</string>
+	<string name="guide_top">Камерани алмаштириш учун юқорига ёки пастга суринг.</string>
+	<string name="guide_right">Параметрларни созлаш учун ўнгга суринг.</string>
+	<string name="guide_left">Режимларни созлаш учун чапга суринг.</string>
+	<string name="voice_on_tips">“Суратга ол” ёки “Сир” денг</string>
+	<string name="toast_steady_capture">Суратга олиш пайтида телефонни қимирлатманг.</string>
+	<string name="toast_dual_camera_opened">Жуфт камера очилди</string>
+	<string name="toast_dual_camera_closed">Жуфт камера ёпилди</string><!-- Pref -->
+
+
+
+
+
+
+
+
+
+	<string name="pref_video_quality_entry_full">Тўлиқ</string>
+
+	<string name="pref_video_stabilization_entry_on">Ёниқ</string>
+	<string name="pref_video_stabilization_entry_off">Ўчиқ</string>
+	<string name="pref_video_stabilization_entry_standard">Стандарт</string>
+	<string name="pref_video_stabilization_entry_super">Супер</string>
+	<string name="pref_video_3dnr_entry_on">Ёниқ</string>
+	<string name="pref_video_3dnr_entry_off">Ўчиқ</string>
+	<string name="pref_video_autozoom_entry_on">Ёниқ</string>
+	<string name="pref_video_autozoom_entry_off">Ўчиқ</string>
+	<string name="pref_camera_picturesize_title">Тасвир ўлчами</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<string name="pref_camera_picture_aspect_ratio_title">Тасвир томонлари нисбати</string>
+
+
+
+
+
+
+
+
+	<string name="pref_camera_picturesize_entry_16_9">Бутун экран</string>
+	<string name="pref_camera_picturesize_entry_4_3">Нормал</string>
+	<string name="pref_camera_picturesize_entry_1_1">Тўртбурчак</string><!-- ISO -->
+
+	<string name="manual_focus_title">М Фокус</string><!--  --><string name="pref_camera_edge_title">Аниқлик</string>
+
+	<string name="pref_camera_hue_title">Тус</string><!--  --><string name="pref_camera_saturation_title">Тўйинганлик</string>
+
+	<string name="pref_camera_brightness_title">Ёрқинлик</string>
+
+	<string name="pref_camera_contrast_title">Контраст</string>
+	<string name="pref_camera_dip_entry_low">Паст</string>
+	<string name="pref_camera_dip_entry_middle">Ўртача</string>
+	<string name="pref_camera_dip_entry_high">Юқори</string><!-- color effect --><!-- Settings screen, Select Color effect title --><string name="pref_camera_coloreffect_title">Ранг эффекти</string><!-- Settings screen, Color effect dialog radio button choices --><string name="pref_camera_coloreffect_entry_none">Ҳеч қандай</string>
+	<string name="pref_camera_coloreffect_entry_mono">Моно</string>
+	<string name="pref_camera_coloreffect_entry_sepia">Сепия</string>
+	<string name="pref_camera_coloreffect_entry_negative">Негатив</string><!-- Color effect that overexposes and reverses some of the tones. --><string name="pref_camera_coloreffect_entry_solarize">Соляризация</string>
+	<string name="pref_camera_coloreffect_entry_posterize">Постеризация</string>
+	<string name="pref_camera_coloreffect_entry_whiteboard">Оқ ёзув тахтаси</string>
+	<string name="pref_camera_coloreffect_entry_blackboard">Ёзув тахтаси</string>
+	<string name="pref_camera_coloreffect_entry_aqua">Аква</string>
+	<string name="pref_camera_coloreffect_entry_pastel">Нимтатир</string>
+	<string name="pref_camera_coloreffect_entry_mosaic">Мозаика</string>
+	<string name="pref_camera_coloreffect_entry_redtint">Қизил тус</string>
+	<string name="pref_camera_coloreffect_entry_bluetint">Кўк тус</string>
+	<string name="pref_camera_coloreffect_entry_greentint">Яшил тус</string>
+	<string name="pref_camera_coloreffect_entry_sepiablue">Кўк сепия</string>
+	<string name="pref_camera_coloreffect_entry_sepiagreen">Яшил сепия</string><!-- self timer -->
+	<string name="pref_camera_selftimer_title">Автоматик таймер</string>
+	<string name="pref_camera_selftimer_entry_off">Ўчиқ</string>
+	<string name="pref_camera_selftimer_entry_3">3 сония</string>
+
+	<string name="pref_camera_antibanding_entry_auto">Авто</string>
+	<string name="pref_camera_antibanding_entry_50hz">50 Гц</string>
+	<string name="pref_camera_antibanding_entry_60hz">60 Гц</string><!-- Scene mode Mediatek plus --> <!-- Scene mode that takes an image with as little noise as possible so details of the subject are maintained. --><string name="pref_camera_scenemode_entry_portrait">Портрет</string><!-- Scene mode that takes an image of a landscape assuming all subjects are relatively far from the phone. --><string name="pref_camera_scenemode_entry_landscape">Манзара</string><!-- Scene mode that takes night shots with long exposure and flash to illuminate the subject while still capturing darker detail in the background. --><string name="pref_camera_scenemode_entry_night_portrait">Тунги портрет</string><!-- Scene mode to be used in a stage show. --><string name="pref_camera_scenemode_entry_theatre">Театр</string><!-- Scene mode optimized for taking images on the beach. --><string name="pref_camera_scenemode_entry_beach">Соҳил</string><!-- Scene mode optimized for taking images in the snow. --><string name="pref_camera_scenemode_entry_snow">Қор</string><!-- Scene mode for taking a photo as sharp as possible. --><string name="pref_camera_scenemode_entry_steadyphoto">Барқарор фото</string><!-- Scene mode optimized for taking images of fireworks. --><string name="pref_camera_scenemode_entry_fireworks">Мушакбозлик</string>
+	<string name="pref_camera_scenemode_entry_sports">Спорт</string>
+	<string name="pref_camera_scenemode_entry_candlelight">Шам нури</string><!-- for CMCC feature --><string name="pref_camera_scenemode_entry_normal">Нормал</string><!-- Video Camera --> <!-- EIS setting --><string name="pref_camera_eis_title">EIS</string>
+
+	<string name="pref_camera_eis_on">Ёниқ</string>
+
+	<string name="pref_camera_recordaudio_entry_off">Ўчиқ</string>
+	<string name="pref_camera_recordaudio_entry_on">Ёниқ</string><!-- ZSD songyutao --><string name="pref_camera_zsd_title">ZSD</string>
+	<string name="pref_chroma_flash_title">Смарт чақноқ</string><!-- continuous shot speed --><string name="pref_camera_continuous_number_title">Кетма-кет сурат</string>
+	<string name="pref_voice_capture">Овоз ёзиб олиш</string>
+
+	<string name="pref_voice_entry_off">Ўчиқ</string>
+	<string name="pref_voice_entry_on">Ёниқ</string><!-- Face Detection properties  songyutao set FD dafault on --><string name="pref_camera_face_detect_title">Юзни аниқлаш</string>
+
+	<string name="pref_camera_face_detect_entry_off">Ўчиқ</string>
+	<string name="pref_camera_face_detect_entry_on">Ёниқ</string>
+	<string name="pref_camera_record_location_title">Гео-теггинг</string>
+	<string name="pref_camera_thumb_title">Camera Roll</string>
+	<string name="pref_camera_pic_frame_entry_off">Ўчиқ</string>
+	<string name="pref_camera_pic_frame_entry_on">Ёниқ</string>
+	<string name="pref_shutter_touch_title">Тегиниб суратга олиш</string>
+
+	<string name="pref_shutter_smile_title">Жилмайиб суратга олиш</string>
+
+	<string name="pref_shutter_hand_title">Қўлда суратга олиш</string>
+	<string name="pref_shutter_watermark_title">Шаффоф белги</string>
+
+	<string name="pref_camera_watermark_entry_off">Ўчиқ</string>
+	<string name="pref_camera_watermark_entry_on">Ёниқ</string>
+	<string name="pref_camera_asd_title">ASD</string>
+	<string name="pref_camera_asd_entry_off">Ўчиқ</string>
+	<string name="pref_camera_asd_entry_on">Ёниқ</string>
+	<string name="pref_camera_shutter_sound_title">Суратга олиш товуши</string>
+	<string name="pref_camera_shutter_sound_entry_off">Ўчиқ</string>
+	<string name="pref_camera_shutter_sound_entry_on">Ёниқ</string>
+	<string name="pref_camera_pic_level_title">Градиент</string>
+	<string name="pref_camera_pic_level_entry_off">Ўчиқ</string>
+	<string name="pref_camera_pic_level_entry_on">Ёниқ</string>
+
+	<string name="pref_capture_mirror_title">Олд ойна</string>
+	<string name="pref_camera_save_pos_title">Хотира</string>
+	<string name="pref_camera_save_pos_entry_t">SD карта</string>
+	<string name="pref_camera_save_pos_entry_p">Телефон</string>
+	<string name="pref_camera_save_pos_entry_u">USB OTG</string>
+	<string name="pref_camera_mesh_line_title">Mesh Line</string>
+	<string name="pref_camera_high_picture_size_title">Юқори тасвир ўлчами</string>
+	<string name="pref_pic_struct_title">Рамка чизиқлари</string>
+
+	<string name="pref_pic_struct_entry_off">Ўчиқ</string>
+	<string name="pref_pic_struct_entry_enneahedral">Катак чизиқлари</string>
+	<string name="manual">Эксперт</string>
+	<string name="photo_mode">Фото</string>
+	<string name="panorama_mode">ПАНО</string>
+	<string name="beauty_mode">Юзни пардозлаш</string>
+	<string name="radio_switch_to_hdr">HDR</string>
+	<string name="radio_switch_to_facebeauty_custom">Юзни пардозлаш</string><!-- application infomation --><string name="app_name">Камера</string>
+	<string name="pref_camera_selftimer_entry_5">5 сония</string>
+	<string name="night_mode">Тун</string>
+	<string name="radio_switch_to_beautyvideo">Чиройли видео</string>
+	<string name="timelapse_mode">Таймлапс</string><!-- add by zzp for pano--><string name="panorama_arcsoft_guide_shutter">Суратга олиш тугмасини босинг ва телефонингизни\nбир йўналишда секин ҳаракатлантиринг</string>
+	<string name="panorama_arcsoft_warn_slowly">Телефонингизни секин ҳаракатлантиринг</string>
+	<string name="panorama_arcsoft_warn_back">Телефонингизни стрелка бўйлаб ҳаракатлантиринг</string>
+	<string name="panorama_arcsoft_warn_up">Юқорига ҳаракатлантиринг</string>
+	<string name="panorama_arcsoft_warn_down">Пастга ҳаракатлантиринг</string>
+	<string name="panorama_arcsoft_warn_left">Чапга ҳаракатлантиринг</string>
+	<string name="panorama_arcsoft_warn_right">Ўнгга ҳаракатлантиринг</string>
+	<string name="panorama_arcsoft_switch_capture_direction_guide">Тасвирга олиш йўналишини ўзгартириш учун стрелкани босинг</string>
+	<string name="panorama_capture_guide">Стрелкани кўрсаткич чизиғига текисланг</string>
+	<string name="panorama_toggle_mode_standard">Стандарт</string>
+	<string name="panorama_toggle_mode_super">Супер</string><!--time line 20141227--><string name="radio_switch_to_pip">Жуфт кадр</string>
+	<string name="setting_title">Созламалар</string>
+	<string name="mode_title">Режимлар</string>
+	<string name="setting_top_full_hint">Яна элемент қўшиш имконсиз.</string>
+	<string name="touchless_guide_vsign_title">V белгиси</string>
+	<string name="touchless_guide_tips_vsign_only">Автоматик тасвирга олиш учун V шаклини чизишингиз мумкин.</string>
+	<string name="touchless_guide_text_ok">ОК</string>
+	<string name="touchless_guide_text_reminder">Бу бошқа кўрсатилмасин</string>
+	<string name="wideself_arcsoft_guide_shutter">Бошлаш учун суратга олиш тугмасини босинг</string>
+	<string name="wideself_arcsoft_guide_step_one">Телефонни аввал бир, кейин бошқа йўналишда буринг</string>
+	<string name="wideself_arcsoft_rolate_to_left">Телефонингизни секин чапга буринг</string>
+	<string name="wideself_arcsoft_rolate_to_right">Телефонингизни секин ўнгга буринг</string>
+	<string name="wideself_arcsoft_cannot_use_guide">Кенг селфидан портрет режимида фойдаланинг</string>
+	<string name="wideself_arcsoft_downup_offset_warn">It is not good enough to horizontally align the photo.</string>
+	<string name="panorama_arcsoft_cannot_use_guide">Панорамадан портрет режимида фойдаланинг</string>
+	<string name="radio_switch_to_wideselfie">Кенг селфи</string>
+	<string name="radio_switch_to_refocus">Смарт фокус</string>
+	<string name="radio_switch_to_chromaflash">Смарт чақноқ</string>
+	<string name="radio_switch_to_clearsight">ClearSight</string>
+	<string name="setting_guide_message">Ёрлиқни қўшиш учун “Ёрлиқлар панелига қўшиш”\nтугмасини босинг ёки ушлаб тортинг</string>
+	<string name="skip_setting_guide">Тушунарли</string>
+	<string name="permission_title">Рухсат бериш</string>
+	<string name="enable_permission_procedure">Рухсатларни Созламалар &gt; Иловалар &gt; %1$s &gt; Рухсатлар рукнида ўзгартиришингиз мумкин</string>
+	<string name="toast_storage_full_sdcard_to_internal">SD карта тўлган, ички хотирага сақланмоқда</string>
+	<string name="toast_storage_damaged_sdcard_to_internal">SD картага сақланмади, ички хотирага сақланмоқда</string>
+	<string name="toast_storage_full_internal_to_sdcard">Ички хотира тўлган, SD картага сақланмоқда</string>
+	<string name="toast_storage_full_clean_up_to_free_space">Телефон хотирасида жой қолмаган. Жой очиш учун тозаланг</string>
+	<string name="secure_camera_can_not_request_permission">Рухсат сўровларини қабул қилиш/рад этишдан аввал телефонингиз қулфини очинг</string>
+	<string name="shutcauts_frontcamera">Селфи олиш</string>
+	<string name="shutcauts_backcamera">Суратга олиш</string>
+	<string name="shutcauts_frontvideo">Видеога олиш (селфи)</string>
+	<string name="shutcauts_backvideo">Видео ёзиб олиш</string>
+	<string name="pref_camera_status_detect_title">Ҳолатни аниқлаш</string>
+	<string name="pref_camera_raw_file_title">RAW файл</string>
+	<string name="pref_camera_filter_title">Фильтр</string>
+	<string name="pref_dual_camera_title">Жуфт камера</string>
+	<string name="pref_dual_camera_default">Ўчиқ</string>
+	<string name="radio_switch_to_monochrome">Оқ-қора</string>
+
+	<string name="pref_camera_gpu_effect_focus">Фокус</string>
+	<string name="pref_camera_gpu_effect_sepia">Сепия</string>
+	<string name="pref_camera_gpu_effect_temperature">Ҳарорат</string>
+	<string name="pref_camera_gpu_effect_gray">Кулранг</string>
+	<string name="pref_camera_gpu_effect_none">Ҳеч қандай</string>
+	<string name="pref_camera_gpu_effect_documentary">Ҳужжатли</string>
+	<string name="pref_camera_gpu_effect_fishEye">Балиқ кўзи</string>
+	<string name="pref_camera_gpu_effect_tint">Ранг туси</string>
+	<string name="pref_camera_gpu_effect_crossprocess">Crossprocess</string>
+	<string name="portrait_mode">Портрет</string>
+	<string name="pref_camera_pref_entry_auto">Авто</string>
+	<string name="confirm_mode_tip">%1$s режимига алмашиш учун босинг</string>
+	<string name="focal_switch_scale_tip">Телефото режимини очиш учун белгини босинг</string>
+	<string name="front_wide_switch_tip">Гуруҳли селфи функциясини фаоллаштириш учун белгини босинг</string>
+	<string name="low_memory_limit">Your system is in low memory, some features limit capture size</string>
+	<string name="portrait_background_blur">Портрет</string>
+	<string name="portrait_of_face_beauty">Юзни пардозлаш</string>
+	<string name="asd_result_hdr">HDR фаоллаштирилди</string>
+	<string name="toast_face_undetected_at_portrait">2 метр масофада ҳеч қандай юз аниқланмади</string>
+	<string name="toast_face_undetected_at_sticker">Ҳеч қандай юз аниқланмади</string>
+	<string name="toast_view_pic_vivid_at_superpixel">Супер пиксел билан кўпроқ тафсилотларни тасвирга олинг</string>
+	<string name="front_face_detected_first_tip">Селфилар яхшироқ чиқиши учун камерага қаранг</string>
+	<string name="u_screen_selfie_count_down_cancel">Бекор қилиш</string>
+	<string name="video_beauty_switch_on">Ёниқ</string>
+	<string name="video_beauty_switch_off">Ўчиқ</string>
+	<string name="image_processing_toast">Тасвирни қайта ишлаш</string>
+	<string name="short_video_not_found">Бундай видео топилмади</string><!-- for Android O's CTS--><string name="camera_review_done_desc">Бажарилди</string>
+	<string name="bokeh_mode">Портрет</string>
+	<string name="toast_dual_camera_bokeh">2 метр масофадан суратга олинг</string><!-- for qcom slowmotion--><string name="pref_camera_hfr_entry_2x">X2</string>
+	<string name="pref_camera_hfr_entry_3x">X3</string>
+	<string name="pref_camera_hfr_entry_4x">X4</string>
+
+
+
+	<string name="slow_motion_mode">Секинлаштириш режими</string>
+
+
+
+	<!-- // Camera fun mode string --><string name="radio_switch_to_fun">Camera Fun</string><!-- Default fun mode setting. -->
+	<string name="pref_camera_fun_title">Fun</string>
+	<string name="pref_camera_sticker_title">Стикер</string>
+	<string name="toast_face_undetected_at_fun">Юз аниқланмади</string>
+	<string name="toast_eyes_undetected_at_fun">Эффектга разм солиш учун кўзларингизни юмиб-очинг</string>
+	<string name="toast_mouth_undetected_at_fun">Эффектга разм солиш учун оғзингизни очинг</string>
+	<string name="toast_short_video_tip">Қисқа видеога олиш учун суратга олиш тугмасини босиб туринг</string>
+	<string name="fun_filter_none">Фильтр</string>
+	<string name="fun_filter_lomo">LOMO</string>
+	<string name="fun_filter_elegant">Нафис</string>
+	<string name="fun_filter_cyan">Оч мовий</string>
+	<string name="fun_filter_mint">Ялпиз</string>
+	<string name="fun_filter_led">LED</string>
+	<string name="fun_filter_eternal">Абадий</string>
+	<string name="fun_filter_formerly">Аввалги</string>
+	<string name="fun_filter_blue">Кўк</string>
+	<string name="fun_filter_oldbooth">Эски кулба</string>
+	<string name="fun_filter_milkytea">Сутли чой</string>
+	<string name="fun_filter_warm">Илиқ</string>
+	<string name="fun_filter_norway">Норвегия</string>
+	<string name="fun_filter_cool">Салқин</string>
+	<string name="fun_filter_dew">Шудринг</string>
+	<string name="fun_filter_youth">Ёшлар</string>
+	<string name="fun_filter_shy">Уятчан</string>
+	<string name="fun_filter_jaipur">Жайпур</string>
+	<string name="fun_filter_autumn">Куз</string>
+	<string name="fun_filter_japanese">Япон</string>
+	<string name="fun_filter_sweet">Ёқимли</string>
+	<string name="fun_filter_warren">Уоррен</string>
+	<string name="fun_filter_tsukiji">Цукидзи</string>
+	<string name="fun_filter_vivid">Ёрқин</string>
+	<string name="fun_filter_facingsun">Қуёшга қараш</string>
+	<string name="fun_filter_purple">Сиёҳранг</string>
+	<string name="pref_gender_estimate_title">Гендерни баҳолаш</string>
+	<string name="pref_gender_estimate_entry_on">Ёниқ</string>
+	<string name="pref_gender_estimate_entry_off">Ўчиқ</string>
+	<string name="beauty_guide_top_text">AI пардозлаш</string>
+	<string name="toast_motion_photo_opened">Ҳаракатланувчи сурат фаоллаштирилди</string>
+	<string name="pref_camera_gpu_effect_vignetting">Vignetting</string><!--add for ai scene detection --><string name="ai_scene_tips_food">Таом</string>
+	<string name="ai_scene_tips_portrait">Портрет</string>
+	<string name="ai_scene_tips_foliage">Ўсимлик</string>
+	<string name="ai_scene_tips_sky">Мовий осмон</string>
+	<string name="ai_scene_tips_text">Матн</string><!-- add for faceplus asd detection --><string name="faceplus_asd_tips_face">Портрет</string>
+	<string name="faceplus_asd_tips_food">Таом</string>
+	<string name="faceplus_asd_tips_fruits">Мева</string>
+	<string name="faceplus_asd_tips_flower">Гул</string>
+	<string name="faceplus_asd_tips_flowersea">Гуллар денгизи</string>
+	<string name="faceplus_asd_tips_sandbeach">Қум</string>
+	<string name="faceplus_asd_tips_snow">Қор</string>
+	<string name="faceplus_asd_tips_bluesky">Осмон</string>
+	<string name="faceplus_asd_tips_night">Тун</string>
+	<string name="faceplus_asd_tips_sunrise">Қуёш чиқиши ва ботиши</string>
+	<string name="faceplus_asd_tips_qr">QR код</string>
+	<string name="faceplus_asd_tips_businesscard">Ташрифнома</string>
+	<string name="faceplus_asd_tips_whiteboard">Оқ ёзув тахтаси</string>
+	<string name="faceplus_asd_tips_idcard">ID</string>
+	<string name="faceplus_asd_tips_bankcard">Кредит картаси</string>
+	<string name="faceplus_asd_tips_cat">Мушук</string>
+	<string name="faceplus_asd_tips_dog">Ит</string>
+	<string name="faceplus_asd_tips_meadow">Яйлов</string>
+	<string name="faceplus_asd_tips_plants">Ўсимлик</string>
+	<string name="toast_gender_estimate_started">Параметрларни юзингизга асосан созлаш</string>
+	<string name="beauty_guide_top_text_description">AI пардозлаш функциясини ёқинг ва параметрларни юзингизга асосан созланг</string>
+	<string name="zoom_guide_title">Масштаблашнинг осонроқ усули</string>
+	<string name="zoom_guide_content">Кенг бурчакли ва супер масштаблаш учун юқоридаги тугмани босинг. Масштабни катталаштириш ёки кичрайтириш учун экранда бармоқ билан тиккасига суришингиз ҳам мумкин</string>
+	<string name="video_recording">Видеога олиш</string>
+	<string name="micro_video_guide_content">Ҳаракатланувчи сурат функцияси ёқилса, олган ҳар бир суратингизга тасвирдан олдин ва кейин қисқа видео қўшилади. Суратни улашганингизда ушбу видео ҳам улашилиши мумкин.</string>
+	<string name="motion_photo">Ҳаракатланувчи сурат</string>
+	<string name="switch_to_wide_lens_toast">Кенг бурчакли объективни ёқиш</string>
+	<string name="time_lapse_not_save">Таймлапсингизни сақлаш имконсиз. Видео узунлиги камида %1$d сония бўлиши керак</string>
+	<string name="pref_shutter_speed_title">Суратга олиш тугмасининг тезлиги</string>
+	<string name="switch_to_wide_lens_landscape_toast">Кадрни кенгайтириш учун Кенг бурчак тугмасини босинг</string>
+	<string name="radio_switch_to_dual_bokeh_for_custom">Бадиий хиралаштириш</string>
+	<string name="toast_video_recording_in_call_state">Чақирув пайтида ёзиб олиш имконсиз</string>
+	<string name="pref_camera_ai_title">AI</string>
+	<string name="toast_video_3dnr_on">Тунги видео режими ёқилди</string>
+	<string name="toast_storage_unavailable">SD карта мавжуд эмас</string>
+	<string name="toast_landscape_open_wide_tips">Кадрга янада кўпроқ манзара ёки дўстларингизни сиғдириш учун супер-кенг бурчак режимига алмашинг.</string>
+	<string name="enable_sd_permission_title">Камера учун SD картадан фойдаланиш рухсати зарур</string>
+	<string name="enable_sd_permission_content">Созламаларни текширинг ва “SD карта” ичидаги “DCIM” жилди учун рухсат беринг</string>
+	<string name="macro_mode">Макро</string>
+	<string name="super_macro_tip">Телефонни объектдан (1) 3-4 см масофада тутинг.</string>
+	<string name="bokeh_offfline_processing">Боке маълумотлари офлайн қайта ишланмоқда…</string>
+	<string name="pref_google_lens">Google Lens</string>
+	<string name="never">Ҳеч қачон</string>
+	<string name="toast_high_temp_disable_flash">Ҳарорат жуда юқори, фонарни ёқиш имконсиз.</string>
+	<string name="toast_high_temp_shutdown_camera">Ҳарорат жуда юқори, камера 5 сониядан кейин ёпилади</string>
+
+	<string name="bokeh_type_name">Бадиий хиралаштириш</string>
+	<string name="bokeh_type_description">Бу функция сизга суратни Бадиий хиралаштириш эффектидан фойдаланиб таҳрирлаш имконини беради.</string>
+	<string name="hdr_type_name">HDR</string>
+	<string name="hdr_type_description">Ёруғлик орқадан тушадиган жойда кўпроқ тафсилотларни сақлаш</string>
+	<string name="ai_type_name">AI</string>
+	<string name="ai_type_description">AI саҳнани аниқлаш функцияси ёрдамида параметрларни автоматик созлаш</string>
+	<string name="timelapse_type_name">Тайм лапс</string>
+	<string name="timelapse_type_description">Қисқа вақт ичида юқорироқ тезликдаги узунроқ видеони кўрсатиш</string>
+	<string name="don_t_cover_the_lens">Объективни беркитиб қўйманг</string>
+	<string name="pref_video_time_lapse_frame_interval_title">Вақт оралиғи</string>
+	<string name="toast_qr_code_detected">QR код аниқланди.\nТашриф буюриш учун босинг</string>
+	<string name="toast_qr_code_detected_type_esim">eSIM профили аниқланди.\neSIM картани фаоллаштириш учун босинг</string>
+	<string name="toast_qr_code_detected_type_url">QR код аниқланди.\nҲаволани очиш учун босинг</string>
+	<string name="toast_qr_code_detected_type_string">QR код аниқланди.\nGoogle орқали қидириш учун босинг</string>
+	<string name="toast_bar_code_detected_type_string">Штрих-код аниқланди.\nҲаволани очиш учун босинг</string>
+	<string name="toast_bar_code_detected_type_number">Маҳсулот штрих-коди аниқланди.\nМаҳсулотни қидириш учун босинг</string>
+	<string name="turn_off_qr_code">QR код функциясини фаолсизлантириш</string>
+	<string name="pref_video_quality_entry_fine_text">Яхши</string>
+	<string name="pref_video_quality_entry_high_text">Юқори</string>
+	<string name="pref_exposure_metering_title">Экспозицияни ҳисоблаш</string>
+	<string name="pref_exposure_metering_entry_frame_average">Frame average</string>
+	<string name="pref_exposure_metering_entry_center_weighted">Марказлаштирилган вазн</string>
+	<string name="pref_exposure_metering_entry_spot_metering">Жойни ҳисоблаш</string>
+	<string name="toast_disable_torch">Қизиб кетмаслиги учун фонарни ўчиринг</string>
+	<string name="google_location_dialog_title">Камера иловаси билан олган суратларингизга жойлашув ахбороти қўшилсинми?</string>
+	<string name="google_location_dialog_message">Бунда суратларингизга уларнинг қаерда олингани ҳақидаги ахборот қўшилади.</string>
+	<string name="google_location_dialog_message_lear_more">
+		<a href="https://support.google.com/photos/answer/9921876">Батафсил</a>
+	</string>
+	<string name="google_location_dialog_positive">Камера жойлашув ахборотини ёқиш</string>
+	<string name="image_search_mode">Нарсаларни қидириш</string>
+	<string name="detect_result_title">Бирор нарсани танланг ва қидирув натижаларини кўринг</string>
+	<string name="search_result_title">Ўхшаш нарсалар учун қидирув натижалари</string>
+	<string name="search_for_other_items">Бошқа нарсаларни қидириш</string>
+	<string name="point_format_string">%1$d балл (%2$dx)</string><!--    <string name="price_format_string">%1$s yen</string>--><string name="view_on_rakuten_ichiba">Rakuten Ichiba орқали кўриш</string>
+	<string name="view_all_results_on_rakuten_ichiba">Барча натижаларни Rakuten Ichiba орқали кўриш</string>
+	<string name="start_new_search">Янги қидирувни бошлаш</string>
+	<string name="network_error">Тармоқда хатолик юз берди.\nИнтернет алоқасини текширинг ва қайта урининг</string>
+	<string name="item_not_found">Модага оид ҳеч нарса топилмади</string>
+	<string name="cropped_item_not_found">Қидирув соҳасининг ўлчамини қайтадан созланг</string>
+	<string name="cropped_item_not_found_btn_text">Қидирув соҳасини қайтадан созланг</string>
+	<string name="searching">Қидирилмоқда…</string>
+	<string name="image_search_tip">Қидириш учун суратга олинг ёки расмни танланг</string>
+	<string name="image_search_processing">Қидирилмоқда…</string>
+	<string name="move_and_resize_tip">Қидириш учун рамкани исталган жойга суринг.\nРамка ўлчамини созлаш учун бурчакларини ушлаб тортинг.</string>
+	<string name="new_feature_image_search_guide_title">Янги функция</string>
+	<string name="new_feature_image_search_guide_title_extra" translatable="false" />
+	<string name="new_feature_image_search_guide_content">Энди нарсаларни суратга олиш ва Rakuten Ichiba орқали қидиришингиз мумкин</string>
+	<string name="item_search_guide_title">Нарсаларни қидириш фунцияси нима?</string>
+	<string name="item_search_guide_content_p1">Камера билан суратлар олинг ва Rakuten Ichiba орқали нарсаларни қидиринг.</string>
+	<string name="item_search_guide_content_p2">(Нарсаларни қидириш функцияси ёрдамида ҳозирча фақат модага оид маҳсулотларни қидириш мумкин.)</string>
+	<string name="feedback_title">Фикр-мулоҳаза</string>
+	<string name="feedback_content">Бу натижалар фойдалими?</string>
+	<string name="feedback_action">Фикр-мулоҳаза билдириш</string>
+	<string name="feedback_send">Юбориш</string>
+	<string name="feedback_response">Қимматли фикр-мулоҳазангиз учун раҳмат.</string>
+	<string name="terms_of_use_title">Фойдаланиш шартлари</string>
+	<string name="privacy_title">Махфийлик сиёсати</string>
+	<string name="free_shipping">Бепул етказиб бериш</string>
+	<string name="terms_of_use_agree">Фойдаланиш шартларига розиман.</string>
+	<string name="start_to_use">Расмларни қидириш</string>
+	<string name="terms_of_use_content">Фойдаланиш шартлари билан танишинг.</string>
+	<string name="try_again_tips">Истаганингизни топа олмадингизми?\nБошқача натижаларни олиш учун янгидан қидиринг</string>
+	<string name="yen">йен</string>
+	<string name="pref_video_fps">FPS</string>
+	<string name="pref_video_encoder">Кодер</string>
+	<string name="more">Яна</string>
+	<string name="panorama_night_mode">Тунги панорама</string>
+	<string name="long_press_shutter_button">Узоқ босиб туриб суратга олиш</string>
+	<string name="continuous_shot_entry">Кетма-кет сурат</string>
+
+
+	<string name="pref_camera_wb_temp_title">Ранг ҳарорати</string>
+
+	<string name="pref_camera_entry_off">Ўчиқ</string>
+	<string name="pref_camera_whitebalance_entry_custom">Махсус</string>
+	<string name="pref_camera_entry_on">Ёниқ</string>
+
+	<string name="pref_video_night_title">Тунги видео</string>
+	<string name="video_ois_title">OIS</string>
+	<string name="pref_photo_mfnr_title">MFNR</string>
+	<string name="remosaic_mode">Remosaic</string>
+
+	<string name="pref_high_definition_title">Юқори аниқлик даражаси</string>
+	<string name="pref_pro_raw_title">Юқори аниқлик даражаси</string>
+</resources>

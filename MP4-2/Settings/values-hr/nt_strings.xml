@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nt_navigation_back_button_left_side">Gumb za natrag na lijevoj strani</string>
+    <string name="nt_navigation_back_button_right_side">Gumb za natrag na desnoj strani</string>
+    <string name="nt_navigation_config_title">Izgled gumba</string>
+    <string name="nt_glyphs_charging_features">Prikaži napredak punjenja kada je uređaj priključen ili pomaknite uređaj tijekom punjenja.</string>
+    <string name="nt_screen_refresh_rate_high_summary">Dinamična stopa osvježavanja do 120 Hz za uglađenije pomicanje i animacije.</string>
+    <string name="nt_screen_refresh_rate_standard_summary">Fiksna stopa osvježavanja od 60 Hz za dulje trajanje baterije.</string>
+	
+	<!-- translate to other languages -->
+	<string name="nt_glyphs_flip_title">Okreni za Glyph</string>
+    <string name="nt_glyphs_flip_to_glyph_title">Okreni za Glyph</string>
+    <string name="nt_use_filp_to_glyph">Upotrijebite Okreni za Glyph</string>
+	
+</resources>

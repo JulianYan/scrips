@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nt_navigation_back_button_left_side">Pabalik na button na nasa kaliwang gilid</string>
+    <string name="nt_navigation_back_button_right_side">Pagbalik na button na nasa kanang gilid</string>
+    <string name="nt_navigation_config_title">Pagkaka-layout sa Button</string>
+    <string name="nt_glyphs_charging_features">Ipakita ang estado ng pagcha-charge kapag naka-plug ang device o i-vibrate ang device kapag nagcha-charge.</string>
+    <string name="nt_screen_refresh_rate_high_summary">Ang dinamikong rate ng pag-refresh na hanggang 120 Hz para sa mas maayos na pagso-scroll at mga animasyon.</string>
+    <string name="nt_screen_refresh_rate_standard_summary">Ang naka-fix na rate ng pag-refresh na 60 Hz para sa mas matagal na baterya.</string>
+	
+	<!-- translate to other languages -->
+	<string name="nt_glyphs_flip_title">Pag-flip sa Glyph</string>
+    <string name="nt_glyphs_flip_to_glyph_title">Pag-flip sa Glyph</string>
+    <string name="nt_use_filp_to_glyph">Gamitin ang Pag-flip sa Glyph</string>
+	
+</resources>

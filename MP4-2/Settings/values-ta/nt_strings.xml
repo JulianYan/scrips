@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nt_navigation_back_button_left_side">பேக் பட்டன் இடது பக்கத்தில்</string>
+    <string name="nt_navigation_back_button_right_side">பேக் பட்டன் வலது பக்கத்தில்</string>
+    <string name="nt_navigation_config_title">பட்டன் லேயவுட்</string>
+    <string name="nt_glyphs_charging_features">சாதனம் செருகப்பட்டிருக்கும் போது சார்ஜிங் முன்னேற்றத்தைக் காட்டுகிறது அல்லது சார்ஜ் ஆகும் போது சாதனத்தை அசைக்கிறது.</string>
+    <string name="nt_screen_refresh_rate_high_summary">மென்மையான ஸ்க்ரோலிங் மற்றும் அனிமேஷன்களுக்கு 120 Hz வரையிலான டைனமிக் புதுப்பிப்பு வீதம்.</string>
+    <string name="nt_screen_refresh_rate_standard_summary">சிறந்த பேட்டரி ஆயுளுக்கு 60 Hz நிலையான புதுப்பிப்பு வீதம்.</string>
+	
+	<!-- translate to other languages -->
+	<string name="nt_glyphs_flip_title">Glyph க்குத் திருப்பு</string>
+    <string name="nt_glyphs_flip_to_glyph_title">Glyph க்குத் திருப்பு</string>
+    <string name="nt_use_filp_to_glyph">Glyph க்குத் திருப்பைப் பயன்படுத்து</string>
+	
+</resources>

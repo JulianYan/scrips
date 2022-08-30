@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="nft_loading_tips">డేటాను డౌన్‌లోడ్ చేస్తోంది.</string>
+    <string name="nft_loading_tips_second">ఈ ప్రక్రియకు కొంత సమయం పట్టవచ్చు.</string>
+
+</resources>

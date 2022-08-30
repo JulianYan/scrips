@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="nft_loading_tips">Изтегляне на данни.</string>
+    <string name="nft_loading_tips_second">Този процес може да отнеме известно време.</string>
+
+</resources>

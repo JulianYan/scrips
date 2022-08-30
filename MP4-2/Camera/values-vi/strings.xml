@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_watermark">Dấu mờ</string>
+    <string name="settings_model_watermark">Dấu mờ kiểu hình</string>
+    <string name="settings_time_watermark">Dấu mờ thời gian</string>
+</resources>

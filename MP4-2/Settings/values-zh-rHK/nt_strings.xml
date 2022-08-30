@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nt_navigation_back_button_left_side">返回鍵在左側</string>
+    <string name="nt_navigation_back_button_right_side">返回鍵在右側</string>
+<string name="nt_navigation_config_title">按鍵佈局</string>
+    <string name="nt_glyphs_charging_features">在剛連接充電線或輕微晃動手機時，顯示充電電量。</string>
+    <string name="nt_screen_refresh_rate_high_summary">動態刷新率高達 120 Hz，使滑動和動畫更為流暢。</string>
+    <string name="nt_screen_refresh_rate_standard_summary">固定刷新率至 60 Hz，以延長電池壽命。</string>
+	
+		<!-- translate to other languages -->
+	<string name="nt_glyphs_flip_title">切換到 Glyph</string>
+    <string name="nt_glyphs_flip_to_glyph_title">切換到 Glyph</string>
+    <string name="nt_use_filp_to_glyph">啟用切換到 Glyph</string>
+</resources>

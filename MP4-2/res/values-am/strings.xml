@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources><!-- Confirmation dialog when restoring settings --><string name="confirm_restore_message">የካሜራ ነባር አቀማመጦችን ወደነበሩበት መመለስ ይፈልጋሉ?</string>
+	<string name="pref_camera_module_title">ካሜራ ላይ</string><!-- Settings screen, camera selection dialog title. Users can select a camera from the phone (front-facing or back-facing). [CHAR LIMIT=20] --><string name="pref_camera_id_title">ካሜራ ቀይር</string>
+	<!-- In select camera setting, back facing camera. [CHAR LIMIT=14] --><string name="pref_camera_id_entry_back">ተመለስ</string><!-- In select camera setting, front-facing camera. [CHAR LIMIT=14] --><string name="pref_camera_id_entry_front">ፊት ለፊት</string><!-- Settings screen, Record location dialog choices --><string name="pref_camera_recordlocation_entry_off">ጠፋ</string>
+	<string name="pref_camera_recordlocation_entry_on">በራ</string><!-- The Video quality settings in preference [CHAR LIMIT=21] --><string name="pref_video_quality_title">የቪዲዮ ጥራት</string>
+	<string name="pref_video_stabilization_title">የቪዲዮ ማረጋጊያ</string>
+	<string name="pref_video_3dnr_title">ቪዲዮ 3DNR</string><!-- The Video timelapse settings in preference [CHAR LIMIT=21] --><string name="pref_video_timelapse_title">Video Timelapse</string>
+	<string name="pref_video_autozoom_title">ቪዲዮ ራስ-ማጉያ</string>
+	<string name="video_mode">ቪዲዮ</string>
+	<string name="guide_auto_zoom_title">ራስ-ማጉያ</string>
+	<string name="guide_auto_zoom_rules">በመቅዳት ላይ እያለን  በስክሪኑ ላይ ክብ በመሳል እቃዎችን መከታተል እና ሁለቴ ስክሪኑን መታ በማድረግ ክትትሉን ማስቆም ይቻላል</string>
+	<string name="toast_auto_zoom_not_activated">ራስ-ማጉያው አልተነቃቃም</string><!-- Default flash mode setting. -->
+	<!-- Settings screen, Flash mode title --><string name="pref_camera_flashmode_title">ፍላሽ ላይ</string>
+	<string name="pref_screenflash_title">ፍላሽ አሳይ</string><!-- Settings screen, Flash mode dialog radio button choices --><string name="pref_camera_flashmode_entry_auto">መኪና</string>
+	<string name="pref_camera_flashmode_entry_on">በራ</string>
+	<string name="pref_camera_flashmode_entry_off">ጠፋ</string>
+	<string name="pref_camera_flashmode_entry_torch">ማብሪያ</string><!-- Default white balance setting. --><!-- Settings screen, white balance title --><string name="pref_camera_whitebalance_title">AWB</string><!-- Settings screen, White balance dialog radio button choices --><string name="pref_camera_whitebalance_entry_auto">መኪና</string>
+	<string name="pref_camera_whitebalance_entry_incandescent">የማይነቃነቅ</string>
+	<string name="pref_camera_whitebalance_entry_daylight">የቀን ብርሃን</string>
+	<string name="pref_camera_whitebalance_entry_fluorescent">ፍሎረሰንት</string>
+	<string name="pref_camera_whitebalance_entry_cloudy">ዳመናማ</string>
+
+
+
+
+	<!-- Default scene mode setting. -->
+
+	<string name="pref_camera_scene_frame_title">የትዕይንት ፍሬም</string><!-- Settings screen, Select Scene mode --><string name="pref_camera_scenemode_title">የትዕይንት ሁኔታ</string>
+	<string name="pref_hdr_title">HDR</string>
+	<string name="pref_motion_photo_title">እንቅስቃሴ</string><!-- Settings menu, scene mode choices --><string name="pref_camera_scenemode_entry_auto">መኪና</string>
+	<string name="pref_camera_scenemode_entry_night">ለሊት</string><!-- Scene mode optimized for taking images in the sunset. --><string name="pref_camera_scenemode_entry_sunset">ጀንበር ስትጠልቅ</string><!-- Scene mode optimized for taking indoor low-lights pictures. [CHAR LIMIT=16] --><string name="pref_camera_scenemode_entry_party">ድግስ</string>
+	<string name="pref_restore_detail"> ወደነበሩበት መመለስ</string><!-- Exposure settings in preference --><string name="pref_exposure_title">ኢቭ</string>
+	<string name="sugar_face_beauty_custom">ተበጀ</string>
+	<string name="sugar_eyes_beauty">አይን</string>
+	<string name="sugar_face_thin">ስለታም</string>
+	<string name="sugar_skin_smooth">ለስላሳ</string>
+	<string name="adjust_progress">+%ስ</string>
+	<string name="face_beauty_custom_skin_info">ቆዳ</string>
+	<string name="face_beauty_custom_eyes_info">አይን</string>
+	<string name="face_beauty_custom_thin_info">ቀጭን</string>
+	<string name="face_beauty_custom_rosy_info">ሮዝ</string>
+	<string name="face_beauty_custom_whitening_info">ማንጣት</string>
+	<string name="portrait_custom_info">ብዥታ</string>
+
+	<string name="pref_camera_volume_key_title">የድምጽ ቁልፎች</string>
+	<string name="pref_camera_volume_key_shoot">ተኩስ</string>
+	<string name="pref_camera_volume_key_zoom">ማጉላት</string>
+	<string name="pref_camera_volume_key_volume">ድምጽ</string>
+
+
+	<string name="photo_incapture">ፎቶ ማንሳት</string>
+
+	<string name="toast_location_started">ቦታው ተጀመረ</string>
+	<string name="toast_location_success">የቦታው ስኬት</string>
+	<string name="toast_device_denayed">መሳሪያ ማግኘት አልተቻለም</string>
+	<string name="toast_device_connect_failed">የመሣሪያ ግንኙነት አልተሳካም</string>
+	<string name="toast_start_preview_failed">ጀምር ቅድመ-እይታ አልተሳካም</string>
+	<string name="toast_storage_full">ማከማቻው ሞልቷል</string>
+	<string name="toast_low_power_disable_flash">አነስተኛ ባትሪ፣ መብራት ማብራት አይችልም።</string>
+	<string name="toast_video_size_max">የቪዲዮ መጠን ገደቡ ላይ ደርሷል።</string>
+	<string name="toast_continue_snap_max">ያልተቋረጡ ጥይቶች ቆጠራ ገደቡ ላይ ደርሷል።</string>
+	<string name="toast_video_error">ቪዲዮ አሁን ባለበት ሁኔታ መቅዳት አይቻልም</string>
+	<string name="toast_video_start_fail">ማይክሮፎን ስራ ላይ ነው እና ለመቅዳት መጠቀም አይቻልም</string>
+	<string name="toast_video_init_size_error">የቪዲዮ መጠን ወደ ገደቡ ተቀንሷል።</string>
+	<string name="toast_long_press_unavilable">ቀጣይነት ያለው ምት አይደግፍም።</string>
+	<string name="toast_continuous_shot_off">ቀጣይነት ያለው ምት አይገኝም።</string>
+	<string name="toast_thumbnail_empty">ፎቶ የለም</string>
+	<string name="toast_clearsight_success">የ ንጹህ እይታ ቀረጻ ስኬት</string>
+	<string name="toast_clearsight_failed">ClearSight ቀረጻ አልተሳካም</string>
+	<string name="toast_auto_zoom">ራስን-ማጉላት ሰርትዋል</string>
+	<string name="toast_video_stabilization">ማረጋጊያ ሰርትዋል</string>
+	<string name="guide_top">ካሜራ ለመቀየር ወደ ላይ ወይም ወደ ታች ያንሸራትቱ።</string>
+	<string name="guide_right">መለኪያዎች ለማዘጋጀት ወደ ቀኝ ያንሸራትቱ።</string>
+	<string name="guide_left">ሁኘታዎችን ለማዘጋጀት ወደ ግራ ያንሸራትቱ።</string>
+	<string name="voice_on_tips">\" ያዝ \" ወይም \" አይብ \" ይበሉ</string>
+	<string name="toast_steady_capture">ፎቶ ሲያነሱ ስልኩን አያንቀሳቅሱ።</string>
+	<string name="toast_dual_camera_opened">ድርብ ካሜራ ተከፍቷል</string>
+	<string name="toast_dual_camera_closed">ድርብ ካሜራ ተዘግቷል</string><!-- Pref -->
+
+
+
+
+
+
+
+
+
+	<string name="pref_video_quality_entry_full">ሙሉ</string>
+
+	<string name="pref_video_stabilization_entry_on">በራ</string>
+	<string name="pref_video_stabilization_entry_off">ጠፋ</string>
+	<string name="pref_video_stabilization_entry_standard">መደበኛ</string>
+	<string name="pref_video_stabilization_entry_super">እበጥ</string>
+	<string name="pref_video_3dnr_entry_on">በራ</string>
+	<string name="pref_video_3dnr_entry_off">ጠፋ</string>
+	<string name="pref_video_autozoom_entry_on">በራ</string>
+	<string name="pref_video_autozoom_entry_off">ጠፋ</string>
+	<string name="pref_camera_picturesize_title">የሥዕል መጠን</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<string name="pref_camera_picture_aspect_ratio_title">የስዕል ምጥጥን ገጽታ</string>
+
+
+
+
+
+
+
+
+	<string name="pref_camera_picturesize_entry_16_9">ሙሉ ማያ</string>
+	<string name="pref_camera_picturesize_entry_4_3">መደበኛ</string>
+	<string name="pref_camera_picturesize_entry_1_1">አራት ማዕዘን</string><!-- ISO -->
+
+	<string name="manual_focus_title">ኤም ትኩረት</string><!--  --><string name="pref_camera_edge_title">ሹልነት</string>
+
+	<string name="pref_camera_hue_title">ሁ</string><!--  --><string name="pref_camera_saturation_title">ሙሌት</string>
+
+	<string name="pref_camera_brightness_title">ብርሃን</string>
+
+	<string name="pref_camera_contrast_title">ንፅፅር</string>
+	<string name="pref_camera_dip_entry_low">ዝቅተኛ</string>
+	<string name="pref_camera_dip_entry_middle">መሃል</string>
+	<string name="pref_camera_dip_entry_high">ከፍተኛ</string><!-- color effect --><!-- Settings screen, Select Color effect title --><string name="pref_camera_coloreffect_title">የቀለም ውጤት</string><!-- Settings screen, Color effect dialog radio button choices --><string name="pref_camera_coloreffect_entry_none">ምንም</string>
+	<string name="pref_camera_coloreffect_entry_mono">ነገር</string>
+	<string name="pref_camera_coloreffect_entry_sepia">ሴፒያ</string>
+	<string name="pref_camera_coloreffect_entry_negative">አሉታዊ</string><!-- Color effect that overexposes and reverses some of the tones. --><string name="pref_camera_coloreffect_entry_solarize">ሶላራይዝ</string>
+	<string name="pref_camera_coloreffect_entry_posterize">ፖስተር ማድረግ</string>
+	<string name="pref_camera_coloreffect_entry_whiteboard">ነጭ ሰሌዳ</string>
+	<string name="pref_camera_coloreffect_entry_blackboard">ጥቁር ሰሌዳ</string>
+	<string name="pref_camera_coloreffect_entry_aqua">አኳ</string>
+	<string name="pref_camera_coloreffect_entry_pastel">ፓስቴል</string>
+	<string name="pref_camera_coloreffect_entry_mosaic">ሞዛይክ</string>
+	<string name="pref_camera_coloreffect_entry_redtint">ቀይ ቀለም</string>
+	<string name="pref_camera_coloreffect_entry_bluetint">ሰማያዊ ቀለም</string>
+	<string name="pref_camera_coloreffect_entry_greentint">አረንጓዴ ቀለም</string>
+	<string name="pref_camera_coloreffect_entry_sepiablue">ሴፒያ ሰማያዊ</string>
+	<string name="pref_camera_coloreffect_entry_sepiagreen">ሴፒያ አረንጓዴ</string><!-- self timer -->
+	<string name="pref_camera_selftimer_title">የራስ መቁጠሪያ</string>
+	<string name="pref_camera_selftimer_entry_off">ጠፋ</string>
+	<string name="pref_camera_selftimer_entry_3">3 ሰከንድ</string>
+
+	<string name="pref_camera_antibanding_entry_auto">መኪና</string>
+	<string name="pref_camera_antibanding_entry_50hz">50ሕዥ</string>
+	<string name="pref_camera_antibanding_entry_60hz">60ሕዥ</string><!-- Scene mode Mediatek plus --> <!-- Scene mode that takes an image with as little noise as possible so details of the subject are maintained. --><string name="pref_camera_scenemode_entry_portrait">የቁም ሥዕል</string><!-- Scene mode that takes an image of a landscape assuming all subjects are relatively far from the phone. --><string name="pref_camera_scenemode_entry_landscape">የመሬት ገጽታ</string><!-- Scene mode that takes night shots with long exposure and flash to illuminate the subject while still capturing darker detail in the background. --><string name="pref_camera_scenemode_entry_night_portrait">የምሽት ምስል</string><!-- Scene mode to be used in a stage show. --><string name="pref_camera_scenemode_entry_theatre">ቲያትር</string><!-- Scene mode optimized for taking images on the beach. --><string name="pref_camera_scenemode_entry_beach">የባህር ዳርቻ</string><!-- Scene mode optimized for taking images in the snow. --><string name="pref_camera_scenemode_entry_snow">በረዶ</string><!-- Scene mode for taking a photo as sharp as possible. --><string name="pref_camera_scenemode_entry_steadyphoto">ቋሚ ፎቶ</string><!-- Scene mode optimized for taking images of fireworks. --><string name="pref_camera_scenemode_entry_fireworks">ርችቶች</string>
+	<string name="pref_camera_scenemode_entry_sports">ስፖርት</string>
+	<string name="pref_camera_scenemode_entry_candlelight">የሻማ መብራት</string><!-- for CMCC feature --><string name="pref_camera_scenemode_entry_normal">መደበኛ</string><!-- Video Camera --> <!-- EIS setting --><string name="pref_camera_eis_title">አኢስ</string>
+
+	<string name="pref_camera_eis_on">በራ</string>
+
+	<string name="pref_camera_recordaudio_entry_off">ጠፋ</string>
+	<string name="pref_camera_recordaudio_entry_on">በራ</string><!-- ZSD songyutao --><string name="pref_camera_zsd_title">ዥሽድ</string>
+	<string name="pref_chroma_flash_title">ብልጥ ብልጭታ</string><!-- continuous shot speed --><string name="pref_camera_continuous_number_title">ቀጣይነት ያለው ተኩስ</string>
+	<string name="pref_voice_capture">የድምጽ ቀረጻ</string>
+
+	<string name="pref_voice_entry_off">ጠፋ</string>
+	<string name="pref_voice_entry_on">በራ</string><!-- Face Detection properties  songyutao set FD dafault on --><string name="pref_camera_face_detect_title">ፊት ለይቶ ማወቅ</string>
+
+	<string name="pref_camera_face_detect_entry_off">ጠፋ</string>
+	<string name="pref_camera_face_detect_entry_on">በራ</string>
+	<string name="pref_camera_record_location_title">ጂኦ መለያ መስጠት</string>
+	<string name="pref_camera_thumb_title">Camera Roll</string>
+	<string name="pref_camera_pic_frame_entry_off">ጠፋ</string>
+	<string name="pref_camera_pic_frame_entry_on">በራ</string>
+	<string name="pref_shutter_touch_title">ሾት ንካ</string>
+
+	<string name="pref_shutter_smile_title">ፈገግታ ተኩስ</string>
+
+	<string name="pref_shutter_hand_title">የእጅ ተኩስ</string>
+	<string name="pref_shutter_watermark_title">የውሃ ምልክት</string>
+
+	<string name="pref_camera_watermark_entry_off">ጠፋ</string>
+	<string name="pref_camera_watermark_entry_on">በራ</string>
+	<string name="pref_camera_asd_title">እሽድ</string>
+	<string name="pref_camera_asd_entry_off">ጠፋ</string>
+	<string name="pref_camera_asd_entry_on">በራ</string>
+	<string name="pref_camera_shutter_sound_title">የመዝጊያ ድምጽ</string>
+	<string name="pref_camera_shutter_sound_entry_off">ጠፋ</string>
+	<string name="pref_camera_shutter_sound_entry_on">በራ</string>
+	<string name="pref_camera_pic_level_title">የግራዲየንተር</string>
+	<string name="pref_camera_pic_level_entry_off">ጠፋ</string>
+	<string name="pref_camera_pic_level_entry_on">በራ</string>
+
+	<string name="pref_capture_mirror_title">የፊት መስታወት</string>
+	<string name="pref_camera_save_pos_title">ማከማቻ</string>
+	<string name="pref_camera_save_pos_entry_t">ሲም ካርድ</string>
+	<string name="pref_camera_save_pos_entry_p">ስልክ</string>
+	<string name="pref_camera_save_pos_entry_u">ዩኤስቢ ኦቲጂ</string>
+	<string name="pref_camera_mesh_line_title">ጥልፍልፍ መስመር</string>
+	<string name="pref_camera_high_picture_size_title">ከፍተኛ የሥዕል መጠን</string>
+	<string name="pref_pic_struct_title">የፍም መስመሮች</string>
+
+	<string name="pref_pic_struct_entry_off">ጠፋ</string>
+	<string name="pref_pic_struct_entry_enneahedral">የ ፍርግርግ መስመሮች</string>
+	<string name="manual">ባለሙያ</string>
+	<string name="photo_mode">ፎቶ</string>
+	<string name="panorama_mode">ጨርቅ</string>
+	<string name="beauty_mode">የፊት ውበት</string>
+	<string name="radio_switch_to_hdr">HDR</string>
+	<string name="radio_switch_to_facebeauty_custom">የፊት ውበት</string><!-- application infomation --><string name="app_name">ካሜራ</string>
+	<string name="pref_camera_selftimer_entry_5">5 ሰከንድ</string>
+	<string name="night_mode">ለሊት</string>
+	<string name="radio_switch_to_beautyvideo">የውበት ቪዲዮ</string>
+	<string name="timelapse_mode">ጊዜ ያለፈበት</string><!-- add by zzp for pano--><string name="panorama_arcsoft_guide_shutter">የመዝጊያ አዝራሩን ተጫኑ እና ስልክዎን\በዝግታ ወደ አንድ አቅጣጫ ያንቀሳቅሱ</string>
+	<string name="panorama_arcsoft_warn_slowly">እባክዎን ስልክዎን በቀስታ ያንቀሳቅሱ</string>
+	<string name="panorama_arcsoft_warn_back">እባካችሁ ስልካችሁን በቀስቱ በኩል አንቀሳቅሱ</string>
+	<string name="panorama_arcsoft_warn_up">ወደ ላይ ውሰድ</string>
+	<string name="panorama_arcsoft_warn_down">ወደ ታች ውሰድ</string>
+	<string name="panorama_arcsoft_warn_left">ወደ ግራ ውሰድ</string>
+	<string name="panorama_arcsoft_warn_right">ወደ ቀኝ ውሰድ</string>
+	<string name="panorama_arcsoft_switch_capture_direction_guide">የቀረጻ አቅጣጫ ለመቀየር ቀስቱን ይንኩ</string>
+	<string name="panorama_capture_guide">ቀስቱን ከማጣቀሻው መስመር ጋር ያስተካክሉ</string>
+	<string name="panorama_toggle_mode_standard">መደበኛ</string>
+	<string name="panorama_toggle_mode_super">እበጥ</string><!--time line 20141227--><string name="radio_switch_to_pip">ድርብ እይታ</string>
+	<string name="setting_title">ቅንብሮች</string>
+	<string name="mode_title">ሁኔታዎች</string>
+	<string name="setting_top_full_hint">ተጨማሪ ነገሮችን መጨመር አይቻልም።</string>
+	<string name="touchless_guide_vsign_title">በመለያ ይግቡ</string>
+	<string name="touchless_guide_tips_vsign_only">በራስ ስር ለመቅረጽ የቪ ቅርጽ ምልክት ማድረግ ይችላሉ።</string>
+	<string name="touchless_guide_text_ok">እሺ</string>
+	<string name="touchless_guide_text_reminder"> እንደገና አታሳይ</string>
+	<string name="wideself_arcsoft_guide_shutter">ለመጀመር የመዝጊያውን ቁልፍ ይጫኑ</string>
+	<string name="wideself_arcsoft_guide_step_one">እባክዎ ስልኩን ወደ አንድ አቅጣጫ ከዚያም ወደ ሌላ አቅጣጫ ያሽከርክሩት</string>
+	<string name="wideself_arcsoft_rolate_to_left">እባክዎን ስልክዎን ቀስ ብለው ወደ ግራ ያሽከርክሩት</string>
+	<string name="wideself_arcsoft_rolate_to_right">እባክዎን ስልክዎን ቀስ ብለው ወደ ቀኝ ያሽከርክሩት</string>
+	<string name="wideself_arcsoft_cannot_use_guide">Please use Wide Selfie in portrait mode</string>
+	<string name="wideself_arcsoft_downup_offset_warn">It is not good enough to horizontally align the photo.</string>
+	<string name="panorama_arcsoft_cannot_use_guide">እባክዎ ፓኖራማ በቁም ሁኔታ ይጠቀሙ</string>
+	<string name="radio_switch_to_wideselfie">ሰፊ የራስ ፎቶ</string>
+	<string name="radio_switch_to_refocus">ብልህ ትኩረት</string>
+	<string name="radio_switch_to_chromaflash">ብልጥ ብልጭታ</string>
+	<string name="radio_switch_to_clearsight">ግልጽ እይታ</string>
+	<string name="setting_guide_message">\"ወደ አቋራጭ ባር ጨምር\" የሚለውን ንካ ወይም\n አቋራጩ  ለመጨመር ውሰደው።</string>
+	<string name="skip_setting_guide">ገባኝ</string>
+	<string name="permission_title">አማራጭ መስጠት</string>
+	<string name="enable_permission_procedure">ፈቃዶችን በቅንብሮች &gt; መተግበሪያዎች &gt; %1$s &gt; ፈቃዶች ውስጥ መቀየር ትችላለህ</string>
+	<string name="toast_storage_full_sdcard_to_internal">ሲም ካርድ ሙሉ ነው፣ ወደ ውስጣዊ ማከማቻ ያስቀምጣል</string>
+	<string name="toast_storage_damaged_sdcard_to_internal">ፋይሉን ሲም ካርድ ላይ ማስቀመጥ ካልተሳካ፣   ውስጣዊ  ማከማቻ  ላይ ማስቀመጥ</string>
+	<string name="toast_storage_full_internal_to_sdcard">የውስጥ ማከማቻ ሙሉ ነው፣ ወደ ሲም ካርድ እናስቀምጥ</string>
+	<string name="toast_storage_full_clean_up_to_free_space">የስልክ ማከማቻ ቦታ ሙሉ ነው። እባክዎን ትንሽ ቦታ ነጻ አድርጉ</string>
+	<string name="secure_camera_can_not_request_permission">የፍቃድ ጥያቄዎችን ለመቀበል/እንቢ ለማለት መጀመሪያ ስልክዎን ይክፈቱ</string>
+	<string name="shutcauts_frontcamera">ፎቶ ተነሱ</string>
+	<string name="shutcauts_backcamera">ፎቶ አንሳ</string>
+	<string name="shutcauts_frontvideo">መዝገብ ቪዲዮ (የራስ ፎቶ)</string>
+	<string name="shutcauts_backvideo">መዝገብ ቪዲዮ</string>
+	<string name="pref_camera_status_detect_title">ሁኔታ አግኝ</string>
+	<string name="pref_camera_raw_file_title">ኣዲስ ፋይል</string>
+	<string name="pref_camera_filter_title">ማጣራት</string>
+	<string name="pref_dual_camera_title">ድርብ ካሜራ</string>
+	<string name="pref_dual_camera_default">ጠፋ</string>
+	<string name="radio_switch_to_monochrome">ጥቁር አና ነጭ</string>
+
+	<string name="pref_camera_gpu_effect_focus">ትኩረት</string>
+	<string name="pref_camera_gpu_effect_sepia">ሴፒያ</string>
+	<string name="pref_camera_gpu_effect_temperature">የሙቀት መጠን</string>
+	<string name="pref_camera_gpu_effect_gray">ግራጫ</string>
+	<string name="pref_camera_gpu_effect_none">ምንም</string>
+	<string name="pref_camera_gpu_effect_documentary">ዘጋቢ ፊልም</string>
+	<string name="pref_camera_gpu_effect_fishEye">አሳ</string>
+	<string name="pref_camera_gpu_effect_tint">ቅልም</string>
+	<string name="pref_camera_gpu_effect_crossprocess">Crossprocess</string>
+	<string name="portrait_mode">የቁም ሥዕል</string>
+	<string name="pref_camera_pref_entry_auto">መኪና</string>
+	<string name="confirm_mode_tip">ወደ %1$s ሁነታ ለመቀየር መታ ያድርጉ</string>
+	<string name="focal_switch_scale_tip">ቴሌፎቶን ለመክፈት አይከኑን ይጫኑ።</string>
+	<string name="front_wide_switch_tip">የቡድን ፎቶ ለማንቃት ምልክቱን ይንኩ</string>
+	<string name="low_memory_limit">Your system is in low memory, some features limit capture size</string>
+	<string name="portrait_background_blur">የቁም ሥዕል</string>
+	<string name="portrait_of_face_beauty">የፊት ውበት</string>
+	<string name="asd_result_hdr">ህደር ጀምርዋል</string>
+	<string name="toast_face_undetected_at_portrait">በ2 ሜትር ውስጥ ምንም ፊት አልተገኘም</string>
+	<string name="toast_face_undetected_at_sticker">ምንም ፊት አልተገኘም</string>
+	<string name="toast_view_pic_vivid_at_superpixel">በሱፐር ፒክስል ተጨማሪ ዝርዝሮችን ያንሱ</string>
+	<string name="front_face_detected_first_tip">ለተሻለ ፎቶ ካሜራውን ይመልከቱ</string>
+	<string name="u_screen_selfie_count_down_cancel">መሰረዝ</string>
+	<string name="video_beauty_switch_on">በራ</string>
+	<string name="video_beauty_switch_off">ጠፋ</string>
+	<string name="image_processing_toast">ምስል ማቀናበር</string>
+	<string name="short_video_not_found">ይህ ቪዲዮ አልተገኘም</string><!-- for Android O's CTS--><string name="camera_review_done_desc">ተከናውኗል</string>
+	<string name="bokeh_mode">የቁም ሥዕል</string>
+	<string name="toast_dual_camera_bokeh">እባክዎን በ2 ሜትር ርቀት ላይ መተኮሱን ይቀጥሉ</string><!-- for qcom slowmotion--><string name="pref_camera_hfr_entry_2x">ጽ2</string>
+	<string name="pref_camera_hfr_entry_3x">ጽ3</string>
+	<string name="pref_camera_hfr_entry_4x">ጽ4</string>
+
+
+
+	<string name="slow_motion_mode">በቀስታ</string>
+
+
+
+	<!-- // Camera fun mode string --><string name="radio_switch_to_fun">Camera Fun</string><!-- Default fun mode setting. -->
+	<string name="pref_camera_fun_title">Fun</string>
+	<string name="pref_camera_sticker_title">ተለጣፊ</string>
+	<string name="toast_face_undetected_at_fun">ያልታወቀ ፊት</string>
+	<string name="toast_eyes_undetected_at_fun">ውጤቱን አስቀድመው ለማየት ዓይናችሁን ጨፍኑ</string>
+	<string name="toast_mouth_undetected_at_fun">ውጤቱን ለማየት አፎዎን ይክፈቱ</string>
+	<string name="toast_short_video_tip">ለአጭር የቪዲዮ ቀረጻ የመዝጊያውን ቁልፍ በረጅሙ ይጫኑ</string>
+	<string name="fun_filter_none">ማጣራት</string>
+	<string name="fun_filter_lomo">ሎሞ</string>
+	<string name="fun_filter_elegant">የሚያምር</string>
+	<string name="fun_filter_cyan">ሲያን</string>
+	<string name="fun_filter_mint">ሳንቲም ማዘጋጀት</string>
+	<string name="fun_filter_led">LED</string>
+	<string name="fun_filter_eternal">ውስጣዊ</string>
+	<string name="fun_filter_formerly">ቀደም ሲል</string>
+	<string name="fun_filter_blue">ሰማያዊ</string>
+	<string name="fun_filter_oldbooth">የድሮ ዳስ</string>
+	<string name="fun_filter_milkytea">ወተት በ ሻይ</string>
+	<string name="fun_filter_warm">ሞቅ ያለ</string>
+	<string name="fun_filter_norway">ኖርዌይ</string>
+	<string name="fun_filter_cool">ጥሩ</string>
+	<string name="fun_filter_dew">ጤዛ</string>
+	<string name="fun_filter_youth">ወጣት</string>
+	<string name="fun_filter_shy">ዓይን አፋር</string>
+	<string name="fun_filter_jaipur">ጃፑር</string>
+	<string name="fun_filter_autumn">መኸር</string>
+	<string name="fun_filter_japanese">ጃፓን ኛ</string>
+	<string name="fun_filter_sweet">ጣፋጭ</string>
+	<string name="fun_filter_warren">ዋረን</string>
+	<string name="fun_filter_tsukiji">ቱኪጂ</string>
+	<string name="fun_filter_vivid">ግልጽ</string>
+	<string name="fun_filter_facingsun">ፀሐይን መጋፈጥ</string>
+	<string name="fun_filter_purple">ወይን ጠጅ</string>
+	<string name="pref_gender_estimate_title">የፆታ ግምት</string>
+	<string name="pref_gender_estimate_entry_on">በራ</string>
+	<string name="pref_gender_estimate_entry_off">ጠፋ</string>
+	<string name="beauty_guide_top_text">ኢ ውበት</string>
+	<string name="toast_motion_photo_opened">የእንቅስቃሴ ፎቶ ጀምርዋል</string>
+	<string name="pref_camera_gpu_effect_vignetting">Vignetting</string><!--add for ai scene detection --><string name="ai_scene_tips_food">ምግብ</string>
+	<string name="ai_scene_tips_portrait">የቁም ሥዕል</string>
+	<string name="ai_scene_tips_foliage">ተክል</string>
+	<string name="ai_scene_tips_sky">ሰማያዊ ሰማይ</string>
+	<string name="ai_scene_tips_text">ጽሑፍ</string><!-- add for faceplus asd detection --><string name="faceplus_asd_tips_face">የቁም ሥዕል</string>
+	<string name="faceplus_asd_tips_food">ምግብ</string>
+	<string name="faceplus_asd_tips_fruits">ፍሬ</string>
+	<string name="faceplus_asd_tips_flower">አበባ</string>
+	<string name="faceplus_asd_tips_flowersea">የባህር አበባ</string>
+	<string name="faceplus_asd_tips_sandbeach">አሸዋ</string>
+	<string name="faceplus_asd_tips_snow">በረዶ</string>
+	<string name="faceplus_asd_tips_bluesky">ሰማይ</string>
+	<string name="faceplus_asd_tips_night">ለሊት</string>
+	<string name="faceplus_asd_tips_sunrise">የፀሐይ መውጣት እና የፀሐይ መጥለቅ</string>
+	<string name="faceplus_asd_tips_qr">ቅር ኮድ</string>
+	<string name="faceplus_asd_tips_businesscard">ስም ካርድ</string>
+	<string name="faceplus_asd_tips_whiteboard">ነጭ ሰሌዳ</string>
+	<string name="faceplus_asd_tips_idcard">መታወቂያ</string>
+	<string name="faceplus_asd_tips_bankcard">የዱቤ ካርድ</string>
+	<string name="faceplus_asd_tips_cat">ድመት</string>
+	<string name="faceplus_asd_tips_dog">ውሻ</string>
+	<string name="faceplus_asd_tips_meadow">ሜዳ</string>
+	<string name="faceplus_asd_tips_plants">ተክል</string>
+	<string name="toast_gender_estimate_started">እንደ ፊትዎ መለኪያዎችን ማስተካከል</string>
+	<string name="beauty_guide_top_text_description">የ ኤኢ ውበት መተግባርን ያብሩ እና ግቤቶችን እንደ ፊትዎ ያስተካክሉ</string>
+	<string name="zoom_guide_title">ለማጉላት ቀላሉ መንገድ</string>
+	<string name="zoom_guide_content">አንግል ለማስፋት እና እጅግ በጣም ለማጉላት ከላይ ያለውን ምልክት ይንኩ። ወይም በቀላሉ ለማጉላት ወይም ለማውጣት በማያ ገጹ ላይ ወደታች ያንሸራትቱ</string>
+	<string name="video_recording">የቪዲዮ ቀረጻ</string>
+	<string name="micro_video_guide_content">ተንቀሳቃሽ ፎቶ ሲበራ፣ የሚነሱት እያንዳንዱ ፎቶ ከፎቶ በፊት እና በኋላ አጭር ቪዲዮን ሊያካትት ይችላል። ፎቶውን ሲያጋሩ ቪዲዮ ሊካተት ይችላል።</string>
+	<string name="motion_photo">የእንቅስቃሴ ፎቶ</string>
+	<string name="switch_to_wide_lens_toast">ሰፊ አንግል ሌንስ ማስቻል</string>
+	<string name="time_lapse_not_save">የእርስዎን የጊዜ ማለፊያ ልናስቀምጠው አልቻልንም። ቪዲዮ ቢያንስ የ%1$d ሰከንድ ርዝመት ሊኖረው ይገባል</string>
+	<string name="pref_shutter_speed_title">የመዝጊያ ፍጥነት</string>
+	<string name="switch_to_wide_lens_landscape_toast">ለሰፊ እይታ ሰፊ አንግል ይንኩ</string>
+	<string name="radio_switch_to_dual_bokeh_for_custom">አርቲስቲክ ብዥታ</string>
+	<string name="toast_video_recording_in_call_state">በጥሪ ጊዜ መቅዳት አይቻልም</string>
+	<string name="pref_camera_ai_title">AI</string>
+	<string name="toast_video_3dnr_on">የቪዲዮ የምሽት እይታ ጀምርዋል</string>
+	<string name="toast_storage_unavailable">ኤስዲ ካርድ አይገኝም</string>
+	<string name="toast_landscape_open_wide_tips">የበለጠ የመሬት ገጽታን ወይም ጓደኞች ለመያዝ ወደ እጅግ በጣም ሰፊ አንግል ይቀይሩ።</string>
+	<string name="enable_sd_permission_title">ካሜራው የኤስ ዲ ካርድ ማስገቢያ ያስፈልገዋል</string>
+	<string name="enable_sd_permission_content">አቀማመጡን ይመልከቱ እና \"DCIM\" in \"SD card\” ፍቀዱ </string>
+	<string name="macro_mode">ማክሮ</string>
+	<string name="super_macro_tip">ስልኩን (1) ከ3-4 ሳ.ላሜ ርቀት እቃ ያርቁ።</string>
+	<string name="bokeh_offfline_processing">ከመስመር ውጭ የቦኬህ መረጃን ማቀናበር…</string>
+	<string name="pref_google_lens">ጎግ ል ሌንስ</string>
+	<string name="never">በጭራሽ</string>
+	<string name="toast_high_temp_disable_flash">የሙቀት መጠኑ በጣም ከፍተኛ ነው፣ የእጅ ባትሪ ማብራት አይችልም።</string>
+	<string name="toast_high_temp_shutdown_camera">የሙቀት መጠኑ በጣም ከፍተኛ ነው, ካሜራው በ 5 ሰከንድ ውስጥ ይቆማል</string>
+
+	<string name="bokeh_type_name">አርቲስቲክ ብዥታ</string>
+	<string name="bokeh_type_description">ይህ ተግባር አርቲስቲክ ደብዛዛ ውጤትን በመጠቀም ፎቶውን እንዲያስተካክሉ ይፈቅዳል።</string>
+	<string name="hdr_type_name">HDR</string>
+	<string name="hdr_type_description">በጀርባ ብርሃን አካባቢ ውስጥ የበለጠ ዝርዝር ጥበቃ</string>
+	<string name="ai_type_name">AI</string>
+	<string name="ai_type_description">የ AI ትዕይንት ማወቂያን በመጠቀም መለኪያዎችን በራስ-ሰር ያቀናብሩ</string>
+	<string name="timelapse_type_name">ጊዜ ያለፈበት</string>
+	<string name="timelapse_type_description">በአጭር ጊዜ ውስጥ ከፍተኛ ፍጥነት ያለው ረጅም ቪዲዮ አሳይ</string>
+	<string name="don_t_cover_the_lens">ሌን ሱን አለ መሸፈን</string>
+	<string name="pref_video_time_lapse_frame_interval_title">የጊዜ ክፍተት</string>
+	<string name="toast_qr_code_detected">QR code detected.\n ይጫኑ ለመጎብኘት</string>
+	<string name="toast_qr_code_detected_type_esim">eSIM መገለጫ ተገኝቷል.\n ኢ ሲም እንዲሰራ ይጫኑ</string>
+	<string name="toast_qr_code_detected_type_url">ኪው አር ኮድ ተገኝቷል.\n ይጫኑ ለመጎብኘት</string>
+	<string name="toast_qr_code_detected_type_string">ኪው አር ኮድ ተገኝቷል.\n ጎግ ል ለመፈለግ ይጫኑ ለመጎብኘት</string>
+	<string name="toast_bar_code_detected_type_string">ባር ኮድ ተገኝቷል.\n ሊን ኩን ይጫኑ ለመጎብኘት</string>
+	<string name="toast_bar_code_detected_type_number">የምርት ባር ኮድ ተገኝቷል።\ ምርቱን ለመፈለግ ነካ ያድርጉ</string>
+	<string name="turn_off_qr_code">የQR ኮድ ያጥፉ</string>
+	<string name="pref_video_quality_entry_fine_text">ጥሩ</string>
+	<string name="pref_video_quality_entry_high_text">ከፍተኛ</string>
+	<string name="pref_exposure_metering_title">ተጋላጭነት መለኪያ</string>
+	<string name="pref_exposure_metering_entry_frame_average">Frame average</string>
+	<string name="pref_exposure_metering_entry_center_weighted">የመሃል ክብደት</string>
+	<string name="pref_exposure_metering_entry_spot_metering">ስፖት መለኪያ</string>
+	<string name="toast_disable_torch">ብልጭታ ከመጠን በላይ እንዳይ ሞቅ መብራቱን ያጥፉ</string>
+	<string name="google_location_dialog_title">በካሜራ መተግበሪያ ያነሷቸው ፎቶዎች ላይ የአካባቢ መረጃ ያክሉ ?</string>
+	<string name="google_location_dialog_message">ይህ ማለት የእርስዎ ፎቶዎች የት እንደተነሱ መረጃ ይይዛሉ ማለት ነው።</string>
+	<string name="google_location_dialog_message_lear_more">
+		<a href="https://support.google.com/photos/answer/9921876">ተጨማሪ ማወቅ</a>
+	</string>
+	<string name="google_location_dialog_positive">የካሜራ ቦታ አብራ</string>
+	<string name="image_search_mode">አይተም ፍለጋ</string>
+	<string name="detect_result_title">አንድ አይተም ይምረጡ እና የፍለጋ ውጤቶችን ይመልከቱ</string>
+	<string name="search_result_title">ለተመሳሳይ ዕቃዎች የፍለጋ ውጤቶች</string>
+	<string name="search_for_other_items">ሌሎች ዕቃዎችን ይፈልጉ</string>
+	<string name="point_format_string">%1$d points (%2$dx)</string><!--    <string name="price_format_string">%1$s yen</string>--><string name="view_on_rakuten_ichiba">Rakuten Ichiba ላይ መመልከት</string>
+	<string name="view_all_results_on_rakuten_ichiba">Rakuten Ichiba ላይ ሁሉንም ይመልከቱ</string>
+	<string name="start_new_search">አዲስ ፍለጋ ይጀምሩ</string>
+	<string name="network_error">ኔትዎርክ መረብ ስህተት።\n እባክዎ የበይነመረብ ግንኙነትን ያረጋግጡ እና እንደገና ይሞክሩ</string>
+	<string name="item_not_found">ምንም አይነት የፋሽን እቃዎችን ማግኘት አልተቻለም</string>
+	<string name="cropped_item_not_found">እባክዎ ፍለጋውን ቦታ መጠን እንደገና ያስተካክሉ</string>
+	<string name="cropped_item_not_found_btn_text">የፍለጋ ቦታውን እንደገና ያስተካክሉ</string>
+	<string name="searching">ፍለጋ…</string>
+	<string name="image_search_tip">ፎቶ አንሳ ወይም ለመፈለግ ምስል ምረጥ</string>
+	<string name="image_search_processing">ፍለጋ…</string>
+	<string name="move_and_resize_tip">ለመፈለግ ፍሬሙ ወደ ማንኛውም ቦታ ውሰዱት።\n ፍሬሙ መጠን ለማስተካከል ማዕዘኖን ይውሰዱ።</string>
+	<string name="new_feature_image_search_guide_title">አዲስ ነገሮች</string>
+	<string name="new_feature_image_search_guide_title_extra" translatable="false" />
+	<string name="new_feature_image_search_guide_content">አሁን Rakuten Ichiba ላይ ፎቶግራፍ ማንሳት እና እቃዎችን መፈለግ ይችላሉ።</string>
+	<string name="item_search_guide_title">አይተም ፍለጋ ምንድን ነው?</string>
+	<string name="item_search_guide_content_p1">በካሜራ ፎቶዎችን በማንሳት Rakuten Ichiba ላይ እቃዎችን ይፈልጉ።</string>
+	<string name="item_search_guide_content_p2">(በአሁኑ ጊዜ ለዕቃ ፍለጋ ፋሽን እቃዎች ብቻ ይገኛሉ።)</string>
+	<string name="feedback_title">አስተያየት</string>
+	<string name="feedback_content">እነዚህ ውጤቶች ጠቃሚ ናቸው?</string>
+	<string name="feedback_action">አስተያየት ይስጡ</string>
+	<string name="feedback_send">መላክ</string>
+	<string name="feedback_response">ስለ ጠቃሚ አስተያየት እናመሰግናለን።</string>
+	<string name="terms_of_use_title">የአጠቃቀም መመሪያ</string>
+	<string name="privacy_title">የግል ፖሊሲ</string>
+	<string name="free_shipping">ነጻ ማጓጓዣ</string>
+	<string name="terms_of_use_agree">በአጠቃቀም መመሪያው እስማማለሁ።</string>
+	<string name="start_to_use">ምስል ፍለጋ</string>
+	<string name="terms_of_use_content">የአጠቃቀም ደንቦቹ እዚህ አሉ።</string>
+	<string name="try_again_tips">የሚወዱትን ነገር አላገኘሁም?\የተለያዩ ውጤቶችን ለማግኘት አዲስ ፍለጋ ይሞክሩ</string>
+	<string name="yen">yen</string>
+	<string name="pref_video_fps">FPS</string>
+	<string name="pref_video_encoder">ኢንኮደር</string>
+	<string name="more">ተጨማሪ</string>
+	<string name="panorama_night_mode">ፓኖ የምሽት</string>
+	<string name="long_press_shutter_button">መዝጊያን በረጅሙ ይጫኑ</string>
+	<string name="continuous_shot_entry">ቀጣይነት ያለው ተኩስ</string>
+
+
+	<string name="pref_camera_wb_temp_title">የቀለም ሙቀት</string>
+
+	<string name="pref_camera_entry_off">ጠፋ</string>
+	<string name="pref_camera_whitebalance_entry_custom">ተበጀ</string>
+	<string name="pref_camera_entry_on">በራ</string>
+
+	<string name="pref_video_night_title">የምሽት ቪዲዮ</string>
+	<string name="video_ois_title">OIS</string>
+	<string name="pref_photo_mfnr_title">MFNR</string>
+	<string name="remosaic_mode">Remosaic</string>
+
+	<string name="pref_high_definition_title">ከፍተኛ ጥራት</string>
+	<string name="pref_pro_raw_title">ከፍተኛ ጥራት</string>
+</resources>

@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources><!-- Confirmation dialog when restoring settings --><string name="confirm_restore_message">Та камерын өгөгдмөл тохиргоог хадгалахыг хүсэж байна уу?</string>
+	<string name="pref_camera_module_title">Камерын Горим</string><!-- Settings screen, camera selection dialog title. Users can select a camera from the phone (front-facing or back-facing). [CHAR LIMIT=20] --><string name="pref_camera_id_title">Камер Солих</string>
+	<!-- In select camera setting, back facing camera. [CHAR LIMIT=14] --><string name="pref_camera_id_entry_back">Ар тал</string><!-- In select camera setting, front-facing camera. [CHAR LIMIT=14] --><string name="pref_camera_id_entry_front">Урд тал</string><!-- Settings screen, Record location dialog choices --><string name="pref_camera_recordlocation_entry_off">Унтраах</string>
+	<string name="pref_camera_recordlocation_entry_on">Асаах</string><!-- The Video quality settings in preference [CHAR LIMIT=21] --><string name="pref_video_quality_title">Видеоны Чанар</string>
+	<string name="pref_video_stabilization_title">Видеоны Тогтвортой Байдал</string>
+	<string name="pref_video_3dnr_title">Видеоны 3DNR</string><!-- The Video timelapse settings in preference [CHAR LIMIT=21] --><string name="pref_video_timelapse_title">Видеоны Цагийн Урсац</string>
+	<string name="pref_video_autozoom_title">Видеог Автоматаар Томруулах</string>
+	<string name="video_mode">Видео</string>
+	<string name="guide_auto_zoom_title">Автоматаар Томруулах</string>
+	<string name="guide_auto_zoom_rules">Та бичлэг хийх зуураа дэлгэц дээр тойрог зурах замаар тодорхой нэг обьектыг сонгож болох ба сонгохоо болихын тулд хоёр дахин товших боломжтой.</string>
+	<string name="toast_auto_zoom_not_activated">Автоматаар томруулахыг идэвхжүүлээгүй</string><!-- Default flash mode setting. -->
+	<!-- Settings screen, Flash mode title --><string name="pref_camera_flashmode_title">Флаш Горим</string>
+	<string name="pref_screenflash_title">Флаш Харуулах</string><!-- Settings screen, Flash mode dialog radio button choices --><string name="pref_camera_flashmode_entry_auto">Автомат</string>
+	<string name="pref_camera_flashmode_entry_on">Асаах</string>
+	<string name="pref_camera_flashmode_entry_off">Унтраах</string>
+	<string name="pref_camera_flashmode_entry_torch">Гэрэл</string><!-- Default white balance setting. --><!-- Settings screen, white balance title --><string name="pref_camera_whitebalance_title">AWB</string><!-- Settings screen, White balance dialog radio button choices --><string name="pref_camera_whitebalance_entry_auto">Автомат</string>
+	<string name="pref_camera_whitebalance_entry_incandescent">Тод гэрэл</string>
+	<string name="pref_camera_whitebalance_entry_daylight">Өдрийн гэрэл</string>
+	<string name="pref_camera_whitebalance_entry_fluorescent">Флюресцент</string>
+	<string name="pref_camera_whitebalance_entry_cloudy">Бүдэг гэрэл</string>
+
+
+
+
+	<!-- Default scene mode setting. -->
+
+	<string name="pref_camera_scene_frame_title">Үзэгдлийн Хүрээ</string><!-- Settings screen, Select Scene mode --><string name="pref_camera_scenemode_title">Үзэгдлийн Горим</string>
+	<string name="pref_hdr_title">HDR</string>
+	<string name="pref_motion_photo_title">Хөдөлгөөн</string><!-- Settings menu, scene mode choices --><string name="pref_camera_scenemode_entry_auto">Автомат</string>
+	<string name="pref_camera_scenemode_entry_night">Шөнө</string><!-- Scene mode optimized for taking images in the sunset. --><string name="pref_camera_scenemode_entry_sunset">Үдшийн гэгээ</string><!-- Scene mode optimized for taking indoor low-lights pictures. [CHAR LIMIT=16] --><string name="pref_camera_scenemode_entry_party">Үдэшлэг</string>
+	<string name="pref_restore_detail">Өгөгдмөл тохиргоог сэргээх</string><!-- Exposure settings in preference --><string name="pref_exposure_title">EV</string>
+	<string name="sugar_face_beauty_custom">Тусгайлан тохируулсан</string>
+	<string name="sugar_eyes_beauty">Нүд</string>
+	<string name="sugar_face_thin">Хурц</string>
+	<string name="sugar_skin_smooth">Жигд</string>
+	<string name="adjust_progress">+%s</string>
+	<string name="face_beauty_custom_skin_info">Арьс</string>
+	<string name="face_beauty_custom_eyes_info">Нүд</string>
+	<string name="face_beauty_custom_thin_info">Туранхай</string>
+	<string name="face_beauty_custom_rosy_info">Улаавтар</string>
+	<string name="face_beauty_custom_whitening_info">Цайруулах</string>
+	<string name="portrait_custom_info">Бүрсийлгэх</string>
+
+	<string name="pref_camera_volume_key_title">Дууны Товчнууд</string>
+	<string name="pref_camera_volume_key_shoot">Зураг авах</string>
+	<string name="pref_camera_volume_key_zoom">Томруулах</string>
+	<string name="pref_camera_volume_key_volume">Дууны Хэмжээ</string>
+
+
+	<string name="photo_incapture">Зураг авах</string>
+
+	<string name="toast_location_started">Байршил эхэлсэн</string>
+	<string name="toast_location_success">Байршил амжилттай</string>
+	<string name="toast_device_denayed">Төхөөрөмжид хандах боломжгүй</string>
+	<string name="toast_device_connect_failed">Төхөөрөмжийн холболт амжилтгүй</string>
+	<string name="toast_start_preview_failed">Урьдчилан харахыг эхлүүлэх амжилтгүй</string>
+	<string name="toast_storage_full">Хадгалах сан дүүрсэн</string>
+	<string name="toast_low_power_disable_flash">Батарей бага байна, гар чийдэн асаах боломжгүй.</string>
+	<string name="toast_video_size_max">Видеоны хэмжээ хязгаартаа хүрсэн.</string>
+	<string name="toast_continue_snap_max">Тасралтгүй зураг авах тоо хязгаартаа хүрсэн.</string>
+	<string name="toast_video_error">Одоогийн төлөв дээр видео бичлэг хийх боломжгүй</string>
+	<string name="toast_video_start_fail">Микрофон одоо ашиглагдаж байгаа бөгөөд бичлэг хийхэд ашиглах боломжгүй</string>
+	<string name="toast_video_init_size_error">Видеоны хэмжээг хязгаарт нь хүргэж багасгасан.</string>
+	<string name="toast_long_press_unavilable">Тасралтгүй зураг авахыг дэмжихгүй.</string>
+	<string name="toast_continuous_shot_off">Тасралтгүй зураг авах боломжгүй.</string>
+	<string name="toast_thumbnail_empty">Зураг байхгүй</string>
+	<string name="toast_clearsight_success">ClearSight зураг авах амжилттай</string>
+	<string name="toast_clearsight_failed">ClearSight зураг авах амжилтгүй</string>
+	<string name="toast_auto_zoom">Автоматаар томруулахыг идэвхжүүлсэн</string>
+	<string name="toast_video_stabilization">Тогтворжуулагчийг идэвхжүүлсэн</string>
+	<string name="guide_top">Камер солихын тулд дээш эсвэл доош шудар.</string>
+	<string name="guide_right">Параметр тохируулахын тулд баруун тийш шудар.</string>
+	<string name="guide_left">Горим тохируулахын тулд зүүн тийш шудар.</string>
+	<string name="voice_on_tips">\"Зураг авлаа\" эсвэл \"Чийз\” гэж хэлэх</string>
+	<string name="toast_steady_capture">Зураг авч байх үед утсыг бүү хөдөлгө.</string>
+	<string name="toast_dual_camera_opened">Хос Камерыг нээсэн</string>
+	<string name="toast_dual_camera_closed">Хос Камерыг хаасан</string><!-- Pref -->
+
+
+
+
+
+
+
+
+
+	<string name="pref_video_quality_entry_full">Бүтэн</string>
+
+	<string name="pref_video_stabilization_entry_on">Асаах</string>
+	<string name="pref_video_stabilization_entry_off">Унтраах</string>
+	<string name="pref_video_stabilization_entry_standard">Стандарт</string>
+	<string name="pref_video_stabilization_entry_super">Супер</string>
+	<string name="pref_video_3dnr_entry_on">Асаах</string>
+	<string name="pref_video_3dnr_entry_off">Унтраах</string>
+	<string name="pref_video_autozoom_entry_on">Асаах</string>
+	<string name="pref_video_autozoom_entry_off">Унтраах</string>
+	<string name="pref_camera_picturesize_title">Picture Size</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<string name="pref_camera_picture_aspect_ratio_title">Зургийн Аспектийн Харьцаа</string>
+
+
+
+
+
+
+
+
+	<string name="pref_camera_picturesize_entry_16_9">Бүтэн дэлгэц</string>
+	<string name="pref_camera_picturesize_entry_4_3">Хэвийн</string>
+	<string name="pref_camera_picturesize_entry_1_1">Тэгш өнцөгт</string><!-- ISO -->
+
+	<string name="manual_focus_title">M Фокус</string><!--  --><string name="pref_camera_edge_title">Тодролт</string>
+
+	<string name="pref_camera_hue_title">Өнгө</string><!--  --><string name="pref_camera_saturation_title">Шингэлт</string>
+
+	<string name="pref_camera_brightness_title">Цайруулалт</string>
+
+	<string name="pref_camera_contrast_title">Тодруулалт</string>
+	<string name="pref_camera_dip_entry_low">Бага</string>
+	<string name="pref_camera_dip_entry_middle">Дунд</string>
+	<string name="pref_camera_dip_entry_high">Өндөр</string><!-- color effect --><!-- Settings screen, Select Color effect title --><string name="pref_camera_coloreffect_title">Өнгөний Эффект</string><!-- Settings screen, Color effect dialog radio button choices --><string name="pref_camera_coloreffect_entry_none">Байхгүй</string>
+	<string name="pref_camera_coloreffect_entry_mono">Моно</string>
+	<string name="pref_camera_coloreffect_entry_sepia">Будаг</string>
+	<string name="pref_camera_coloreffect_entry_negative">Сөрөг</string><!-- Color effect that overexposes and reverses some of the tones. --><string name="pref_camera_coloreffect_entry_solarize">Нар тусгах</string>
+	<string name="pref_camera_coloreffect_entry_posterize">Хэрэглэх өнгийг багасгах</string>
+	<string name="pref_camera_coloreffect_entry_whiteboard">Цагаан самбар</string>
+	<string name="pref_camera_coloreffect_entry_blackboard">Хар самбар</string>
+	<string name="pref_camera_coloreffect_entry_aqua">Усан</string>
+	<string name="pref_camera_coloreffect_entry_pastel">Сүүн</string>
+	<string name="pref_camera_coloreffect_entry_mosaic">Мозайк</string>
+	<string name="pref_camera_coloreffect_entry_redtint">Улаан туяа</string>
+	<string name="pref_camera_coloreffect_entry_bluetint">Хөх туяа</string>
+	<string name="pref_camera_coloreffect_entry_greentint">Ногоон туяа</string>
+	<string name="pref_camera_coloreffect_entry_sepiablue">Хөх өнгө</string>
+	<string name="pref_camera_coloreffect_entry_sepiagreen">Ногоон өнгө</string><!-- self timer -->
+	<string name="pref_camera_selftimer_title">Цаг Тохируулагч</string>
+	<string name="pref_camera_selftimer_entry_off">Унтраах</string>
+	<string name="pref_camera_selftimer_entry_3">3 секунд</string>
+
+	<string name="pref_camera_antibanding_entry_auto">Автомат</string>
+	<string name="pref_camera_antibanding_entry_50hz">50Гц</string>
+	<string name="pref_camera_antibanding_entry_60hz">60Гц</string><!-- Scene mode Mediatek plus --> <!-- Scene mode that takes an image with as little noise as possible so details of the subject are maintained. --><string name="pref_camera_scenemode_entry_portrait">Хөрөг</string><!-- Scene mode that takes an image of a landscape assuming all subjects are relatively far from the phone. --><string name="pref_camera_scenemode_entry_landscape">Байгалийн дүрслэл</string><!-- Scene mode that takes night shots with long exposure and flash to illuminate the subject while still capturing darker detail in the background. --><string name="pref_camera_scenemode_entry_night_portrait">Шөнийн хөрөг</string><!-- Scene mode to be used in a stage show. --><string name="pref_camera_scenemode_entry_theatre">Театр</string><!-- Scene mode optimized for taking images on the beach. --><string name="pref_camera_scenemode_entry_beach">Наран шарлагын газар</string><!-- Scene mode optimized for taking images in the snow. --><string name="pref_camera_scenemode_entry_snow">Цас</string><!-- Scene mode for taking a photo as sharp as possible. --><string name="pref_camera_scenemode_entry_steadyphoto">Тогтвортой зураг</string><!-- Scene mode optimized for taking images of fireworks. --><string name="pref_camera_scenemode_entry_fireworks">Галын наадам</string>
+	<string name="pref_camera_scenemode_entry_sports">Спорт</string>
+	<string name="pref_camera_scenemode_entry_candlelight">Лааны гэрэл</string><!-- for CMCC feature --><string name="pref_camera_scenemode_entry_normal">Хэвийн</string><!-- Video Camera --> <!-- EIS setting --><string name="pref_camera_eis_title">EIS</string>
+
+	<string name="pref_camera_eis_on">Асаах</string>
+
+	<string name="pref_camera_recordaudio_entry_off">Унтраах</string>
+	<string name="pref_camera_recordaudio_entry_on">Асаах</string><!-- ZSD songyutao --><string name="pref_camera_zsd_title">ZSD</string>
+	<string name="pref_chroma_flash_title">Ухаалаг флаш</string><!-- continuous shot speed --><string name="pref_camera_continuous_number_title">Тасралтгүй Зураг Авах</string>
+	<string name="pref_voice_capture">Дуутай зураг авах</string>
+
+	<string name="pref_voice_entry_off">Унтраах</string>
+	<string name="pref_voice_entry_on">Асаах</string><!-- Face Detection properties  songyutao set FD dafault on --><string name="pref_camera_face_detect_title">Нүүр Царай Илрүүлэлт</string>
+
+	<string name="pref_camera_face_detect_entry_off">Унтраах</string>
+	<string name="pref_camera_face_detect_entry_on">Асаах</string>
+	<string name="pref_camera_record_location_title">Гео Шошгололт</string>
+	<string name="pref_camera_thumb_title">Camera Roll</string>
+	<string name="pref_camera_pic_frame_entry_off">Унтраах</string>
+	<string name="pref_camera_pic_frame_entry_on">Асаах</string>
+	<string name="pref_shutter_touch_title">Мэдрэгчтэй Зураг Авалт</string>
+
+	<string name="pref_shutter_smile_title">Инээмсэглэлтэй Зураг Авалт</string>
+
+	<string name="pref_shutter_hand_title">Гар Зураг Авалт</string>
+	<string name="pref_shutter_watermark_title">Усан Тэмдэглэгээ</string>
+
+	<string name="pref_camera_watermark_entry_off">Унтраах</string>
+	<string name="pref_camera_watermark_entry_on">Асаах</string>
+	<string name="pref_camera_asd_title">ASD</string>
+	<string name="pref_camera_asd_entry_off">Унтраах</string>
+	<string name="pref_camera_asd_entry_on">Асаах</string>
+	<string name="pref_camera_shutter_sound_title">Камерын Зураг Авах Чимээ</string>
+	<string name="pref_camera_shutter_sound_entry_off">Унтраах</string>
+	<string name="pref_camera_shutter_sound_entry_on">Асаах</string>
+	<string name="pref_camera_pic_level_title">Хазайлгагч</string>
+	<string name="pref_camera_pic_level_entry_off">Унтраах</string>
+	<string name="pref_camera_pic_level_entry_on">Асаах</string>
+
+	<string name="pref_capture_mirror_title">Урд Талын Толь</string>
+	<string name="pref_camera_save_pos_title">Хадгалах зай</string>
+	<string name="pref_camera_save_pos_entry_t">SD карт</string>
+	<string name="pref_camera_save_pos_entry_p">Утас</string>
+	<string name="pref_camera_save_pos_entry_u">USB OTG</string>
+	<string name="pref_camera_mesh_line_title">Торон Шугам</string>
+	<string name="pref_camera_high_picture_size_title">Зургийн Их Хэмжээ</string>
+	<string name="pref_pic_struct_title">Хүрээний Шугамууд</string>
+
+	<string name="pref_pic_struct_entry_off">Унтраах</string>
+	<string name="pref_pic_struct_entry_enneahedral">Торон шугамууд</string>
+	<string name="manual">Мэргэжлийн</string>
+	<string name="photo_mode">Зураг</string>
+	<string name="panorama_mode">ПАНО</string>
+	<string name="beauty_mode">Үзэсгэлэнтэй нүүр царай</string>
+	<string name="radio_switch_to_hdr">HDR</string>
+	<string name="radio_switch_to_facebeauty_custom">Үзэсгэлэнтэй нүүр царай</string><!-- application infomation --><string name="app_name">Камер</string>
+	<string name="pref_camera_selftimer_entry_5">5 секунд</string>
+	<string name="night_mode">Шөнө</string>
+	<string name="radio_switch_to_beautyvideo">Үзэсгэлэнтэй нүүр царай горим</string>
+	<string name="timelapse_mode">Цагийн урсац</string><!-- add by zzp for pano--><string name="panorama_arcsoft_guide_shutter">Зураг авах товчийг дараад, утсаа нэг чиглэлд\удаан хөдөлгөнө үү</string>
+	<string name="panorama_arcsoft_warn_slowly">Утсаа удаан хөдөлгөнө үү</string>
+	<string name="panorama_arcsoft_warn_back">Сумны дагуу утсаа хөдөлгөнө үү</string>
+	<string name="panorama_arcsoft_warn_up">Дээш зөөх</string>
+	<string name="panorama_arcsoft_warn_down">Доош зөөх</string>
+	<string name="panorama_arcsoft_warn_left">Зүүн тийш зөөх</string>
+	<string name="panorama_arcsoft_warn_right">Баруун тийш зөөх</string>
+	<string name="panorama_arcsoft_switch_capture_direction_guide">Зураг авах чиглэлийг өөрчлөхийн тулд суман дээр товших</string>
+	<string name="panorama_capture_guide">Чиглүүлэх шугамын дагуу сумыг тохируулах</string>
+	<string name="panorama_toggle_mode_standard">Стандарт</string>
+	<string name="panorama_toggle_mode_super">Супер</string><!--time line 20141227--><string name="radio_switch_to_pip">Хос харагдац</string>
+	<string name="setting_title">Тохируулга</string>
+	<string name="mode_title">Горимууд</string>
+	<string name="setting_top_full_hint">Өөр ямар нэг зүйл нэмэх боломжгүй.</string>
+	<string name="touchless_guide_vsign_title">V Тэмдэг</string>
+	<string name="touchless_guide_tips_vsign_only">Та автоматаар зураг авахын тулд V хэлбэртэй дохиог ашиглаж болно.</string>
+	<string name="touchless_guide_text_ok">OK</string>
+	<string name="touchless_guide_text_reminder">Үүнийг дахин бүү харуул</string>
+	<string name="wideself_arcsoft_guide_shutter">Эхлүүлэхийн тулд зураг авах товчийг дарах</string>
+	<string name="wideself_arcsoft_guide_step_one">Утсыг нэг чиглэлд эргүүлээд, дараа нь өөр чиглэлд эргүүлнэ үү</string>
+	<string name="wideself_arcsoft_rolate_to_left">Утсаа зүүн тийш аажмаар эргүүлнэ үү</string>
+	<string name="wideself_arcsoft_rolate_to_right">Утсаа баруун тийш аажмаар эргүүлнэ үү</string>
+	<string name="wideself_arcsoft_cannot_use_guide">Хөрөг горим дээрWide selfie Авахыг ашиглах</string>
+	<string name="wideself_arcsoft_downup_offset_warn">Зургийг хөндлөнгөөр тохируулахад хангалттай биш байна.</string>
+	<string name="panorama_arcsoft_cannot_use_guide">Хөрөг зургийн горим дээр Панорамаг ашиглана уу</string>
+	<string name="radio_switch_to_wideselfie">Wide selfie</string>
+	<string name="radio_switch_to_refocus">Ухаалаг фокус</string>
+	<string name="radio_switch_to_chromaflash">Ухаалаг флаш</string>
+	<string name="radio_switch_to_clearsight">ClearSight</string>
+	<string name="setting_guide_message">\"Богино холбоосын мөрөн дээр нэмэх\" дээр товших эсвэл\nбогино холбоос нэмэхийн тулд чирэх</string>
+	<string name="skip_setting_guide">Ойлголоо</string>
+	<string name="permission_title">Хандалтыг Зөвшөөрөх</string>
+	<string name="enable_permission_procedure">Та Тохиргоо &gt; Апликейшн &gt; %1$s &gt; Зөвшөөрлүүд дээр зөвшөөрлүүдийг өөрчлөх боломжтой</string>
+	<string name="toast_storage_full_sdcard_to_internal">SD карт дүүрсэн байна, дотоод хадгалах сан руу хадгалж байна</string>
+	<string name="toast_storage_damaged_sdcard_to_internal">SD карт руу файл хадгалах амжилтгүй, дотоод хадгалах сан руу хадгалж байна</string>
+	<string name="toast_storage_full_internal_to_sdcard">Дотоод хадгалах сан дүүрсэн, SD карт руу хадгалж байна</string>
+	<string name="toast_storage_full_clean_up_to_free_space">Утасны хадгалах сангийн зай дүүрсэн. Зайг чөлөөлөхийн тулд цэвэрлэгээ хийнэ үү</string>
+	<string name="secure_camera_can_not_request_permission">Зөвшөөрлийн хүсэлтүүдийг хүлээн авч/татгалзахын тулд эхлээд утасныхаа түгжээг гаргана уу</string>
+	<string name="shutcauts_frontcamera">Селфи зураг авах</string>
+	<string name="shutcauts_backcamera">Зураг авах</string>
+	<string name="shutcauts_frontvideo">Видео бичлэг (селфи) хийх</string>
+	<string name="shutcauts_backvideo">Видео бичлэг хийх</string>
+	<string name="pref_camera_status_detect_title">Төлөв Илрүүлэх</string>
+	<string name="pref_camera_raw_file_title">RAW Файл</string>
+	<string name="pref_camera_filter_title">Шүүлтүүр</string>
+	<string name="pref_dual_camera_title">Хос Камер</string>
+	<string name="pref_dual_camera_default">Унтраах</string>
+	<string name="radio_switch_to_monochrome">Хар &amp; Цагаан</string>
+
+	<string name="pref_camera_gpu_effect_focus">Фокус</string>
+	<string name="pref_camera_gpu_effect_sepia">Будаг</string>
+	<string name="pref_camera_gpu_effect_temperature">Температур</string>
+	<string name="pref_camera_gpu_effect_gray">Саарал</string>
+	<string name="pref_camera_gpu_effect_none">Байхгүй</string>
+	<string name="pref_camera_gpu_effect_documentary">Баримтат кино</string>
+	<string name="pref_camera_gpu_effect_fishEye">Сэжигтэй харц</string>
+	<string name="pref_camera_gpu_effect_tint">Туяа</string>
+	<string name="pref_camera_gpu_effect_crossprocess">Crossprocess</string>
+	<string name="portrait_mode">Хөрөг</string>
+	<string name="pref_camera_pref_entry_auto">Автомат</string>
+	<string name="confirm_mode_tip">%1$S горим руу солихын тулд товших</string>
+	<string name="focal_switch_scale_tip">Телефото горимыг нээхийн тулд шигтгээ дүрс дээр товших</string>
+	<string name="front_wide_switch_tip">Групп селфиг идэвхжүүлэхийн тулд шигтгээ дүрс дээр товших</string>
+	<string name="low_memory_limit">Your system is in low memory, some features limit capture size</string>
+	<string name="portrait_background_blur">Хөрөг</string>
+	<string name="portrait_of_face_beauty">Үзэсгэлэнтэй нүүр царай</string>
+	<string name="asd_result_hdr">HDR идэвхжсэн</string>
+	<string name="toast_face_undetected_at_portrait">2 метр дотор нүүр царай илэрсэнгүй</string>
+	<string name="toast_face_undetected_at_sticker">Нүүр царай илэрсэнгүй</string>
+	<string name="toast_view_pic_vivid_at_superpixel">Супер Пикселээр илүү нарийвчлалтай зураг авах</string>
+	<string name="front_face_detected_first_tip">Илүү сайн селфи зураг авахын тулд камер руу харах</string>
+	<string name="u_screen_selfie_count_down_cancel">Цуцлах</string>
+	<string name="video_beauty_switch_on">Асаах</string>
+	<string name="video_beauty_switch_off">Унтраах</string>
+	<string name="image_processing_toast">Зураг боловсруулж байна</string>
+	<string name="short_video_not_found">Видео олдсонгүй</string><!-- for Android O's CTS--><string name="camera_review_done_desc">Хийгдсэн</string>
+	<string name="bokeh_mode">Хөрөг</string>
+	<string name="toast_dual_camera_bokeh">2 метр дотор зураг авалт хийнэ үү</string><!-- for qcom slowmotion--><string name="pref_camera_hfr_entry_2x">X2</string>
+	<string name="pref_camera_hfr_entry_3x">X3</string>
+	<string name="pref_camera_hfr_entry_4x">X4</string>
+
+
+
+	<string name="slow_motion_mode">SLO-MO</string>
+
+
+
+	<!-- // Camera fun mode string --><string name="radio_switch_to_fun">Camera Fun</string><!-- Default fun mode setting. -->
+	<string name="pref_camera_fun_title">Fun</string>
+	<string name="pref_camera_sticker_title">Стикер</string>
+	<string name="toast_face_undetected_at_fun">Илрээгүй нүүр царай</string>
+	<string name="toast_eyes_undetected_at_fun">Эффектийг урьдчилан харахын тулд нүдээ анивчих</string>
+	<string name="toast_mouth_undetected_at_fun">Эффектийг урьдчилан харахын тулд амаа нээх</string>
+	<string name="toast_short_video_tip">Богино хэмжээний видео бичлэг хийхийн тулд зураг авах товчийг удаан дарах</string>
+	<string name="fun_filter_none">Шүүлтүүр</string>
+	<string name="fun_filter_lomo">LOMO</string>
+	<string name="fun_filter_elegant">Гоёмсог</string>
+	<string name="fun_filter_cyan">Шар өнгө</string>
+	<string name="fun_filter_mint">Номин ногоон өнгө</string>
+	<string name="fun_filter_led">LED</string>
+	<string name="fun_filter_eternal">Мөнхийн</string>
+	<string name="fun_filter_formerly">Хуучны</string>
+	<string name="fun_filter_blue">Хөх өнгө</string>
+	<string name="fun_filter_oldbooth">Хуучин овоохой</string>
+	<string name="fun_filter_milkytea">Сүүтэй цай</string>
+	<string name="fun_filter_warm">Дулаан</string>
+	<string name="fun_filter_norway">Норвеги</string>
+	<string name="fun_filter_cool">Гоё</string>
+	<string name="fun_filter_dew">Шүүдэр</string>
+	<string name="fun_filter_youth">Залуу нас</string>
+	<string name="fun_filter_shy">Ичимхий зан</string>
+	<string name="fun_filter_jaipur">Жайпур</string>
+	<string name="fun_filter_autumn">Намар</string>
+	<string name="fun_filter_japanese">Япон</string>
+	<string name="fun_filter_sweet">Энхрий</string>
+	<string name="fun_filter_warren">Шоргоолжны үүр</string>
+	<string name="fun_filter_tsukiji">Цукижи</string>
+	<string name="fun_filter_vivid">Тод</string>
+	<string name="fun_filter_facingsun">Нар луу харсан</string>
+	<string name="fun_filter_purple">Нил ягаан</string>
+	<string name="pref_gender_estimate_title">Хүйс барагцаалах</string>
+	<string name="pref_gender_estimate_entry_on">Асаах</string>
+	<string name="pref_gender_estimate_entry_off">Унтраах</string>
+	<string name="beauty_guide_top_text">AI гоо үзэсгэлэн</string>
+	<string name="toast_motion_photo_opened">Хөдөлгөөнт зургийг идэвхжүүлсэн</string>
+	<string name="pref_camera_gpu_effect_vignetting">Vignetting</string><!--add for ai scene detection --><string name="ai_scene_tips_food">Хоол</string>
+	<string name="ai_scene_tips_portrait">Хөрөг</string>
+	<string name="ai_scene_tips_foliage">Ургамал</string>
+	<string name="ai_scene_tips_sky">Хөх тэнгэр</string>
+	<string name="ai_scene_tips_text">Бичвэр</string><!-- add for faceplus asd detection --><string name="faceplus_asd_tips_face">Хөрөг</string>
+	<string name="faceplus_asd_tips_food">Хоол</string>
+	<string name="faceplus_asd_tips_fruits">Жимс</string>
+	<string name="faceplus_asd_tips_flower">Цэцэг</string>
+	<string name="faceplus_asd_tips_flowersea">Цэцгэн далай</string>
+	<string name="faceplus_asd_tips_sandbeach">Элс</string>
+	<string name="faceplus_asd_tips_snow">Цас</string>
+	<string name="faceplus_asd_tips_bluesky">Тэнгэр</string>
+	<string name="faceplus_asd_tips_night">Шөнө</string>
+	<string name="faceplus_asd_tips_sunrise">Нар мандах ба жаргах</string>
+	<string name="faceplus_asd_tips_qr">QR код</string>
+	<string name="faceplus_asd_tips_businesscard">Нэрийн хуудас</string>
+	<string name="faceplus_asd_tips_whiteboard">Цагаан самбар</string>
+	<string name="faceplus_asd_tips_idcard">Үнэмлэх</string>
+	<string name="faceplus_asd_tips_bankcard">Кредит карт</string>
+	<string name="faceplus_asd_tips_cat">Муур</string>
+	<string name="faceplus_asd_tips_dog">Нохой</string>
+	<string name="faceplus_asd_tips_meadow">Нуга</string>
+	<string name="faceplus_asd_tips_plants">Ургамал</string>
+	<string name="toast_gender_estimate_started">Нүүр царайндаа зохицуулан параметр тохируулах</string>
+	<string name="beauty_guide_top_text_description">AI гоо үзэсгэлэн функцыг асаагаад, нүүр царайндаа зохицуулан параметр тохируулах</string>
+	<string name="zoom_guide_title">Томруулах Хялбархан Арга</string>
+	<string name="zoom_guide_content">Өргөн өнцөг болон супер томруулалтанд хандахын тулд дээрх шигтгээ дүрс дээр товш. Эсвэл томруулах эсвэл багасгахын тулд дэлгэцийг босоогоор нь шудрахад л болно</string>
+	<string name="video_recording">Видео бичлэг хийх</string>
+	<string name="micro_video_guide_content">Хөдөлгөөнт зургийг идэвхжүүлсэн үед таны авсан зураг бүр зураг авсаны дараа болон өмнө богино хэмжээний видео агуулж болно. Уг зургийг хуваалцах үед уг видео хамт багтаж болно.</string>
+	<string name="motion_photo">Хөдөлгөөнт зураг</string>
+	<string name="switch_to_wide_lens_toast">Өргөн өнцөгтэй хальсыг идэвхжүүлэх</string>
+	<string name="time_lapse_not_save">Бид таны цагийн урсацыг хадгалах боломжгүй байна. Таны видео бичлэг дор хаяж %1$d секунд урттай байх ёстой</string>
+	<string name="pref_shutter_speed_title">Зураг Авах Хурд</string>
+	<string name="switch_to_wide_lens_landscape_toast">Өргөн харагдацад зориулж Өргөн Өнцөг дээр товших</string>
+	<string name="radio_switch_to_dual_bokeh_for_custom">Уран зургийн мэт бүрсийлгэх</string>
+	<string name="toast_video_recording_in_call_state">Дуудлага хийгдэж буй үеэр бичлэг хийх боломжгүй</string>
+	<string name="pref_camera_ai_title">Хиймэл Оюун Ухаан (AI)</string>
+	<string name="toast_video_3dnr_on">Видеоны шөнийн харагдацыг идэвхжүүлсэн</string>
+	<string name="toast_storage_unavailable">SD карт байхгүй байна</string>
+	<string name="toast_landscape_open_wide_tips">Байгалийн дүрслэлийг эсвэл найзуудыгаа илүү сайн харуулахын тулд супер өргөн өнцөг рүү солих</string>
+	<string name="enable_sd_permission_title">Камер SD Картанд Хандах Шаардлагатай</string>
+	<string name="enable_sd_permission_content">Тохиргоогоо хараад, \"SD карт\” доторх \"DCIM\” рүү хандах зөвшөөрөл олгох</string>
+	<string name="macro_mode">Макро</string>
+	<string name="super_macro_tip">Утсыг эд зүйлээс (1) 3–4см зайтай байлга.</string>
+	<string name="bokeh_offfline_processing">Bokeh буюу бүрсийлгэх өгөгдлийг онлайн бусаар боловсруулж байна…</string>
+	<string name="pref_google_lens">Гүүгл линз</string>
+	<string name="never">Хэзээ ч үгүй</string>
+	<string name="toast_high_temp_disable_flash">Температур хэт өндөр байна, гар чийдэн асаах боломжгүй.</string>
+	<string name="toast_high_temp_shutdown_camera">Температур хэт өндөр байна, камер 5 секундэд зогсох болно</string>
+
+	<string name="bokeh_type_name">Уран зургийн мэт бүрсийлгэх</string>
+	<string name="bokeh_type_description">Энэ функц нь танд Уран Зургийн Мэт Бүрсийлгэх эффектийг ашиглан зураг засварлах боломжийг олгоно.</string>
+	<string name="hdr_type_name">HDR</string>
+	<string name="hdr_type_description">Арын гэрэлтэй орчинд илүү нарийвчлалыг хадгалсан</string>
+	<string name="ai_type_name">Хиймэл Оюун Ухаан (AI)</string>
+	<string name="ai_type_description">AI үзэгдэл илрүүлэлтийг ашиглан параметрийг автоматаар тохируулах</string>
+	<string name="timelapse_type_name">Цагийн урсац</string>
+	<string name="timelapse_type_description">Өндөр хурдтай урт видеог богино хугацаанд харуулах</string>
+	<string name="don_t_cover_the_lens">Линзийг бүү бүрх</string>
+	<string name="pref_video_time_lapse_frame_interval_title">Цагийн Интервал</string>
+	<string name="toast_qr_code_detected">QR код илэрсэн.\nЗочлохын тулд товших</string>
+	<string name="toast_qr_code_detected_type_esim">eSIM профайл илэрсэн.\neSIM-ийг идэвхжүүлэхийн тулд товших</string>
+	<string name="toast_qr_code_detected_type_url">QR код илэрсэн.\nХолбоос руу зочлохын тулд товших</string>
+	<string name="toast_qr_code_detected_type_string">QR код илэрсэн.\nГүүгл дээр хайхын тулд товших</string>
+	<string name="toast_bar_code_detected_type_string">Баркод илэрсэн.\nХолбоос руу зочлохын тулд товших</string>
+	<string name="toast_bar_code_detected_type_number">Бүтээгдэхүүний баркод илэрсэн.\nБүтээгдэхүүн хайхын тулд товших</string>
+	<string name="turn_off_qr_code">QR кодыг унтраах</string>
+	<string name="pref_video_quality_entry_fine_text">Дээд зэргийн</string>
+	<string name="pref_video_quality_entry_high_text">Өндөр</string>
+	<string name="pref_exposure_metering_title">Өртөлтийн Хэмжүүр</string>
+	<string name="pref_exposure_metering_entry_frame_average">Frame average</string>
+	<string name="pref_exposure_metering_entry_center_weighted">Төв хэсэгтээ төвлөрсөн</string>
+	<string name="pref_exposure_metering_entry_spot_metering">Цэгийн хэмжүүр</string>
+	<string name="toast_disable_torch">Флашыг хэт халахаас сэргийлж гэрлийг унтраах</string>
+	<string name="google_location_dialog_title">Та Камерын Апликейшн Ашиглан Авсан Зургууддаа Байршлын Мэдээлэл Нэмэх үү?</string>
+	<string name="google_location_dialog_message">Энэ нь таны зураг хаана авагдсан тухай мэдээллийг хадгалах болно гэсэн үг юм.</string>
+	<string name="google_location_dialog_message_lear_more">
+		<a href="https://support.google.com/photos/answer/9921876">Илүү ихийг судлах</a>
+	</string>
+	<string name="google_location_dialog_positive">Камерын байршлыг идэвхжүүлэх</string>
+	<string name="image_search_mode">Эд зүйл хайх</string>
+	<string name="detect_result_title">Эд Зүйлийг сонгоод, Хайлтын Үр Дүнг Харах</string>
+	<string name="search_result_title">Ижил Төстэй Эд Зүйлсийн Хайлтын Үр Дүн</string>
+	<string name="search_for_other_items">Бусад эд зүйлсийг хайх</string>
+	<string name="point_format_string">%1$d оноо (%2$dx)</string><!--    <string name="price_format_string">%1$s yen</string>--><string name="view_on_rakuten_ichiba">Rakuten Ichiba дээр харах</string>
+	<string name="view_all_results_on_rakuten_ichiba">Rakuten Ichiba дээрх бүх үр дүнг харах</string>
+	<string name="start_new_search">Шинэ хайлт эхлүүлэх</string>
+	<string name="network_error">Сүлжээний алдаа.\nИнтернэт холболтоо шалгаад, дахин оролдоно уу</string>
+	<string name="item_not_found">Ямар нэг фэйшн эд зүйлс илрүүлэх боломжгүй байна</string>
+	<string name="cropped_item_not_found">Хайлтын хэсгийн хэмжээг дахин тохируулна уу</string>
+	<string name="cropped_item_not_found_btn_text">Хайлтын хэсгийн хэмжээг тохируулах</string>
+	<string name="searching">Хайж байна…</string>
+	<string name="image_search_tip">Зураг авах эсвэл хайх зураг сонгох</string>
+	<string name="image_search_processing">Хайж байна…</string>
+	<string name="move_and_resize_tip">Хайлт хийх аль ч хэсэгт хүрээг зөө.\nХүрээний хэмжээг тохируулахын тулд буланг чир.</string>
+	<string name="new_feature_image_search_guide_title">Шинэ Онцлог</string>
+	<string name="new_feature_image_search_guide_title_extra" translatable="false" />
+	<string name="new_feature_image_search_guide_content">Та одоо зураг аваад, Rakuten Ichiba дээр эд зүйлс хайх боломжтой</string>
+	<string name="item_search_guide_title">Эд Зүйлс Хайх гэж юу вэ?</string>
+	<string name="item_search_guide_content_p1">Камераа ашиглан зураг аваад, Rakuten Ichiba дээр эд зүйлс хай.</string>
+	<string name="item_search_guide_content_p2">(Одоогоор Эд Зүйлс Хайлт дээр зөвхөн фэйшн эд зүйлс хайх боломжтой.)</string>
+	<string name="feedback_title">Санал зөвлөмж</string>
+	<string name="feedback_content">Эдгээр үр дүн хэрэгцээтэй байна уу?</string>
+	<string name="feedback_action">Санал зөвлөмж өгөх</string>
+	<string name="feedback_send">Илгээх</string>
+	<string name="feedback_response">Үнэтэй санал зөвлөмж өгсөн танд баярлалаа.</string>
+	<string name="terms_of_use_title">Ашиглалтын Нөхцөл</string>
+	<string name="privacy_title">Нууцлалын Бодлого</string>
+	<string name="free_shipping">Үнэгүй хүргэлт</string>
+	<string name="terms_of_use_agree">Би Ашиглалтын Нөхцлийг зөвшөөрч байна.</string>
+	<string name="start_to_use">Зураг Хайх</string>
+	<string name="terms_of_use_content">Энд\’ Ашиглалтын Нөхцөл байна.</string>
+	<string name="try_again_tips">Таалагдсан\ зүйлээ олсонгүй юу?\nӨөр үр дүнд хүрэхийн тулд шинээр хайлт хийхээр оролд.</string>
+	<string name="yen">иен</string>
+	<string name="pref_video_fps">FPS</string>
+	<string name="pref_video_encoder">Кодлогч</string>
+	<string name="more">Илүү их</string>
+	<string name="panorama_night_mode">Пано шөнийн</string>
+	<string name="long_press_shutter_button">Зураг авах товчийг удаан дарах</string>
+	<string name="continuous_shot_entry">Тасралтгүй зураг авах</string>
+
+
+	<string name="pref_camera_wb_temp_title">Өнгөний Температур</string>
+
+	<string name="pref_camera_entry_off">Унтраах</string>
+	<string name="pref_camera_whitebalance_entry_custom">Тусгайлан тохируулсан</string>
+	<string name="pref_camera_entry_on">Асаах</string>
+
+	<string name="pref_video_night_title">Шөнийн видео</string>
+	<string name="video_ois_title">OIS</string>
+	<string name="pref_photo_mfnr_title">MFNR</string>
+	<string name="remosaic_mode">Remosaic</string>
+
+	<string name="pref_high_definition_title">Өндөр Нарийвчлал</string>
+	<string name="pref_pro_raw_title">Өндөр Нарийвчлал</string>
+</resources>

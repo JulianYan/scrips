@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="battery_suggestion_summary">യോജ്യമായ ബാറ്ററി ഓണാക്കുക</string>
+    <string name="smart_battery_manager_title">യോജ്യമായ ബാറ്ററി</string>
+    <string name="smart_battery_footer">ബാറ്ററി ആയുസ്സ് വർദ്ധിപ്പിക്കുന്നതിന്, യോജ്യമായ ബാറ്ററി അപൂർവ്വമായി ഉപയോഗിക്കുന്ന ആപ്പുകൾക്കുള്ള ബാറ്ററി ഉപയോഗം പരിമിതപ്പെടുത്തുന്നു. കാലക്രമേണ നിങ്ങൾ ആപ്പുകൾ ഉപയോഗിക്കുന്നതെങ്ങനെയെന്ന് നിങ്ങളുടെ ഫോൺ പഠിക്കും. \n\nഈ ആപ്പുകൾക്കുള്ള അറിയിപ്പുകൾ വൈകിയേക്കാം.</string>
+    <string name="smart_battery_footer" product="tablet">ബാറ്ററി ആയുസ്സ് വർദ്ധിപ്പിക്കുന്നതിന്, യോജ്യമായ ബാറ്ററി അപൂർവ്വമായി ഉപയോഗിക്കുന്ന ആപ്പുകൾക്കുള്ള ബാറ്ററി ഉപയോഗം പരിമിതപ്പെടുത്തുന്നു. കാലക്രമേണ നിങ്ങൾ ആപ്പുകൾ ഉപയോഗിക്കുന്നതെങ്ങനെയെന്ന് നിങ്ങളുടെ ടാബ്‌ലെറ്റ് പഠിക്കും. \n\nഈ ആപ്പുകൾക്കുള്ള അറിയിപ്പുകൾ വൈകിയേക്കാം.</string>
+    <string name="smart_battery_footer" product="device">ബാറ്ററി ആയുസ്സ് വർദ്ധിപ്പിക്കുന്നതിന്, യോജ്യമായ ബാറ്ററി അപൂർവ്വമായി ഉപയോഗിക്കുന്ന ആപ്പുകൾക്കുള്ള ബാറ്ററി ഉപയോഗം പരിമിതപ്പെടുത്തുന്നു. കാലക്രമേണ നിങ്ങൾ ആപ്പുകൾ ഉപയോഗിക്കുന്നതെങ്ങനെയെന്ന് നിങ്ങളുടെ ഉപകരണം പഠിക്കും. \n\nഈ ആപ്പുകൾക്കുള്ള അറിയിപ്പുകൾ വൈകിയേക്കാം.</string>
+    <string name="smart_battery_title">യോജ്യമായ ബാറ്ററി ഉപയോഗിക്കുക</string>
+    <string name="battery_tip_smart_battery_summary">യോജ്യമായ ബാറ്ററി ഓണാക്കുക</string>
+    <string name="nt_color_temperature">കളർ താപനില</string>
+    <string name="warmer">വാം</string>
+    <string name="colder">കൂൾ</string>
+	        <!-- Mobile network settings screen, title of item showing the name of the default subscription
+    that will be used for data. This only appears in multi-SIM mode. [CHAR LIMIT=NONE] -->
+    <string name="data_preference">ഡാറ്റ മുൻഗണന</string>
+	<string name="vibrating_for_outgoing_call_accepted_summary">ഔട്ട്‌ഗോയിംഗ് കോളിനായി വൈബ്രേറ്റിംഗ് മോഡ് പ്രവർത്തനക്ഷമമാക്കുക</string>
+</resources>

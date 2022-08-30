@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="nft_loading_tips">Λήψη δεδομένων.</string>
+    <string name="nft_loading_tips_second">Αυτή η διαδικασία ενδέχεται να πάρει λίγο χρόνο.</string>
+
+</resources>

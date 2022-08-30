@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="battery_suggestion_summary">I-on ang Nakakatipid na Baterya</string>
+    <string name="smart_battery_manager_title">Nakakatipid na Baterya</string>
+    <string name="smart_battery_footer">Para tumagal ang baterya, nililimitahan ng Nakakatipid na Baterya ang paggamit sa mga hindi madalas ginagamit na mga app. Matutunan ng iyong telepono kung paano ka gumagamit ng mga app sa paglipas ng panahon. \n\nMaaaring maantala ang mga notipikasyon para sa mga app na ito.</string>
+    <string name="smart_battery_footer" product="tablet">Para tumagal ang baterya, nililimitahan ng Nakakatipid na Baterya ang paggamit sa mga hindi madalas ginagamit na mga app. Matutunan ng iyong tablet kung paano ka gumagamit ng mga app sa paglipas ng panahon. \n\nMaaaring maantala ang mga notipikasyon para sa mga app na ito.</string>
+    <string name="smart_battery_footer" product="device">Para tumagal ang baterya, nililimitahan ng Nakakatipid na Baterya ang paggamit sa mga hindi madalas ginagamit na mga app. Matutunan ng iyong device kung paano ka gumagamit ng mga app sa paglipas ng panahon. \n\nMaaaring maantala ang mga notipikasyon para sa mga app na ito.</string>
+    <string name="smart_battery_title">Gumamit ng Nakakatipid na Baterya</string>
+    <string name="battery_tip_smart_battery_summary">I-on ang Nakakatipid na Baterya</string>
+    <string name="nt_color_temperature">Kulay para sa temperatura</string>
+    <string name="warmer">Mainit</string>
+    <string name="colder">Malamig</string>
+	        <!-- Mobile network settings screen, title of item showing the name of the default subscription
+    that will be used for data. This only appears in multi-SIM mode. [CHAR LIMIT=NONE] -->
+    <string name="data_preference">Pinipiling mga datos</string>
+	<string name="vibrating_for_outgoing_call_accepted_summary">I-enable ang vibrating mode kapag tinanggap ng tinatawagan ang tawag</string>
+</resources>

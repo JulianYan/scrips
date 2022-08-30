@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nt_navigation_back_button_left_side">Butang belakang di sebelah kiri</string>
+    <string name="nt_navigation_back_button_right_side">Butang belakang di sebelah kanan</string>
+    <string name="nt_navigation_config_title">Tataletak Butang</string>
+    <string name="nt_glyphs_charging_features">Paparkan perkembangan pengecasan apabila peranti dipalamkan atau goyangkan peranti semasa mengecas.</string>
+    <string name="nt_screen_refresh_rate_high_summary">Kadar penyegaran dinamik hingga 120 Hz untuk penatalan dan animasi yang lebih lancar.</string>
+    <string name="nt_screen_refresh_rate_standard_summary">Kadar penyegaran tetap 60 Hz untuk hayat bateri yang lebih baik.</string>
+	
+	<!-- translate to other languages -->
+	<string name="nt_glyphs_flip_title">Balik ke Glyph</string>
+    <string name="nt_glyphs_flip_to_glyph_title">Balik ke Glyph</string>
+    <string name="nt_use_filp_to_glyph">Gunakan Balik ke Glyph</string>
+	
+</resources>

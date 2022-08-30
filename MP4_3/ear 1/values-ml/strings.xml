@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="disconnect">വിച്ഛേദിച്ചു</string>
+    <string name="anc_personalised_title">വ്യക്തിപരമാക്കിയ ANC</string>
+    <string name="control_double_tap_hold">രണ്ടുതവണ ടാപ്പ് ചെയ്‌ത് പിടിക്കുക</string>
+
+</resources>

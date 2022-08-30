@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="disconnect">Atjungtas</string>
+    <string name="anc_personalised_title">Suasmenintas ANC</string>
+    <string name="control_double_tap_hold">Dukart bakstelėkite ir palaikykite</string>
+
+</resources>

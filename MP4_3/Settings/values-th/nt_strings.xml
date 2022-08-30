@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="battery_suggestion_summary">เปิดแบตเตอรี่แบบปรับเปลี่ยนตามการใช้งาน</string>
+    <string name="smart_battery_manager_title">แบตเตอรรี่แบบปรับเปลี่ยนตามการใช้งาน</string>
+    <string name="smart_battery_footer">เพื่อช่วยในการยืดอายุการใช้งานแบตเตอรี่ แบตเตอรรี่แบบปรับเปลี่ยนตามการใช้งานจะจำกัดการใช้งานแบตเตอรี่สำหรับแอปที่ไม่ค่อยได้ใช้งาน โทรศัพท์ของคุณจะค่อยๆ เรียนรู้วิธีการใช้งานแอปเมื่อเวลาผ่านไป \n\nการแจ้งเตือนอาจล่าช้าสำหรับแอปเหล่านี้</string>
+    <string name="smart_battery_footer" product="tablet">เพื่อช่วยในการยืดอายุการใช้งานแบตเตอรี่ แบตเตอรรี่แบบปรับเปลี่ยนตามการใช้งานจะจำกัดการใช้งานแบตเตอรี่สำหรับแอปที่ไม่ค่อยได้ใช้งาน แท็บเล็ตของคุณจะค่อยๆ เรียนรู้วิธีการใช้งานแอปเมื่อเวลาผ่านไป \n\nการแจ้งเตือนอาจล่าช้าสำหรับแอปเหล่านี้</string>
+    <string name="smart_battery_footer" product="device">เพื่อช่วยในการยืดอายุการใช้งานแบตเตอรี่ แบตเตอรรี่แบบปรับเปลี่ยนตามการใช้งานจะจำกัดการใช้งานแบตเตอรี่สำหรับแอปที่ไม่ค่อยได้ใช้งาน อุปกรณ์ของคุณจะค่อยๆ เรียนรู้วิธีการใช้งานแอปเมื่อเวลาผ่านไป \n\nการแจ้งเตือนอาจล่าช้าสำหรับแอปเหล่านี้</string>
+    <string name="smart_battery_title">ใช้แบตเตอรรี่แบบปรับเปลี่ยนตามการใช้งาน</string>
+    <string name="battery_tip_smart_battery_summary">เปิดแบตเตอรี่แบบปรับเปลี่ยนตามการใช้งาน</string>
+    <string name="nt_color_temperature">อุณหภูมิสี</string>
+    <string name="warmer">อบอุ่น</string>
+    <string name="colder">เย็น</string>
+	        <!-- Mobile network settings screen, title of item showing the name of the default subscription
+    that will be used for data. This only appears in multi-SIM mode. [CHAR LIMIT=NONE] -->
+    <string name="data_preference">ข้อมูลตามความต้องการ</string>
+	<string name="vibrating_for_outgoing_call_accepted_summary">เปิดใช้งานโหมดสั่นสำหรับสายโทรออกที่มีการรับสาย</string>
+</resources>

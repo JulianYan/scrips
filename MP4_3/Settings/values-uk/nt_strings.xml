@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="battery_suggestion_summary">Увімкнути адаптивний акумулятор</string>
+    <string name="smart_battery_manager_title">Адаптивний акумулятор</string>
+    <string name="smart_battery_footer">Для подовження терміну служби система обмежує використання адаптивного акумулятора для програм, які рідко використовуються. З часом ваш телефон отримає достатньо даних про те, як ви використовуєте програми. \n\nПовідомлення для цих програм можуть надходити із затримкою.</string>
+    <string name="smart_battery_footer" product="tablet">Для подовження терміну служби система обмежує використання адаптивного акумулятора для програм, які рідко використовуються. З часом ваш планшет отримає достатньо даних про те, як ви використовуєте програми. \n\nПовідомлення для цих програм можуть надходити із затримкою.</string>
+    <string name="smart_battery_footer" product="device">Для подовження терміну служби система обмежує використання адаптивного акумулятора для програм, які рідко використовуються. З часом ваш пристрій отримає достатньо даних про те, як ви використовуєте програми. \n\nПовідомлення для цих програм можуть надходити із затримкою.</string>
+    <string name="smart_battery_title">Використовувати адаптивний акумулятор</string>
+    <string name="battery_tip_smart_battery_summary">Увімкнути адаптивний акумулятор</string>
+    <string name="nt_color_temperature">Кольори температури</string>
+    <string name="warmer">Теплий</string>
+    <string name="colder">Холодний</string>
+	        <!-- Mobile network settings screen, title of item showing the name of the default subscription
+    that will be used for data. This only appears in multi-SIM mode. [CHAR LIMIT=NONE] -->
+    <string name="data_preference">Налаштування даних</string>
+	<string name="vibrating_for_outgoing_call_accepted_summary">Увімкнути режим вібрації при відповіді на вихідний дзвінок</string>
+</resources>

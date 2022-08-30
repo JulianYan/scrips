@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="battery_suggestion_summary">Włącz Baterię Adaptacyjną</string>
+    <string name="smart_battery_manager_title">Bateria Adaptacyjna</string>
+    <string name="smart_battery_footer">Aby wydłużyć życie baterii, Bateria Adaptacyjna ogranicza zużycie baterii dla rzadko używanych aplikacji. Twój telefon nauczy się z czasem, jak korzystasz z aplikacji. \n\nPowiadomienia z tych aplikacji mogą być opóźnione.</string>
+    <string name="smart_battery_footer" product="tablet">Aby wydłużyć życie baterii, Bateria Adaptacyjna ogranicza zużycie baterii dla rzadko używanych aplikacji. Twój tablet nauczy się z czasem, jak korzystasz z aplikacji. \n\nPowiadomienia z tych aplikacji mogą być opóźnione.</string>
+    <string name="smart_battery_footer" product="device">Aby wydłużyć życie baterii, Bateria Adaptacyjna ogranicza zużycie baterii dla rzadko używanych aplikacji. Twoje urządzenie nauczy się z czasem, jak korzystasz z aplikacji. \n\nPowiadomienia z tych aplikacji mogą być opóźnione.</string>
+    <string name="smart_battery_title">Skorzystaj z Baterii Adaptacyjnej</string>
+    <string name="battery_tip_smart_battery_summary">Włącz Baterię Adaptacyjną</string>
+    <string name="nt_color_temperature">Temperatura koloru</string>
+    <string name="warmer">Ciepła</string>
+    <string name="colder">Zimna</string>
+	        <!-- Mobile network settings screen, title of item showing the name of the default subscription
+    that will be used for data. This only appears in multi-SIM mode. [CHAR LIMIT=NONE] -->
+    <string name="data_preference">Preferencje danych</string>
+	<string name="vibrating_for_outgoing_call_accepted_summary">Włącz tryb wibracji dla przyjętych połączeń wychodzących</string>
+</resources>

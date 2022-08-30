@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="trusted_certificates_fixed" translatable="false">
+        <item>24BB24C05E47E0AEFA68A58A766179D9B613A600</item>
+        <item>04C500FCF5C208965AD21DE0E503ABC8118F1743</item>
+        <item>4BA713DFECE93D47572DC5E845A7A82C4A891F2F</item>
+        <item>393CBC43B22010A12F035C268A13CDBFC6ACCC9C</item>
+        <item>83FAFBED17034E5DCE3391C804131E5EEEFA5395</item>
+        <item>4F1AB0E93C477F4A563ED5A2351559D468F9977B</item>
+        <item>27196E386B875E76ADF700E7EA84E4C6EEE33DFA</item>
+    </string-array>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_watermark">Водяний знак</string>
+    <string name="settings_model_watermark">Водяний знак моделі</string>
+    <string name="settings_time_watermark">Водяний знак часу</string>
+</resources>

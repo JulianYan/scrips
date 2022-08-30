@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="nft_loading_tips">डेटा डाउनलोड कर रहा है।</string>
+    <string name="nft_loading_tips_second">इस प्रोसेस में कुछ देर लग सकती है।</string>
+
+</resources>

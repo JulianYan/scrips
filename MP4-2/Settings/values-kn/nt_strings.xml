@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nt_navigation_back_button_left_side">ಎಡಭಾಗದಲ್ಲಿ ಬ್ಯಾಕ್ ಬಟನ್</string>
+    <string name="nt_navigation_back_button_right_side">ಬಲಭಾಗದಲ್ಲಿ ಬ್ಯಾಕ್‌ ಬಟನ್</string>
+    <string name="nt_navigation_config_title">ಬಟನ್‌ ಲೇಔಟ್‌</string>
+    <string name="nt_glyphs_charging_features">ಸಾಧನವನ್ನು ಪ್ಲಗ್ ಇನ್ ಮಾಡಿದಾಗ ಚಾರ್ಜಿಂಗ್ ಪ್ರಗತಿಯನ್ನು ಪ್ರದರ್ಶಿಸಿ ಅಥವಾ ಚಾರ್ಜ್ ಮಾಡುವಾಗ ಸಾಧನವನ್ನು ತಿರುಗಿಸಿ.</string>
+    <string name="nt_screen_refresh_rate_high_summary">ಸುಗಮ ಸ್ಕ್ರೋಲಿಂಗ್ ಮತ್ತು ಅನಿಮೇಷನ್‌ಗಾಗಿ 120 Hz ವರೆಗೆ ಡೈನಾಮಿಕ್ ರಿಫ್ರೆಶ್ ದರ.</string>
+    <string name="nt_screen_refresh_rate_standard_summary">ಉತ್ತಮ ಬ್ಯಾಟರಿ ಬಾಳಿಕೆಗಾಗಿ 60 Hz ನ ಸ್ಥಿರ ರಿಫ್ರೆಶ್ ದರ.</string>
+	
+	<!-- translate to other languages -->
+	<string name="nt_glyphs_flip_title">Glyph ಗೆ ಫ್ಲಿಪ್ ಮಾಡಿ</string>
+    <string name="nt_glyphs_flip_to_glyph_title">Glyph ಗೆ ಫ್ಲಿಪ್ ಮಾಡಿ</string>
+    <string name="nt_use_filp_to_glyph">Glyph ಗೆ ಫ್ಲಿಪ್ ಮಾಡಿ ಬಳಸಿ</string>
+	
+</resources>

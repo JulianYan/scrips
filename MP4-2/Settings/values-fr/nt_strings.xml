@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nt_navigation_back_button_left_side">Bouton Retour sur le côté gauche</string>
+    <string name="nt_navigation_back_button_right_side">Bouton Retour sur le côté droit</string>
+    <string name="nt_navigation_config_title">Disposition des boutons</string>
+    <string name="nt_glyphs_charging_features">Affichez la progression de la charge lorsque l\'appareil est branché ou agitez l\'appareil pendant la charge.</string>
+    <string name="nt_screen_refresh_rate_high_summary">Un taux de rafraîchissement dynamique allant jusqu’à 120 Hz pour un défilement et une animation fluides.</string>
+    <string name="nt_screen_refresh_rate_standard_summary">Un taux de rafraîchissement fixe de 60 Hz pour une plus longue durée de vie de la batterie.</string>
+	
+	<!-- translate to other languages -->
+	<string name="nt_glyphs_flip_title">Retour à Glyph</string>
+    <string name="nt_glyphs_flip_to_glyph_title">Retour à Glyph</string>
+    <string name="nt_use_filp_to_glyph">Utiliser le Retour à Glyph</string>
+	
+</resources>

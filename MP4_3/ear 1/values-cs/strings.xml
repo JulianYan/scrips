@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="disconnect">Odpojeno</string>
+    <string name="anc_personalised_title">Personalizované ANC</string>
+    <string name="control_double_tap_hold">Dvakrát klepněte a podržte</string>
+
+</resources>

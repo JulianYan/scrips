@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+     Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+
+    <!-- Confirmation dialog when restoring settings -->
+    <string name="confirm_restore_message">కెమెరా సెట్టింగ్‌‌లను రీసెట్ చేయాలా?</string>
+    <string name="pref_camera_module_title">కెమెరా మోడ్</string>
+    <!-- Settings screen, camera selection dialog title. Users can select a camera from the phone (front-facing or back-facing). [CHAR LIMIT=20] -->
+    <string name="pref_camera_id_title">కెమెరా మార్చండి</string>
+    <string name="pref_camera_id_default" translatable="false">0</string>
+
+    <!-- In select camera setting, back facing camera. [CHAR LIMIT=14] -->
+    <string name="pref_camera_id_entry_back">బ్యాక్</string>
+    <!-- In select camera setting, front-facing camera. [CHAR LIMIT=14] -->
+    <string name="pref_camera_id_entry_front">ఫ్రంట్</string>
+
+    <!-- Settings screen, Record location dialog choices -->
+    <string name="pref_camera_recordlocation_entry_off">ఆఫ్ చేయబడింది</string>
+    <string name="pref_camera_recordlocation_entry_on">ఆన్ చేయబడింది</string>
+
+    <!-- The Video quality settings in preference [CHAR LIMIT=21] -->
+    <string name="pref_video_quality_title">వీడియో క్వాలిటీ</string>
+    <string name="pref_video_stabilization_title">వీడియో స్టెబిలైజేషన్</string>
+    <string name="pref_video_3dnr_title" translatable="false">Video 3DNR</string>
+    <!-- The Video timelapse settings in preference [CHAR LIMIT=21] -->
+    <string name="pref_video_timelapse_title">వీడియో టైంలాప్స్</string>
+    <string name="pref_video_autozoom_title">వీడియో ఆటో జూమ్</string>
+    <string name="video_mode">వీడియో</string>
+    <string name="guide_auto_zoom_title" translatable="false">Auto Zoom</string>
+    <string name="guide_auto_zoom_rules" translatable="false">During the recording, you can track a specified object by drawing a circle on the screen and double tap to stop it</string>
+    <string name="toast_auto_zoom_not_activated" translatable="false">Auto zoom is not activated</string>
+
+    <!-- Default flash mode setting. -->
+    <string name="pref_camera_flashmode_default" translatable="false">off</string>
+    <string name="pref_camera_screenflash_default" translatable="false">off</string>
+
+    <!-- Settings screen, Flash mode title -->
+    <string name="pref_camera_flashmode_title">ఫ్లాష్ మోడ్</string>
+    <string name="pref_screenflash_title">డిస్‌‌ప్లే ఫ్లాష్</string>
+
+    <!-- Settings screen, Flash mode dialog radio button choices -->
+    <string name="pref_camera_flashmode_entry_auto">ఆటో</string>
+    <string name="pref_camera_flashmode_entry_on">ఆన్ చేయబడింది</string>
+    <string name="pref_camera_flashmode_entry_off">ఆఫ్ చేయబడింది</string>
+    <string name="pref_camera_flashmode_entry_torch">టార్చ్</string>
+    <string name="pref_camera_flashmode_entry_led">లెడ్</string>
+
+    <!-- Default white balance setting. -->
+    <string name="pref_camera_whitebalance_default" translatable="false">auto</string>
+
+    <!-- Settings screen, white balance title -->
+    <string name="pref_camera_whitebalance_title">AWB</string>
+
+    <!-- Settings screen, White balance dialog radio button choices -->
+    <string name="pref_camera_whitebalance_entry_auto">ఆటో</string>
+    <string name="pref_camera_whitebalance_entry_incandescent" translatable="false">Incandescent</string>
+    <string name="pref_camera_whitebalance_entry_daylight" translatable="false">Daylight</string>
+    <string name="pref_camera_whitebalance_entry_fluorescent" translatable="false">Fluorescent</string>
+    <string name="pref_camera_whitebalance_entry_cloudy" translatable="false">Cloudy</string>
+    <string name="pref_camera_whitebalance_entry_value_incandescent" translatable="false">incandescent</string>
+    <string name="pref_camera_whitebalance_entry_value_daylight" translatable="false">daylight</string>
+    <string name="pref_camera_whitebalance_entry_value_cloudy_daylight" translatable="false">cloudy-daylight</string>
+
+    <string name="pref_hdr_default" translatable="false">on</string>
+    <string name="pref_motion_photo_default" translatable="false">off</string>
+    <!-- Default scene mode setting. -->
+    <string name="pref_camera_scenemode_default" translatable="false">auto</string>
+    <string name="pref_camera_scene_frame_default" translatable="false">1</string>
+    <string name="pref_camera_scene_frame_title" translatable="false">Scene frame</string>
+    <!-- Settings screen, Select Scene mode -->
+    <string name="pref_camera_scenemode_title" translatable="false">Scene mode</string>
+    <string name="pref_hdr_title">లైవ్ HDR</string>
+    <string name="pref_motion_photo_title">మోషన్</string>
+
+    <!-- Settings menu, scene mode choices -->
+    <string name="pref_camera_scenemode_entry_auto" translatable="false">Auto</string>
+    <string name="pref_camera_scenemode_entry_night" translatable="false">Night</string>
+    <!-- Scene mode optimized for taking images in the sunset. -->
+    <string name="pref_camera_scenemode_entry_sunset" translatable="false">Sunset</string>
+    <!-- Scene mode optimized for taking indoor low-lights pictures. [CHAR LIMIT=16] -->
+    <string name="pref_camera_scenemode_entry_party" translatable="false">Party</string>
+    <string name="pref_restore_detail">రీసెట్ సెట్టింగ్‌‌లు</string>
+
+    <!-- Exposure settings in preference -->
+    <string name="pref_exposure_title">EV</string>
+    <string name="pref_exposure_default" translatable="false">0</string>
+
+    <!-- Camera format string for new image files. Passed to java.text.SimpleDateFormat. -->
+    <string name="image_file_name_format" translatable="false">"'IMG'_yyyyMMdd_HHmmssSSS"</string>
+
+    <!-- Video Camera format string for new video files. Passed to java.text.SimpleDateFormat. -->
+    <string name="video_file_name_format" translatable="false">"'VID'_yyyyMMdd_HHmmssSSS"</string>
+
+    <!-- The text shown on the bottom-left corner of the screen to indicate that the saving is in process [CHAR LIMIT=13] -->
+    <string name="sugar_face_beauty_custom" translatable="false">Custom</string>
+    <string name="sugar_eyes_beauty" translatable="false">Eyes</string>
+    <string name="sugar_face_thin" translatable="false">Sharp</string>
+    <string name="sugar_skin_smooth" translatable="false">Smooth</string>
+
+    <string name="adjust_progress" translatable="false">+%s</string>
+    <string name="face_beauty_custom_skin_info" translatable="false">Skin</string>
+    <string name="face_beauty_custom_eyes_info" translatable="false">Eyes</string>
+    <string name="face_beauty_custom_thin_info" translatable="false">Thin</string>
+    <string name="face_beauty_custom_rosy_info" translatable="false">Rosy</string>
+    <string name="face_beauty_custom_whitening_info" translatable="false">Whitening</string>
+
+    <string name="portrait_custom_info" translatable="false">Blur</string>
+
+    <string name="pref_restore_default" translatable="false">on</string>
+    <string name="pref_camera_volume_key_title">వాల్యూమ్ కీలు</string>
+    <string name="pref_camera_volume_key_shoot">షూట్</string>
+    <string name="pref_camera_volume_key_zoom">జూమ్</string>
+    <string name="pref_camera_volume_key_volume">వాల్యూమ్</string>
+    <string name="recording_time" translatable="false">00:00:00</string>
+    <string name="timeLapse_recording_time" translatable="false">00:00 | 00:00</string>
+    <string name="photo_incapture">పిక్చర్ తీసుకోవడం</string>
+    <string name="pref_shutterspeed_default" translatable="false">0</string>
+    <string name="toast_location_started" translatable="false">location started</string>
+    <string name="toast_location_success" translatable="false">location success</string>
+    <string name="toast_device_denayed">పరికరం అందుబాటులో లేదు</string>
+    <string name="toast_device_connect_failed">పరికరం కనెక్ట్ అవడంలో విఫలమైంది</string>
+    <string name="toast_start_preview_failed">స్టార్ట్ ప్రివ్యూ విఫలమైంది</string>
+    <string name="toast_storage_full">స్టోరేజ్ నిండింది</string>
+    <string name="toast_low_power_disable_flash">తక్కువ బ్యాటరీ, ఫ్లాష్‌లైట్ తెరవడం సాధ్యపడదు.</string>
+    <string name="toast_video_size_max">వీడియో సైజ్ పరిమితి వరకు ఉంది.</string>
+    <string name="toast_continue_snap_max">నిరంతర షాట్‌ల సంఖ్య పరిమితి వరకు ఉంది.</string>
+    <string name="toast_video_error">ప్రస్తుత స్థితిలో వీడియో రికార్డ్ చేయబడదు</string>
+    <string name="toast_video_start_fail">మైక్ వాడుకలో ఉన్నందున రికార్డ్ చేయడం సాధ్యపడదు</string>
+    <string name="toast_video_init_size_error">వీడియో సైజ్ పరిమితికి తగ్గింది.</string>
+    <string name="toast_long_press_unavilable">నిరంతర షాట్‌ను సపోర్ట్ చేయదు.</string>
+    <string name="toast_continuous_shot_off">నిరంతర షాట్‌ అందుబాటులో లేదు.</string>
+    <string name="toast_thumbnail_empty">"ఫోటో లేదు"</string>
+
+    <string name="toast_auto_zoom" translatable="false">Auto zoom has been opened</string>
+    <string name="toast_video_stabilization">స్టెబిలైజర్ ప్రారంభించబడింది</string>
+
+    <string name="toast_steady_capture">క్యాప్చర్ చేస్తున్నప్పుడు ఫోన్‌ని కదిలించవద్దు.</string>
+
+    <string name="toast_dual_camera_opened" translatable="false">Dual Camera opened</string>
+    <string name="toast_dual_camera_closed" translatable="false">Dual Camera closed</string>
+
+    <!-- Pref -->
+
+    <string name="pref_video_time_lapse_frame_interval_x5" translatable="false">X5</string>
+    <string name="pref_video_time_lapse_frame_interval_x10" translatable="false">X10</string>
+    <string name="pref_video_time_lapse_frame_interval_x60" translatable="false">X60</string>
+    <string name="pref_video_time_lapse_frame_interval_x180" translatable="false">X180</string>
+    <string name="pref_video_time_lapse_frame_interval_x300" translatable="false">X300</string>
+
+
+    <string name="pref_video_quality_entry_medium" translatable="false">480P</string>
+    <string name="pref_video_quality_entry_high" translatable="false">720P</string>
+    <string name="pref_video_quality_entry_high_plus" translatable="false">720P+</string>
+    <string name="pref_video_quality_entry_fine" translatable="false">1080P</string>
+    <string name="pref_video_quality_entry_4k" translatable="false">4K</string>
+    <string name="pref_video_quality_entry_full">నిండింది</string>
+    <string name="pref_video_quality_entry_fine_X" translatable="false">1080P+</string>
+    <string name="pref_video_stabilization_entry_on">ఆన్ చేయబడింది</string>
+    <string name="pref_video_stabilization_entry_off">ఆఫ్ చేయబడింది</string>
+    <string name="pref_video_stabilization_entry_standard">ప్రామాణికం</string>
+    <string name="pref_video_stabilization_entry_super">సూపర్</string>
+    <string name="pref_video_3dnr_entry_on" translatable="false">On</string>
+    <string name="pref_video_3dnr_entry_off" translatable="false">Off</string>
+    <string name="pref_video_autozoom_entry_on" translatable="false">On</string>
+    <string name="pref_video_autozoom_entry_off" translatable="false">Off</string>
+    <string name="pref_camera_picturesize_title">పిక్చర్ సైజ్</string>
+    <string name="pref_camera_picturesize_entry_4608x3456" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_4656x3496" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_4160x3120" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_4096x3072" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_3968x2976" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_3672x2754" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_3600x2700" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_3264x2448" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_5120x3840" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_5184x3880" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_8000x6000" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_8192x6144" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_9216x6912" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_1280x720" translatable="false">16:9</string>
+    <string name="pref_camera_picturesize_entry_2560x1440" translatable="false">16:9</string>
+    <string name="pref_camera_picturesize_entry_3072x1728" translatable="false">16:9</string>
+    <string name="pref_camera_picturesize_entry_3328x1872" translatable="false">16:9</string>
+    <string name="pref_camera_picturesize_entry_3840x2160" translatable="false">16:9</string>
+    <string name="pref_camera_picturesize_entry_4096x2304" translatable="false">16:9</string>
+    <string name="pref_camera_picturesize_entry_4608x2592" translatable="false">16:9</string>
+    <string name="pref_camera_picturesize_entry_5120x2880" translatable="false">16:9</string>
+    <string name="pref_camera_picturesize_entry_5184x2916" translatable="false">16:9</string>
+    <string name="pref_camera_picturesize_entry_2304x1728" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_2328x1748" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_2592x1936" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_2592x1940" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_2592x1944" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_2048x1536" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_2304x1296" translatable="false">16:9</string>
+    <string name="pref_camera_picturesize_entry_2328x1304" translatable="false">16:9</string>
+    <string name="pref_camera_picturesize_entry_1920x1080" translatable="false">16:9</string>
+    <string name="pref_camera_picturesize_entry_1600x1200" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_1280x960" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_1024x768" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_640x480" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_720x720" translatable="false">1:1</string>
+    <string name="pref_camera_picturesize_entry_320x240" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_1080x1080" translatable="false">1:1</string>
+    <string name="pref_camera_picturesize_entry_1600x1600" translatable="false">1:1</string>
+    <string name="pref_camera_picturesize_entry_1748x1748" translatable="false">1:1</string>
+    <string name="pref_camera_picturesize_entry_1944x1944" translatable="false">1:1</string>
+    <string name="pref_camera_picturesize_entry_2976x2976" translatable="false">1:1</string>
+    <string name="pref_camera_picturesize_entry_2224x2224" translatable="false">1:1</string>
+    <string name="pref_camera_picturesize_entry_2992x2992" translatable="false">1:1</string>
+    <string name="pref_camera_picturesize_entry_3000x3000" translatable="false">1:1</string>
+    <string name="pref_camera_picturesize_entry_3016x3016" translatable="false">1:1</string>
+    <string name="pref_camera_picturesize_entry_3060x3060" translatable="false">1:1</string>
+    <string name="pref_camera_picturesize_entry_3072x3072" translatable="false">1:1</string>
+    <string name="pref_camera_picturesize_entry_3120x3120" translatable="false">1:1</string>
+    <string name="pref_camera_picturesize_entry_3472x3472" translatable="false">1:1</string>
+    <string name="pref_camera_picturesize_entry_3488x3488" translatable="false">1:1</string>
+
+    <string name="pref_camera_picturesize_entry_1440x720" translatable="false">18:9</string>
+    <string name="pref_camera_picturesize_entry_2016x1008" translatable="false">18:9</string>
+    <string name="pref_camera_picturesize_entry_2304x1152" translatable="false">18:9</string>
+    <string name="pref_camera_picturesize_entry_3168x1584" translatable="false">18:9</string>
+    <string name="pref_camera_picturesize_entry_3744x1872" translatable="false">18:9</string>
+    <string name="pref_camera_picturesize_entry_4032x2016" translatable="false">18:9</string>
+    <string name="pref_camera_picturesize_entry_4608x2304" translatable="false">18:9</string>
+    <string name="pref_camera_picturesize_entry_5184x2592" translatable="false">18:9</string>
+
+    <string name="pref_camera_picturesize_entry_4640x2198" translatable="false">19:9</string>
+    <string name="pref_camera_picturesize_entry_4598x2178" translatable="false">19:9</string>
+    <string name="pref_camera_picturesize_entry_4560x2160" translatable="false">19:9</string>
+    <string name="pref_camera_picturesize_entry_4180x1980" translatable="false">19:9</string>
+    <string name="pref_camera_picturesize_entry_4160x1970" translatable="false">19:9</string>
+    <string name="pref_camera_picturesize_entry_4032x1910" translatable="false">19:9</string>
+    <string name="pref_camera_picturesize_entry_3592x1872" translatable="false">19:9</string>
+    <string name="pref_camera_picturesize_entry_3040x1440" translatable="false">19:9</string>
+    <string name="pref_camera_picturesize_entry_2592x1228" translatable="false">19:9</string>
+    <string name="pref_camera_picturesize_entry_2432x1152" translatable="false">19:9</string>
+    <string name="pref_camera_picturesize_entry_2280x1080" translatable="false">19:9</string>
+    <string name="pref_camera_picturesize_entry_1520x720" translatable="false">19:9</string>
+
+    <string name="pref_camera_picturesize_entry_3952x1872" translatable="false">19.5:9</string>
+    <string name="pref_camera_picturesize_entry_4056x1872" translatable="false">19.5:9</string>
+    <string name="pref_camera_picturesize_entry_4032x1856" translatable="false">19.5:9</string>
+    <string name="pref_camera_picturesize_entry_4208x1936" translatable="false">19.5:9</string>
+    <string name="pref_camera_picturesize_entry_4608x2144" translatable="false">19.5:9</string>
+    <string name="pref_camera_picturesize_entry_4608x2128" translatable="false">19.5:9</string>
+    <string name="pref_camera_picturesize_entry_3744x1728" translatable="false">19.5:9</string>
+    <string name="pref_camera_picturesize_entry_3120x1440" translatable="false">19.5:9</string>
+    <string name="pref_camera_picturesize_entry_2496x1152" translatable="false">19.5:9</string>
+
+
+    <string name="pref_camera_picturesize_entry_4624x2080" translatable="false">20:9</string>
+    <string name="pref_camera_picturesize_entry_4160x1872" translatable="false">20:9</string>
+    <string name="pref_camera_picturesize_entry_4096x1848" translatable="false">20:9</string>
+    <string name="pref_camera_picturesize_entry_4080x1836" translatable="false">20:9</string>
+    <string name="pref_camera_picturesize_entry_3200x1440" translatable="false">20:9</string>
+    <string name="pref_camera_picturesize_entry_2560x1152" translatable="false">20:9</string>
+    <string name="pref_camera_picturesize_entry_2400x1080" translatable="false">20:9</string>
+    <string name="pref_camera_picturesize_entry_2328x1048" translatable="false">20:9</string>
+
+    <string name="pref_camera_picturesize_entry_3264x1440" translatable="false">20.5:9</string>
+    <string name="pref_camera_picturesize_entry_1632x720" translatable="false">20.5:9</string>
+
+    <string name="pref_camera_picturesize_entry_1x1" translatable="false">1:1</string>
+    <string name="pref_camera_picturesize_entry_16x9" translatable="false">16:9</string>
+    <string name="pref_camera_picturesize_entry_4x3" translatable="false">4:3</string>
+
+    <string name="pref_camera_picture_aspect_ratio_title">పిక్చర్ యాస్పెక్ట్ రేషియో</string>
+    <string name="pref_camera_picture_aspect_ratio_entry_1x1" translatable="false">1:1</string>
+    <string name="pref_camera_picture_aspect_ratio_entry_16x9" translatable="false">16:9</string>
+    <string name="pref_camera_picture_aspect_ratio_entry_18x9" translatable="false">18:9</string>
+    <string name="pref_camera_picture_aspect_ratio_entry_19x9" translatable="false">19:9</string>
+    <string name="pref_camera_picture_aspect_ratio_entry_19_5x9" translatable="false">19.5:9</string>
+    <string name="pref_camera_picture_aspect_ratio_entry_20x9" translatable="false">20:9</string>
+    <string name="pref_camera_picture_aspect_ratio_entry_20_5x9" translatable="false">20.5:9</string>
+    <string name="pref_camera_picture_aspect_ratio_entry_4x3" translatable="false">4:3</string>
+
+    <string name="pref_camera_picturesize_entry_16_9">ఫుల్ స్క్రీన్</string>
+    <string name="pref_camera_picturesize_entry_4_3">సాధారణం</string>
+    <string name="pref_camera_picturesize_entry_1_1">రెక్టాంగిల్</string>
+    <!-- ISO -->
+    <string name="pref_camera_iso_default" translatable="false">auto</string>
+    <string name="pref_camera_iso_title" translatable="false">ISO</string>
+    <string name="manual_focus_title" translatable="false">M focus</string>
+    <!-- <string name="pref_camera_edge_default" translatable="false">middle</string> -->
+    <string name="pref_camera_edge_title" translatable="false">Sharpness</string>
+    <string name="pref_camera_hue_default" translatable="false">middle</string>
+    <string name="pref_camera_hue_title" translatable="false">Hue</string>
+
+    <!-- <string name="pref_camera_saturation_default" translatable="false">middle</string> -->
+    <string name="pref_camera_saturation_title">సాచ్యురేషన్</string>
+    <string name="pref_camera_brightness_default" translatable="false">middle</string>
+    <string name="pref_camera_brightness_title">బ్రైట్‌‌నెస్</string>
+    <string name="pref_camera_contrast_default" translatable="false">middle</string>
+    <string name="pref_camera_contrast_title">కాంట్రాస్ట్</string>
+    <string name="pref_camera_dip_entry_low" translatable="false">Low</string>
+    <string name="pref_camera_dip_entry_middle" translatable="false">Medium</string>
+    <string name="pref_camera_dip_entry_high" translatable="false">High</string>
+
+    <!-- color effect -->
+    <string name="pref_camera_coloreffect_default" translatable="false">none</string>
+
+    <!-- Settings screen, Select Color effect title -->
+    <string name="pref_camera_coloreffect_title" translatable="false">Color effect</string>
+
+    <!-- Settings screen, Color effect dialog radio button choices -->
+    <string name="pref_camera_coloreffect_entry_none" translatable="false">None</string>
+    <string name="pref_camera_coloreffect_entry_mono" translatable="false">Mono</string>
+    <string name="pref_camera_coloreffect_entry_sepia" translatable="false">Sepia</string>
+    <string name="pref_camera_coloreffect_entry_negative" translatable="false">Negative</string>
+    <!-- Color effect that overexposes and reverses some of the tones. -->
+    <string name="pref_camera_coloreffect_entry_solarize" translatable="false">Solarize</string>
+    <string name="pref_camera_coloreffect_entry_posterize" translatable="false">Posterize</string>
+    <string name="pref_camera_coloreffect_entry_whiteboard" translatable="false">Whiteboard</string>
+    <string name="pref_camera_coloreffect_entry_blackboard" translatable="false">Blackboard</string>
+    <string name="pref_camera_coloreffect_entry_aqua" translatable="false">Aqua</string>
+    <string name="pref_camera_coloreffect_entry_pastel" translatable="false">Pastel</string>
+    <string name="pref_camera_coloreffect_entry_mosaic" translatable="false">Mosaic</string>
+    <string name="pref_camera_coloreffect_entry_redtint" translatable="false">Red tint</string>
+    <string name="pref_camera_coloreffect_entry_bluetint" translatable="false">Blue tint</string>
+    <string name="pref_camera_coloreffect_entry_greentint" translatable="false">Green tint</string>
+    <string name="pref_camera_coloreffect_entry_sepiablue" translatable="false">Sepia Blue</string>
+    <string name="pref_camera_coloreffect_entry_sepiagreen" translatable="false">Sepia Green</string>
+
+    <!-- self timer -->
+    <string name="pref_camera_selftimer_default" translatable="false">0</string>
+    <string name="pref_camera_selftimer_title">సెల్ఫ్ టైమర్</string>
+    <string name="pref_camera_selftimer_entry_off">ఆఫ్ చేయబడింది</string>
+    <string name="pref_camera_selftimer_entry_3">3 సెకన్లు</string>
+    <string name="pref_camera_selftimer_entry_10">10 సెకన్లు</string>
+
+    <!-- anti-flicker -->
+    <!-- string name="pref_camera_antibanding_default" translatable="false">auto</string -->
+    <string name="pref_camera_antibanding_title">యాంటీ-ఫ్లిక్కర్</string>
+    <string name="pref_camera_antibanding_entry_auto">ఆటో</string>
+    <string name="pref_camera_antibanding_entry_50hz">50Hz</string>
+    <string name="pref_camera_antibanding_entry_60hz">60Hz</string>
+
+    <!-- Scene mode Mediatek plus -->
+    <!-- Scene mode that takes an image with as little noise as possible so details of the subject are maintained. -->
+    <string name="pref_camera_scenemode_entry_portrait" translatable="false">Portrait</string>
+    <!-- Scene mode that takes an image of a landscape assuming all subjects are relatively far from the phone. -->
+    <string name="pref_camera_scenemode_entry_landscape" translatable="false">Landscape</string>
+    <!-- Scene mode that takes night shots with long exposure and flash to illuminate the subject while still capturing darker detail in the background. -->
+    <string name="pref_camera_scenemode_entry_night_portrait" translatable="false">Night portrait</string>
+    <!-- Scene mode to be used in a stage show. -->
+    <string name="pref_camera_scenemode_entry_theatre" translatable="false">Theatre</string>
+    <!-- Scene mode optimized for taking images on the beach. -->
+    <string name="pref_camera_scenemode_entry_beach" translatable="false">Beach</string>
+    <!-- Scene mode optimized for taking images in the snow. -->
+    <string name="pref_camera_scenemode_entry_snow" translatable="false">Snow</string>
+    <!-- Scene mode for taking a photo as sharp as possible. -->
+    <string name="pref_camera_scenemode_entry_steadyphoto" translatable="false">Steady photo</string>
+    <!-- Scene mode optimized for taking images of fireworks. -->
+    <string name="pref_camera_scenemode_entry_fireworks" translatable="false">Fireworks</string>
+    <string name="pref_camera_scenemode_entry_sports" translatable="false">Sports</string>
+    <string name="pref_camera_scenemode_entry_candlelight" translatable="false">Candle light</string>
+    <!-- for CMCC feature -->
+    <string name="pref_camera_scenemode_entry_normal" translatable="false">Normal</string>
+
+    <!-- Video Camera -->
+    <!-- EIS setting -->
+    <string name="pref_camera_eis_title">EIS</string>
+    <string name="pref_camera_eis_default" translatable="false">off</string>
+    <string name="pref_camera_eis_on">ఆన్ చేయబడింది</string>
+    <string name="pref_camera_eis_off">ఆఫ్ చేయబడింది</string>
+
+    <!-- microphone switch -->
+    <!-- string name="pref_camera_recordaudio_default" translatable="false">off</string -->
+    <string name="pref_camera_recordaudio_title">వీడియో మ్యూట్</string>
+    <string name="pref_camera_recordaudio_entry_off">ఆఫ్ చేయబడింది</string>
+    <string name="pref_camera_recordaudio_entry_on">ఆన్ చేయబడింది</string>
+
+
+    <!-- ZSD songyutao -->
+    <string name="pref_camera_zsd_title" translatable="false">ZSD</string>
+    <string name="pref_chroma_flash_title" translatable="false">Smart flash</string>
+
+    <!-- continuous shot speed -->
+    <string name="pref_camera_continuous_number_title">నిరంతర షాట్</string>
+
+
+    <string name="pref_voice_capture">వాయిస్ క్యాప్చర్</string>
+    <string name="pref_voice_default" translatable="false">off</string>
+    <string name="pref_voice_entry_off">ఆఫ్ చేయబడింది</string>
+    <string name="pref_voice_entry_on">ఆన్ చేయబడింది</string>
+
+    <!-- Face Detection properties  songyutao set FD dafault on -->
+    <string name="pref_camera_face_detect_title">ఫేస్ డిటెక్షన్</string>
+    <string name="pref_camera_face_detect_default" translatable="false">on</string>
+    <string name="pref_camera_face_detect_entry_off">ఆఫ్ చేయబడింది</string>
+    <string name="pref_camera_face_detect_entry_on">ఆన్ చేయబడింది</string>
+    <string name="pref_camera_record_location_title">లొకేషన్ సేవ్ చేయండి</string>
+    <string name="pref_camera_thumb_title">కెమెరా రోల్</string>
+
+    <string name="pref_camera_pic_frame_entry_off">ఆఫ్ చేయబడింది</string>
+    <string name="pref_camera_pic_frame_entry_on">ఆన్ చేయబడింది</string>
+    <string name="pref_shutter_touch_title">ఫొటో తియ్యడానికి నొక్కండి</string>
+    <string name="pref_shutter_smile_default" translatable="false">off</string>
+    <string name="pref_shutter_smile_title">స్మైల్ షాట్</string>
+    <string name="pref_shutter_hand_default" translatable="false">off</string>
+    <string name="pref_shutter_hand_title">హ్యాండ్ షాట్</string>
+    <string name="pref_shutter_watermark_title">వాటర్ మార్క్</string>
+    <string name="pref_shutter_watermark_default" translatable="false">off</string>
+    <string name="pref_camera_watermark_entry_off">ఆఫ్ చేయబడింది</string>
+    <string name="pref_camera_watermark_entry_on">ఆన్ చేయబడింది</string>
+    <string name="pref_camera_asd_title">ASD</string>
+    <string name="pref_camera_asd_entry_off">ఆఫ్ చేయబడింది</string>
+    <string name="pref_camera_asd_entry_on">ఆన్ చేయబడింది</string>
+
+    <string name="pref_camera_shutter_sound_title">షట్టర్ సౌండ్</string>
+    <string name="pref_camera_shutter_sound_entry_off">ఆఫ్ చేయబడింది</string>
+    <string name="pref_camera_shutter_sound_entry_on">ఆన్ చేయబడింది</string>
+    <string name="pref_camera_pic_level_title">గ్రేడియంటర్</string>
+    <string name="pref_camera_pic_level_entry_off">ఆఫ్ చేయబడింది</string>
+    <string name="pref_camera_pic_level_entry_on">ఆన్ చేయబడింది</string>
+    <string name="pref_continuous_onoff_default" translatable="false">on</string>
+    <string name="pref_capture_mirror_title">మిర్రర్డ్ ఫ్రంట్ కెమెరా</string>
+    <string name="pref_camera_save_pos_title">స్టోరేజ్</string>
+    <string name="pref_camera_save_pos_entry_t">SD కార్డ్</string>
+    <string name="pref_camera_save_pos_entry_p">ఫోన్</string>
+    <string name="pref_camera_save_pos_entry_u">usb otg</string>
+    <string name="pref_video_record_red_light_entry_off">ఆఫ్ చేయబడింది</string>
+    <string name="pref_video_record_red_light_entry_on">ఆన్ చేయబడింది</string>
+
+    <string name="pref_camera_mesh_line_title">గ్రిడ్</string>
+    <string name="pref_camera_high_picture_size_title">హై పిక్చర్ సైజ్</string>
+
+    <string name="pref_pic_struct_title">ఫ్రేమింగ్ లైన్స్</string>
+    <string name="pref_video_record_red_light_key_title">రికార్డింగ్ లైట్ ఇండికేటర్</string>
+    <string name="pref_pic_struct_default" translatable="false">off</string>
+    <string name="pref_pic_struct_entry_off">ఆఫ్ చేయబడింది</string>
+    <string name="pref_pic_struct_entry_enneahedral">గ్రిడ్ లైన్స్</string>
+    <string name="manual">నిపుణుడు</string>
+    <string name="photo_mode">ఫోటో</string>
+    <string name="panorama_mode">PANO</string>
+    <string name="beauty_mode">ఫేస్ బ్యూటీ</string>
+    <string name="radio_switch_to_hdr">HDR</string>
+
+    <string name="radio_switch_to_facebeauty_custom">ఫేస్ బ్యూటీ</string>
+    <!-- application infomation -->
+    <string name="app_name">కెమెరా</string>
+    <string name="pref_camera_selftimer_entry_5">5 సెకన్లు</string>
+    <string name="night_mode">రాత్రి</string>
+    <string name="capture_keep_steady_hint">phone (1) స్థిరంగా పట్టుకోండి</string>
+    <string name="radio_switch_to_beautyvideo">బ్యూటీ వీడియో</string>
+    <string name="timelapse_mode">టైం-ల్యాప్స్</string>
+
+    <!-- add by zzp for pano-->
+    <string name="panorama_move_phone">దయచేసి Phone(1)ని సెంటర్ లైన్‌‌లో స్థిరంగా కదిలించండి</string>
+    <string name="panorama_night_move_phone">షట్టర్‌ను నొక్కి, సర్కిల్‌‌ని డాట్‌తో కలపండి, రాత్రిపూట దృశ్యాలను చిత్రీకరించడానికి సూపర్ పనోరమా మోడ్ మరింత అనుకూలంగా ఉంటుంది</string>
+    <string name="panorama_move_keep_line">యారోని లైన్‌పై ఉంచండి</string>
+    <string name="panorama_night_capture_move_toast">సర్కిల్‌ని డాట్‌తో కలపడానికి phone (1)ని కదిలించండి</string>
+    <string name="panorama_arcsoft_guide_shutter">షట్టర్ బటన్‌ను నొక్కి, మీ ఫోన్‌ని \n ఒకవైపుకు నెమ్మదిగా కదిలించండి</string>
+    <string name="panorama_arcsoft_warn_slowly">దయచేసి మీ ఫోన్‌ని నెమ్మదిగా కదిలించండి</string>
+    <string name="panorama_arcsoft_warn_back">హెచ్చరిక వెనక్కి కదపండి</string>
+
+    <string name="panorama_arcsoft_warn_up">పైకి కదపండి</string>
+    <string name="panorama_arcsoft_warn_down">కిందకి కదపండి</string>
+    <string name="panorama_arcsoft_warn_left">ఎడమవైపుకి కదపండి</string>
+    <string name="panorama_arcsoft_warn_right">కుడివైపుకి కదపండి</string>
+    <string name="panorama_arcsoft_switch_capture_direction_guide">క్యాప్చర్ దిశలను మార్చడానికి యారోని నొక్కండి</string>
+    <string name="panorama_capture_guide">రిఫరెన్స్ లైన్‌‌తో యారోని కలపండి</string>
+    <string name="panorama_toggle_mode_standard">ప్రామాణికం</string>
+    <string name="panorama_toggle_mode_super">సూపర్</string>
+    <!--time line 20141227-->
+    <string name="radio_switch_to_pip">DualView</string>
+
+    <string name="setting_title">కెమెరా సెట్టింగ్‌‌లు</string>
+    <string name="expert_setting_title">నిపుణుల మోడ్ ఫీచర్లు</string>
+    <string name="hold_shutter_setting_title">షట్టర్‌‌ని నొక్కి పట్టుకోండి</string>
+    <string name="video_encode_title">వీడియో ఎన్‌కోడింగ్</string>
+    <string name="group_general_title">సాధారణం</string>
+    <string name="group_photo_title">ఫోటో</string>
+    <string name="group_video_title">వీడియో</string>
+    <string name="mode_title">మోడ్‌లు</string>
+    <string name="setting_top_full_hint">మరిన్ని అంశాలను జోడించడం సాధ్యపడదు.</string>
+
+    <string name="panorama_arcsoft_cannot_use_guide">దయచేసి పోర్ట్రెయిట్ మోడ్‌లో పనోరమాను ఉపయోగించండి</string>
+
+    <string name="radio_switch_to_refocus">స్మార్ట్ ఫోకస్</string>
+    <string name="radio_switch_to_chromaflash">స్మార్ట్ ఫ్లాష్</string>
+    <string name="radio_switch_to_clearsight">ClearSight</string>
+
+    <string name="setting_guide_message">షార్ట్‌కట్ బార్‌కి యాడ్‌‌పై క్లిక్ చేయండి లేదా \n షార్ట్‌‌కట్‌‌ని యాడ్ చేయడానికి డ్రాగ్ చేయండి</string>
+    <string name="skip_setting_guide">నాకు అది అర్థమైంది</string>
+
+    <string name="permission_title">యాక్సెస్‌‌ని ఆమోదించండి</string>
+    <string name="enable_permission_procedure">మీరు సెట్టింగ్‌‌లు &gt; యాప్‌లు &gt; %1$s &gt; పర్మిషన్స్‌‌లో పర్మిషన్స్‌‌ని మార్చవచ్చు</string>
+    <string name="toast_storage_full_sdcard_to_internal">SD కార్డ్ స్టోరేజ్ నిండింది, ఇంటర్నల్ స్టోరేజ్‌‌కి సేవ్ చేయండి</string>
+    <string name="toast_storage_damaged_sdcard_to_internal">ఫైల్‌ను SD కార్డ్‌లో సేవ్ చేయడం విఫలమైంది, ఇంటర్నల్ స్టోరేజ్‌‌కి సేవ్ చేయండి</string>
+    <string name="toast_storage_full_internal_to_sdcard">ఇంటర్నల్ స్టోరేజ్‌‌ నిండింది, SD కార్డ్ స్టోరేజ్‌‌కి సేవ్ చేయండి</string>
+    <string name="toast_storage_full_clean_up_to_free_space">ఫోన్ స్టోరేజ్ స్పేస్ నిండింది. స్పేస్‌‌ని ఖాళీ చేయడానికి దయచేసి క్లీన్ చేయండి</string>
+    <string name="secure_camera_can_not_request_permission">దయచేసి పర్మిషన్ అభ్యర్థనను అంగీకరించడానికి/తిరస్కరించడానికి ముందుగా మీ ఫోన్‌ని అన్‌లాక్ చేయండి</string>
+
+    <string name="shutcauts_backcamera">ఫోటో తీసుకోండి</string>
+
+    <string name="pref_camera_status_detect_title">స్టేటస్ డిటెక్ట్</string>
+
+    <string name="pref_camera_raw_file_title">RAW ఫైల్</string>
+    <string name="pref_camera_filter_title">ఫిల్టర్</string>
+    <string name="pref_dual_camera_title">డ్యూయల్ కెమెరా</string>
+    <string name="pref_dual_camera_default">ఆఫ్ చేయబడింది</string>
+    <string name="portrait_mode">పోర్ట్రెయిట్</string>
+
+    <string name="pref_camera_pref_entry_auto">ఆటో</string>
+
+    <string name="confirm_mode_tip">%1$s మోడ్‌కి మారడానికి నొక్కండి</string>
+
+    <string name="focal_switch_scale_tip" translatable="false">Tap on the icon to open Telephoto mode</string>
+    <string name="front_wide_switch_tip" translatable="false">Tap on the icon to activate group selfie</string>
+    <string name="low_memory_limit" translatable="false">Your system is in low memory, some features limit capture size</string>
+    <string name="portrait_background_blur">పోర్ట్రెయిట్</string>
+    <string name="portrait_of_face_beauty">ఫేస్ బ్యూటీ</string>
+
+    <string name="asd_result_hdr">HDR యాక్టివేట్ అయింది</string>
+    <string name="toast_face_undetected_at_portrait" translatable="false">No face detected within 2 meters</string>
+    <string name="toast_face_undetected_at_sticker" translatable="false">No face detected</string>
+    <string name="toast_view_pic_vivid_at_superpixel" translatable="false">Capture more details on picture with Super Pixel</string>
+    <string name="front_face_detected_first_tip" translatable="false">Look at the lens for better selfies</string>
+
+    <string name="u_screen_selfie_count_down_cancel">రద్దు చేయండి</string>
+    <string name="video_beauty_switch_on">ఆన్ చేయబడింది</string>
+    <string name="video_beauty_switch_off">ఆఫ్ చేయబడింది</string>
+
+    <string name="image_processing_toast">ఇమేజ్ ప్రాసెసింగ్</string>
+    <string name="short_video_not_found">ఈ వీడియో కనుగొనబడలేదు</string>
+
+    <!-- for Android O's CTS-->
+    <string name="camera_review_done_desc">పూర్తయింది</string>
+    <string name="camera_review_retake_desc">మరలా తీయండి</string>
+    <string name="bokeh_mode">పోర్ట్రెయిట్</string>
+    <string name="toast_dual_camera_bokeh">ఉత్తమ ఫలితాల కోసం సబ్జెక్టులను 2 మీటర్లలోపు షూట్ చేయండి</string>
+
+    <!-- for qcom slowmotion-->
+    <string name="pref_camera_hfr_entry_2x">X2</string>
+    <string name="pref_camera_hfr_entry_3x">X3</string>
+    <string name="pref_camera_hfr_entry_4x">X4</string>
+
+    <string name="pref_camera_hfr_value_2x" translatable="false">hfr60</string>
+    <string name="pref_camera_hfr_value_3x" translatable="false">hfr90</string>
+    <string name="pref_camera_hfr_value_4x" translatable="false">hfr120</string>
+    <string name="pref_camera_hsr_value_off" translatable="false">off</string>
+    <string name="pref_camera_hsr_value_2x" translatable="false">hsr60</string>
+    <string name="pref_camera_hsr_entry_2x" translatable="false">X2</string>
+    <string name="pref_camera_hsr_entry_off" translatable="false">Off</string>
+
+    <string name="pref_camera_sticker_title">స్టిక్కర్</string>
+    <string name="pref_gender_estimate_title">లింగం అంచనా</string>
+    <string name="pref_gender_estimate_entry_on">ఆన్ చేయబడింది</string>
+    <string name="pref_gender_estimate_entry_off">ఆఫ్ చేయబడింది</string>
+
+    <string name="toast_motion_photo_opened">మోషన్ ఫోటో ఆన్ చేయబడింది</string>
+
+    <!--add for ai scene detection -->
+    <string name="ai_scene_tips_food">ఆహారం</string>
+    <string name="ai_scene_tips_portrait">పోర్ట్రెయిట్</string>
+    <string name="ai_scene_tips_foliage">మొక్క</string>
+    <string name="ai_scene_tips_sky">నీలాకాశం</string>
+    <string name="ai_scene_tips_text">టెక్స్ట్</string>
+
+    <!-- add for faceplus asd detection -->
+    <string name="faceplus_asd_tips_face">పోర్ట్రెయిట్</string>
+    <string name="faceplus_asd_tips_food">ఆహారం</string>
+    <string name="faceplus_asd_tips_fruits">పండు</string>
+    <string name="faceplus_asd_tips_flower">పువ్వు</string>
+    <string name="faceplus_asd_tips_flowersea">పువ్వు సీ</string>
+    <string name="faceplus_asd_tips_sandbeach">ఇసుక</string>
+    <string name="faceplus_asd_tips_snow">మంచు</string>
+    <string name="faceplus_asd_tips_bluesky">ఆకాశం</string>
+    <string name="faceplus_asd_tips_night">రాత్రి</string>
+    <string name="faceplus_asd_tips_sunrise">సూర్యోదయం మరియు సూర్యాస్తమయం</string>
+    <string name="faceplus_asd_tips_qr">QR కోడ్</string>
+    <string name="faceplus_asd_tips_businesscard">పేరు కార్డ్</string>
+    <string name="faceplus_asd_tips_whiteboard">వైట్‌‌బోర్డ్</string>
+    <string name="faceplus_asd_tips_idcard">ID</string>
+    <string name="faceplus_asd_tips_bankcard">క్రెడిట్ కార్డ్</string>
+    <string name="faceplus_asd_tips_cat">పిల్లి</string>
+    <string name="faceplus_asd_tips_dog">కుక్క</string>
+    <string name="faceplus_asd_tips_meadow">మైదానం</string>
+    <string name="faceplus_asd_tips_plants">మొక్క</string>
+
+    <string name="video_recording">వీడియోను రికార్డ్ చేయండి</string>
+    <string name="motion_photo">మోషన్ ఫోటో</string>
+    <string name="switch_to_wide_lens_toast" translatable="false">Opening wide angle lens</string>
+    <string name="time_lapse_not_save"> మేము మీ టైంలాప్స్‌ని సేవ్ చేయలేకపోతున్నాము. మీ వీడియో కనీసం %1$d సెకన్లు ఉండాలి</string>
+    <string name="pref_shutter_speed_title">షట్టర్ స్పీడ్</string>
+    <string name="radio_switch_to_dual_bokeh_for_custom">బొకే</string>
+    <string name="toast_video_recording_in_call_state">కాల్ సమయంలో సౌండ్ రికార్డ్ చేయడం సాధ్యపడదు</string>
+    <string name="pref_camera_ai_title">సీన్ డిటెక్షన్</string>
+
+    <string name="toast_video_3dnr_on">వీడియో రాత్రి వ్యూ యాక్టివేట్ చేయబడింది</string>
+    <string name="toast_storage_unavailable">SD కార్డ్ అందుబాటులో లేదు</string>
+    <string name="toast_landscape_open_wide_tips">మరింత ల్యాండ్‌స్కేప్ లేదా స్నేహితులను తీయడానికి అల్ట్రా వైడ్ యాంగిల్‌కి మారండి.</string>
+
+    <string name="enable_sd_permission_title">కెమెరాకు SD కార్డ్ యాక్సెస్ అవసరం</string>
+    <string name="enable_sd_permission_content">మీ సెట్టింగ్‌‌లని చూడండి మరియు \"SD కార్డ్\"లో \"DCIM\"కి యాక్సెస్‌‌ని అనుమతించండి</string>
+    <string name="macro_mode">MACRO</string>
+    <string name="super_macro_tip">ఉత్తమ ఫలితాల కోసం సబ్జెక్టులను 4cm వద్ద షూట్ చేయండి</string>
+    <string name="bokeh_offfline_processing" translatable="false">Offline bokeh data processing……</string>
+    <string name="pref_google_lens" translatable="false">Google Lens</string>
+    <string name="never">ఎప్పుడూ లేదు</string>
+    <string name="toast_high_temp_disable_flash">ఉష్ణోగ్రత చాలా ఎక్కువగా ఉంది, ఫ్లాష్‌లైట్ తెరవడం సాధ్యం కాదు. </string>
+    <string name="toast_high_temp_shutdown_camera">ఉష్ణోగ్రత చాలా ఎక్కువగా ఉంది, కెమెరా 5 సెకన్ల తర్వాత ఆపివేయబడుతుంది. </string>
+    <string name="provider_authority" translatable="false">com.nothing.camera.provider.SpecialTypeProvider</string>
+
+
+    <string name="bokeh_type_name">బొకే</string>
+    <string name="bokeh_type_description">ఈ ప్రత్యేక రకం బొకే ప్రభావాన్ని సవరించడానికి మిమ్మల్ని అనుమతిస్తుంది.</string>
+    <string name="hdr_type_name">ఫోటో HDR</string>
+    <string name="hdr_type_description">బ్యాక్‌లిట్ వాతావరణంలో మరిన్ని వివరాల సంరక్షణ</string>
+    <string name="ai_type_name">AI</string>
+    <string name="ai_type_description">AI సీన్ డిటెక్షన్‌‌ని ఉపయోగించి ఫోటోకు సరైన పారామితులను ఆటోమ్యాటిక్‌‌గా మార్చండి</string>
+    <string name="timelapse_type_name">టైం ల్యాప్స్</string>
+    <string name="timelapse_type_description">తక్కువ సమయంలో ఎక్కువ వేగంతో పెద్ద వీడియోను చూపండి</string>
+    <string name="don_t_cover_the_lens">లెన్స్‌ను కవర్ చేయవద్దు</string>
+    <string name="pref_video_time_lapse_frame_interval_title">టైం ఇంటర్వెల్</string>
+
+    <string name="toast_qr_code_detected">QR కోడ్ కనుగొనబడింది.\nసందర్శించడానికి నొక్కండి</string>
+    <string name="toast_qr_code_detected_type_esim">eSIM ప్రొఫైల్ కనుగొనబడింది.\neSIMని యాక్టివేట్ చేయడానికి నొక్కండి</string>
+    <string name="toast_qr_code_detected_type_url">QR కోడ్ కనుగొనబడింది.\nలింక్‌ని సందర్శించడానికి నొక్కండి</string>
+    <string name="toast_qr_code_detected_type_string">QR కోడ్ కనుగొనబడింది.\nGoogleలో శోధించడానికి నొక్కండి</string>
+    <string name="toast_bar_code_detected_type_string">బార్‌‌కోడ్ కనుగొనబడింది.\nలింక్‌ని సందర్శించడానికి నొక్కండి</string>
+    <string name="toast_bar_code_detected_type_number">ప్రొడక్ట్ బార్‌‌కోడ్ కనుగొనబడింది.\nప్రొడక్ట్‌‌ని శోధించడానికి నొక్కండి</string>
+    <string name="turn_off_qr_code">QR కోడ్‌‌ని ఆఫ్ చేయండి</string>
+
+    <string name="pref_video_quality_entry_fine_text">ఫైన్</string>
+    <string name="pref_video_quality_entry_high_text">ఎక్కువ</string>
+
+    <string name="pref_exposure_metering_title">ExposureMetering</string>
+    <string name="pref_exposure_metering_entry_frame_average">ఫ్రేమ్ సగటు</string>
+    <string name="pref_exposure_metering_entry_center_weighted">సెంటర్ వెయిటెడ్</string>
+    <string name="pref_exposure_metering_entry_spot_metering">స్పాట్ మీటరింగ్</string>
+    <string name="toast_disable_torch">ఫ్లాష్ వేడెక్కకుండా నిరోధించడానికి టార్చ్‌ను నిలిపివేయండి</string>
+    <string name="high_temperature_title_hint">అధిక ఉష్ణోగ్రత</string>
+    <string name="high_temperature_confirm_text">సరే</string>
+    <string name="high_temperature_exit_text">ఇప్పుడు మూసివేయి</string>
+    <string name="high_temperature_forbid_flash">ఫ్లాష్ అందుబాటులో లేదు. పునఃప్రారంభించే ముందు phone (1) కూల్ చేయండి.</string>
+    <string name="high_temperature_forbid_video_recording">రికార్డింగ్ ఆపివేయండి. పునఃప్రారంభించే ముందు phone (1) కూల్ చేయండి.</string>
+    <string name="high_temperature_close_camera">కౌంట్‌డౌన్ చివరన కెమెరా మూసివేయబడుతుంది.</string>
+
+    <string name="google_location_dialog_title" translatable="false">Add location information to photos you take with your camera app?</string>
+    <string name="google_location_dialog_message" translatable="false">This means your photos will contain information about where they were taken.</string>
+    <string name="google_location_dialog_message_lear_more" translatable="false"><a href='https://support.google.com/photos/answer/9921876'>Learn more</a></string>
+    <string name="google_location_dialog_positive" translatable="false">Enable Camera Location</string>
+
+    <string name="pref_video_fps">FPS</string>
+    <string name="pref_video_encoder">వీడియో ఎన్‌కోడింగ్</string>
+    <string name="more">మరిన్ని</string>
+    <string name="panorama_night_mode">PanoNight</string>
+    <string name="long_press_shutter_button">షట్టర్‌‌ని నొక్కి పట్టుకోండి</string>
+    <string name="continuous_shot_entry">బర్స్ట్ షాట్</string>
+    <string name="continuous_shot_value" translatable="false">continuous_shot</string>
+    <string name="video_recording_value" translatable="false">video_recording</string>
+    <string name="pref_camera_wb_temp_title">కలర్ టెంపరేచర్</string>
+    <string name="pref_camera_entry_value_off" translatable="false">off</string>
+    <string name="pref_camera_entry_value_on" translatable="false">on</string>
+    <string name="pref_camera_entry_off">ఆఫ్ చేయబడింది</string>
+    <string name="pref_camera_entry_on">ఆన్ చేయబడింది</string>
+    <string name="pref_camera_whitebalance_entry_custom" >కస్టమ్</string>
+    <string name="pref_video_night_title">రాత్రి వీడియో</string>
+    <string name="video_ois_title">OIS</string>
+    <string name="pref_photo_mfnr_title">mfnr</string>
+    <string name="remosaic_mode">రెమోజాయిక్</string>
+    <string name="test" translatable="false">Test</string>
+
+    <string name="pref_high_definition_title">హై డెఫినిషన్</string>
+    <string name="pref_pro_raw_title">రా క్యాప్చర్</string>
+    <string name="beauty_video_mode">బ్యూటీ వీడియో</string>
+    <string name="perf_summary_record_location">ఫోటో మరియు వీడియో వివరాలలో లొకేషన్ సమాచారాన్ని స్టోర్ చేయండి</string>
+    <string name="perf_summary_capture_mirror">ఫోటోగ్రఫీ మరియు వీడియో షూటింగ్ కోసం ఫ్రంట్ కెమెరాను ఉపయోగించినప్పుడు ఎడమవైపు లేదా కుడివైపుకి ప్రతిబింబించండి</string>
+    <string name="perf_summary_touch_capture">ఫోటో తీయడానికి స్క్రీన్‌పై నొక్కండి</string>
+    <string name="perf_summary_asd">పువ్వులు, జంతువులు మరియు ఆకాశం వంటి విభిన్న అంశాలకు అనుకూలమైన సెట్టింగ్‌లను ఆటోమ్యాటిక్‌‌గా వర్తింపజేస్తుంది.</string>
+    <string name="perf_summary_expert">నిపుణుల మోడ్‌కు మాత్రమే వర్తించండి</string>
+    <string name="pref_histogram_title">హిస్టోగ్రామ్</string>
+    <string name="perf_summary_level_meter">Lorem ipsum dolor sit amet, consectetur adipiscing elit</string>
+    <string name="perf_summary_video_encode">H.265 ఎన్‌కోడింగ్ స్టోరేజ్‌‌ని ఆదా చేస్తుంది, కానీ కొన్ని యాప్‌లు మరియు వెబ్‌సైట్‌లు సపోర్ట్ చేయకపోవచ్చు.</string>
+    <string name="perf_summary_h264">మెరుగైన అనుకూలత</string>
+    <string name="perf_summary_h265">మెరుగైన స్టోరేజ్‌‌ సామర్థ్యం</string>
+    <string name="perf_expert_features">నిపుణుల మోడ్ ఫీచర్లు</string>
+    <string name="reset_setting_description">కెమెరా సెట్టింగ్‌లను డిఫాల్ట్‌గా రీసెట్ చేయండి</string>
+    <string name="reset_button_reset">రీసెట్ చేయండి</string>
+    <string name="reset_button_cancel">రద్దు చేయండి</string>
+    <string name="perf_title_level_meter">స్థాయి</string>
+
+    <string name="video_pause_hint">పాజ్ చేయబడింది</string>
+
+    <string name="filter_name_none" >అసలైన</string>
+    <string name="filter_name_1" translatable="false">West</string>
+    <string name="filter_name_2" translatable="false">Palma</string>
+    <string name="filter_name_3" translatable="false">Metro</string>
+    <string name="filter_name_4" translatable="false">Eiffel</string>
+    <string name="filter_name_5" translatable="false">Blush</string>
+    <string name="filter_name_6" translatable="false">Modena</string>
+    <string name="filter_name_7" translatable="false">Reel</string>
+    <string name="filter_name_8" translatable="false">Vogue</string>
+    <string name="filter_name_9" translatable="false">Ollie</string>
+    <string name="filter_name_10" translatable="false">Bazaar</string>
+    <string name="filter_name_11" translatable="false">Alpaca</string>
+    <string name="filter_name_12" translatable="false">Vista</string>
+
+    <string name="pref_llhdr_title" translatable="false">llhdr</string>
+    <string name="pref_llhdr_lux" translatable="false">lux</string>
+
+    <!-- camera toast -->
+    <string name="toast_motion_photo_closed">మోషన్ ఫోటో ఆఫ్ చేయబడింది</string>
+    <string name="toast_high_picture_size_opened">50 MP అల్ట్రా HD</string>
+    <string name="toast_high_picture_size_closed">12 MP HD</string>
+    <string name="toast_flash_led_opened">Glyph ఫిల్ లైట్</string>
+    <string name="toast_high_definition_opened">HD పోర్ట్రెయిట్ ఆన్ చేయబడింది</string>
+    <string name="toast_high_definition_closed">HD పోర్ట్రెయిట్ ఆఫ్ చేయబడింది</string>
+    <string name="toast_burst_shot_forbid">ఈ మోడ్‌లో బర్స్ట్ షాట్ అందుబాటులో లేదు</string>
+    <string name="toast_function_not_available">50MP అల్ట్రా HDకి అందుబాటులో లేదు</string>
+    <string name="toast_zoom_not_available">ఈ మోడ్‌లో జూమ్ అందుబాటులో లేదు</string>
+    <string name="toast_manual_ultra_wide_opened">అల్ట్రా వైడ్</string>
+
+    <string name="toast_doc_mode">డాక్యుమెంట్</string>
+    <string name="toast_night_mode">రాత్రి మోడ్</string>
+
+    <string name="toast_video_eis_off">స్టెబిలైజేషన్ ఆఫ్ చేయబడింది</string>
+    <string name="toast_video_eis_stander">స్టెబిలైజేషన్ ఆన్ చేయబడింది</string>
+    <string name="toast_video_eis_super">అల్ట్రా స్టెబిలైజేషన్ ఆన్ చేయబడింది</string>
+
+    <string name="toast_time_lapse_speed_for_car">సూచించబడు సీన్: కదిలే ట్రాఫిక్</string>
+    <string name="toast_time_lapse_speed_for_crowd">సూచించబడు సీన్: పాదచారుల గుంపు</string>
+    <string name="toast_time_lapse_speed_for_fast_cloud">సూచించబడు సీన్: వేగంగా కదిలే మేఘాలు</string>
+    <string name="toast_time_lapse_speed_for_sun">సూచించబడు సీన్: సూర్యోదయం / సూర్యాస్తమయం</string>
+    <string name="toast_time_lapse_speed_for_slow_cloud">సూచించబడు సీన్: నెమ్మదిగా కదిలే మేఘాలు</string>
+    <string name="toast_time_lapse_speed_for_shadow">సూచించబడు సీన్: కదిలే నీడలు</string>
+    <string name="toast_time_lapse_speed_for_night">సూచించబడు సీన్: రాత్రివేళ ఆకాశం</string>
+
+
+    <string name="slider_beauty_text_hint">బ్యూటీ</string>
+    <string name="slider_portrait_text_hint">బొకే</string>
+    <string name="slider_time_lapse_text_hint">వేగం</string>
+    <string name="mode_edit_title_hint">సవరించండి</string>
+    <string name="mode_edit_main_interface_hint">ప్రధాన మోడ్స్</string>
+    <string name="mode_edit_more_interface_hint">మరిన్ని మోడ్స్</string>
+    <string name="mode_edit_drag_hint">మార్చడానికి హోల్డ్ చేసి డ్రాగ్ చేయండి</string>
+
+    <string name="toast_manual_restore_parameter">డిఫాల్ట్ సెట్టింగ్‌లకు పునరుద్ధరించబడింది</string>
+    <string name="slow_motion_mode">స్లో-మో</string>
+    <string name="panorama_move_slow">వేగం తగ్గించండి</string>
+    <string name="shutcauts_frontvideo">ఒక వీడియోని రికార్డ్ చేసుకోండి (సెల్ఫీ)</string>
+    <string name="shutcauts_backvideo">వీడియో తీసుకోండి</string>
+    <string name="shutcauts_portrait_camera">పోర్ట్రెయిట్ తీసుకోండి</string>
+    <string name="shutcauts_macro_camera">మాక్రో తీసుకోండి</string>
+    <string name="shutcauts_frontcamera">సెల్ఫీ తీసుకోండి</string>
+    <string name="focus_locked_hint">AE/AF లాక్ చేయబడింది</string>
+    <string name="toast_video_record_light_indicator_off">రికార్డింగ్ లైట్ ఇండికేటర్ OFF</string>
+    <string name="toast_video_record_light_indicator_on">రికార్డింగ్ లైట్ ఇండికేటర్ ON</string>
+    <string name="mode_more_empty">కింద ఉన్న బటన్‌ను క్లిక్ చేయడం ద్వారా మీరు ఫంక్షన్‌లను తిరిగి అమర్చుకోవచ్చు.</string>
+    <string name="move_farther_away">మరింత దూరంగా జరుపు</string>
+    <string name="move_closer">దగ్గరగా జరుపు</string>
+    <string name="reminder_clean_camera">స్పష్టమైన ఫోటోలను షూట్ చేయడానికి కెమెరాను ప్రతిసారీ శుభ్రం చేయండి.</string>
+</resources>

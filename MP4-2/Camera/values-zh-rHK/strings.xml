@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_watermark">水印</string>
+    <string name="settings_model_watermark">機型水印</string>
+    <string name="settings_time_watermark">時間水印</string>
+</resources>

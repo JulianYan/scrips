@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nt_navigation_back_button_left_side">Terug-knop aan de linkerkant</string>
+    <string name="nt_navigation_back_button_right_side">Terug-knop aan de rechterkant</string>
+    <string name="nt_navigation_config_title">Knopindeling</string>
+    <string name="nt_glyphs_charging_features">Geef de oplaadstatus weer wanneer het apparaat is aangesloten of schud het apparaat tijdens het opladen.</string>
+    <string name="nt_screen_refresh_rate_high_summary">Een dynamische vernieuwingsfrequentie tot 120 Hz voor vloeiender scrollen en vloeiende animaties.</string>
+    <string name="nt_screen_refresh_rate_standard_summary">Een vaste verversingssnelheid van 60 Hz voor een langere levensduur van de batterij.</string>
+	
+	<!-- translate to other languages -->
+	<string name="nt_glyphs_flip_title">Omdraaien naar Glyph</string>
+    <string name="nt_glyphs_flip_to_glyph_title">Omdraaien naar Glyph</string>
+    <string name="nt_use_filp_to_glyph">Gebruik Omdraaien naar Glyph</string>
+	
+</resources>

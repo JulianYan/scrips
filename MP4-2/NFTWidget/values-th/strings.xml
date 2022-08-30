@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="nft_loading_tips">กำลังดาวน์โหลดข้อมูล</string>
+    <string name="nft_loading_tips_second">กระบวนการนี้อาจใช้เวลาสักครู่</string>
+
+</resources>

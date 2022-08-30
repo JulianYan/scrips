@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="battery_suggestion_summary">Lülita sisse adaptiivne aku</string>
+    <string name="smart_battery_manager_title">Adaptiivne aku</string>
+    <string name="smart_battery_footer">Aku kasutusea pikendamiseks piirab adaptiivne aku akukasutst harva kasutatavate rakenduste puhul. Teie telefon õpib aja jooksul selgeks, kuidas te rakendusi kasutate. \n\nNende rakenduste puhul võivad teavitused hilineda.</string>
+    <string name="smart_battery_footer" product="tablet">Aku kasutusea pikendamiseks piirab adaptiivne aku akukasutst harva kasutatavate rakenduste puhul. Teie tahvelarvuti õpib aja jooksul selgeks, kuidas te rakendusi kasutate. \n\nNende rakenduste puhul võivad teavitused hilineda.</string>
+    <string name="smart_battery_footer" product="device">Aku kasutusea pikendamiseks piirab adaptiivne aku akukasutst harva kasutatavate rakenduste puhul. Teie seade õpib aja jooksul selgeks, kuidas te rakendusi kasutate. \n\nNende rakenduste puhul võivad teavitused hilineda.</string>
+    <string name="smart_battery_title">Adaptiivse aku kasutamine</string>
+    <string name="battery_tip_smart_battery_summary">Lülita sisse adaptiivne aku</string>
+    <string name="nt_color_temperature">Värvitemperatuur</string>
+    <string name="warmer">Soe</string>
+    <string name="colder">Külm</string>
+	        <!-- Mobile network settings screen, title of item showing the name of the default subscription
+    that will be used for data. This only appears in multi-SIM mode. [CHAR LIMIT=NONE] -->
+    <string name="data_preference">Andmete eelistus</string>
+	<string name="vibrating_for_outgoing_call_accepted_summary">Võimaldab vibratsioonirežiimi, kui väljaminev kõne on vastu võetud</string>
+</resources>

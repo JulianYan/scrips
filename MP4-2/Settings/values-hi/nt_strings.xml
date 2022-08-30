@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nt_navigation_back_button_left_side">बायीं तरफ बैक बटन</string>
+    <string name="nt_navigation_back_button_right_side">दायीं तरफ बैक बटन</string>
+    <string name="nt_navigation_config_title">बटन लेआउट</string>
+    <string name="nt_glyphs_charging_features">जब डिवाइस को प्लग में लगाया जाता है तो धीरे-धीरे चार्जिंग बढ़ते हुए दिखाता है या चार्जिंग के दौरान डिवाइस में हलचल करता है।</string>
+    <string name="nt_screen_refresh_rate_high_summary">बिना रुकावट स्क्रॉलिंग और एनिमेशन के लिए 120 हर्ट्ज़ तक का डायनामिक रिफ्रेश रेट।</string>
+    <string name="nt_screen_refresh_rate_standard_summary">बेहतर बैटरी लाइफ के लिए फिक्स किया गया रिफ्रेश रेट 60 हर्ट्ज़ है।</string>
+	
+	<!-- translate to other languages -->
+	<string name="nt_glyphs_flip_title">Glyph के लिए फ्लिप करें</string>
+    <string name="nt_glyphs_flip_to_glyph_title">Glyph के लिए फ्लिप करें</string>
+    <string name="nt_use_filp_to_glyph">Glyph के लिए फ्लिप का इस्तेमाल करें</string>
+	
+</resources>

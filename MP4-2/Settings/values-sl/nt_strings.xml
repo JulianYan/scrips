@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nt_navigation_back_button_left_side">Zadnji gumb na levi strani</string>
+    <string name="nt_navigation_back_button_right_side">Zadnji gumb na desni strani</string>
+    <string name="nt_navigation_config_title">Načrt gumbov</string>
+    <string name="nt_glyphs_charging_features">Prikaži položaj polnjenja, ko je naprava vklopljena, ali pa napravo med polnjenjem pretresite.</string>
+    <string name="nt_screen_refresh_rate_high_summary">Dinamična hitrost posodabljanja je največ 120 Hz za neovirano brskanje in animacijo.</string>
+    <string name="nt_screen_refresh_rate_standard_summary">Fiksna frekvenca posodabljanja 60 Hz za boljše življenje baterije.</string>
+	
+	<!-- translate to other languages -->
+	<string name="nt_glyphs_flip_title">Preskok na Glyph</string>
+    <string name="nt_glyphs_flip_to_glyph_title">Preskok na Glyph</string>
+    <string name="nt_use_filp_to_glyph">Uporabi Preskok na Glyph</string>
+	
+</resources>

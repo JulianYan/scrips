@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources><!-- Confirmation dialog when restoring settings --><string name="confirm_restore_message">Je, ungependa kurejesha mipangilio msingi ya kamera?</string>
+	<string name="pref_camera_module_title">Modi ya Kamera</string><!-- Settings screen, camera selection dialog title. Users can select a camera from the phone (front-facing or back-facing). [CHAR LIMIT=20] --><string name="pref_camera_id_title">Badilisha kamera</string>
+	<!-- In select camera setting, back facing camera. [CHAR LIMIT=14] --><string name="pref_camera_id_entry_back">Nyuma</string><!-- In select camera setting, front-facing camera. [CHAR LIMIT=14] --><string name="pref_camera_id_entry_front">Mbele</string><!-- Settings screen, Record location dialog choices --><string name="pref_camera_recordlocation_entry_off">Zima</string>
+	<string name="pref_camera_recordlocation_entry_on">Washa</string><!-- The Video quality settings in preference [CHAR LIMIT=21] --><string name="pref_video_quality_title">Ubora wa Video</string>
+	<string name="pref_video_stabilization_title">Usawazishaji wa Video</string>
+	<string name="pref_video_3dnr_title">3DNR ya Video</string><!-- The Video timelapse settings in preference [CHAR LIMIT=21] --><string name="pref_video_timelapse_title">Kasi ya Fremu ya Video Inayonaswa</string>
+	<string name="pref_video_autozoom_title">Kukuza Video Kiotomatiki</string>
+	<string name="video_mode">Video</string>
+	<string name="guide_auto_zoom_title">Kukuza Kiotomatiki</string>
+	<string name="guide_auto_zoom_rules">Unaporekodi, unaweza kufuatilia kitu maalum kwa kuchora mduara kwenye skrini na kugusa mara mbili ili kuacha kufuatilia</string>
+	<string name="toast_auto_zoom_not_activated">Kukuza kiotomatiki haijaamilishwa</string><!-- Default flash mode setting. -->
+	<!-- Settings screen, Flash mode title --><string name="pref_camera_flashmode_title">Modi ya Mweko</string>
+	<string name="pref_screenflash_title">Onyesha Mweko</string><!-- Settings screen, Flash mode dialog radio button choices --><string name="pref_camera_flashmode_entry_auto">Kiotomatiki</string>
+	<string name="pref_camera_flashmode_entry_on">Washa</string>
+	<string name="pref_camera_flashmode_entry_off">Zima</string>
+	<string name="pref_camera_flashmode_entry_torch">Tochi</string><!-- Default white balance setting. --><!-- Settings screen, white balance title --><string name="pref_camera_whitebalance_title">AWB</string><!-- Settings screen, White balance dialog radio button choices --><string name="pref_camera_whitebalance_entry_auto">Kiotomatiki</string>
+	<string name="pref_camera_whitebalance_entry_incandescent">Inkandisenti</string>
+	<string name="pref_camera_whitebalance_entry_daylight">Taa ya mchana</string>
+	<string name="pref_camera_whitebalance_entry_fluorescent">Kiakisi mwanga</string>
+	<string name="pref_camera_whitebalance_entry_cloudy">Mawingu</string>
+
+
+
+
+	<!-- Default scene mode setting. -->
+
+	<string name="pref_camera_scene_frame_title">Fremu ya Mandhari</string><!-- Settings screen, Select Scene mode --><string name="pref_camera_scenemode_title">Modi ya Mandhari</string>
+	<string name="pref_hdr_title">HDR</string>
+	<string name="pref_motion_photo_title">Mwendo</string><!-- Settings menu, scene mode choices --><string name="pref_camera_scenemode_entry_auto">Kiotomatiki</string>
+	<string name="pref_camera_scenemode_entry_night">Usiku</string><!-- Scene mode optimized for taking images in the sunset. --><string name="pref_camera_scenemode_entry_sunset">Jua kutua</string><!-- Scene mode optimized for taking indoor low-lights pictures. [CHAR LIMIT=16] --><string name="pref_camera_scenemode_entry_party">Sherehe</string>
+	<string name="pref_restore_detail">Rejesha chaguo-msingi</string><!-- Exposure settings in preference --><string name="pref_exposure_title">EV</string>
+	<string name="sugar_face_beauty_custom">Maalum</string>
+	<string name="sugar_eyes_beauty">Macho</string>
+	<string name="sugar_face_thin">Dhahiri</string>
+	<string name="sugar_skin_smooth">Laini</string>
+	<string name="adjust_progress">+%s</string>
+	<string name="face_beauty_custom_skin_info">Ngozi</string>
+	<string name="face_beauty_custom_eyes_info">Macho</string>
+	<string name="face_beauty_custom_thin_info">Konda</string>
+	<string name="face_beauty_custom_rosy_info">Rangi Nyekundu</string>
+	<string name="face_beauty_custom_whitening_info">Weupe</string>
+	<string name="portrait_custom_info">Ukungu</string>
+
+	<string name="pref_camera_volume_key_title">Vitufe vya Sauti</string>
+	<string name="pref_camera_volume_key_shoot">Piga</string>
+	<string name="pref_camera_volume_key_zoom">Kuza</string>
+	<string name="pref_camera_volume_key_volume">Sauti</string>
+
+
+	<string name="photo_incapture">Kupiga picha</string>
+
+	<string name="toast_location_started">Eneo limeanzishwa</string>
+	<string name="toast_location_success">Mafanikio ya eneo</string>
+	<string name="toast_device_denayed">Kifaa hakiwezi kufikiwa</string>
+	<string name="toast_device_connect_failed">Muunganisho wa kifaa umeshindikana</string>
+	<string name="toast_start_preview_failed">Hakiki ya kuanza imeshindikana</string>
+	<string name="toast_storage_full">Hifadhi imejaa</string>
+	<string name="toast_low_power_disable_flash">Betri ya chini, haiwezi kuwasha tochi.</string>
+	<string name="toast_video_size_max">Saizi ya video imefika kikomo.</string>
+	<string name="toast_continue_snap_max">Idadi ya picha zinazopigwa mfululizo imefikia kikomo.</string>
+	<string name="toast_video_error">Video haiwezi kurekodiwa katika hali ya sasa</string>
+	<string name="toast_video_start_fail">Maikrofoni inatumika na haiwezi kutumiwa kurekodi</string>
+	<string name="toast_video_init_size_error">Saizi ya video imepunguzwa hadi kikomo.</string>
+	<string name="toast_long_press_unavilable">Haikubali picha zinazopigwa mfululizo.</string>
+	<string name="toast_continuous_shot_off">Picha zinazopigwa mfululizo haipatikani.</string>
+	<string name="toast_thumbnail_empty">Hakuna picha</string>
+	<string name="toast_clearsight_success">Mafanikio ya kunasa kwa ClearSight</string>
+	<string name="toast_clearsight_failed">Imeshindwa kunasa kwa ClearSight</string>
+	<string name="toast_auto_zoom">Kukuza kiotomatiki imewezeshwa</string>
+	<string name="toast_video_stabilization">Kisawazishaji kimewezeshwa</string>
+	<string name="guide_top">Telezesha juu au chini ili kubadilisha kamera.</string>
+	<string name="guide_right">Telezesha kulia ili kuweza paramita.</string>
+	<string name="guide_left">Telezesha kushoto ili kuweka modi.</string>
+	<string name="voice_on_tips">sema \"Capture\" au \"Cheese\"</string>
+	<string name="toast_steady_capture">Usisogeze simu unaponasa.</string>
+	<string name="toast_dual_camera_opened">Kamera Mbili imefunguliwa</string>
+	<string name="toast_dual_camera_closed">Kamera Mbili imefungwa</string><!-- Pref -->
+
+
+
+
+
+
+
+
+
+	<string name="pref_video_quality_entry_full">Kikamilifu</string>
+
+	<string name="pref_video_stabilization_entry_on">Washa</string>
+	<string name="pref_video_stabilization_entry_off">Zima</string>
+	<string name="pref_video_stabilization_entry_standard">Kawaida</string>
+	<string name="pref_video_stabilization_entry_super">Nzuri kabisa</string>
+	<string name="pref_video_3dnr_entry_on">Washa</string>
+	<string name="pref_video_3dnr_entry_off">Zima</string>
+	<string name="pref_video_autozoom_entry_on">Washa</string>
+	<string name="pref_video_autozoom_entry_off">Zima</string>
+	<string name="pref_camera_picturesize_title">Ukubwa wa Picha</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<string name="pref_camera_picture_aspect_ratio_title">Uwiano wa Hali ya Picha</string>
+
+
+
+
+
+
+
+
+	<string name="pref_camera_picturesize_entry_16_9">Skrini Nzima</string>
+	<string name="pref_camera_picturesize_entry_4_3">Kawaida</string>
+	<string name="pref_camera_picturesize_entry_1_1">Mraba</string><!-- ISO -->
+
+	<string name="manual_focus_title">Mlengo wa M</string><!--  --><string name="pref_camera_edge_title">Usafi</string>
+
+	<string name="pref_camera_hue_title">Rangi</string><!--  --><string name="pref_camera_saturation_title">Ukifishwaji</string>
+
+	<string name="pref_camera_brightness_title">Mwangaza</string>
+
+	<string name="pref_camera_contrast_title">Ulinganisho</string>
+	<string name="pref_camera_dip_entry_low">Chini</string>
+	<string name="pref_camera_dip_entry_middle">Wastani</string>
+	<string name="pref_camera_dip_entry_high">Juu</string><!-- color effect --><!-- Settings screen, Select Color effect title --><string name="pref_camera_coloreffect_title">Athari ya Rangi</string><!-- Settings screen, Color effect dialog radio button choices --><string name="pref_camera_coloreffect_entry_none">Hakuna</string>
+	<string name="pref_camera_coloreffect_entry_mono">Mono</string>
+	<string name="pref_camera_coloreffect_entry_sepia">Sepia</string>
+	<string name="pref_camera_coloreffect_entry_negative">Hukuwa nayo</string><!-- Color effect that overexposes and reverses some of the tones. --><string name="pref_camera_coloreffect_entry_solarize">Weka mionzi ya jua</string>
+	<string name="pref_camera_coloreffect_entry_posterize">Tangazo</string>
+	<string name="pref_camera_coloreffect_entry_whiteboard">Bao nyeupe</string>
+	<string name="pref_camera_coloreffect_entry_blackboard">Bao nyeusi</string>
+	<string name="pref_camera_coloreffect_entry_aqua">Aqua</string>
+	<string name="pref_camera_coloreffect_entry_pastel">Pastel</string>
+	<string name="pref_camera_coloreffect_entry_mosaic">Mpangilio</string>
+	<string name="pref_camera_coloreffect_entry_redtint">Rangi ya nyekundu</string>
+	<string name="pref_camera_coloreffect_entry_bluetint">Rangi ya bluu</string>
+	<string name="pref_camera_coloreffect_entry_greentint">Rangi ya kijani</string>
+	<string name="pref_camera_coloreffect_entry_sepiablue">Sepia bluu</string>
+	<string name="pref_camera_coloreffect_entry_sepiagreen">Sepia kijani</string><!-- self timer -->
+	<string name="pref_camera_selftimer_title">Kijipima Saa</string>
+	<string name="pref_camera_selftimer_entry_off">Zima</string>
+	<string name="pref_camera_selftimer_entry_3">Sekunde 3</string>
+
+	<string name="pref_camera_antibanding_entry_auto">Kiotomatiki</string>
+	<string name="pref_camera_antibanding_entry_50hz">50Hz</string>
+	<string name="pref_camera_antibanding_entry_60hz">60Hz</string><!-- Scene mode Mediatek plus --> <!-- Scene mode that takes an image with as little noise as possible so details of the subject are maintained. --><string name="pref_camera_scenemode_entry_portrait">Picha</string><!-- Scene mode that takes an image of a landscape assuming all subjects are relatively far from the phone. --><string name="pref_camera_scenemode_entry_landscape">Mandhari</string><!-- Scene mode that takes night shots with long exposure and flash to illuminate the subject while still capturing darker detail in the background. --><string name="pref_camera_scenemode_entry_night_portrait">Picha ya usiku</string><!-- Scene mode to be used in a stage show. --><string name="pref_camera_scenemode_entry_theatre">Ukumbi wa maonyesho</string><!-- Scene mode optimized for taking images on the beach. --><string name="pref_camera_scenemode_entry_beach">Pwani</string><!-- Scene mode optimized for taking images in the snow. --><string name="pref_camera_scenemode_entry_snow">Theluji</string><!-- Scene mode for taking a photo as sharp as possible. --><string name="pref_camera_scenemode_entry_steadyphoto">Picha thabiti</string><!-- Scene mode optimized for taking images of fireworks. --><string name="pref_camera_scenemode_entry_fireworks">Fataki</string>
+	<string name="pref_camera_scenemode_entry_sports">Michezo</string>
+	<string name="pref_camera_scenemode_entry_candlelight">Mwangaza wa mshumaa</string><!-- for CMCC feature --><string name="pref_camera_scenemode_entry_normal">Kawaida</string><!-- Video Camera --> <!-- EIS setting --><string name="pref_camera_eis_title">EIS</string>
+
+	<string name="pref_camera_eis_on">Washa</string>
+
+	<string name="pref_camera_recordaudio_entry_off">Zima</string>
+	<string name="pref_camera_recordaudio_entry_on">Washa</string><!-- ZSD songyutao --><string name="pref_camera_zsd_title">ZSD</string>
+	<string name="pref_chroma_flash_title">Mweko maizi</string><!-- continuous shot speed --><string name="pref_camera_continuous_number_title">Picha Zinazopigwa Mfululizo</string>
+	<string name="pref_voice_capture">Kunasa Video</string>
+
+	<string name="pref_voice_entry_off">Zima</string>
+	<string name="pref_voice_entry_on">Washa</string><!-- Face Detection properties  songyutao set FD dafault on --><string name="pref_camera_face_detect_title">Utambuaji Uso</string>
+
+	<string name="pref_camera_face_detect_entry_off">Zima</string>
+	<string name="pref_camera_face_detect_entry_on">Washa</string>
+	<string name="pref_camera_record_location_title">Kuongeza Kitambulisho cha Kijiografia</string>
+	<string name="pref_camera_thumb_title">Camera Roll</string>
+	<string name="pref_camera_pic_frame_entry_off">Zima</string>
+	<string name="pref_camera_pic_frame_entry_on">Washa</string>
+	<string name="pref_shutter_touch_title">Picha ya Mguso</string>
+
+	<string name="pref_shutter_smile_title">Picha ya Tabasamu</string>
+
+	<string name="pref_shutter_hand_title">Picha ya Mkono</string>
+	<string name="pref_shutter_watermark_title">Alama Maalum</string>
+
+	<string name="pref_camera_watermark_entry_off">Zima</string>
+	<string name="pref_camera_watermark_entry_on">Washa</string>
+	<string name="pref_camera_asd_title">ASD</string>
+	<string name="pref_camera_asd_entry_off">Zima</string>
+	<string name="pref_camera_asd_entry_on">Washa</string>
+	<string name="pref_camera_shutter_sound_title">Sauti ya Kilago</string>
+	<string name="pref_camera_shutter_sound_entry_off">Zima</string>
+	<string name="pref_camera_shutter_sound_entry_on">Washa</string>
+	<string name="pref_camera_pic_level_title">Mwinamo</string>
+	<string name="pref_camera_pic_level_entry_off">Zima</string>
+	<string name="pref_camera_pic_level_entry_on">Washa</string>
+
+	<string name="pref_capture_mirror_title">Kioo cha Mbele</string>
+	<string name="pref_camera_save_pos_title">Hifadhi</string>
+	<string name="pref_camera_save_pos_entry_t">Kadi ya SD</string>
+	<string name="pref_camera_save_pos_entry_p">Simu</string>
+	<string name="pref_camera_save_pos_entry_u">USB OTG</string>
+	<string name="pref_camera_mesh_line_title">Laini ya Wavu</string>
+	<string name="pref_camera_high_picture_size_title">Saizi ya Juu ya Picha</string>
+	<string name="pref_pic_struct_title">Laini ya Fremu</string>
+
+	<string name="pref_pic_struct_entry_off">Zima</string>
+	<string name="pref_pic_struct_entry_enneahedral">Laini za gridi</string>
+	<string name="manual">Mtaalamu</string>
+	<string name="photo_mode">Picha</string>
+	<string name="panorama_mode">PANO</string>
+	<string name="beauty_mode">Urembo wa uso</string>
+	<string name="radio_switch_to_hdr">HDR</string>
+	<string name="radio_switch_to_facebeauty_custom">Urembo wa uso</string><!-- application infomation --><string name="app_name">Kamera</string>
+	<string name="pref_camera_selftimer_entry_5">Sekunde 5</string>
+	<string name="night_mode">Usiku</string>
+	<string name="radio_switch_to_beautyvideo">Video ya urembo</string>
+	<string name="timelapse_mode">Kasi ya fremu inayonaswa</string><!-- add by zzp for pano--><string name="panorama_arcsoft_guide_shutter">Bonyeza kitufe cha kilango kitufe na usogeze simu yako\npolepole katika mwelekeo mmoja</string>
+	<string name="panorama_arcsoft_warn_slowly">Tafadhali sogeza simu yako polepole</string>
+	<string name="panorama_arcsoft_warn_back">Tafadhali sogeza simu yako kwenye kishale</string>
+	<string name="panorama_arcsoft_warn_up">Sogeza juu</string>
+	<string name="panorama_arcsoft_warn_down">Sogeza chini</string>
+	<string name="panorama_arcsoft_warn_left">Sogeza kushoto</string>
+	<string name="panorama_arcsoft_warn_right">Sogeza kulia</string>
+	<string name="panorama_arcsoft_switch_capture_direction_guide">Gusa kishale ili kubadilisha mwelekeo wa kunasa</string>
+	<string name="panorama_capture_guide">Sawazisha kishale na mstari wa marejeleo</string>
+	<string name="panorama_toggle_mode_standard">Kawaida</string>
+	<string name="panorama_toggle_mode_super">Nzuri kabisa</string><!--time line 20141227--><string name="radio_switch_to_pip">Mwonekano wa pande mbili</string>
+	<string name="setting_title">Mipangilio</string>
+	<string name="mode_title">Modi</string>
+	<string name="setting_top_full_hint">Haiwezi kuongeza vipengee zaidi.</string>
+	<string name="touchless_guide_vsign_title">Alama ya V</string>
+	<string name="touchless_guide_tips_vsign_only">Unaweza kutengeneza ishara ya umbo la V ili kunasa kiotomatiki.</string>
+	<string name="touchless_guide_text_ok">Sawa</string>
+	<string name="touchless_guide_text_reminder">Usionyeshe hii tena.</string>
+	<string name="wideself_arcsoft_guide_shutter">Bonyeza kitufe cha kilango ili kuanza</string>
+	<string name="wideself_arcsoft_guide_step_one">Tafadhali zungusha simu katika mwelekeo mmoja na kisha upande mwingine</string>
+	<string name="wideself_arcsoft_rolate_to_left">Tafadhali zungusha simu yako upande wa kushoto polepole</string>
+	<string name="wideself_arcsoft_rolate_to_right">Tafadhali zungusha simu yako upande wa kulia polepole</string>
+	<string name="wideself_arcsoft_cannot_use_guide">Tafadhali tumia Picha Pana ya Binafsi katika modi ya mkao wima</string>
+	<string name="wideself_arcsoft_downup_offset_warn">Haitoshi kupanga picha katika mkao mlalo.</string>
+	<string name="panorama_arcsoft_cannot_use_guide">Tafadhali tumia Picha za Mandhari katika hali ya mkao wima</string>
+	<string name="radio_switch_to_wideselfie">Picha pana ya binafsi</string>
+	<string name="radio_switch_to_refocus">Mlengo maizi</string>
+	<string name="radio_switch_to_chromaflash">Mweko maizi</string>
+	<string name="radio_switch_to_clearsight">ClearSight</string>
+	<string name="setting_guide_message">Gusa kwenye “Ongeza kwenye upau wa njia ya mkato” au\nkokota ili kuongeza njia ya mkato</string>
+	<string name="skip_setting_guide">Nimeelewa</string>
+	<string name="permission_title">Ruhusu</string>
+	<string name="enable_permission_procedure">Unaweza kubadilisha ruhusa katika Mipangilio &gt; Programu &gt; %1$s &gt; Ruhusa</string>
+	<string name="toast_storage_full_sdcard_to_internal">Kadi ya SD imejaa, inahifadhiwa kwenye hifadhi ya ndani</string>
+	<string name="toast_storage_damaged_sdcard_to_internal">Imeshindwa kuhifadhi faili kwenye kadi ya SD, inahifadhiwa kwenye hifadhi ya ndani</string>
+	<string name="toast_storage_full_internal_to_sdcard">Hifadhi ya ndani imejaa, inahifadhiwa kwenye kadi ya SD</string>
+	<string name="toast_storage_full_clean_up_to_free_space">Nafasi ya hifadhi ya simu imejaa. Tafadhali futa ili kuongeza nafasi</string>
+	<string name="secure_camera_can_not_request_permission">Tafadhali fungua simu yako kwanza ili ukubali/kukataa maombi ya ruhusa</string>
+	<string name="shutcauts_frontcamera">Piga picha binafsi</string>
+	<string name="shutcauts_backcamera">Piga picha</string>
+	<string name="shutcauts_frontvideo">Rekodi video (picha binafsi)</string>
+	<string name="shutcauts_backvideo">Rekodi video</string>
+	<string name="pref_camera_status_detect_title">Ugunduzi wa Hali</string>
+	<string name="pref_camera_raw_file_title">Faili ya RAW</string>
+	<string name="pref_camera_filter_title">Kichujio</string>
+	<string name="pref_dual_camera_title">Kamera Mbili</string>
+	<string name="pref_dual_camera_default">Zima</string>
+	<string name="radio_switch_to_monochrome">Nyeusi na Nyeupe</string>
+
+	<string name="pref_camera_gpu_effect_focus">Mlengo</string>
+	<string name="pref_camera_gpu_effect_sepia">Sepia</string>
+	<string name="pref_camera_gpu_effect_temperature">Halijoto</string>
+	<string name="pref_camera_gpu_effect_gray">Kijivu</string>
+	<string name="pref_camera_gpu_effect_none">Hakuna</string>
+	<string name="pref_camera_gpu_effect_documentary">Filamu</string>
+	<string name="pref_camera_gpu_effect_fishEye">Jicho la samaki</string>
+	<string name="pref_camera_gpu_effect_tint">Rangi</string>
+	<string name="pref_camera_gpu_effect_crossprocess">Crossprocess</string>
+	<string name="portrait_mode">Picha</string>
+	<string name="pref_camera_pref_entry_auto">Kiotomatiki</string>
+	<string name="confirm_mode_tip">Gusa ili kubadilisha kwa modi ya %1$s</string>
+	<string name="focal_switch_scale_tip">Gusa kwenye ikoni ili kufungua modi ya Telephoto</string>
+	<string name="front_wide_switch_tip">Gusa kwenye ikoni ili kuamilisha picha ya kikundi</string>
+	<string name="low_memory_limit">Mfumo wako una kumbukumbu ya chini, baadhi ya vipengele hupunguza saizi ya kunasa</string>
+	<string name="portrait_background_blur">Picha</string>
+	<string name="portrait_of_face_beauty">Urembo wa uso</string>
+	<string name="asd_result_hdr">HDR imeamilishwa</string>
+	<string name="toast_face_undetected_at_portrait">Hakuna uso uliotambuliwa ndani ya mita 2</string>
+	<string name="toast_face_undetected_at_sticker">Hakuna uso uliotambuliwa</string>
+	<string name="toast_view_pic_vivid_at_superpixel">Nasa vipengee zaidi ukitumia Pikseli ya Juu</string>
+	<string name="front_face_detected_first_tip">Tazama kamera kwa picha binafsi bora zaidi</string>
+	<string name="u_screen_selfie_count_down_cancel">Ghairi</string>
+	<string name="video_beauty_switch_on">Washa</string>
+	<string name="video_beauty_switch_off">Zima</string>
+	<string name="image_processing_toast">Uchakataji wa taswira</string>
+	<string name="short_video_not_found">Video hii haipatikani</string><!-- for Android O's CTS--><string name="camera_review_done_desc">Imekamilika</string>
+	<string name="bokeh_mode">Picha</string>
+	<string name="toast_dual_camera_bokeh">Tafadhali endelea kupiga ndani ya mita 2</string><!-- for qcom slowmotion--><string name="pref_camera_hfr_entry_2x">X2</string>
+	<string name="pref_camera_hfr_entry_3x">X3</string>
+	<string name="pref_camera_hfr_entry_4x">X4</string>
+
+
+
+	<string name="slow_motion_mode">SLO-MO</string>
+
+
+
+	<!-- // Camera fun mode string --><string name="radio_switch_to_fun">Camera Fun</string><!-- Default fun mode setting. -->
+	<string name="pref_camera_fun_title">Fun</string>
+	<string name="pref_camera_sticker_title">Stika</string>
+	<string name="toast_face_undetected_at_fun">Uso ambao haujatambuliwa</string>
+	<string name="toast_eyes_undetected_at_fun">Pepesa macho yako ili kuhakiki athari</string>
+	<string name="toast_mouth_undetected_at_fun">Fungua mdomo wako ili kuhakiki athari</string>
+	<string name="toast_short_video_tip">Bonyeza kwa muda kitufe cha kilango ili kurekodi video fupi</string>
+	<string name="fun_filter_none">Kichujio</string>
+	<string name="fun_filter_lomo">LOMO</string>
+	<string name="fun_filter_elegant">Sanifu</string>
+	<string name="fun_filter_cyan">Mchujo</string>
+	<string name="fun_filter_mint">Safi</string>
+	<string name="fun_filter_led">LED</string>
+	<string name="fun_filter_eternal">Eternal</string>
+	<string name="fun_filter_formerly">Formerly</string>
+	<string name="fun_filter_blue">Bluu</string>
+	<string name="fun_filter_oldbooth">Old booth</string>
+	<string name="fun_filter_milkytea">Milky tea</string>
+	<string name="fun_filter_warm">Joto</string>
+	<string name="fun_filter_norway">Norwe</string>
+	<string name="fun_filter_cool">Maridadi</string>
+	<string name="fun_filter_dew">Umande</string>
+	<string name="fun_filter_youth">Kijana</string>
+	<string name="fun_filter_shy">Hisi haya</string>
+	<string name="fun_filter_jaipur">Jaipur</string>
+	<string name="fun_filter_autumn">Majira ya kupukutika kwa majani</string>
+	<string name="fun_filter_japanese">Kijapani</string>
+	<string name="fun_filter_sweet">Tamu</string>
+	<string name="fun_filter_warren">Warren</string>
+	<string name="fun_filter_tsukiji">Tsukiji</string>
+	<string name="fun_filter_vivid">Wazi</string>
+	<string name="fun_filter_facingsun">Kuangalia jua</string>
+	<string name="fun_filter_purple">Zambarau</string>
+	<string name="pref_gender_estimate_title">Kadirio la jinsia</string>
+	<string name="pref_gender_estimate_entry_on">Washa</string>
+	<string name="pref_gender_estimate_entry_off">Zima</string>
+	<string name="beauty_guide_top_text">Urembo wa AL</string>
+	<string name="toast_motion_photo_opened">Picha ya mwendo imewezeshwa</string>
+	<string name="pref_camera_gpu_effect_vignetting">Vignetting</string><!--add for ai scene detection --><string name="ai_scene_tips_food">Chakula</string>
+	<string name="ai_scene_tips_portrait">Picha</string>
+	<string name="ai_scene_tips_foliage">Mmea</string>
+	<string name="ai_scene_tips_sky">Wingu bluu</string>
+	<string name="ai_scene_tips_text">Maandishi</string><!-- add for faceplus asd detection --><string name="faceplus_asd_tips_face">Picha</string>
+	<string name="faceplus_asd_tips_food">Chakula</string>
+	<string name="faceplus_asd_tips_fruits">Matunda</string>
+	<string name="faceplus_asd_tips_flower">Maua</string>
+	<string name="faceplus_asd_tips_flowersea">Maua ya bahari</string>
+	<string name="faceplus_asd_tips_sandbeach">Mchanga</string>
+	<string name="faceplus_asd_tips_snow">Theluji</string>
+	<string name="faceplus_asd_tips_bluesky">Anga</string>
+	<string name="faceplus_asd_tips_night">Usiku</string>
+	<string name="faceplus_asd_tips_sunrise">Mapambazuko na machweo</string>
+	<string name="faceplus_asd_tips_qr">Msimbo wa QR</string>
+	<string name="faceplus_asd_tips_businesscard">Jina la kadi</string>
+	<string name="faceplus_asd_tips_whiteboard">Bao nyeupe</string>
+	<string name="faceplus_asd_tips_idcard">ID</string>
+	<string name="faceplus_asd_tips_bankcard">Kadi ya mkopo</string>
+	<string name="faceplus_asd_tips_cat">Paka</string>
+	<string name="faceplus_asd_tips_dog">Umbwa</string>
+	<string name="faceplus_asd_tips_meadow">Malisho</string>
+	<string name="faceplus_asd_tips_plants">Mmea</string>
+	<string name="toast_gender_estimate_started">Kurekebisha vigezo kulingana na uso wako</string>
+	<string name="beauty_guide_top_text_description">Washa kipengele cha urembo wa AI na urekebishe vigezo kulingana na uso wako</string>
+	<string name="zoom_guide_title">Njia Rahisi ya Kukuza</string>
+	<string name="zoom_guide_content">Gusa aikoni iliyo hapa juu ili kufikia pembe pana na ukuzaji bora. Au telezesha kidole katika mkao wima kwenye skrini ili kukuza ndani au nje</string>
+	<string name="video_recording">Kurekodi video</string>
+	<string name="micro_video_guide_content">Wakati picha ya mwendo imewashwa, kila picha unayopiga inaweza kujumuisha video fupi kabla na baada ya kupiga. Huenda video ikajumuishwa unaposhiriki picha.</string>
+	<string name="motion_photo">Picha ya mwendo</string>
+	<string name="switch_to_wide_lens_toast">Kuwezesha lenzi ya pembe pana</string>
+	<string name="time_lapse_not_save">Hatujaweza kuhifadhi kasi ya fremu inayonaswa. Video yako inapaswa kuwa na urefu wa angalau sekunde %1$d</string>
+	<string name="pref_shutter_speed_title">Kasi ya Kilango</string>
+	<string name="switch_to_wide_lens_landscape_toast">Gusa Pembe Pena kwa mwonekano mpana</string>
+	<string name="radio_switch_to_dual_bokeh_for_custom">Ukungu wa kisanaa</string>
+	<string name="toast_video_recording_in_call_state">Haiwezi kurekodi wakati wa simu</string>
+	<string name="pref_camera_ai_title">AI</string>
+	<string name="toast_video_3dnr_on">Mwonekano wa usiku wa video umewashwa</string>
+	<string name="toast_storage_unavailable">Kadi ya SD haipatikani</string>
+	<string name="toast_landscape_open_wide_tips">Badilisha hadi pembe pana zaidi ili kunasa mandhari au marafiki zaidi.</string>
+	<string name="enable_sd_permission_title">Kamera Inahitaji Ufikiaji wa Kadi ya SD</string>
+	<string name="enable_sd_permission_content">Tazama mipangilio yako na uruhusu ufikiaji wa \"DCIM\" katika \"kadi ya SD\”</string>
+	<string name="macro_mode">Makro</string>
+	<string name="super_macro_tip">Weka simu umbali wa (1) 3–4cm kutoka kwa kitu.</string>
+	<string name="bokeh_offfline_processing">Inachakata data ya bokeh nje ya mtandao...</string>
+	<string name="pref_google_lens">Lenzi ya Google</string>
+	<string name="never">Kamwe</string>
+	<string name="toast_high_temp_disable_flash">Halijoto ni ya juu sana, haiwezi kuwasha tochi.</string>
+	<string name="toast_high_temp_shutdown_camera">Halijoto ni ya juu sana, kamera itasimama baada ya sekunde 5</string>
+
+	<string name="bokeh_type_name">Ukungu wa kisanaa</string>
+	<string name="bokeh_type_description">Kitendaji hiki hukuruhusu kuhariri picha kwa kutumia athari ya Ukungu wa Kisanaa.</string>
+	<string name="hdr_type_name">HDR</string>
+	<string name="hdr_type_description">Uhifadhi wa maelezo zaidi katika mazingira yenye mwangaza wa nyuma</string>
+	<string name="ai_type_name">AI</string>
+	<string name="ai_type_description">Weka vigezo kiotomatiki ukitumia ugunduzi wa mandhari ya AI</string>
+	<string name="timelapse_type_name">Kasi ya fremu inayonaswa</string>
+	<string name="timelapse_type_description">Onyesha video ndefu yenye kasi ya juu kwa muda mfupi</string>
+	<string name="don_t_cover_the_lens">Usifunike lenzi</string>
+	<string name="pref_video_time_lapse_frame_interval_title">Kipindi cha Wakati</string>
+	<string name="toast_qr_code_detected">Msimbo wa QR umegunduliwa.\nGusa ili kutembelea</string>
+	<string name="toast_qr_code_detected_type_esim">Wasifu wa eSIM umetambuliwa.\nKusa ili kuamilisha eSIM</string>
+	<string name="toast_qr_code_detected_type_url">Msimbo wa QR umegunduliwa.\nGusa ili kutembelea kiungo</string>
+	<string name="toast_qr_code_detected_type_string">Msimbo wa QR umegunduliwa.\nGusa ili wa kutafuta kwenye Google</string>
+	<string name="toast_bar_code_detected_type_string">Msimbo wa upau umetambuliwa.\nGusa ili kutembelea kiungo</string>
+	<string name="toast_bar_code_detected_type_number">Msimbo wa upau wa bidhaa umetambuliwa.\nGusa ili utafute bidhaa</string>
+	<string name="turn_off_qr_code">Zima msimbo wa QR</string>
+	<string name="pref_video_quality_entry_fine_text">Faini</string>
+	<string name="pref_video_quality_entry_high_text">Juu</string>
+	<string name="pref_exposure_metering_title">Upimaji wa Mwanga</string>
+	<string name="pref_exposure_metering_entry_frame_average">Frame average</string>
+	<string name="pref_exposure_metering_entry_center_weighted">Uzani wa katikati</string>
+	<string name="pref_exposure_metering_entry_spot_metering">Upimiaji doa</string>
+	<string name="toast_disable_torch">Zima tochi ili kuzuia mweko kuwa na joto kupita kiasi</string>
+	<string name="google_location_dialog_title">Ungependa Kuongeza Maelezo ya Eneo kwa Picha Unazopiga Ukitumia Programu ya Kamera Yako?</string>
+	<string name="google_location_dialog_message">Hii inamaanisha kuwa picha zako zitakuwa na maelezo kuhusu eneo zilipopigwa.</string>
+	<string name="google_location_dialog_message_lear_more">
+		<a href="https://support.google.com/photos/answer/9921876">Pata maelezo zaidi</a>
+	</string>
+	<string name="google_location_dialog_positive">Wezesha eneo la kamera</string>
+	<string name="image_search_mode">Utafutaji wa kipengee</string>
+	<string name="detect_result_title">Chagua Kipengee na Uangalie Matokeo ya Utafutaji</string>
+	<string name="search_result_title">Matokeo ya Utafutaji wa Vipengee Vinavyofanana</string>
+	<string name="search_for_other_items">Tafuta vipengee vingine</string>
+	<string name="point_format_string">Pointi %1$d (%2$dx)</string><!--    <string name="price_format_string">%1$s yen</string>--><string name="view_on_rakuten_ichiba">Tazama kwenye Rakuten Ichiba</string>
+	<string name="view_all_results_on_rakuten_ichiba">Tazama matokeo yote katika Rakuten Ichiba</string>
+	<string name="start_new_search">Anzisha utafutaji mpya</string>
+	<string name="network_error">Hitilafu ya mtandao.\nTafadhali angalia muunganisho wako wa intaneti na ujaribu tena</string>
+	<string name="item_not_found">Haiwezi kugundua vipengee vyovyote vya mtindo</string>
+	<string name="cropped_item_not_found">Tafadhali rekebisha tena ukubwa wa eneo la utafutaji</string>
+	<string name="cropped_item_not_found_btn_text">Rekebisha eneo la utafutaji tena</string>
+	<string name="searching">Inatafuta...</string>
+	<string name="image_search_tip">Piga picha au chagua picha ya kutafuta</string>
+	<string name="image_search_processing">Inatafuta...</string>
+	<string name="move_and_resize_tip">Sogeza fremu kwenye eneo lolote ili utafute.\nKokota pembe ili kurekebisha ukubwa wa fremu.</string>
+	<string name="new_feature_image_search_guide_title">Kipengele Kipya</string>
+	<string name="new_feature_image_search_guide_title_extra" translatable="false" />
+	<string name="new_feature_image_search_guide_content">Sasa unaweza kupiga picha na kutafuta vipengee kwenye Rakuten Ichiba</string>
+	<string name="item_search_guide_title">Utafutaji wa Kipengee ni nini?</string>
+	<string name="item_search_guide_content_p1">Tafuta vipengee kwenye Rakuten Ichiba kwa kupiga picha ukitumia kamera yako.</string>
+	<string name="item_search_guide_content_p2">(Vipengee vya mitindo pekee ndivyo vinavyopatikana katika Utafutaji wa Kipengee kwa sasa.)</string>
+	<string name="feedback_title">Maoni</string>
+	<string name="feedback_content">Je, matokeo haya yana manufaa?</string>
+	<string name="feedback_action">Toa maoni</string>
+	<string name="feedback_send">Tuma</string>
+	<string name="feedback_response">Asante kwa maoni yako muhimu.</string>
+	<string name="terms_of_use_title">Masharti ya Matumizi</string>
+	<string name="privacy_title">Sera ya Faragha</string>
+	<string name="free_shipping">Usafirishaji usiolipishwa</string>
+	<string name="terms_of_use_agree">Ninakubaliana na Masharti ya Matumizi.</string>
+	<string name="start_to_use">Utafutaji wa Taswira</string>
+	<string name="terms_of_use_content">Haya ndiyo Masharti ya Matumizi.</string>
+	<string name="try_again_tips">Hujapata chochote unachopenda?\nJaribu utafutaji mpya ili kupata matokeo tofauti</string>
+	<string name="yen">yen</string>
+	<string name="pref_video_fps">FPS</string>
+	<string name="pref_video_encoder">Kisimbuaji</string>
+	<string name="more">Zaidi</string>
+	<string name="panorama_night_mode">Mwonekano wa usiku</string>
+	<string name="long_press_shutter_button">Bonyeza kilango kwa muda mrefu </string>
+	<string name="continuous_shot_entry">Picha zinazopigwa mfululizo</string>
+
+
+	<string name="pref_camera_wb_temp_title">Halijoto ya Rangi</string>
+
+	<string name="pref_camera_entry_off">Zima</string>
+	<string name="pref_camera_whitebalance_entry_custom">Maalum</string>
+	<string name="pref_camera_entry_on">Washa</string>
+
+	<string name="pref_video_night_title">Video ya usiku</string>
+	<string name="video_ois_title">OIS</string>
+	<string name="pref_photo_mfnr_title">MFNR</string>
+	<string name="remosaic_mode">Remosaic</string>
+
+	<string name="pref_high_definition_title">Mwonekano wa Juu</string>
+	<string name="pref_pro_raw_title">Mwonekano wa Juu</string>
+</resources>

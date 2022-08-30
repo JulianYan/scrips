@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="battery_suggestion_summary">Uključivanje adaptivne baterije</string>
+    <string name="smart_battery_manager_title">Adaptivna baterija</string>
+    <string name="smart_battery_footer">Da biste produljili trajanje baterije, adaptivna baterija ograničava trošenje baterije za aplikacije koje se ne koriste često. Telefon će s vremenom upamtiti način na koji upotrebljavate aplikacije. \n\nObavijesti za te aplikacije mogu se odgoditi.</string>
+    <string name="smart_battery_footer" product="tablet">Da biste produljili trajanje baterije, adaptivna baterija ograničava trošenje baterije za aplikacije koje se ne koriste često. Tablet će s vremenom upamtiti način na koji upotrebljavate aplikacije. \n\nObavijesti za te aplikacije mogu se odgoditi.</string>
+    <string name="smart_battery_footer" product="device">Da biste produljili trajanje baterije, adaptivna baterija ograničava trošenje baterije za aplikacije koje se ne koriste često. Uređaj će s vremenom upamtiti način na koji upotrebljavate aplikacije. \n\nObavijesti za te aplikacije mogu se odgoditi.</string>
+    <string name="smart_battery_title">Upotreba adaptivne baterije</string>
+    <string name="battery_tip_smart_battery_summary">Uključivanje adaptivne baterije</string>
+    <string name="nt_color_temperature">Temperatura boje</string>
+    <string name="warmer">Toplo</string>
+    <string name="colder">Hladno</string>
+	        <!-- Mobile network settings screen, title of item showing the name of the default subscription
+    that will be used for data. This only appears in multi-SIM mode. [CHAR LIMIT=NONE] -->
+    <string name="data_preference">Postavke podataka</string>
+	<string name="vibrating_for_outgoing_call_accepted_summary">Omogućite funkciju Prihvaćen način vibriranja za izlazne pozive</string>
+</resources>

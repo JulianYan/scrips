@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+     Copyright (C) 2008 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+         When an activity requests a theme with an action bar from its manifest,
+         the activity preview window created by the system process while the
+         real activity is loading will also contain an action bar. Set this to
+         NoActionBar and change the theme in onCreate.android:Theme.Holo.Light.NoActionBar.Fullscreen android:Theme.Translucent.NoTitleBar
+    -->
+    <style name="ThemeCameraBase" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@android:color/black</item>
+        <!-- item name="android:windowIsTranslucent">true</item -->
+        <item name="android:windowTranslucentNavigation">true</item>
+<!--        <item name="android:selectableItemBackground">@null</item>-->
+<!--        <item name="android:selectableItemBackgroundBorderless">@null</item>-->
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="android:splitMotionEvents">false</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@android:color/black</item>
+    </style>
+
+
+    <style name="ThemeRefocus" parent="android:Theme.Material.NoActionBar.Fullscreen">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowBackground">@android:color/background_dark</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <style name="OnScreenHintTextAppearance">
+        <item name="android:textColor">@android:color/primary_text_dark</item>
+        <item name="android:textColorHighlight">#FFFF9200</item>
+        <item name="android:textColorHint">#808080</item>
+        <item name="android:textColorLink">#5C5CFF</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="OnScreenHintTextAppearance.Small">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@android:color/secondary_text_dark</item>
+    </style>
+
+    <style name="ReviewControlGroup">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_marginLeft">50dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:background">@drawable/bg_pressed</item>
+    </style>
+
+    <style name="SceneFrameItemIcon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+    <style name="SceneFrameItemLayout">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginLeft">2dp</item>
+    </style>
+
+    <style name="PanoModeUiTextInfoStyle">
+        <item name="android:paddingLeft">4px</item>
+        <item name="android:paddingBottom">4px</item>
+        <item name="android:shadowColor">#804d4d4d</item>
+        <item name="android:shadowDx">3</item>
+        <item name="android:shadowDy">4</item>
+        <item name="android:shadowRadius">3</item>
+    </style>
+
+    <style name="ZbarModeUiTextInfoStyle">
+        <item name="android:paddingLeft">4px</item>
+        <item name="android:paddingBottom">4px</item>
+        <item name="android:shadowColor">#4d4d4d</item>
+        <item name="android:shadowDx">-3</item>
+        <item name="android:shadowDy">4</item>
+        <item name="android:shadowRadius">3</item>
+    </style>
+
+    <style name="MainSettingItemTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/setting_row_height</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/main_setting_item_title_text_size</item>
+        <item name="android:textColor">@color/setting_page_item_text_color</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+    </style>
+
+    <style name="ShutterButton">
+        <item name="android:layout_height">@dimen/shutter_size</item>
+        <item name="android:layout_width">@dimen/shutter_size</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="OnScreenInfoLayout">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="OnScreenInfoGroup">
+
+        <!-- Here set height "match_parent" to rotate 4 side. if "wrap_content" will rotate 2 side. -->
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="OnScreenInfoTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingStart">12dp</item>
+        <item name="android:paddingEnd">12dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/setting_item_text_color_normal</item>
+        <item name="android:background">@drawable/bg_indicator_background_round</item>
+    </style>
+
+    <style name="OnScreenInfoText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxWidth">340dp</item>
+        <item name="android:paddingStart">12dp</item>
+        <item name="android:paddingEnd">12dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">@color/setting_item_text_color_normal</item>
+        <item name="android:shadowColor">#4d4d4d</item>
+        <item name="android:shadowDx">3</item>
+        <item name="android:shadowDy">-2</item>
+        <item name="android:shadowRadius">3</item>
+        <!-- item name="android:background">@drawable/bg_indicator_background_round</item -->
+        <!-- <item name="android:background">@drawable/info_long_text_bg</item> -->
+    </style>
+
+    <style name="ZoomInfoText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxWidth">340dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/setting_item_text_color_normal</item>
+        <item name="android:shadowColor">#59000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">3</item>
+        <item name="android:shadowRadius">3</item>
+    </style>
+
+    <style name="ContinuousShotText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxWidth">340dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/setting_item_text_color_normal</item>
+        <item name="android:background">@drawable/info_long_text_bg</item>
+    </style>
+
+    <style name="PanoPreviewLayout"> <!-- parent="ScreenOnMargin" -->
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="RecordingText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingEnd">12dp</item>
+        <item name="android:drawablePadding">4dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/setting_item_text_color_normal</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:background">@drawable/bg_indicator_background_round</item>
+    </style>
+
+    <style name="PageIndexIcon">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:background">@drawable/bg_pressed</item>
+    </style>
+
+
+    <style name="ReviewControlIcon">
+
+        <item name="android:layout_margin">@dimen/review_sperator_width</item>
+        <item name="android:gravity">center</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:background">@drawable/bg_pressed</item>
+    </style>
+
+    <style name="GridViewContainerNothing">
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+    </style>
+
+    <style name="ScreenOnPadding">
+        <item name="android:paddingTop">@dimen/screen_on_margin_right</item>
+        <item name="android:paddingBottom">@dimen/screen_on_margin_right</item>
+        <item name="android:paddingLeft">@dimen/screen_on_margin_top</item>
+        <item name="android:paddingRight">@dimen/screen_on_margin_bottom</item>
+    </style>
+
+    <style name="LittleIIndicator">
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_width">60dp</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentRight">false</item>
+        <item name="android:layout_alignParentBottom">false</item>
+        <item name="android:layout_marginTop">5dp</item>
+    </style>
+
+    <style name="ModesAndSettingsTabsText">
+        <item name="android:textSize">@dimen/modes_and_settings_tabs_text_size</item>
+    </style>
+    <style name="Preference_TextAppearanceMaterialSubhead" xmlns:ns2="http://schemas.android.com/tools">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily" ns2:ignore="NewApi">sans-serif</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="Setting_title_appearance">
+        <item name="android:textSize">20sp</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:textColor">@color/setting_title_color</item>
+    </style>
+
+    <style name="Setting_summary_appearance">
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="android:textColor">@color/setting_description_color</item>
+    </style>
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">#C4C4C4</item>
+        <item name="colorControlActivated">#FFD900</item>
+    </style>
+
+    <style name="ImageSearchTouPageTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorAccent">@color/highlight_color_cyan</item>
+        <item name="colorPrimary">@color/highlight_color_cyan</item>
+        <item name="colorControlActivated">@color/highlight_color_cyan</item>
+    </style>
+
+</resources>

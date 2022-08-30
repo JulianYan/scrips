@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+     Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+
+    <!-- Confirmation dialog when restoring settings -->
+    <string name="confirm_restore_message">Obnovit nastavení fotoaparátu?</string>
+    <string name="pref_camera_module_title">Režim fotoaparátu</string>
+    <!-- Settings screen, camera selection dialog title. Users can select a camera from the phone (front-facing or back-facing). [CHAR LIMIT=20] -->
+    <string name="pref_camera_id_title">Přepnout fotoaparát</string>
+    <string name="pref_camera_id_default" translatable="false">0</string>
+
+    <!-- In select camera setting, back facing camera. [CHAR LIMIT=14] -->
+    <string name="pref_camera_id_entry_back">Zadní</string>
+    <!-- In select camera setting, front-facing camera. [CHAR LIMIT=14] -->
+    <string name="pref_camera_id_entry_front">Přední</string>
+
+    <!-- Settings screen, Record location dialog choices -->
+    <string name="pref_camera_recordlocation_entry_off">Vyp.</string>
+    <string name="pref_camera_recordlocation_entry_on">Zap.</string>
+
+    <!-- The Video quality settings in preference [CHAR LIMIT=21] -->
+    <string name="pref_video_quality_title">Kvalita videa</string>
+    <string name="pref_video_stabilization_title">Stabilizace videa</string>
+    <string name="pref_video_3dnr_title" translatable="false">Video 3DNR</string>
+    <!-- The Video timelapse settings in preference [CHAR LIMIT=21] -->
+    <string name="pref_video_timelapse_title">Časosběrné video</string>
+    <string name="pref_video_autozoom_title">Automatické přiblížení videa</string>
+    <string name="video_mode">VIDEO</string>
+    <string name="guide_auto_zoom_title" translatable="false">Auto Zoom</string>
+    <string name="guide_auto_zoom_rules" translatable="false">During the recording, you can track a specified object by drawing a circle on the screen and double tap to stop it</string>
+    <string name="toast_auto_zoom_not_activated" translatable="false">Auto zoom is not activated</string>
+
+    <!-- Default flash mode setting. -->
+    <string name="pref_camera_flashmode_default" translatable="false">off</string>
+    <string name="pref_camera_screenflash_default" translatable="false">off</string>
+
+    <!-- Settings screen, Flash mode title -->
+    <string name="pref_camera_flashmode_title">Režim s bleskem</string>
+    <string name="pref_screenflash_title">Blesk displejem</string>
+
+    <!-- Settings screen, Flash mode dialog radio button choices -->
+    <string name="pref_camera_flashmode_entry_auto">Auto</string>
+    <string name="pref_camera_flashmode_entry_on">Zap.</string>
+    <string name="pref_camera_flashmode_entry_off">Vyp.</string>
+    <string name="pref_camera_flashmode_entry_torch">Svítilna</string>
+    <string name="pref_camera_flashmode_entry_led">LED</string>
+
+    <!-- Default white balance setting. -->
+    <string name="pref_camera_whitebalance_default" translatable="false">auto</string>
+
+    <!-- Settings screen, white balance title -->
+    <string name="pref_camera_whitebalance_title">AWB</string>
+
+    <!-- Settings screen, White balance dialog radio button choices -->
+    <string name="pref_camera_whitebalance_entry_auto">Auto</string>
+    <string name="pref_camera_whitebalance_entry_incandescent" translatable="false">Incandescent</string>
+    <string name="pref_camera_whitebalance_entry_daylight" translatable="false">Daylight</string>
+    <string name="pref_camera_whitebalance_entry_fluorescent" translatable="false">Fluorescent</string>
+    <string name="pref_camera_whitebalance_entry_cloudy" translatable="false">Cloudy</string>
+    <string name="pref_camera_whitebalance_entry_value_incandescent" translatable="false">incandescent</string>
+    <string name="pref_camera_whitebalance_entry_value_daylight" translatable="false">daylight</string>
+    <string name="pref_camera_whitebalance_entry_value_cloudy_daylight" translatable="false">cloudy-daylight</string>
+
+    <string name="pref_hdr_default" translatable="false">on</string>
+    <string name="pref_motion_photo_default" translatable="false">off</string>
+    <!-- Default scene mode setting. -->
+    <string name="pref_camera_scenemode_default" translatable="false">auto</string>
+    <string name="pref_camera_scene_frame_default" translatable="false">1</string>
+    <string name="pref_camera_scene_frame_title" translatable="false">Scene frame</string>
+    <!-- Settings screen, Select Scene mode -->
+    <string name="pref_camera_scenemode_title" translatable="false">Scene mode</string>
+    <string name="pref_hdr_title">Live HDR</string>
+    <string name="pref_motion_photo_title">pohyb</string>
+
+    <!-- Settings menu, scene mode choices -->
+    <string name="pref_camera_scenemode_entry_auto" translatable="false">Auto</string>
+    <string name="pref_camera_scenemode_entry_night" translatable="false">Night</string>
+    <!-- Scene mode optimized for taking images in the sunset. -->
+    <string name="pref_camera_scenemode_entry_sunset" translatable="false">Sunset</string>
+    <!-- Scene mode optimized for taking indoor low-lights pictures. [CHAR LIMIT=16] -->
+    <string name="pref_camera_scenemode_entry_party" translatable="false">Party</string>
+    <string name="pref_restore_detail">Obnovit nastavení</string>
+
+    <!-- Exposure settings in preference -->
+    <string name="pref_exposure_title">EV</string>
+    <string name="pref_exposure_default" translatable="false">0</string>
+
+    <!-- Camera format string for new image files. Passed to java.text.SimpleDateFormat. -->
+    <string name="image_file_name_format" translatable="false">"'IMG'_yyyyMMdd_HHmmssSSS"</string>
+
+    <!-- Video Camera format string for new video files. Passed to java.text.SimpleDateFormat. -->
+    <string name="video_file_name_format" translatable="false">"'VID'_yyyyMMdd_HHmmssSSS"</string>
+
+    <!-- The text shown on the bottom-left corner of the screen to indicate that the saving is in process [CHAR LIMIT=13] -->
+    <string name="sugar_face_beauty_custom" translatable="false">Custom</string>
+    <string name="sugar_eyes_beauty" translatable="false">Eyes</string>
+    <string name="sugar_face_thin" translatable="false">Sharp</string>
+    <string name="sugar_skin_smooth" translatable="false">Smooth</string>
+
+    <string name="adjust_progress" translatable="false">+%s</string>
+    <string name="face_beauty_custom_skin_info" translatable="false">Skin</string>
+    <string name="face_beauty_custom_eyes_info" translatable="false">Eyes</string>
+    <string name="face_beauty_custom_thin_info" translatable="false">Thin</string>
+    <string name="face_beauty_custom_rosy_info" translatable="false">Rosy</string>
+    <string name="face_beauty_custom_whitening_info" translatable="false">Whitening</string>
+
+    <string name="portrait_custom_info" translatable="false">Blur</string>
+
+    <string name="pref_restore_default" translatable="false">on</string>
+    <string name="pref_camera_volume_key_title">Tlačítka hlasitosti</string>
+    <string name="pref_camera_volume_key_shoot">Snímat</string>
+    <string name="pref_camera_volume_key_zoom">Přiblížit</string>
+    <string name="pref_camera_volume_key_volume">Hlasitost</string>
+    <string name="recording_time" translatable="false">00:00:00</string>
+    <string name="timeLapse_recording_time" translatable="false">00:00 | 00:00</string>
+    <string name="photo_incapture">Pořizování snímku</string>
+    <string name="pref_shutterspeed_default" translatable="false">0</string>
+    <string name="toast_location_started" translatable="false">location started</string>
+    <string name="toast_location_success" translatable="false">location success</string>
+    <string name="toast_device_denayed">zařízení není přístupné</string>
+    <string name="toast_device_connect_failed">připojení zařízení se nezdařilo</string>
+    <string name="toast_start_preview_failed">otevření náhledu se nezdařilo</string>
+    <string name="toast_storage_full">úložiště je plné</string>
+    <string name="toast_low_power_disable_flash">Slabá baterie. Nelze aktivovat svítilnu.</string>
+    <string name="toast_video_size_max">Velikost videa dosáhla horního limitu.</string>
+    <string name="toast_continue_snap_max">Počet spojitých snímků dosáhl horního limitu.</string>
+    <string name="toast_video_error">Video nelze v aktuálním stavu zaznamenat</string>
+    <string name="toast_video_start_fail">Mikrofon se používá a nemůže zaznamenávat</string>
+    <string name="toast_video_init_size_error">Velikost videa dosáhla spodního limitu.</string>
+    <string name="toast_long_press_unavilable">Sekvenční snímání není podporováno.</string>
+    <string name="toast_continuous_shot_off">Sekvenční snímání není dostupné.</string>
+    <string name="toast_thumbnail_empty">„žádné foto“</string>
+
+    <string name="toast_auto_zoom" translatable="false">Auto zoom has been opened</string>
+    <string name="toast_video_stabilization">stabilizátor je aktivován</string>
+
+    <string name="toast_steady_capture">Během pořizování snímku nehýbejte telefonem.</string>
+
+    <string name="toast_dual_camera_opened" translatable="false">Dual Camera opened</string>
+    <string name="toast_dual_camera_closed" translatable="false">Dual Camera closed</string>
+
+    <!-- Pref -->
+
+    <string name="pref_video_time_lapse_frame_interval_x5" translatable="false">X5</string>
+    <string name="pref_video_time_lapse_frame_interval_x10" translatable="false">X10</string>
+    <string name="pref_video_time_lapse_frame_interval_x60" translatable="false">X60</string>
+    <string name="pref_video_time_lapse_frame_interval_x180" translatable="false">X180</string>
+    <string name="pref_video_time_lapse_frame_interval_x300" translatable="false">X300</string>
+
+
+    <string name="pref_video_quality_entry_medium" translatable="false">480P</string>
+    <string name="pref_video_quality_entry_high" translatable="false">720P</string>
+    <string name="pref_video_quality_entry_high_plus" translatable="false">720P+</string>
+    <string name="pref_video_quality_entry_fine" translatable="false">1080P</string>
+    <string name="pref_video_quality_entry_4k" translatable="false">4K</string>
+    <string name="pref_video_quality_entry_full">Úplná</string>
+    <string name="pref_video_quality_entry_fine_X" translatable="false">1080P+</string>
+    <string name="pref_video_stabilization_entry_on">Zap.</string>
+    <string name="pref_video_stabilization_entry_off">Vyp.</string>
+    <string name="pref_video_stabilization_entry_standard">Standardní</string>
+    <string name="pref_video_stabilization_entry_super">Super</string>
+    <string name="pref_video_3dnr_entry_on" translatable="false">On</string>
+    <string name="pref_video_3dnr_entry_off" translatable="false">Off</string>
+    <string name="pref_video_autozoom_entry_on" translatable="false">On</string>
+    <string name="pref_video_autozoom_entry_off" translatable="false">Off</string>
+    <string name="pref_camera_picturesize_title">Velikost obrázku</string>
+    <string name="pref_camera_picturesize_entry_4608x3456" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_4656x3496" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_4160x3120" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_4096x3072" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_3968x2976" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_3672x2754" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_3600x2700" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_3264x2448" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_5120x3840" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_5184x3880" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_8000x6000" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_8192x6144" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_9216x6912" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_1280x720" translatable="false">16:9</string>
+    <string name="pref_camera_picturesize_entry_2560x1440" translatable="false">16:9</string>
+    <string name="pref_camera_picturesize_entry_3072x1728" translatable="false">16:9</string>
+    <string name="pref_camera_picturesize_entry_3328x1872" translatable="false">16:9</string>
+    <string name="pref_camera_picturesize_entry_3840x2160" translatable="false">16:9</string>
+    <string name="pref_camera_picturesize_entry_4096x2304" translatable="false">16:9</string>
+    <string name="pref_camera_picturesize_entry_4608x2592" translatable="false">16:9</string>
+    <string name="pref_camera_picturesize_entry_5120x2880" translatable="false">16:9</string>
+    <string name="pref_camera_picturesize_entry_5184x2916" translatable="false">16:9</string>
+    <string name="pref_camera_picturesize_entry_2304x1728" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_2328x1748" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_2592x1936" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_2592x1940" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_2592x1944" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_2048x1536" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_2304x1296" translatable="false">16:9</string>
+    <string name="pref_camera_picturesize_entry_2328x1304" translatable="false">16:9</string>
+    <string name="pref_camera_picturesize_entry_1920x1080" translatable="false">16:9</string>
+    <string name="pref_camera_picturesize_entry_1600x1200" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_1280x960" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_1024x768" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_640x480" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_720x720" translatable="false">1:1</string>
+    <string name="pref_camera_picturesize_entry_320x240" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_1080x1080" translatable="false">1:1</string>
+    <string name="pref_camera_picturesize_entry_1600x1600" translatable="false">1:1</string>
+    <string name="pref_camera_picturesize_entry_1748x1748" translatable="false">1:1</string>
+    <string name="pref_camera_picturesize_entry_1944x1944" translatable="false">1:1</string>
+    <string name="pref_camera_picturesize_entry_2976x2976" translatable="false">1:1</string>
+    <string name="pref_camera_picturesize_entry_2224x2224" translatable="false">1:1</string>
+    <string name="pref_camera_picturesize_entry_2992x2992" translatable="false">1:1</string>
+    <string name="pref_camera_picturesize_entry_3000x3000" translatable="false">1:1</string>
+    <string name="pref_camera_picturesize_entry_3016x3016" translatable="false">1:1</string>
+    <string name="pref_camera_picturesize_entry_3060x3060" translatable="false">1:1</string>
+    <string name="pref_camera_picturesize_entry_3072x3072" translatable="false">1:1</string>
+    <string name="pref_camera_picturesize_entry_3120x3120" translatable="false">1:1</string>
+    <string name="pref_camera_picturesize_entry_3472x3472" translatable="false">1:1</string>
+    <string name="pref_camera_picturesize_entry_3488x3488" translatable="false">1:1</string>
+
+    <string name="pref_camera_picturesize_entry_1440x720" translatable="false">18:9</string>
+    <string name="pref_camera_picturesize_entry_2016x1008" translatable="false">18:9</string>
+    <string name="pref_camera_picturesize_entry_2304x1152" translatable="false">18:9</string>
+    <string name="pref_camera_picturesize_entry_3168x1584" translatable="false">18:9</string>
+    <string name="pref_camera_picturesize_entry_3744x1872" translatable="false">18:9</string>
+    <string name="pref_camera_picturesize_entry_4032x2016" translatable="false">18:9</string>
+    <string name="pref_camera_picturesize_entry_4608x2304" translatable="false">18:9</string>
+    <string name="pref_camera_picturesize_entry_5184x2592" translatable="false">18:9</string>
+
+    <string name="pref_camera_picturesize_entry_4640x2198" translatable="false">19:9</string>
+    <string name="pref_camera_picturesize_entry_4598x2178" translatable="false">19:9</string>
+    <string name="pref_camera_picturesize_entry_4560x2160" translatable="false">19:9</string>
+    <string name="pref_camera_picturesize_entry_4180x1980" translatable="false">19:9</string>
+    <string name="pref_camera_picturesize_entry_4160x1970" translatable="false">19:9</string>
+    <string name="pref_camera_picturesize_entry_4032x1910" translatable="false">19:9</string>
+    <string name="pref_camera_picturesize_entry_3592x1872" translatable="false">19:9</string>
+    <string name="pref_camera_picturesize_entry_3040x1440" translatable="false">19:9</string>
+    <string name="pref_camera_picturesize_entry_2592x1228" translatable="false">19:9</string>
+    <string name="pref_camera_picturesize_entry_2432x1152" translatable="false">19:9</string>
+    <string name="pref_camera_picturesize_entry_2280x1080" translatable="false">19:9</string>
+    <string name="pref_camera_picturesize_entry_1520x720" translatable="false">19:9</string>
+
+    <string name="pref_camera_picturesize_entry_3952x1872" translatable="false">19.5:9</string>
+    <string name="pref_camera_picturesize_entry_4056x1872" translatable="false">19.5:9</string>
+    <string name="pref_camera_picturesize_entry_4032x1856" translatable="false">19.5:9</string>
+    <string name="pref_camera_picturesize_entry_4208x1936" translatable="false">19.5:9</string>
+    <string name="pref_camera_picturesize_entry_4608x2144" translatable="false">19.5:9</string>
+    <string name="pref_camera_picturesize_entry_4608x2128" translatable="false">19.5:9</string>
+    <string name="pref_camera_picturesize_entry_3744x1728" translatable="false">19.5:9</string>
+    <string name="pref_camera_picturesize_entry_3120x1440" translatable="false">19.5:9</string>
+    <string name="pref_camera_picturesize_entry_2496x1152" translatable="false">19.5:9</string>
+
+
+    <string name="pref_camera_picturesize_entry_4624x2080" translatable="false">20:9</string>
+    <string name="pref_camera_picturesize_entry_4160x1872" translatable="false">20:9</string>
+    <string name="pref_camera_picturesize_entry_4096x1848" translatable="false">20:9</string>
+    <string name="pref_camera_picturesize_entry_4080x1836" translatable="false">20:9</string>
+    <string name="pref_camera_picturesize_entry_3200x1440" translatable="false">20:9</string>
+    <string name="pref_camera_picturesize_entry_2560x1152" translatable="false">20:9</string>
+    <string name="pref_camera_picturesize_entry_2400x1080" translatable="false">20:9</string>
+    <string name="pref_camera_picturesize_entry_2328x1048" translatable="false">20:9</string>
+
+    <string name="pref_camera_picturesize_entry_3264x1440" translatable="false">20.5:9</string>
+    <string name="pref_camera_picturesize_entry_1632x720" translatable="false">20.5:9</string>
+
+    <string name="pref_camera_picturesize_entry_1x1" translatable="false">1:1</string>
+    <string name="pref_camera_picturesize_entry_16x9" translatable="false">16:9</string>
+    <string name="pref_camera_picturesize_entry_4x3" translatable="false">4:3</string>
+
+    <string name="pref_camera_picture_aspect_ratio_title">Poměr stran obrázku</string>
+    <string name="pref_camera_picture_aspect_ratio_entry_1x1" translatable="false">1:1</string>
+    <string name="pref_camera_picture_aspect_ratio_entry_16x9" translatable="false">16:9</string>
+    <string name="pref_camera_picture_aspect_ratio_entry_18x9" translatable="false">18:9</string>
+    <string name="pref_camera_picture_aspect_ratio_entry_19x9" translatable="false">19:9</string>
+    <string name="pref_camera_picture_aspect_ratio_entry_19_5x9" translatable="false">19.5:9</string>
+    <string name="pref_camera_picture_aspect_ratio_entry_20x9" translatable="false">20:9</string>
+    <string name="pref_camera_picture_aspect_ratio_entry_20_5x9" translatable="false">20.5:9</string>
+    <string name="pref_camera_picture_aspect_ratio_entry_4x3" translatable="false">4:3</string>
+
+    <string name="pref_camera_picturesize_entry_16_9">Celá obrazovka</string>
+    <string name="pref_camera_picturesize_entry_4_3">Normální</string>
+    <string name="pref_camera_picturesize_entry_1_1">Obdélník</string>
+    <!-- ISO -->
+    <string name="pref_camera_iso_default" translatable="false">auto</string>
+    <string name="pref_camera_iso_title" translatable="false">ISO</string>
+    <string name="manual_focus_title" translatable="false">M focus</string>
+    <!-- <string name="pref_camera_edge_default" translatable="false">middle</string> -->
+    <string name="pref_camera_edge_title" translatable="false">Sharpness</string>
+    <string name="pref_camera_hue_default" translatable="false">middle</string>
+    <string name="pref_camera_hue_title" translatable="false">Hue</string>
+
+    <!-- <string name="pref_camera_saturation_default" translatable="false">middle</string> -->
+    <string name="pref_camera_saturation_title">Sytost</string>
+    <string name="pref_camera_brightness_default" translatable="false">middle</string>
+    <string name="pref_camera_brightness_title">Jas</string>
+    <string name="pref_camera_contrast_default" translatable="false">middle</string>
+    <string name="pref_camera_contrast_title">Kontrast</string>
+    <string name="pref_camera_dip_entry_low" translatable="false">Low</string>
+    <string name="pref_camera_dip_entry_middle" translatable="false">Medium</string>
+    <string name="pref_camera_dip_entry_high" translatable="false">High</string>
+
+    <!-- color effect -->
+    <string name="pref_camera_coloreffect_default" translatable="false">none</string>
+
+    <!-- Settings screen, Select Color effect title -->
+    <string name="pref_camera_coloreffect_title" translatable="false">Color effect</string>
+
+    <!-- Settings screen, Color effect dialog radio button choices -->
+    <string name="pref_camera_coloreffect_entry_none" translatable="false">None</string>
+    <string name="pref_camera_coloreffect_entry_mono" translatable="false">Mono</string>
+    <string name="pref_camera_coloreffect_entry_sepia" translatable="false">Sepia</string>
+    <string name="pref_camera_coloreffect_entry_negative" translatable="false">Negative</string>
+    <!-- Color effect that overexposes and reverses some of the tones. -->
+    <string name="pref_camera_coloreffect_entry_solarize" translatable="false">Solarize</string>
+    <string name="pref_camera_coloreffect_entry_posterize" translatable="false">Posterize</string>
+    <string name="pref_camera_coloreffect_entry_whiteboard" translatable="false">Whiteboard</string>
+    <string name="pref_camera_coloreffect_entry_blackboard" translatable="false">Blackboard</string>
+    <string name="pref_camera_coloreffect_entry_aqua" translatable="false">Aqua</string>
+    <string name="pref_camera_coloreffect_entry_pastel" translatable="false">Pastel</string>
+    <string name="pref_camera_coloreffect_entry_mosaic" translatable="false">Mosaic</string>
+    <string name="pref_camera_coloreffect_entry_redtint" translatable="false">Red tint</string>
+    <string name="pref_camera_coloreffect_entry_bluetint" translatable="false">Blue tint</string>
+    <string name="pref_camera_coloreffect_entry_greentint" translatable="false">Green tint</string>
+    <string name="pref_camera_coloreffect_entry_sepiablue" translatable="false">Sepia Blue</string>
+    <string name="pref_camera_coloreffect_entry_sepiagreen" translatable="false">Sepia Green</string>
+
+    <!-- self timer -->
+    <string name="pref_camera_selftimer_default" translatable="false">0</string>
+    <string name="pref_camera_selftimer_title">Časovač</string>
+    <string name="pref_camera_selftimer_entry_off">Vyp.</string>
+    <string name="pref_camera_selftimer_entry_3">3 sekundy</string>
+    <string name="pref_camera_selftimer_entry_10">10 sekund</string>
+
+    <!-- anti-flicker -->
+    <!-- string name="pref_camera_antibanding_default" translatable="false">auto</string -->
+    <string name="pref_camera_antibanding_title">Potlačení blikání</string>
+    <string name="pref_camera_antibanding_entry_auto">Auto</string>
+    <string name="pref_camera_antibanding_entry_50hz">50 Hz</string>
+    <string name="pref_camera_antibanding_entry_60hz">60 Hz</string>
+
+    <!-- Scene mode Mediatek plus -->
+    <!-- Scene mode that takes an image with as little noise as possible so details of the subject are maintained. -->
+    <string name="pref_camera_scenemode_entry_portrait" translatable="false">Portrait</string>
+    <!-- Scene mode that takes an image of a landscape assuming all subjects are relatively far from the phone. -->
+    <string name="pref_camera_scenemode_entry_landscape" translatable="false">Landscape</string>
+    <!-- Scene mode that takes night shots with long exposure and flash to illuminate the subject while still capturing darker detail in the background. -->
+    <string name="pref_camera_scenemode_entry_night_portrait" translatable="false">Night portrait</string>
+    <!-- Scene mode to be used in a stage show. -->
+    <string name="pref_camera_scenemode_entry_theatre" translatable="false">Theatre</string>
+    <!-- Scene mode optimized for taking images on the beach. -->
+    <string name="pref_camera_scenemode_entry_beach" translatable="false">Beach</string>
+    <!-- Scene mode optimized for taking images in the snow. -->
+    <string name="pref_camera_scenemode_entry_snow" translatable="false">Snow</string>
+    <!-- Scene mode for taking a photo as sharp as possible. -->
+    <string name="pref_camera_scenemode_entry_steadyphoto" translatable="false">Steady photo</string>
+    <!-- Scene mode optimized for taking images of fireworks. -->
+    <string name="pref_camera_scenemode_entry_fireworks" translatable="false">Fireworks</string>
+    <string name="pref_camera_scenemode_entry_sports" translatable="false">Sports</string>
+    <string name="pref_camera_scenemode_entry_candlelight" translatable="false">Candle light</string>
+    <!-- for CMCC feature -->
+    <string name="pref_camera_scenemode_entry_normal" translatable="false">Normal</string>
+
+    <!-- Video Camera -->
+    <!-- EIS setting -->
+    <string name="pref_camera_eis_title">EIS</string>
+    <string name="pref_camera_eis_default" translatable="false">off</string>
+    <string name="pref_camera_eis_on">Zap.</string>
+    <string name="pref_camera_eis_off">Vyp.</string>
+
+    <!-- microphone switch -->
+    <!-- string name="pref_camera_recordaudio_default" translatable="false">off</string -->
+    <string name="pref_camera_recordaudio_title">Ztišení videa</string>
+    <string name="pref_camera_recordaudio_entry_off">Vyp.</string>
+    <string name="pref_camera_recordaudio_entry_on">Zap.</string>
+
+
+    <!-- ZSD songyutao -->
+    <string name="pref_camera_zsd_title" translatable="false">ZSD</string>
+    <string name="pref_chroma_flash_title" translatable="false">Smart flash</string>
+
+    <!-- continuous shot speed -->
+    <string name="pref_camera_continuous_number_title">Sekvenční snímání</string>
+
+
+    <string name="pref_voice_capture">Zachycení hlasu</string>
+    <string name="pref_voice_default" translatable="false">off</string>
+    <string name="pref_voice_entry_off">vyp.</string>
+    <string name="pref_voice_entry_on">zap.</string>
+
+    <!-- Face Detection properties  songyutao set FD dafault on -->
+    <string name="pref_camera_face_detect_title">Rozpoznání obličeje</string>
+    <string name="pref_camera_face_detect_default" translatable="false">on</string>
+    <string name="pref_camera_face_detect_entry_off">Vyp.</string>
+    <string name="pref_camera_face_detect_entry_on">Zap.</string>
+    <string name="pref_camera_record_location_title">Umístění pro ukládání</string>
+    <string name="pref_camera_thumb_title">Uložené snímky</string>
+
+    <string name="pref_camera_pic_frame_entry_off">Vyp.</string>
+    <string name="pref_camera_pic_frame_entry_on">Zap.</string>
+    <string name="pref_shutter_touch_title">Klepnutím pořídíte fotografii</string>
+    <string name="pref_shutter_smile_default" translatable="false">off</string>
+    <string name="pref_shutter_smile_title">Snímek úsměvu</string>
+    <string name="pref_shutter_hand_default" translatable="false">off</string>
+    <string name="pref_shutter_hand_title">Snímek ruky</string>
+    <string name="pref_shutter_watermark_title">Vodotisk</string>
+    <string name="pref_shutter_watermark_default" translatable="false">off</string>
+    <string name="pref_camera_watermark_entry_off">Vyp.</string>
+    <string name="pref_camera_watermark_entry_on">Zap.</string>
+    <string name="pref_camera_asd_title">ASD</string>
+    <string name="pref_camera_asd_entry_off">Vyp.</string>
+    <string name="pref_camera_asd_entry_on">Zap.</string>
+
+    <string name="pref_camera_shutter_sound_title">Zvuk závěrky</string>
+    <string name="pref_camera_shutter_sound_entry_off">Vyp.</string>
+    <string name="pref_camera_shutter_sound_entry_on">Zap.</string>
+    <string name="pref_camera_pic_level_title">Gradienter</string>
+    <string name="pref_camera_pic_level_entry_off">Vyp.</string>
+    <string name="pref_camera_pic_level_entry_on">Zap.</string>
+    <string name="pref_continuous_onoff_default" translatable="false">on</string>
+    <string name="pref_capture_mirror_title">Zrcadlový přední fotoaparát</string>
+    <string name="pref_camera_save_pos_title">Úložiště</string>
+    <string name="pref_camera_save_pos_entry_t">SD karta</string>
+    <string name="pref_camera_save_pos_entry_p">Telefon</string>
+    <string name="pref_camera_save_pos_entry_u">usb otg</string>
+    <string name="pref_video_record_red_light_entry_off">vyp.</string>
+    <string name="pref_video_record_red_light_entry_on">zap.</string>
+
+    <string name="pref_camera_mesh_line_title">Mřížka</string>
+    <string name="pref_camera_high_picture_size_title">Velký obrázek</string>
+
+    <string name="pref_pic_struct_title">Rámovací čáry</string>
+    <string name="pref_video_record_red_light_key_title">Světelný indikátor záznamu</string>
+    <string name="pref_pic_struct_default" translatable="false">off</string>
+    <string name="pref_pic_struct_entry_off">Vyp.</string>
+    <string name="pref_pic_struct_entry_enneahedral">Čáry mřížky</string>
+    <string name="manual">EXPERT</string>
+    <string name="photo_mode">FOTO</string>
+    <string name="panorama_mode">PANO</string>
+    <string name="beauty_mode">Zkrášlení obličeje</string>
+    <string name="radio_switch_to_hdr">HDR</string>
+
+    <string name="radio_switch_to_facebeauty_custom">Zkrášlení obličeje</string>
+    <!-- application infomation -->
+    <string name="app_name">Fotoaparát</string>
+    <string name="pref_camera_selftimer_entry_5">5 sekund</string>
+    <string name="night_mode">Noc</string>
+    <string name="capture_keep_steady_hint">Držte phone (1) ve stabilní poloze</string>
+    <string name="radio_switch_to_beautyvideo">Zkrášlující video</string>
+    <string name="timelapse_mode">ČASOSBĚR</string>
+
+    <!-- add by zzp for pano-->
+    <string name="panorama_move_phone">Phone (1) rovnoměrně posunujte podél střední čáry</string>
+    <string name="panorama_night_move_phone">Stiskněte spoušť a zarovnejte kružnici s tečkou. Režim Super panorama je vhodnější pro zachycení nočních scén</string>
+    <string name="panorama_move_keep_line">Udržujte šipku na čáře</string>
+    <string name="panorama_night_capture_move_toast">Přesuňte phone (1) tak, abyste zarovnali kružnici s tečkou</string>
+    <string name="panorama_arcsoft_guide_shutter">Stiskněte tlačítko spouště a pomalu telefon\n posunujte jedním směrem</string>
+    <string name="panorama_arcsoft_warn_slowly">Pohybujte telefonem pomalu</string>
+    <string name="panorama_arcsoft_warn_back">Upozornění – přesuňte zpět</string>
+
+    <string name="panorama_arcsoft_warn_up">Přesuňte nahoru</string>
+    <string name="panorama_arcsoft_warn_down">Přesuňte dolů</string>
+    <string name="panorama_arcsoft_warn_left">Přesuňte doleva</string>
+    <string name="panorama_arcsoft_warn_right">Přesuňte doprava</string>
+    <string name="panorama_arcsoft_switch_capture_direction_guide">Klepnutím na šipku změníte směr zachycení</string>
+    <string name="panorama_capture_guide">Zarovnejte šipku s referenční čárou</string>
+    <string name="panorama_toggle_mode_standard">STANDARDNÍ</string>
+    <string name="panorama_toggle_mode_super">SUPER</string>
+    <!--time line 20141227-->
+    <string name="radio_switch_to_pip">DualView</string>
+
+    <string name="setting_title">NASTAVENÍ FOTOAPARÁTU</string>
+    <string name="expert_setting_title">Funkce režimu Expert</string>
+    <string name="hold_shutter_setting_title">Stiskněte a podržte spoušť</string>
+    <string name="video_encode_title">Kódování videa</string>
+    <string name="group_general_title">Obecné</string>
+    <string name="group_photo_title">Foto</string>
+    <string name="group_video_title">Video</string>
+    <string name="mode_title">Režimy</string>
+    <string name="setting_top_full_hint">Nelze přidat další položky.</string>
+
+    <string name="panorama_arcsoft_cannot_use_guide">Panorama používejte v režimu Portrét</string>
+
+    <string name="radio_switch_to_refocus">Inteligentní ostření</string>
+    <string name="radio_switch_to_chromaflash">Inteligentní blesk</string>
+    <string name="radio_switch_to_clearsight">ClearSight</string>
+
+    <string name="setting_guide_message">Kliknutím na Přidat na panel zástupců nebo \n přetáhnutím přidejte zástupce</string>
+    <string name="skip_setting_guide">ROZUMÍM</string>
+
+    <string name="permission_title">Udělení přístupu</string>
+    <string name="enable_permission_procedure">Oprávnění změníte v části Nastavení &gt; Aplikace &gt; %1$s &gt; Oprávnění</string>
+    <string name="toast_storage_full_sdcard_to_internal">SD karta je plná. Použijte interní úložiště</string>
+    <string name="toast_storage_damaged_sdcard_to_internal">Uložení souboru na SD kartu se nezdařilo. Použijte interní úložiště</string>
+    <string name="toast_storage_full_internal_to_sdcard">Interní úložiště je plné. Použijte SD kartu</string>
+    <string name="toast_storage_full_clean_up_to_free_space">Úložiště telefonu je plné. Uvolněte místo</string>
+    <string name="secure_camera_can_not_request_permission">Nejprve telefon odemkněte, abyste mohli přijmout/odmítnout požadavek na oprávnění</string>
+
+    <string name="shutcauts_backcamera">Pořízení fotografie</string>
+
+    <string name="pref_camera_status_detect_title">Rozpoznání stavu</string>
+
+    <string name="pref_camera_raw_file_title">Soubor RAW</string>
+    <string name="pref_camera_filter_title">Filtr</string>
+    <string name="pref_dual_camera_title">Duální fotoaparát</string>
+    <string name="pref_dual_camera_default">vyp.</string>
+    <string name="portrait_mode">PORTRÉT</string>
+
+    <string name="pref_camera_pref_entry_auto">Auto</string>
+
+    <string name="confirm_mode_tip">Klepnutím přepnete do režimu %1$s</string>
+
+    <string name="focal_switch_scale_tip" translatable="false">Tap on the icon to open Telephoto mode</string>
+    <string name="front_wide_switch_tip" translatable="false">Tap on the icon to activate group selfie</string>
+    <string name="low_memory_limit" translatable="false">Your system is in low memory, some features limit capture size</string>
+    <string name="portrait_background_blur">Portrét</string>
+    <string name="portrait_of_face_beauty">Zkrášlení obličeje</string>
+
+    <string name="asd_result_hdr">HDR aktivní</string>
+    <string name="toast_face_undetected_at_portrait" translatable="false">No face detected within 2 meters</string>
+    <string name="toast_face_undetected_at_sticker" translatable="false">No face detected</string>
+    <string name="toast_view_pic_vivid_at_superpixel" translatable="false">Capture more details on picture with Super Pixel</string>
+    <string name="front_face_detected_first_tip" translatable="false">Look at the lens for better selfies</string>
+
+    <string name="u_screen_selfie_count_down_cancel">Storno</string>
+    <string name="video_beauty_switch_on">Zap.</string>
+    <string name="video_beauty_switch_off">Vyp.</string>
+
+    <string name="image_processing_toast">Zpracování obrázku</string>
+    <string name="short_video_not_found">Toto video nelze nalézt</string>
+
+    <!-- for Android O's CTS-->
+    <string name="camera_review_done_desc">Hotovo</string>
+    <string name="camera_review_retake_desc">Opakovat záběr</string>
+    <string name="bokeh_mode">PORTRÉT</string>
+    <string name="toast_dual_camera_bokeh">Nejvhodnější pro zachycení objektů do 2 metrů</string>
+
+    <!-- for qcom slowmotion-->
+    <string name="pref_camera_hfr_entry_2x">X2</string>
+    <string name="pref_camera_hfr_entry_3x">X3</string>
+    <string name="pref_camera_hfr_entry_4x">X4</string>
+
+    <string name="pref_camera_hfr_value_2x" translatable="false">hfr60</string>
+    <string name="pref_camera_hfr_value_3x" translatable="false">hfr90</string>
+    <string name="pref_camera_hfr_value_4x" translatable="false">hfr120</string>
+    <string name="pref_camera_hsr_value_off" translatable="false">off</string>
+    <string name="pref_camera_hsr_value_2x" translatable="false">hsr60</string>
+    <string name="pref_camera_hsr_entry_2x" translatable="false">X2</string>
+    <string name="pref_camera_hsr_entry_off" translatable="false">Off</string>
+
+    <string name="pref_camera_sticker_title">Nálepka</string>
+    <string name="pref_gender_estimate_title">Odhad pohlaví</string>
+    <string name="pref_gender_estimate_entry_on">Zap.</string>
+    <string name="pref_gender_estimate_entry_off">Vyp.</string>
+
+    <string name="toast_motion_photo_opened">Pohyblivé foto ZAP.</string>
+
+    <!--add for ai scene detection -->
+    <string name="ai_scene_tips_food">Jídlo</string>
+    <string name="ai_scene_tips_portrait">Portrét</string>
+    <string name="ai_scene_tips_foliage">Rostlina</string>
+    <string name="ai_scene_tips_sky">Modrá obloha</string>
+    <string name="ai_scene_tips_text">Text</string>
+
+    <!-- add for faceplus asd detection -->
+    <string name="faceplus_asd_tips_face">Portrét</string>
+    <string name="faceplus_asd_tips_food">Jídlo</string>
+    <string name="faceplus_asd_tips_fruits">Ovoce</string>
+    <string name="faceplus_asd_tips_flower">Květina</string>
+    <string name="faceplus_asd_tips_flowersea">Moře květin</string>
+    <string name="faceplus_asd_tips_sandbeach">Písek</string>
+    <string name="faceplus_asd_tips_snow">Sníh</string>
+    <string name="faceplus_asd_tips_bluesky">Obloha</string>
+    <string name="faceplus_asd_tips_night">Noc</string>
+    <string name="faceplus_asd_tips_sunrise">Východ a západ slunce</string>
+    <string name="faceplus_asd_tips_qr">QR kód</string>
+    <string name="faceplus_asd_tips_businesscard">Vizitka</string>
+    <string name="faceplus_asd_tips_whiteboard">Bílá tabule</string>
+    <string name="faceplus_asd_tips_idcard">ID</string>
+    <string name="faceplus_asd_tips_bankcard">Kreditní karta</string>
+    <string name="faceplus_asd_tips_cat">Kočka</string>
+    <string name="faceplus_asd_tips_dog">Pes</string>
+    <string name="faceplus_asd_tips_meadow">Louka</string>
+    <string name="faceplus_asd_tips_plants">Rostlina</string>
+
+    <string name="video_recording">Záznam videa</string>
+    <string name="motion_photo">Pohyblivé foto</string>
+    <string name="switch_to_wide_lens_toast" translatable="false">Opening wide angle lens</string>
+    <string name="time_lapse_not_save"> Časosběrný záznam nelze uložit. Video musí mít alespoň %1$d s</string>
+    <string name="pref_shutter_speed_title">Rychlost závěrky</string>
+    <string name="radio_switch_to_dual_bokeh_for_custom">Bokeh</string>
+    <string name="toast_video_recording_in_call_state">Během hovoru nelze zaznamenávat zvuk</string>
+    <string name="pref_camera_ai_title">Rozpoznání scény</string>
+
+    <string name="toast_video_3dnr_on">Noční zobrazení videa aktivováno</string>
+    <string name="toast_storage_unavailable">SD karta není dostupná</string>
+    <string name="toast_landscape_open_wide_tips">Chcete-li zachytit ještě větší část krajiny či více přátel, přepněte na ultra široký úhel.</string>
+
+    <string name="enable_sd_permission_title">Fotoaparát vyžaduje přístup k SD kartě</string>
+    <string name="enable_sd_permission_content">Zobrazte nastavení a povolte přístup k \„DCIM\“ na \„SD kartě\“</string>
+    <string name="macro_mode">MAKRO</string>
+    <string name="super_macro_tip">Nejvhodnější pro zachycení objektů na 4 cm</string>
+    <string name="bokeh_offfline_processing" translatable="false">Offline bokeh data processing……</string>
+    <string name="pref_google_lens" translatable="false">Google Lens</string>
+    <string name="never">Nikdy</string>
+    <string name="toast_high_temp_disable_flash">Příliš vysoká teplota pro aktivaci svítilny. </string>
+    <string name="toast_high_temp_shutdown_camera">Příliš vysoká teplota. Fotoaparát se zastaví po 5 sekundách. </string>
+    <string name="provider_authority" translatable="false">com.nothing.camera.provider.SpecialTypeProvider</string>
+
+
+    <string name="bokeh_type_name">Bokeh</string>
+    <string name="bokeh_type_description">Tento speciální typ umožňuje upravit efekt bokeh.</string>
+    <string name="hdr_type_name">HDR fotografie</string>
+    <string name="hdr_type_description">Zachování více detailů v prostředí s protisvětlem</string>
+    <string name="ai_type_name">AI</string>
+    <string name="ai_type_description">Rozpoznání scény pomocí AI automaticky přizpůsobí správné parametry fotografie</string>
+    <string name="timelapse_type_name">Časosběr</string>
+    <string name="timelapse_type_description">Rychlejší přehrání dlouhého videa za kratší dobu</string>
+    <string name="don_t_cover_the_lens">Nezakrývejte objektiv</string>
+    <string name="pref_video_time_lapse_frame_interval_title">Časový interval</string>
+
+    <string name="toast_qr_code_detected">Byl rozpoznán QR kód.\nKlepnutím přejdete</string>
+    <string name="toast_qr_code_detected_type_esim">Byl rozpoznán profil eSIM.\nKlepnutím aktivujete eSIM</string>
+    <string name="toast_qr_code_detected_type_url">Byl rozpoznán QR kód.\nKlepnutím přejdete na odkaz</string>
+    <string name="toast_qr_code_detected_type_string">Byl rozpoznán QR kód.\nKlepnutím vyhledáte v Google</string>
+    <string name="toast_bar_code_detected_type_string">Byl rozpoznán čárový kód.\nKlepnutím přejdete na odkaz</string>
+    <string name="toast_bar_code_detected_type_number">Byl rozpoznán čárový kód produktu.\nKlepnutím vyhledáte produkt</string>
+    <string name="turn_off_qr_code">Vypnout QR kód</string>
+
+    <string name="pref_video_quality_entry_fine_text">Dobrá</string>
+    <string name="pref_video_quality_entry_high_text">Vysoká</string>
+
+    <string name="pref_exposure_metering_title">MěřeníExpozice</string>
+    <string name="pref_exposure_metering_entry_frame_average">Průměr snímků</string>
+    <string name="pref_exposure_metering_entry_center_weighted">Vážený střed</string>
+    <string name="pref_exposure_metering_entry_spot_metering">Bodové měření</string>
+    <string name="toast_disable_torch">Deaktivujte svítilnu, aby se nepřehřál blesk</string>
+    <string name="high_temperature_title_hint">Vysoká teplota</string>
+    <string name="high_temperature_confirm_text">OK</string>
+    <string name="high_temperature_exit_text">Zavřít</string>
+    <string name="high_temperature_forbid_flash">Blesk není dostupný. Před obnovením nechte phone (1) vychladnout.</string>
+    <string name="high_temperature_forbid_video_recording">Zastavit záznam. Před obnovením nechte phone (1) vychladnout.</string>
+    <string name="high_temperature_close_camera">Fotoaparát se zavře na konci odpočítávání.</string>
+
+    <string name="google_location_dialog_title" translatable="false">Add location information to photos you take with your camera app?</string>
+    <string name="google_location_dialog_message" translatable="false">This means your photos will contain information about where they were taken.</string>
+    <string name="google_location_dialog_message_lear_more" translatable="false"><a href='https://support.google.com/photos/answer/9921876'>Learn more</a></string>
+    <string name="google_location_dialog_positive" translatable="false">Enable Camera Location</string>
+
+    <string name="pref_video_fps">FPS</string>
+    <string name="pref_video_encoder">Kódování videa</string>
+    <string name="more">VÍCE</string>
+    <string name="panorama_night_mode">NočníPanoráma</string>
+    <string name="long_press_shutter_button">Stiskněte a podržte spoušť</string>
+    <string name="continuous_shot_entry">Dávkový snímek</string>
+    <string name="continuous_shot_value" translatable="false">continuous_shot</string>
+    <string name="video_recording_value" translatable="false">video_recording</string>
+    <string name="pref_camera_wb_temp_title">Teplota barev</string>
+    <string name="pref_camera_entry_value_off" translatable="false">off</string>
+    <string name="pref_camera_entry_value_on" translatable="false">on</string>
+    <string name="pref_camera_entry_off">Vyp.</string>
+    <string name="pref_camera_entry_on">Zap.</string>
+    <string name="pref_camera_whitebalance_entry_custom" >vlastní</string>
+    <string name="pref_video_night_title">Noční video</string>
+    <string name="video_ois_title">OIS</string>
+    <string name="pref_photo_mfnr_title">mfnr</string>
+    <string name="remosaic_mode">Remosaic</string>
+    <string name="test" translatable="false">Test</string>
+
+    <string name="pref_high_definition_title">Vysoké rozlišení</string>
+    <string name="pref_pro_raw_title">Zachycení jako RAW</string>
+    <string name="beauty_video_mode">Zkrášlující video</string>
+    <string name="perf_summary_record_location">Uložit informace o poloze v podrobnostech o fotografii a videu</string>
+    <string name="perf_summary_capture_mirror">Zrcadlení vlevo nebo vpravo při pořizování fotografií nebo videí předním fotoaparátem</string>
+    <string name="perf_summary_touch_capture">Klepnutím na obrazovku pořídíte fotografii</string>
+    <string name="perf_summary_asd">Automaticky použije optimální nastavení pro různé objekty, jako jsou květiny, zvířata a obloha.</string>
+    <string name="perf_summary_expert">Platí pouze pro režim Expert</string>
+    <string name="pref_histogram_title">Histogram</string>
+    <string name="perf_summary_level_meter">Lorem ipsum dolor sit amet, consectetur adipiscing elit</string>
+    <string name="perf_summary_video_encode">Kódování H.265 může ušetřit místo, ale není podporováno některými aplikacemi a weby.</string>
+    <string name="perf_summary_h264">Lepší kompatibilita</string>
+    <string name="perf_summary_h265">Efektivnější úložiště</string>
+    <string name="perf_expert_features">Funkce režimu Expert</string>
+    <string name="reset_setting_description">Obnovení výchozího nastavení fotoaparátu</string>
+    <string name="reset_button_reset">Obnovit</string>
+    <string name="reset_button_cancel">Storno</string>
+    <string name="perf_title_level_meter">Úroveň</string>
+
+    <string name="video_pause_hint">POZASTAVENO</string>
+
+    <string name="filter_name_none" >Původní</string>
+    <string name="filter_name_1" translatable="false">West</string>
+    <string name="filter_name_2" translatable="false">Palma</string>
+    <string name="filter_name_3" translatable="false">Metro</string>
+    <string name="filter_name_4" translatable="false">Eiffel</string>
+    <string name="filter_name_5" translatable="false">Blush</string>
+    <string name="filter_name_6" translatable="false">Modena</string>
+    <string name="filter_name_7" translatable="false">Reel</string>
+    <string name="filter_name_8" translatable="false">Vogue</string>
+    <string name="filter_name_9" translatable="false">Ollie</string>
+    <string name="filter_name_10" translatable="false">Bazaar</string>
+    <string name="filter_name_11" translatable="false">Alpaca</string>
+    <string name="filter_name_12" translatable="false">Vista</string>
+
+    <string name="pref_llhdr_title" translatable="false">llhdr</string>
+    <string name="pref_llhdr_lux" translatable="false">lux</string>
+
+    <!-- camera toast -->
+    <string name="toast_motion_photo_closed">Pohyblivé foto VYP.</string>
+    <string name="toast_high_picture_size_opened">50 MP Ultra HD</string>
+    <string name="toast_high_picture_size_closed">12 MP HD</string>
+    <string name="toast_flash_led_opened">Světlo výplně Glyph</string>
+    <string name="toast_high_definition_opened">HD portrét ZAP.</string>
+    <string name="toast_high_definition_closed">HD portrét VYP.</string>
+    <string name="toast_burst_shot_forbid">Dávkový snímek není v tomto režimu dostupný</string>
+    <string name="toast_function_not_available">Nedostupné pro 50 MP Ultra HD</string>
+    <string name="toast_zoom_not_available">Přiblížení není v tomto režimu dostupné</string>
+    <string name="toast_manual_ultra_wide_opened">Ultra široké</string>
+
+    <string name="toast_doc_mode">Dokument</string>
+    <string name="toast_night_mode">Noční režim</string>
+
+    <string name="toast_video_eis_off">Stabilizace VYP.</string>
+    <string name="toast_video_eis_stander">Stabilizace ZAP.</string>
+    <string name="toast_video_eis_super">Ultra stabilizace ZAP.</string>
+
+    <string name="toast_time_lapse_speed_for_car">Doporučená scéna: Doprava v pohybu</string>
+    <string name="toast_time_lapse_speed_for_crowd">Doporučená scéna: Dav chodců</string>
+    <string name="toast_time_lapse_speed_for_fast_cloud">Doporučená scéna: Rychle plovoucí mraky</string>
+    <string name="toast_time_lapse_speed_for_sun">Doporučená scéna: Východ/západ slunce</string>
+    <string name="toast_time_lapse_speed_for_slow_cloud">Doporučená scéna: Pomalu plovoucí mraky</string>
+    <string name="toast_time_lapse_speed_for_shadow">Doporučená scéna: Pohyblivé stíny</string>
+    <string name="toast_time_lapse_speed_for_night">Doporučená scéna: Noční obloha</string>
+
+
+    <string name="slider_beauty_text_hint">ZKRÁŠLENÍ</string>
+    <string name="slider_portrait_text_hint">BOKEH</string>
+    <string name="slider_time_lapse_text_hint">RYCHLOST</string>
+    <string name="mode_edit_title_hint">UPRAVIT</string>
+    <string name="mode_edit_main_interface_hint">Hlavní režimy</string>
+    <string name="mode_edit_more_interface_hint">Další režimy</string>
+    <string name="mode_edit_drag_hint">Uspořádejte podržením a přetažením</string>
+
+    <string name="toast_manual_restore_parameter">Obnoveno na výchozí nastavení</string>
+    <string name="slow_motion_mode">SLO-MO</string>
+    <string name="panorama_move_slow">Zpomalit</string>
+    <string name="shutcauts_frontvideo">Nahrát video (selfie)</string>
+    <string name="shutcauts_backvideo">Pořídit video</string>
+    <string name="shutcauts_portrait_camera">Pořídit portrét</string>
+    <string name="shutcauts_macro_camera">Pořídit makro</string>
+    <string name="shutcauts_frontcamera">Pořídit selfie</string>
+    <string name="focus_locked_hint">AE/AF uzamčeno</string>
+    <string name="toast_video_record_light_indicator_off">Světelný indikátor nahrávání je OFF</string>
+    <string name="toast_video_record_light_indicator_on">Světelný indikátor nahrávání je ON</string>
+    <string name="mode_more_empty">Funkce můžete přeuspořádat kliknutím na tlačítko níže.</string>
+    <string name="move_farther_away">Vzdálit</string>
+    <string name="move_closer">Přiblížit</string>
+    <string name="reminder_clean_camera">Fotoaparát jednou za čas vyčistěte, abyste pořídili jasnější fotografie.</string>
+</resources>

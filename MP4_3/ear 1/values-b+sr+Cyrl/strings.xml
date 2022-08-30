@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="disconnect">Прекините везу</string>
+    <string name="anc_personalised_title">Пресонализовани ANC</string>
+    <string name="control_double_tap_hold">Кликните два пута и задржите</string>
+
+</resources>

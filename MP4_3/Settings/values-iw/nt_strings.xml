@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="battery_suggestion_summary">הפעל את הסוללה האדפטיבית</string>
+    <string name="smart_battery_manager_title">סוללה אדפטיבית</string>
+    <string name="smart_battery_footer">כדי להאריך את חיי הסוללה, סוללה אדפטיבית מגבילה את השימוש בסוללה עבור יישומים בשימוש נדיר. הטלפון שלך ילמד כיצד אתה משתמש ביישומים לאורך זמן. \n\nייתכן שההתראות יעוכבו עבור אפליקציות אלו.</string>
+    <string name="smart_battery_footer" product="tablet">כדי להאריך את חיי הסוללה, סוללה אדפטיבית מגבילה את השימוש בסוללה עבור יישומים בשימוש נדיר. הטאבלט שלך ילמד איך אתה משתמש ביישומים לאורך זמן. \n\nייתכן שההתראות יעוכבו עבור אפליקציות אלו.</string>
+    <string name="smart_battery_footer" product="device">כדי להאריך את חיי הסוללה, סוללה אדפטיבית מגבילה את השימוש בסוללה עבור יישומים בשימוש נדיר. המכשיר שלך ילמד איך אתה משתמש ביישומים לאורך זמן. \n\nייתכן שההתראות יעוכבו עבור אפליקציות אלו.</string>
+    <string name="smart_battery_title">השתמש בסוללה אדפטיבית</string>
+    <string name="battery_tip_smart_battery_summary">הפעל את הסוללה האדפטיבית</string>
+    <string name="nt_color_temperature">טמפרטורת צבעים</string>
+    <string name="warmer">חָמִים</string>
+    <string name="colder">מגניב</string>
+	        <!-- Mobile network settings screen, title of item showing the name of the default subscription
+    that will be used for data. This only appears in multi-SIM mode. [CHAR LIMIT=NONE] -->
+    <string name="data_preference">העדפת נתונים</string>
+	<string name="vibrating_for_outgoing_call_accepted_summary">אפשר מצב רטט עבור שיחה יוצאת מתקבלת</string>
+</resources>

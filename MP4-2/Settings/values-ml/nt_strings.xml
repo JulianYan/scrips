@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nt_navigation_back_button_left_side">ബാക് ബട്ടൺ ഇടതു വശത്തു</string>
+    <string name="nt_navigation_back_button_right_side">ബാക് ബട്ടൺ വലതു വശത്തു</string>
+    <string name="nt_navigation_config_title">ബട്ടൺ ലേഔട്ട്</string>
+    <string name="nt_glyphs_charging_features">ഉപകരണം പ്ലഗ് ഇൻ ചെയ്യുമ്പോൾ ചാർജിംഗ് പുരോഗതി പ്രദർശിപ്പിക്കുക അല്ലെങ്കിൽ ചാർജ് ചെയ്യുമ്പോൾ ഉപകരണം വിഗിൾ ചെയ്യുക.</string>
+    <string name="nt_screen_refresh_rate_high_summary">സുഗമമായ സ്ക്രോളിംഗിനും ആനിമേഷനുകൾക്കുമായി 120 Hz വരെയുള്ള ഡൈനാമിക് പുതുക്കൽ നിരക്ക്.</string>
+    <string name="nt_screen_refresh_rate_standard_summary">മികച്ച ബാറ്ററി ലൈഫിനായി 60 Hz ന്റെ സ്ഥിരമായ പുതുക്കൽ നിരക്ക്.</string>
+	
+	<!-- translate to other languages -->
+	<string name="nt_glyphs_flip_title">Glyph ലേക്ക് ഫ്ലിപ്പുചെയ്യുക</string>
+    <string name="nt_glyphs_flip_to_glyph_title">Glyph ലേക്ക് ഫ്ലിപ്പുചെയ്യുക</string>
+    <string name="nt_use_filp_to_glyph">Glyph ലേക്ക് ഫ്ളിപ് ഉപയോഗിക്കുക</string>
+	
+</resources>

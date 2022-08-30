@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nt_navigation_back_button_left_side">زر العودة في الجانب الأيسر</string>
+    <string name="nt_navigation_back_button_right_side">زر العودة في الجانب الأيمن</string>
+    <string name="nt_navigation_config_title">تخطيط الزر</string>
+    <string name="nt_glyphs_charging_features">اعرض تقدم الشحن عند توصيل الجهاز أو اهتزاز الجهاز أثناء الشحن.</string>
+    <string name="nt_screen_refresh_rate_high_summary">معدل تحديث ديناميكي يصل إلى 120 هرتز للتمرير والرسوم المتحركة بسلاسة أكبر.</string>
+    <string name="nt_screen_refresh_rate_standard_summary">معدل تحديث ثابت 60 هرتز لتحسين عمر البطارية.</string>
+	
+	<!-- translate to other languages -->
+	<string name="nt_glyphs_flip_title">قلب إلى Glyph</string>
+    <string name="nt_glyphs_flip_to_glyph_title">قلب إلى Glyph</string>
+    <string name="nt_use_filp_to_glyph">استخدم قلب إلى Glyph</string>
+	
+</resources>

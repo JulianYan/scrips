@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nt_navigation_back_button_left_side">Tagasi nupp vasaluk küljel</string>
+    <string name="nt_navigation_back_button_right_side">Tagasi nupp paremal küljel</string>
+    <string name="nt_navigation_config_title">Nupu paigutus</string>
+    <string name="nt_glyphs_charging_features">Kuvab laadimisprogressi, kui seade on pistikusse ühendatud või keerutage seadet laadimise ajal.</string>
+    <string name="nt_screen_refresh_rate_high_summary">Dünaamiline värskenduskiirus 120 Hz sujuvamaks kerimiseks ja animatsioonideks.</string>
+    <string name="nt_screen_refresh_rate_standard_summary">Fikseeritud värskenduskiirus 60 Hz aku paremaks kasutusajaks.</string>
+	
+	<!-- translate to other languages -->
+	<string name="nt_glyphs_flip_title">Nipsa Glyph</string>
+    <string name="nt_glyphs_flip_to_glyph_title">Nipsa Glyph</string>
+    <string name="nt_use_filp_to_glyph">Kasuta Nipsa Glyph</string>
+	
+</resources>

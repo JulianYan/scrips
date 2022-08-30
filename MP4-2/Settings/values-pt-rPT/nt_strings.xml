@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nt_navigation_back_button_left_side">Botão retroceder no lado esquerdo</string>
+    <string name="nt_navigation_back_button_right_side">Botão retroceder no lado direito</string>
+    <string name="nt_navigation_config_title">Botão de Layout</string>
+    <string name="nt_glyphs_charging_features">Apresenta a progressão do carregamento quando o dispositivo está ligado ou abana o dispositivo durante o carregamento.</string>
+    <string name="nt_screen_refresh_rate_high_summary">Uma taca de atualização dinamica de até 120 Hz para uma deslocação e animações mais suaves.</string>
+    <string name="nt_screen_refresh_rate_standard_summary">Uma taxa de atualização fixa de 60 Hz para obter uma vida útil melhor da bateria.</string>
+	
+	<!-- translate to other languages -->
+	<string name="nt_glyphs_flip_title">Virar para Glyph</string>
+    <string name="nt_glyphs_flip_to_glyph_title">Virar para Glyph</string>
+    <string name="nt_use_filp_to_glyph">Usar o Virar para Glyph</string>
+	
+</resources>

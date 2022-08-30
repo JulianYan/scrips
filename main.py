@@ -3,15 +3,24 @@
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 import os
+from lxml import etree
 from xml.etree import ElementTree as ET
 import sys
 import shutil
+
+class CommentedTreeBuilder(ET.TreeBuilder):
+    def comment(self, data):
+        self.start(ET.Comment, {})
+        self.data(data)
+        self.end(ET.Comment)
 
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
 # Press the green button in the gutter to run the script.
+parser = ET.XMLParser(target=CommentedTreeBuilder())
+
 if __name__ == '__main__':
     argv = sys.argv
     # print('lens=', len(argv))
@@ -27,8 +36,7 @@ if __name__ == '__main__':
     for dir in dirList:
         srcfile = os.path.join(srcPath, dir, "strings.xml")
         tarfile = os.path.join(tarPath, dir, "strings.xml")
-        parser = ET.XMLParser(target=ET.TreeBuilder(insert_comments=True))
-        srcroot = ET.parse(srcfile, parser)
+        srcroot = ET.parse(srcfile)
         tarroot = ET.parse(tarfile, parser)
         if not os.path.exists(tarfile):
             os.makedirs(os.path.dirname(tarfile))

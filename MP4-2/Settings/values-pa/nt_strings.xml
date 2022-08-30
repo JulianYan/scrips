@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nt_navigation_back_button_left_side">ਖੱਬੇ ਪਾਸੇ ਪਿੱਛੇ ਬਟਨ</string>
+    <string name="nt_navigation_back_button_right_side">ਸੱਜੇ ਪਾਸੇ ਪਿੱਛੇ ਬਟਨ</string>
+    <string name="nt_navigation_config_title">ਬਟਨ ਲੇਆਉਟ</string>
+    <string name="nt_glyphs_charging_features">ਚਾਰਜਿੰਗ ਪ੍ਰਗਤੀ ਦਿਖਾਓ ਜਦੋਂ ਡਿਵਾਈਸ ਪਲੱਗ ਇੰਨ ਹੋਵੇ ਜਾਂ ਚਾਰਜਿੰਗ ਦੋਰਾਨ ਡਿਵਾਇਸ ਵਿਗਲ ਕਰੋ।</string>
+    <string name="nt_screen_refresh_rate_high_summary">ਵਧੀਆ ਸਕਰੋਲਿੰਗ ਅਤੇ ਐਨੀਮੇਸ਼ਨ ਲਈ 120 Hz ਤੱਕ ਡਾਇਨੈਮਿਕ ਰੀਫਰੈਸ਼ ਦਰ।</string>
+    <string name="nt_screen_refresh_rate_standard_summary">ਬਿਹਤਰ ਬੈਟਰੀ ਮਿਆਦ ਲਈ 60 Hz ਦੀ ਸਥਾਈ ਰੀਫਰੈਸ਼ ਦਰ।</string>
+	
+	<!-- translate to other languages -->
+	<string name="nt_glyphs_flip_title">Glyph ਵੱਲ ਫਲਿੱਪ</string>
+    <string name="nt_glyphs_flip_to_glyph_title">Glyph ਵੱਲ ਫਲਿੱਪ</string>
+    <string name="nt_use_filp_to_glyph">Glyph ਲਈ ਫਲਿੱਪ ਵਰਤੋ</string>
+	
+</resources>

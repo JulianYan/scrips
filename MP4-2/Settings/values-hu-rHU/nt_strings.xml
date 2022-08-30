@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nt_navigation_back_button_left_side">Vissza gomb a bal oldalon</string>
+    <string name="nt_navigation_back_button_right_side">Vissza gomb a jobb oldalon</string>
+    <string name="nt_navigation_config_title">Gomb elrendezése</string>
+    <string name="nt_glyphs_charging_features">A töltési folyamat kijelzése, amikor az eszköz csatlakoztatva van, vagy az eszköz mozgatásakor töltés közben.</string>
+    <string name="nt_screen_refresh_rate_high_summary">Akár 120 Hz dinamikus frissítési sebesség  simább görgetésért és animációkért.</string>
+    <string name="nt_screen_refresh_rate_standard_summary">60 Hz fix frissítési sebesség a hosszabb akkumulátor élettartamért.</string>
+	
+	<!-- translate to other languages -->
+	<string name="nt_glyphs_flip_title">Váltás Glyph-re</string>
+    <string name="nt_glyphs_flip_to_glyph_title">Váltás Glyph-re</string>
+    <string name="nt_use_filp_to_glyph">Váltás Glyph-re használata</string>
+	
+</resources>

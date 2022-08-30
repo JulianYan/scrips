@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="battery_suggestion_summary">Уключыць Адаптыўную батарэю</string>
+    <string name="smart_battery_manager_title">Адаптыўная батарэя</string>
+    <string name="smart_battery_footer">Каб падоўжыць тэрмін службы батарэі, Адаптыўная батарэя абмяжоўвае выкарыстанне батарэі праграмамі, якія рэдка выкарыстоўваюцца. З цягам часу ваш тэлефон вызначыць, як вы карыстаецеся праграмамі. \n\nАпавяшчэнні для гэтых праграм могуць прыходзіць з затрымкай.</string>
+    <string name="smart_battery_footer" product="tablet">Каб падоўжыць тэрмін службы батарэі, Адаптыўная батарэя абмяжоўвае выкарыстанне батарэі праграмамі, якія рэдка выкарыстоўваюцца. З цягам часу ваш планшэт вызначыць, як вы карыстаецеся праграмамі. \n\nАпавяшчэнні для гэтых праграм могуць прыходзіць з затрымкай.</string>
+    <string name="smart_battery_footer" product="device">Каб падоўжыць тэрмін службы батарэі, Адаптыўная батарэя абмяжоўвае выкарыстанне батарэі праграмамі, якія рэдка выкарыстоўваюцца. З цягам часу ваша прылада вызначыць, як вы карыстаецеся праграмамі. \n\nАпавяшчэнні для гэтых праграм могуць прыходзіць з затрымкай.</string>
+    <string name="smart_battery_title">Выкарыстаць Адаптыўную батарэю</string>
+    <string name="battery_tip_smart_battery_summary">Уключыць Адаптыўную батарэю</string>
+    <string name="nt_color_temperature">Каляровая тэмпература</string>
+    <string name="warmer">Цёплая</string>
+    <string name="colder">Халодная</string>
+	        <!-- Mobile network settings screen, title of item showing the name of the default subscription
+    that will be used for data. This only appears in multi-SIM mode. [CHAR LIMIT=NONE] -->
+    <string name="data_preference">Дадзеныя аб перавагах</string>
+	<string name="vibrating_for_outgoing_call_accepted_summary">Уключыць рэжым вібрацыі пры прыняцці выходнага выкліку</string>
+</resources>

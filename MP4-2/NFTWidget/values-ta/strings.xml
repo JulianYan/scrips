@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="nft_loading_tips">தகவல் டவுன்லோட் செய்யப்படுகிறது.</string>
+    <string name="nft_loading_tips_second">இந்தச் செயல்முறைக்குச் சிறிது நேரம் ஆகலாம்.</string>
+
+</resources>

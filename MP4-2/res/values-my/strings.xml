@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources><!-- Confirmation dialog when restoring settings --><string name="confirm_restore_message">ကင်မရာ၏ ပုံသေဆက်တင်များအတိုင်း ပြန်ထားလိုပါသလား။</string>
+	<string name="pref_camera_module_title">ကင်မရာ စနစ်</string><!-- Settings screen, camera selection dialog title. Users can select a camera from the phone (front-facing or back-facing). [CHAR LIMIT=20] --><string name="pref_camera_id_title">ကင်မရာ ပြောင်းပါ</string>
+	<!-- In select camera setting, back facing camera. [CHAR LIMIT=14] --><string name="pref_camera_id_entry_back">အနောက်</string><!-- In select camera setting, front-facing camera. [CHAR LIMIT=14] --><string name="pref_camera_id_entry_front">အရှေ့</string><!-- Settings screen, Record location dialog choices --><string name="pref_camera_recordlocation_entry_off">ပိတ်</string>
+	<string name="pref_camera_recordlocation_entry_on">ဖွင့်</string><!-- The Video quality settings in preference [CHAR LIMIT=21] --><string name="pref_video_quality_title">ဗီဒီယို အရည်အသွေး</string>
+	<string name="pref_video_stabilization_title">ဗီဒီယို တည်ငြိမ်မှု</string>
+	<string name="pref_video_3dnr_title">ဗီဒီယို 3DNR</string><!-- The Video timelapse settings in preference [CHAR LIMIT=21] --><string name="pref_video_timelapse_title">Video Timelapse</string>
+	<string name="pref_video_autozoom_title">ဗီဒီယို အော်တိုဇူးမ်</string>
+	<string name="video_mode">ဗီဒီယို</string>
+	<string name="guide_auto_zoom_title">အော်တို ဇူးမ်</string>
+	<string name="guide_auto_zoom_rules">ရိုက်ကူးစဉ် မျက်နှာပြင်ပေါ်တွင် စက်ဝိုင်းပုံတစ်ခု ဆွဲခြင်းဖြင့် သတ်မှတ်အရာဝတ္ထုတစ်ခုကို ခြေရာခံနိုင်ပြီး ခြေရာခံခြင်းကို ရပ်တန့်ရန် နှစ်ချက်နှိပ်ပါ</string>
+	<string name="toast_auto_zoom_not_activated">အော်တိုဇူးမ်ကို ဖွင့်မထားပါ</string><!-- Default flash mode setting. -->
+	<!-- Settings screen, Flash mode title --><string name="pref_camera_flashmode_title">ဖလက်ရှ် စနစ်</string>
+	<string name="pref_screenflash_title">ပြသချက် ဖလက်ရှ်</string><!-- Settings screen, Flash mode dialog radio button choices --><string name="pref_camera_flashmode_entry_auto">အော်တို</string>
+	<string name="pref_camera_flashmode_entry_on">ဖွင့်</string>
+	<string name="pref_camera_flashmode_entry_off">ပိတ်</string>
+	<string name="pref_camera_flashmode_entry_torch">ဓာတ်မီး</string><!-- Default white balance setting. --><!-- Settings screen, white balance title --><string name="pref_camera_whitebalance_title">AWB</string><!-- Settings screen, White balance dialog radio button choices --><string name="pref_camera_whitebalance_entry_auto">အော်တို</string>
+	<string name="pref_camera_whitebalance_entry_incandescent">အလင်းဖြာ</string>
+	<string name="pref_camera_whitebalance_entry_daylight">နေ့အလင်းရောင်</string>
+	<string name="pref_camera_whitebalance_entry_fluorescent">လင်းလက်</string>
+	<string name="pref_camera_whitebalance_entry_cloudy">တိမ်ထူ</string>
+
+
+
+
+	<!-- Default scene mode setting. -->
+
+	<string name="pref_camera_scene_frame_title">မြင်ကွင်းဖရိန်</string><!-- Settings screen, Select Scene mode --><string name="pref_camera_scenemode_title">မြင်ကွင်း စနစ်</string>
+	<string name="pref_hdr_title">HDR</string>
+	<string name="pref_motion_photo_title">ရွေ့လျားမှု</string><!-- Settings menu, scene mode choices --><string name="pref_camera_scenemode_entry_auto">အော်တို</string>
+	<string name="pref_camera_scenemode_entry_night">ညရိုက်ကူးမှု</string><!-- Scene mode optimized for taking images in the sunset. --><string name="pref_camera_scenemode_entry_sunset">နေဝင်ချိန်</string><!-- Scene mode optimized for taking indoor low-lights pictures. [CHAR LIMIT=16] --><string name="pref_camera_scenemode_entry_party">ပါတီ</string>
+	<string name="pref_restore_detail">ပုံသေများအတိုင်း ပြန်ထားပါ</string><!-- Exposure settings in preference --><string name="pref_exposure_title">EV</string>
+	<string name="sugar_face_beauty_custom">စိတ်ကြိုက်</string>
+	<string name="sugar_eyes_beauty">မျက်လုံးများ</string>
+	<string name="sugar_face_thin">ပြတ်သား</string>
+	<string name="sugar_skin_smooth">ချောမွေ့သော</string>
+	<string name="adjust_progress">+%s</string>
+	<string name="face_beauty_custom_skin_info">အရေပြား</string>
+	<string name="face_beauty_custom_eyes_info">မျက်လုံးများ</string>
+	<string name="face_beauty_custom_thin_info">ပိန်ပါးသော</string>
+	<string name="face_beauty_custom_rosy_info">နီတွေးတွေး</string>
+	<string name="face_beauty_custom_whitening_info">အသားဖြူ</string>
+	<string name="portrait_custom_info">မှုန်ဝါး</string>
+
+	<string name="pref_camera_volume_key_title">အသံတိုး/ကျယ် ခလုတ်များ</string>
+	<string name="pref_camera_volume_key_shoot">ရိုက်ရန်</string>
+	<string name="pref_camera_volume_key_zoom">ဇူးမ်</string>
+	<string name="pref_camera_volume_key_volume">အသံတိုး/ကျယ်</string>
+
+
+	<string name="photo_incapture">ဓာတ်ပုံရိုက်ခြင်း</string>
+
+	<string name="toast_location_started">တည်နေရာ စတင်ထားသည်</string>
+	<string name="toast_location_success">တည်နေရာ အောင်မြင်သည်</string>
+	<string name="toast_device_denayed">စက်ကို ဝင်ရောက်သုံးစွဲ၍မရပါ</string>
+	<string name="toast_device_connect_failed">စက်ချိတ်ဆက်မှု မအောင်မြင်ပါ</string>
+	<string name="toast_start_preview_failed">အကြိုကြည့်ရှုမှု စတင်ခြင်း မအောင်မြင်ပါ</string>
+	<string name="toast_storage_full">သိုလှောင်ခန်း ပြည့်နေသည်</string>
+	<string name="toast_low_power_disable_flash">ဘက်ထရီ အားနည်းနေသည်၊ ဖလက်ရှ်မီး ဖွင့်၍မရပါ။</string>
+	<string name="toast_video_size_max">ဗီဒီယို၏ အရွယ်အစားသည် ကန့်သတ်ချက်သို့ ရောက်ပါပြီ။</string>
+	<string name="toast_continue_snap_max">ဆက်တိုက်ရိုက်ချက်များ၏ အရေအတွက်သည် ကန့်သတ်ချက်သို့ ရောက်ပါပြီ။</string>
+	<string name="toast_video_error">လက်ရှိအခြေအနေတွင် ဗီဒီယို ရိုက်ကူး၍မရပါ</string>
+	<string name="toast_video_start_fail">မိုက်ကို အသုံးပြုနေသဖြင့် အသံသွင်းရာတွင် သုံး၍ မရပါ</string>
+	<string name="toast_video_init_size_error">ဗီဒီယို၏ အရွယ်အစားကို ကန့်သတ်ချက်သို့ လျှော့ချလိုက်ပါပြီ။</string>
+	<string name="toast_long_press_unavilable">ဆက်တိုက်ရိုက်ချက်ကို ပံ့ပိုးမပေးပါ။</string>
+	<string name="toast_continuous_shot_off">ဆက်တိုက်ရိုက်ချက်ကို မရရှိနိုင်ပါ။</string>
+	<string name="toast_thumbnail_empty">ဓာတ်ပုံမရှိပါ</string>
+	<string name="toast_clearsight_success">ClearSight ရိုက်ကူးမှု အောင်မြင်သည်</string>
+	<string name="toast_clearsight_failed">ClearSight ရိုက်ကူးမှု မအောင်မြင်ပါ</string>
+	<string name="toast_auto_zoom">အော်တိုဇူမ်းကို ဖွင့်ထားသည်</string>
+	<string name="toast_video_stabilization">ထိန်းညှိကိရိယာကို ဖွင့်ထားသည်</string>
+	<string name="guide_top">ကင်မရာ ပြောင်းရန် အပေါ် သို့မဟုတ် အောက်သို့ ပွတ်ဆွဲပါ။</string>
+	<string name="guide_right">သတ်မှတ်ချက်ဘောင်များ သတ်မှတ်ရန် ညာဘက်သို့ ပွတ်ဆွဲပါ။</string>
+	<string name="guide_left">စနစ်များ သတ်မှတ်ရန် ဘယ်ဘက်သို့ ပွတ်ဆွဲပါ။</string>
+	<string name="voice_on_tips">\"ရိုက်ကူးမည်\" သို့မဟုတ် \"ချိစ်\"ဟု ပြောပါ</string>
+	<string name="toast_steady_capture">ရိုက်ကူးနေစဉ် ဖုန်းကို မရွှေ့ပါနှင့်။</string>
+	<string name="toast_dual_camera_opened">ကင်မရာနှစ်ခု ဖွင့်ထားသည်</string>
+	<string name="toast_dual_camera_closed">ကင်မရာနှစ်ခု ပိတ်ထားသည်</string><!-- Pref -->
+
+
+
+
+
+
+
+
+
+	<string name="pref_video_quality_entry_full">အပြည့်</string>
+
+	<string name="pref_video_stabilization_entry_on">ဖွင့်</string>
+	<string name="pref_video_stabilization_entry_off">ပိတ်</string>
+	<string name="pref_video_stabilization_entry_standard">စံနှုန်းမီ</string>
+	<string name="pref_video_stabilization_entry_super">စူပါ</string>
+	<string name="pref_video_3dnr_entry_on">ဖွင့်</string>
+	<string name="pref_video_3dnr_entry_off">ပိတ်</string>
+	<string name="pref_video_autozoom_entry_on">ဖွင့်</string>
+	<string name="pref_video_autozoom_entry_off">ပိတ်</string>
+	<string name="pref_camera_picturesize_title">Picture Size</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<string name="pref_camera_picture_aspect_ratio_title">ရုပ်ပုံ ရှုထောင့်အချိုး</string>
+
+
+
+
+
+
+
+
+	<string name="pref_camera_picturesize_entry_16_9">မျက်နှာပြင် အပြည့်</string>
+	<string name="pref_camera_picturesize_entry_4_3">ပုံမှန်</string>
+	<string name="pref_camera_picturesize_entry_1_1">ထောင့်မှန်စတုဂံ</string><!-- ISO -->
+
+	<string name="manual_focus_title">M ဆုံချက်</string><!--  --><string name="pref_camera_edge_title">ထင်ရှားပြတ်သားမှု</string>
+
+	<string name="pref_camera_hue_title">စိုပြည်မှု</string><!--  --><string name="pref_camera_saturation_title">အရောင်ပြင်းအား</string>
+
+	<string name="pref_camera_brightness_title">တောက်ပမှု</string>
+
+	<string name="pref_camera_contrast_title">အလင်းအမှောင်</string>
+	<string name="pref_camera_dip_entry_low">နိမ့်</string>
+	<string name="pref_camera_dip_entry_middle">အသင့်အတင့်</string>
+	<string name="pref_camera_dip_entry_high">မြင့်</string><!-- color effect --><!-- Settings screen, Select Color effect title --><string name="pref_camera_coloreffect_title">အရောင် အထူးပြုလုပ်ချက်</string><!-- Settings screen, Color effect dialog radio button choices --><string name="pref_camera_coloreffect_entry_none">မသုံး</string>
+	<string name="pref_camera_coloreffect_entry_mono">မိုနို</string>
+	<string name="pref_camera_coloreffect_entry_sepia">အညိုရောင်</string>
+	<string name="pref_camera_coloreffect_entry_negative">နက်ဂတစ်</string><!-- Color effect that overexposes and reverses some of the tones. --><string name="pref_camera_coloreffect_entry_solarize">အလင်းကဲခြင်း</string>
+	<string name="pref_camera_coloreffect_entry_posterize">ပိုစတာ</string>
+	<string name="pref_camera_coloreffect_entry_whiteboard">ဝှိုက်ဘုတ်</string>
+	<string name="pref_camera_coloreffect_entry_blackboard">ဘလက်ဘုတ်</string>
+	<string name="pref_camera_coloreffect_entry_aqua">စိမ်းပြာ</string>
+	<string name="pref_camera_coloreffect_entry_pastel">အရောင်နု</string>
+	<string name="pref_camera_coloreffect_entry_mosaic">ရောစပ်ဓာတ်ပုံ</string>
+	<string name="pref_camera_coloreffect_entry_redtint">နီကျင့်ကျင့်</string>
+	<string name="pref_camera_coloreffect_entry_bluetint">ပြာတာတာ</string>
+	<string name="pref_camera_coloreffect_entry_greentint">စိမ်းဖန့်ဖန့်</string>
+	<string name="pref_camera_coloreffect_entry_sepiablue">ညိုပြာပြာ</string>
+	<string name="pref_camera_coloreffect_entry_sepiagreen">ညိုစိမ်းစိမ်း</string><!-- self timer -->
+	<string name="pref_camera_selftimer_title">ကိုယ်တိုင်အချိန်တိုင်း ကိရိယာ</string>
+	<string name="pref_camera_selftimer_entry_off">ပိတ်</string>
+	<string name="pref_camera_selftimer_entry_3">3 စက္ကန့်</string>
+
+	<string name="pref_camera_antibanding_entry_auto">အော်တို</string>
+	<string name="pref_camera_antibanding_entry_50hz">50Hz</string>
+	<string name="pref_camera_antibanding_entry_60hz">60Hz</string><!-- Scene mode Mediatek plus --> <!-- Scene mode that takes an image with as little noise as possible so details of the subject are maintained. --><string name="pref_camera_scenemode_entry_portrait">အလှပုံ</string><!-- Scene mode that takes an image of a landscape assuming all subjects are relatively far from the phone. --><string name="pref_camera_scenemode_entry_landscape">ရှုခင်း</string><!-- Scene mode that takes night shots with long exposure and flash to illuminate the subject while still capturing darker detail in the background. --><string name="pref_camera_scenemode_entry_night_portrait">ညဘက်အလှပုံ</string><!-- Scene mode to be used in a stage show. --><string name="pref_camera_scenemode_entry_theatre">ပြဇာတ်ရုံ</string><!-- Scene mode optimized for taking images on the beach. --><string name="pref_camera_scenemode_entry_beach">ကမ်းခြေ</string><!-- Scene mode optimized for taking images in the snow. --><string name="pref_camera_scenemode_entry_snow">နှင်း</string><!-- Scene mode for taking a photo as sharp as possible. --><string name="pref_camera_scenemode_entry_steadyphoto">ရုပ်ငြိမ်ဓာတ်ပုံ</string><!-- Scene mode optimized for taking images of fireworks. --><string name="pref_camera_scenemode_entry_fireworks">မီးရှူးမီးပန်းများ</string>
+	<string name="pref_camera_scenemode_entry_sports">အားကစား</string>
+	<string name="pref_camera_scenemode_entry_candlelight">ဖယောင်းတိုင် အလင်းရောင်</string><!-- for CMCC feature --><string name="pref_camera_scenemode_entry_normal">ပုံမှန်</string><!-- Video Camera --> <!-- EIS setting --><string name="pref_camera_eis_title">EIS</string>
+
+	<string name="pref_camera_eis_on">ဖွင့်</string>
+
+	<string name="pref_camera_recordaudio_entry_off">ပိတ်</string>
+	<string name="pref_camera_recordaudio_entry_on">ဖွင့်</string><!-- ZSD songyutao --><string name="pref_camera_zsd_title">ZSD</string>
+	<string name="pref_chroma_flash_title">စမတ် ဖလက်ရှ်</string><!-- continuous shot speed --><string name="pref_camera_continuous_number_title">ဆက်တိုက် ရိုက်ချက်</string>
+	<string name="pref_voice_capture">အသံဖမ်းခြင်း</string>
+
+	<string name="pref_voice_entry_off">ပိတ်</string>
+	<string name="pref_voice_entry_on">ဖွင့်</string><!-- Face Detection properties  songyutao set FD dafault on --><string name="pref_camera_face_detect_title">မျက်နှာ ရှာဖွေတွေ့ရှိခြင်း</string>
+
+	<string name="pref_camera_face_detect_entry_off">ပိတ်</string>
+	<string name="pref_camera_face_detect_entry_on">ဖွင့်</string>
+	<string name="pref_camera_record_location_title">တည်နေရာ တက်ဂ်တွဲခြင်း</string>
+	<string name="pref_camera_thumb_title">Camera Roll</string>
+	<string name="pref_camera_pic_frame_entry_off">ပိတ်</string>
+	<string name="pref_camera_pic_frame_entry_on">ဖွင့်</string>
+	<string name="pref_shutter_touch_title">တို့ထိ၍ ရိုက်ကူးမှု</string>
+
+	<string name="pref_shutter_smile_title">ပြုံး၍ ရိုက်ကူးမှု</string>
+
+	<string name="pref_shutter_hand_title">လက်ဖြင့် ရိုက်ကူးမှု</string>
+	<string name="pref_shutter_watermark_title">ရေစာ</string>
+
+	<string name="pref_camera_watermark_entry_off">ပိတ်</string>
+	<string name="pref_camera_watermark_entry_on">ဖွင့်</string>
+	<string name="pref_camera_asd_title">ASD</string>
+	<string name="pref_camera_asd_entry_off">ပိတ်</string>
+	<string name="pref_camera_asd_entry_on">ဖွင့်</string>
+	<string name="pref_camera_shutter_sound_title">ရှပ်တာ မြည်သံ</string>
+	<string name="pref_camera_shutter_sound_entry_off">ပိတ်</string>
+	<string name="pref_camera_shutter_sound_entry_on">ဖွင့်</string>
+	<string name="pref_camera_pic_level_title">အရောင်ရောစပ်</string>
+	<string name="pref_camera_pic_level_entry_off">ပိတ်</string>
+	<string name="pref_camera_pic_level_entry_on">ဖွင့်</string>
+
+	<string name="pref_capture_mirror_title">ရှေ့မှန်</string>
+	<string name="pref_camera_save_pos_title">သိုလှောင်ခန်း</string>
+	<string name="pref_camera_save_pos_entry_t">SD ကတ်</string>
+	<string name="pref_camera_save_pos_entry_p">ဖုန်း</string>
+	<string name="pref_camera_save_pos_entry_u">USB OTG</string>
+	<string name="pref_camera_mesh_line_title">ဇာကွက်မျဉ်း</string>
+	<string name="pref_camera_high_picture_size_title">ရုပ်ပုံအရွယ်အစားမြင့်</string>
+	<string name="pref_pic_struct_title">ဘောင်ကွပ် မျဉ်းများ</string>
+
+	<string name="pref_pic_struct_entry_off">ပိတ်</string>
+	<string name="pref_pic_struct_entry_enneahedral">လေးထောင့်ကွက် မျဉ်းကြောင်းများ</string>
+	<string name="manual">ကျွမ်းကျင်</string>
+	<string name="photo_mode">ဓာတ်ပုံ</string>
+	<string name="panorama_mode">မြင်ကွင်းကျယ်</string>
+	<string name="beauty_mode">မျက်နှာအလှအပ</string>
+	<string name="radio_switch_to_hdr">HDR</string>
+	<string name="radio_switch_to_facebeauty_custom">မျက်နှာအလှအပ</string><!-- application infomation --><string name="app_name">ကင်မရာ</string>
+	<string name="pref_camera_selftimer_entry_5">5 စက္ကန့်</string>
+	<string name="night_mode">ညရိုက်ကူးမှု</string>
+	<string name="radio_switch_to_beautyvideo">အလှ ဗီဒီယို</string>
+	<string name="timelapse_mode">ဖရိန်နှုန်းမြင့် ရိုက်ချက်</string><!-- add by zzp for pano--><string name="panorama_arcsoft_guide_shutter">ရှပ်တာခလုတ်ကို နှိပ်ပြီး သင့်ဖုန်းကို ဦးတည်ဘက်တစ်ဖက်သို့\n ဖြည်းဖြည်းချင်းရွှေ့ပါ</string>
+	<string name="panorama_arcsoft_warn_slowly">သင့်ဖုန်းကို ဖြည်းဖြည်းချင်း ရွှေ့ပါ</string>
+	<string name="panorama_arcsoft_warn_back">သင့်ဖုန်းကို မြားအတိုင်း ရွှေ့ပါ</string>
+	<string name="panorama_arcsoft_warn_up">အပေါ်သို့ ရွှေ့ပါ</string>
+	<string name="panorama_arcsoft_warn_down">အောက်သို့ ရွှေ့ပါ</string>
+	<string name="panorama_arcsoft_warn_left">ဘယ်ဘက်သို့ ရွှေ့ပါ</string>
+	<string name="panorama_arcsoft_warn_right">ညာဘက်သို့ ရွှေ့ပါ</string>
+	<string name="panorama_arcsoft_switch_capture_direction_guide">ရိုက်ကူးမှုဦးတည်ဘက်ကို ပြောင်းရန် မြားကို နှိပ်ပါ</string>
+	<string name="panorama_capture_guide">မြားကို အညွှန်းလိုင်းနှင့် တစ်တန်းတည်းဖြစ်အောင် ချိန်ညှိပါ</string>
+	<string name="panorama_toggle_mode_standard">စံနှုန်းမီ</string>
+	<string name="panorama_toggle_mode_super">စူပါ</string><!--time line 20141227--><string name="radio_switch_to_pip">မြင်ကွင်းနှစ်ခု</string>
+	<string name="setting_title">ဆက်တင်များ</string>
+	<string name="mode_title">စနစ်များ</string>
+	<string name="setting_top_full_hint">အရာဝတ္ထုများ ထပ်ထည့်၍ မရတော့ပါ။</string>
+	<string name="touchless_guide_vsign_title">V သင်္ကေတ</string>
+	<string name="touchless_guide_tips_vsign_only">သင်သည် V ပုံလက်ဟန် လုပ်၍ အလိုအလျောက် ရိုက်ကူးနိုင်သည်။</string>
+	<string name="touchless_guide_text_ok">အိုကေ</string>
+	<string name="touchless_guide_text_reminder">၎င်းကို ထပ်မံ မပြပါနှင့်</string>
+	<string name="wideself_arcsoft_guide_shutter">စတင်ရန် ရှပ်တာခလုတ်ကို နှိပ်ပါ</string>
+	<string name="wideself_arcsoft_guide_step_one">ဖုန်းကို ဦးတည်ဘက်တစ်ဖက်သို့ လှည့်ပြီးနောက် အခြားဦးတည်ဘက်သို့ လှည့်ပါ</string>
+	<string name="wideself_arcsoft_rolate_to_left">သင့်ဖုန်းကို ဘယ်ဘက်သို့ ဖြည်းဖြည်းချင်း လှည့်ပါ</string>
+	<string name="wideself_arcsoft_rolate_to_right">သင့်ဖုန်းကို ညာဘက်သို့ ဖြည်းဖြည်းချင်း လှည့်ပါ</string>
+	<string name="wideself_arcsoft_cannot_use_guide">အလှပုံစနစ်တွင် Wide selfieကို သုံးပါ</string>
+	<string name="wideself_arcsoft_downup_offset_warn">It is not good enough to horizontally align the photo.</string>
+	<string name="panorama_arcsoft_cannot_use_guide">အလှပုံစနစ်တွင် မြင်ကွင်းကျယ်ကို သုံးပါ</string>
+	<string name="radio_switch_to_wideselfie">Wide selfie</string>
+	<string name="radio_switch_to_refocus">စမတ်ဆုံချက်</string>
+	<string name="radio_switch_to_chromaflash">စမတ် ဖလက်ရှ်</string>
+	<string name="radio_switch_to_clearsight">မြင်ကွင်းရှင်း</string>
+	<string name="setting_guide_message">\"ရှော့(တ်)ကတ်ဘားသို့ ထည့်မည်\" ကို နှိပ်ပါ သို့မဟုတ်\n ရှော့(တ်)ကတ်ထည့်ရန် ဆွဲယူပါ</string>
+	<string name="skip_setting_guide">ရပါပြီ</string>
+	<string name="permission_title">ဝင်ရောက်သုံးစွဲခွင့်ပေးခြင်း</string>
+	<string name="enable_permission_procedure">သင်သည် ဆက်တင်များ &gt; အက်ပ်များ &gt; %1$s &gt; ခွင့်ပြုချက်များထဲတွင် ခွင့်ပြုချက်များကို ပြောင်းနိုင်ပါသည်</string>
+	<string name="toast_storage_full_sdcard_to_internal">SD ကတ် ပြည့်နေပါပြီ၊ စက်တွင်းသိုလှောင်ခန်းတွင် သိမ်းနေသည်</string>
+	<string name="toast_storage_damaged_sdcard_to_internal">SD ကတ်တွင် ဖိုင်သိမ်း၍ မရပါ၊ စက်တွင်းသိုလှောင်ခန်းတွင် သိမ်းနေသည်</string>
+	<string name="toast_storage_full_internal_to_sdcard">စက်တွင်းသိုလှောင်ခန်း ပြည့်နေပါပြီ၊ SD ကတ်တွင် သိမ်းနေသည်</string>
+	<string name="toast_storage_full_clean_up_to_free_space">ဖုန်းသိုလှောင်ခန်း နေရာပြည့်နေပါပြီ။ နေရာလွတ်ရရန် ရှင်းလင်းပါ</string>
+	<string name="secure_camera_can_not_request_permission">ခွင့်ပြုချက်တောင်းဆိုမှုများကို လက်ခံ/ငြင်းပယ်ရန် သင့်ဖုန်းကို ဦးစွာ လော့ခ်ဖွင့်ပါ</string>
+	<string name="shutcauts_frontcamera">ဆဲလ်ဖီ ရိုက်ရန်</string>
+	<string name="shutcauts_backcamera">ဓာတ်ပုံ ရိုက်ရန်</string>
+	<string name="shutcauts_frontvideo">ဗီဒီယို (ဆဲလ်ဖီ) ရိုက်ရန်</string>
+	<string name="shutcauts_backvideo">ဗီဒီယို ရိုက်ကူးရန်</string>
+	<string name="pref_camera_status_detect_title">အခြေအနေ ရှာဖွေဖော်ထုတ်မှု</string>
+	<string name="pref_camera_raw_file_title">ဖိုင်အကြမ်း</string>
+	<string name="pref_camera_filter_title">စစ်ထုတ်မှု</string>
+	<string name="pref_dual_camera_title">ကင်မရာ နှစ်လုံး</string>
+	<string name="pref_dual_camera_default">ပိတ်</string>
+	<string name="radio_switch_to_monochrome">အဖြူ အမည်း</string>
+
+	<string name="pref_camera_gpu_effect_focus">ဆုံချက်</string>
+	<string name="pref_camera_gpu_effect_sepia">အညိုရောင်</string>
+	<string name="pref_camera_gpu_effect_temperature">အပူချိန်</string>
+	<string name="pref_camera_gpu_effect_gray">မီးခိုး</string>
+	<string name="pref_camera_gpu_effect_none">မသုံး</string>
+	<string name="pref_camera_gpu_effect_documentary">မှတ်တမ်းရုပ်ရှင်</string>
+	<string name="pref_camera_gpu_effect_fishEye">ထောင့်ကျယ်မှန်ဘီလူး</string>
+	<string name="pref_camera_gpu_effect_tint">အရောင်သန်းခြင်း</string>
+	<string name="pref_camera_gpu_effect_crossprocess">Crossprocess</string>
+	<string name="portrait_mode">အလှပုံ</string>
+	<string name="pref_camera_pref_entry_auto">အော်တို</string>
+	<string name="confirm_mode_tip">%1$s စနစ်သို့ ပြောင်းရန် နှိပ်ပါ</string>
+	<string name="focal_switch_scale_tip">တယ်လီဓာတ်ပုံ စနစ်ကို ဖွင့်ရန် အိုင်ကွန်ကို နှိပ်ပါ</string>
+	<string name="front_wide_switch_tip">အုပ်စုလိုက် ဆဲလ်ဖီကို သက်ဝင်လုပ်ဆောင်ရန် အိုင်ကွန်ကို နှိပ်ပါ</string>
+	<string name="low_memory_limit">Your system is in low memory, some features limit capture size</string>
+	<string name="portrait_background_blur">အလှပုံ</string>
+	<string name="portrait_of_face_beauty">မျက်နှာအလှအပ</string>
+	<string name="asd_result_hdr">HDR ကို ဖွင့်ထားသည်</string>
+	<string name="toast_face_undetected_at_portrait">2 မီတာအတွင်း မျက်နှာ ရှာမတွေ့ပါ</string>
+	<string name="toast_face_undetected_at_sticker">မျက်နှာ ရှာမတွေ့ပါ</string>
+	<string name="toast_view_pic_vivid_at_superpixel">စူပါပစ်ဇယ်ဖြင့် ပိုမိုအသေးစိတ်ကျကျ ရိုက်ကူးပါ</string>
+	<string name="front_face_detected_first_tip">ကင်မရာကိုကြည့်ပြီး ပိုမိုကောင်းမွန်သော ဆဲလ်ဖီများ ရိုက်ကူးပါ</string>
+	<string name="u_screen_selfie_count_down_cancel">ပယ်ဖျက်မည်</string>
+	<string name="video_beauty_switch_on">ဖွင့်</string>
+	<string name="video_beauty_switch_off">ပိတ်</string>
+	<string name="image_processing_toast">ရုပ်ပုံ ပြုပြင်ခြင်း</string>
+	<string name="short_video_not_found">ဤဗီဒီယိုကို မတွေ့ပါ</string><!-- for Android O's CTS--><string name="camera_review_done_desc">ပြီးပါပြီ</string>
+	<string name="bokeh_mode">အလှပုံ</string>
+	<string name="toast_dual_camera_bokeh">2 မီတာအတွင်း ဆက်လက်ရိုက်ကူးပါ</string><!-- for qcom slowmotion--><string name="pref_camera_hfr_entry_2x">X2</string>
+	<string name="pref_camera_hfr_entry_3x">X3</string>
+	<string name="pref_camera_hfr_entry_4x">X4</string>
+
+
+
+	<string name="slow_motion_mode">စလိုး-မိုး</string>
+
+
+
+	<!-- // Camera fun mode string --><string name="radio_switch_to_fun">Camera Fun</string><!-- Default fun mode setting. -->
+	<string name="pref_camera_fun_title">Fun</string>
+	<string name="pref_camera_sticker_title">စတစ်ကာ</string>
+	<string name="toast_face_undetected_at_fun">မျက်နှာ ရှာမတွေ့</string>
+	<string name="toast_eyes_undetected_at_fun">အထူးပြုလုပ်ချက်ကို အကြိုကြည့်ရှုရန် မျက်တောင်ခတ်ပါ</string>
+	<string name="toast_mouth_undetected_at_fun">အထူးပြုလုပ်ချက်ကို အကြိုကြည့်ရှုရန် ပါးစပ်ဖွင့်ပါ</string>
+	<string name="toast_short_video_tip">ဗီဒီယိုအတို ရိုက်ကူးမှုအတွက် ရှပ်တာခလုတ်ကို ကြာကြာနှိပ်ထားပါ</string>
+	<string name="fun_filter_none">စစ်ထုတ်မှု</string>
+	<string name="fun_filter_lomo">LOMO</string>
+	<string name="fun_filter_elegant">ကြော့ရှင်း</string>
+	<string name="fun_filter_cyan">စိမ်းပြာရောင်</string>
+	<string name="fun_filter_mint">စိမ်းဖန့်ဖန့်</string>
+	<string name="fun_filter_led">LED မီး</string>
+	<string name="fun_filter_eternal">ထာဝရ</string>
+	<string name="fun_filter_formerly">ရှေးယခင်</string>
+	<string name="fun_filter_blue">အပြာရောင်</string>
+	<string name="fun_filter_oldbooth">တယ်လီဖုန်းရုံဟောင်း</string>
+	<string name="fun_filter_milkytea">နို့လက်ဖက်ရည်</string>
+	<string name="fun_filter_warm">နွေးထွေး</string>
+	<string name="fun_filter_norway">နော်ဝေး</string>
+	<string name="fun_filter_cool">အေးမြ</string>
+	<string name="fun_filter_dew">နှင်းစက်</string>
+	<string name="fun_filter_youth">နုပျို</string>
+	<string name="fun_filter_shy">ရှက်သော</string>
+	<string name="fun_filter_jaipur">ဂျိုင်ပါ</string>
+	<string name="fun_filter_autumn">ဆောင်းဦး</string>
+	<string name="fun_filter_japanese">ဂျပန်လူမျိုး</string>
+	<string name="fun_filter_sweet">ချိုသာ</string>
+	<string name="fun_filter_warren">ဝါရန်</string>
+	<string name="fun_filter_tsukiji">ဆုကိဂျိ</string>
+	<string name="fun_filter_vivid">ထင်ရှားတောက်ပ</string>
+	<string name="fun_filter_facingsun">နေကို မျက်နှာမူ</string>
+	<string name="fun_filter_purple">ခရမ်း</string>
+	<string name="pref_gender_estimate_title">လိင်အမျိုးအစား ခန့်မှန်းချက်</string>
+	<string name="pref_gender_estimate_entry_on">ဖွင့်</string>
+	<string name="pref_gender_estimate_entry_off">ပိတ်</string>
+	<string name="beauty_guide_top_text">AI အလှအပ</string>
+	<string name="toast_motion_photo_opened">ရွေ့လျား ဓာတ်ပုံ ဖွင့်ထားသည်</string>
+	<string name="pref_camera_gpu_effect_vignetting">Vignetting</string><!--add for ai scene detection --><string name="ai_scene_tips_food">အစားအစာ</string>
+	<string name="ai_scene_tips_portrait">အလှပုံ</string>
+	<string name="ai_scene_tips_foliage">အပင်</string>
+	<string name="ai_scene_tips_sky">မိုးပြာ</string>
+	<string name="ai_scene_tips_text">စာသား</string><!-- add for faceplus asd detection --><string name="faceplus_asd_tips_face">အလှပုံ</string>
+	<string name="faceplus_asd_tips_food">အစားအစာ</string>
+	<string name="faceplus_asd_tips_fruits">သစ်သီး</string>
+	<string name="faceplus_asd_tips_flower">ပန်း</string>
+	<string name="faceplus_asd_tips_flowersea">ပန်းခင်း</string>
+	<string name="faceplus_asd_tips_sandbeach">သဲ</string>
+	<string name="faceplus_asd_tips_snow">နှင်း</string>
+	<string name="faceplus_asd_tips_bluesky">ကောင်းကင်</string>
+	<string name="faceplus_asd_tips_night">ညရိုက်ကူးမှု</string>
+	<string name="faceplus_asd_tips_sunrise">နေဝင်နှင့် နေထွက်</string>
+	<string name="faceplus_asd_tips_qr">QR ကုဒ်</string>
+	<string name="faceplus_asd_tips_businesscard">လိပ်စာကတ်</string>
+	<string name="faceplus_asd_tips_whiteboard">ဝှိုက်ဘုတ်</string>
+	<string name="faceplus_asd_tips_idcard">ID</string>
+	<string name="faceplus_asd_tips_bankcard">ခရက်ဒစ်ကတ်</string>
+	<string name="faceplus_asd_tips_cat">ကြောင်</string>
+	<string name="faceplus_asd_tips_dog">ခွေး</string>
+	<string name="faceplus_asd_tips_meadow">မြက်ခင်းပင်</string>
+	<string name="faceplus_asd_tips_plants">အပင်</string>
+	<string name="toast_gender_estimate_started">သင့်မျက်နှာအလိုက် သတ်မှတ်ချက်များကို ချိန်ညှိခြင်း</string>
+	<string name="beauty_guide_top_text_description">AI အလှအပ လုပ်ဆောင်ချက်ကို ဖွင့်ပြီး သင့်မျက်နှာအလိုက် သတ်မှတ်ချက်များကို ချိန်ညှိပါ</string>
+	<string name="zoom_guide_title">ဇူးမ်ချုံ့ချဲ့ရန် ပိုလွယ်ကူသော နည်းလမ်း</string>
+	<string name="zoom_guide_content">ရှုထောင့်ကျယ်နှင့် စူပါဇူးမ်တို့ကို ဝင်ရောက်သုံးစွဲရန် အထက်ရှိ အိုင်ကွန်ကို နှိပ်ပါ။ သို့မဟုတ် ဇူးမ်ချုံ့/ချဲ့ရန် မျက်နှာပြင်ကို ဒေါင်လိုက်အပေါ်သို့ ပွတ်ဆွဲပါ</string>
+	<string name="video_recording">ဗီဒီယိုရိုက်ကူးမှု</string>
+	<string name="micro_video_guide_content">ရွေ့လျား ဓာတ်ပုံကို ဖွင့်ထားသည့်အခါ သင်ရိုက်ကူးသော ဓာတ်ပုံတစ်ပုံစီတွင် မရိုက်ကူးမီနှင့် ရိုက်ကူးပြီးနောက် ဗီဒီယိုအတိုကို ထည့်သွင်းနိုင်သည်။ ဓာတ်ပုံမျှဝေသည့်အခါ ဗီဒီယိုကို ထည့်သွင်းနိုင်သည်။</string>
+	<string name="motion_photo">ရွေ့လျား ဓာတ်ပုံ</string>
+	<string name="switch_to_wide_lens_toast">ရှုထောင့်ကျယ် မှန်ဘီလူးကို ဖွင့်ခြင်း</string>
+	<string name="time_lapse_not_save">သင်၏ ဖရိန်နှုန်းမြင့်ရိုက်ချက်ကို သိမ်း၍ မရပါ။ သင့်ဗီဒီယိုသည် အနည်းဆုံး %1$d စက္ကန့် ရှည်သင့်သည်</string>
+	<string name="pref_shutter_speed_title">ရှပ်တာမြန်နှုန်း</string>
+	<string name="switch_to_wide_lens_landscape_toast">ပိုကျယ်သောမြင်ကွင်းအတွက် ရှုထောင့်ကျယ်ကို နှိပ်ပါ</string>
+	<string name="radio_switch_to_dual_bokeh_for_custom">အနုပညာဆန်ဆန် မှုန်ဝါးဝါး</string>
+	<string name="toast_video_recording_in_call_state">ဖုန်းခေါ်ဆိုစဉ် ရိုက်ကူး၍မရပါ</string>
+	<string name="pref_camera_ai_title">AI</string>
+	<string name="toast_video_3dnr_on">ဗီဒီယို ညမြင်ကွင်းကို ဖွင့်ထားသည်</string>
+	<string name="toast_storage_unavailable">SD ကတ်ကို သုံး၍ မရနိုင်ပါ</string>
+	<string name="toast_landscape_open_wide_tips">ရှုခင်း သို့မဟုတ် သူငယ်ချင်းများကို ပိုမိုရိုက်ကူးနိုင်ရန် စူပါရှုထောင့်ကျယ်သို့ ပြောင်းပါ။</string>
+	<string name="enable_sd_permission_title">ကင်မရာသည် SD ကတ်ကို ဝင်ရောက်သုံးစွဲရန်လိုသည်</string>
+	<string name="enable_sd_permission_content">သင့်ဆက်တင်ကိုကြည့်ပြီး \"SD ကတ်\” ထဲရှိ \"DCIM\" ကို ဝင်ရောက်သုံးစွဲခွင့်ပြုပါ</string>
+	<string name="macro_mode">မက်ခရို</string>
+	<string name="super_macro_tip">ဖုန်း (1) ကို အရာဝတ္ထုမှ 3–4 စင်တီမီတာ အကွာတွင် ထားပါ။</string>
+	<string name="bokeh_offfline_processing">အော့်ဖ်လိုင်း အဝါးစနစ်ဒေတာကို စီမံဆောင်ရွက်နေသည်…</string>
+	<string name="pref_google_lens">Google Lens</string>
+	<string name="never">ဘယ်တော့မှ</string>
+	<string name="toast_high_temp_disable_flash">အပူချိန်အလွန်မြင့်နေ၍ ဖလက်ရှ်မီးကို ဖွင့်၍မရပါ။</string>
+	<string name="toast_high_temp_shutdown_camera">အပူချိန် အလွန်မြင့်နေ၍ ကင်မရာသည် 5 စက္ကန့်အတွင်း ရပ်သွားပါမည်</string>
+
+	<string name="bokeh_type_name">အနုပညာဆန်ဆန် မှုန်ဝါးဝါး</string>
+	<string name="bokeh_type_description">ဤလုပ်ဆောင်ချက်သည် အနုပညာဆန်ဆန် မှုန်ဝါးဝါး အထူးပြုလုပ်ချက်ကို သုံးပြီး ဓာတ်ပုံကို တည်းဖြတ်နိုင်စေသည်။</string>
+	<string name="hdr_type_name">HDR</string>
+	<string name="hdr_type_description">နောက်ခံလင်း ပတ်ဝန်းကျင်တွင် ပိုမိုအသေးစိတ်ထိန်းသိမ်းခြင်း</string>
+	<string name="ai_type_name">AI</string>
+	<string name="ai_type_description">AI မြင်ကွင်း ရှာဖွေဖော်ထုတ်မှုကို သုံးပြီး သတ်မှတ်ချက်များကို အလိုအလျောက် သတ်မှတ်ပါ</string>
+	<string name="timelapse_type_name">ဖရိန်နှုန်းမြင့် ရိုက်ချက်</string>
+	<string name="timelapse_type_description">အချိန်တိုအတွင်း ပိုမြင့်သော အမြန်နှုန်းဖြင့် ဗီဒီယိုရှည်တစ်ခုကို ပြသပါ</string>
+	<string name="don_t_cover_the_lens">မှန်ဘီလူးကို မဖုံးပါနှင့်</string>
+	<string name="pref_video_time_lapse_frame_interval_title">အချိန်ကြားကာလ</string>
+	<string name="toast_qr_code_detected">QR ကုဒ် တွေ့ရှိထားသည်။\nဝင်ကြည့်ရန် နှိပ်ပါ</string>
+	<string name="toast_qr_code_detected_type_esim">eSIM ပရိုဖိုင်ကို တွေ့ရှိထားသည်။\neSIM ကို သက်ဝင်လုပ်ဆောင်ရန် နှိပ်ပါ</string>
+	<string name="toast_qr_code_detected_type_url">QR ကုဒ် တွေ့ရှိထားသည်။\nလင့်ခ်ကို ဝင်ကြည့်ရန် နှိပ်ပါ</string>
+	<string name="toast_qr_code_detected_type_string">QR ကုဒ် တွေ့ရှိထားသည်။\nGoogle တွင် ရှာဖွေရန် နှိပ်ပါ</string>
+	<string name="toast_bar_code_detected_type_string">ဘားကုဒ် တွေ့ရှိထားသည်။\nလင့်ခ်ကို ဝင်ကြည့်ရန် နှိပ်ပါ</string>
+	<string name="toast_bar_code_detected_type_number">ထုတ်ကုန် ဘားကုဒ် တွေ့ရှိထားသည်။\nထုတ်ကုန်ကို ရှာဖွေရန် နှိပ်ပါ</string>
+	<string name="turn_off_qr_code">QR ကုဒ်ကို ပိတ်ပါ</string>
+	<string name="pref_video_quality_entry_fine_text">ကောင်း</string>
+	<string name="pref_video_quality_entry_high_text">မြင့်</string>
+	<string name="pref_exposure_metering_title">အလင်းဝင်ပေါက် တိုင်းတာစနစ်</string>
+	<string name="pref_exposure_metering_entry_frame_average">Frame average</string>
+	<string name="pref_exposure_metering_entry_center_weighted">အလယ်ဗဟိုချက်ကို တိုင်းတာထားသည်</string>
+	<string name="pref_exposure_metering_entry_spot_metering">အစက်အပြောက် တိုင်းတာစနစ်</string>
+	<string name="toast_disable_torch">ဖလက်ရှ် အပူလွန်ခြင်းမှ ကာကွယ်ရန် ဓာတ်မီးကို ပိတ်ပါ</string>
+	<string name="google_location_dialog_title">သင်၏ ကင်မရာအက်ပ်ဖြင့် ရိုက်ထားသော ဓာတ်ပုံများတွင် တည်နေရာအချက်အလက် ထည့်မလား။</string>
+	<string name="google_location_dialog_message">ဆိုလိုသည်မှာ သင့်ဓာတ်ပုံများတွင် ၎င်းတို့ကို ရိုက်ခဲ့သောနေရာအကြောင်း အချက်အလက် ပါဝင်ပါမည်။</string>
+	<string name="google_location_dialog_message_lear_more">
+		<a href="https://support.google.com/photos/answer/9921876">ပိုမိုလေ့လာရန်</a>
+	</string>
+	<string name="google_location_dialog_positive">ကင်မရာ တည်နေရာကို ဖွင့်ပါ</string>
+	<string name="image_search_mode">အရာဝတ္ထု ရှာဖွေမှု</string>
+	<string name="detect_result_title">အရာဝတ္ထုတစ်ခုကို ရွေးချယ်ပြီး ရှာဖွေမှုရလဒ်များကို ကြည့်ရှုပါ</string>
+	<string name="search_result_title">တူညီသော အရာတ္ထုများအတွက် ရလဒ်များကို ရှာပါ</string>
+	<string name="search_for_other_items">အခြားအရာဝတ္ထုများကို ရှာပါ</string>
+	<string name="point_format_string">%1$d ပွိုင့် (%2$dx)</string><!--    <string name="price_format_string">%1$s yen</string>--><string name="view_on_rakuten_ichiba">Rakuten Ichiba တွင် ကြည့်ရန်</string>
+	<string name="view_all_results_on_rakuten_ichiba">ရလဒ်အားလုံးကို Rakuten Ichiba တွင် ကြည့်ရန်</string>
+	<string name="start_new_search">ရှာဖွေမှုအသစ် စတင်ရန်</string>
+	<string name="network_error">ကွန်ရက် ချို့ယွင်းချက်။\nသင်၏ အင်တာနက်ချိတ်ဆက်မှုကို စစ်ဆေးပြီး ထပ်မံကြိုးစားပါ</string>
+	<string name="item_not_found">မည်သည့် ဖက်ရှင်အရာဝတ္ထုကိုမျှ ရှာမတွေ့ပါ</string>
+	<string name="cropped_item_not_found">ရှာဖွေမှုဧရိယာ၏ အရွယ်အစားကို ထပ်မံချိန်ညှိပါ</string>
+	<string name="cropped_item_not_found_btn_text">ရှာဖွေမှုဧရိယာကို ထပ်မံချိန်ညှိပါ</string>
+	<string name="searching">ရှာဖွေနေဆဲ…</string>
+	<string name="image_search_tip">ရှာဖွေရန် ဓာတ်ပုံ ရိုက်ပါ သို့မဟုတ် ပုံရွေးပါ</string>
+	<string name="image_search_processing">ရှာဖွေနေဆဲ…</string>
+	<string name="move_and_resize_tip">ရှာဖွေရန် ဖရိန်ကို မည်သည့်နေရာသို့မဆို ရွှေ့ပါ။\nဖရိန်အရွယ်အစားကို ချိန်ညှိရန် ထောင့်များကို ဆွဲရွှေ့ပါ။</string>
+	<string name="new_feature_image_search_guide_title">လုပ်ဆောင်ချက် အသစ်</string>
+	<string name="new_feature_image_search_guide_title_extra" translatable="false" />
+	<string name="new_feature_image_search_guide_content">ယခုအခါ ဓာတ်ပုံရိုက်ပြီး Rakuten Ichiba တွင် အရာဝတ္ထုများကို ရှာဖွေနိုင်သည်</string>
+	<string name="item_search_guide_title">အရာဝတ္ထု ရှာဖွေခြင်းက ဘာလဲ။</string>
+	<string name="item_search_guide_content_p1">သင့်ကင်မရာဖြင့် ဓာတ်ပုံများကိုရိုက်ပြီး Rakuten Ichiba တွင် အရာဝတ္ထုများကို ရှာဖွေပါ။</string>
+	<string name="item_search_guide_content_p2">(လောလောဆယ်တွင် အရာဝတ္ထု ရှာဖွေခြင်းအတွက် ဖက်ရှင်အရာဝတ္ထုများကိုသာ ရနိုင်သည်။)</string>
+	<string name="feedback_title">တုံ့ပြန်အကြံပြုချက်</string>
+	<string name="feedback_content">ဤရလဒ်များက အသုံးဝင်ပါသလား။</string>
+	<string name="feedback_action">တုံ့ပြန်အကြံပြုချက် ပေးရန်</string>
+	<string name="feedback_send">ပို့မည်</string>
+	<string name="feedback_response">သင်၏ အဖိုးတန်သော တုံ့ပြန်အကြံပြုချက်အတွက် ကျေးဇူးတင်ရှိပါသည်။</string>
+	<string name="terms_of_use_title">အသုံးပြုမှု စည်းမျဉ်းများ</string>
+	<string name="privacy_title">ကိုယ်ရေးအချက်အလက် လုံခြုံရေး မူဝါဒ</string>
+	<string name="free_shipping">အခမဲ့ပို့ဆောင်မှု</string>
+	<string name="terms_of_use_agree">အသုံးပြုမှုစည်းမျဉ်းများကို ကျွန်ုပ် သဘောတူသည်။</string>
+	<string name="start_to_use">ရုပ်ပုံ ရှာဖွေခြင်း</string>
+	<string name="terms_of_use_content">ဤသည်မှာ အသုံးပြုမှုစည်းမျဉ်းများဖြစ်သည်။</string>
+	<string name="try_again_tips">သင်နှစ်သက်သော အရာများ မတွေ့ခဲ့ဘူးလား။\nကွဲပြားသောရလဒ်များ ရရှိရန် ရှာဖွေမှုအသစ်လုပ်ကြည့်ပါ</string>
+	<string name="yen">ယန်း</string>
+	<string name="pref_video_fps">FPS</string>
+	<string name="pref_video_encoder">စာဝှက်ရေးသွင်းမှု</string>
+	<string name="more">နောက်ထပ်</string>
+	<string name="panorama_night_mode">ညမြင်ကွင်းကျယ်</string>
+	<string name="long_press_shutter_button">ရှပ်တာကို ကြာကြာနှိပ်ထားပါ</string>
+	<string name="continuous_shot_entry">ဆက်တိုက် ရိုက်ချက်</string>
+
+
+	<string name="pref_camera_wb_temp_title">အရောင်ပမာဏ</string>
+
+	<string name="pref_camera_entry_off">ပိတ်</string>
+	<string name="pref_camera_whitebalance_entry_custom">စိတ်ကြိုက်</string>
+	<string name="pref_camera_entry_on">ဖွင့်</string>
+
+	<string name="pref_video_night_title">ညဗီဒီယို</string>
+	<string name="video_ois_title">OIS</string>
+	<string name="pref_photo_mfnr_title">MFNR</string>
+	<string name="remosaic_mode">Remosaic</string>
+
+	<string name="pref_high_definition_title">တိကျပြတ်သားမှုမြင့်</string>
+	<string name="pref_pro_raw_title">တိကျပြတ်သားမှုမြင့်</string>
+</resources>

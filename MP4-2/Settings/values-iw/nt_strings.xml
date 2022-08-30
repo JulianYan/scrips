@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nt_navigation_back_button_left_side">כפתור אחורה בצד שמאל</string>
+    <string name="nt_navigation_back_button_right_side">כפתור אחורה בצד ימין</string>
+    <string name="nt_navigation_config_title">פריסת לחצן</string>
+    <string name="nt_glyphs_charging_features">הצג את התקדמות הטעינה כשהמכשיר מחובר לחשמל או הנעה את המכשיר במהלך הטעינה.</string>
+    <string name="nt_screen_refresh_rate_high_summary">קצב רענון דינמי עד 120 הרץ לגלילה והנפשה חלקה יותר.</string>
+    <string name="nt_screen_refresh_rate_standard_summary">קצב רענון קבוע של 60 הרץ לחיי סוללה משופרים.</string>
+	
+	<!-- translate to other languages -->
+	<string name="nt_glyphs_flip_title">הפוך אל Glyph</string>
+    <string name="nt_glyphs_flip_to_glyph_title">הפוך אל Glyph</string>
+    <string name="nt_use_filp_to_glyph">שימוש הפוך אל Glyph</string>
+	
+</resources>

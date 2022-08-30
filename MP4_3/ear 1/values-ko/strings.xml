@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="disconnect">연결 해제됨</string>
+    <string name="anc_personalised_title">맞춤형 ANC</string>
+    <string name="control_double_tap_hold">두 번 탭하고 길게 누르기</string>
+
+</resources>

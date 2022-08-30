@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_watermark">ลายน้ำ</string>
+    <string name="settings_model_watermark">ลายน้ำรุ่นผลิตภัณฑ์</string>
+    <string name="settings_time_watermark">ลายน้ำเวลา</string>
+</resources>

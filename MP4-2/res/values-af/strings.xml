@@ -1,0 +1,760 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+     Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+
+    <!-- Confirmation dialog when restoring settings -->
+    <string name="confirm_restore_message">Stel kamerainstellings terug?</string>
+    <string name="pref_camera_module_title">Kameramodus</string>
+    <!-- Settings screen, camera selection dialog title. Users can select a camera from the phone (front-facing or back-facing). [CHAR LIMIT=20] -->
+    <string name="pref_camera_id_title">Wissel kamera</string>
+    <string name="pref_camera_id_default" translatable="false">0</string>
+
+    <!-- In select camera setting, back facing camera. [CHAR LIMIT=14] -->
+    <string name="pref_camera_id_entry_back">Terug</string>
+    <!-- In select camera setting, front-facing camera. [CHAR LIMIT=14] -->
+    <string name="pref_camera_id_entry_front">Vooraansig</string>
+
+    <!-- Settings screen, Record location dialog choices -->
+    <string name="pref_camera_recordlocation_entry_off">Af</string>
+    <string name="pref_camera_recordlocation_entry_on">Aan</string>
+
+    <!-- The Video quality settings in preference [CHAR LIMIT=21] -->
+    <string name="pref_video_quality_title">Videokwaliteit</string>
+    <string name="pref_video_stabilization_title">Video-stabilisering</string>
+    <string name="pref_video_3dnr_title" translatable="false">Video 3DNR</string>
+    <!-- The Video timelapse settings in preference [CHAR LIMIT=21] -->
+    <string name="pref_video_timelapse_title">Video-tydsverloop</string>
+    <string name="pref_video_autozoom_title">Video outo-zoem</string>
+    <string name="video_mode">VIDEO</string>
+    <string name="guide_auto_zoom_title" translatable="false">Auto Zoom</string>
+    <string name="guide_auto_zoom_rules" translatable="false">During the recording, you can track a specified object by drawing a circle on the screen and double tap to stop it</string>
+    <string name="toast_auto_zoom_not_activated" translatable="false">Auto zoom is not activated</string>
+
+    <!-- Default flash mode setting. -->
+    <string name="pref_camera_flashmode_default" translatable="false">off</string>
+    <string name="pref_camera_screenflash_default" translatable="false">off</string>
+
+    <!-- Settings screen, Flash mode title -->
+    <string name="pref_camera_flashmode_title">Flitsmodus</string>
+    <string name="pref_screenflash_title">Vertoonflits</string>
+
+    <!-- Settings screen, Flash mode dialog radio button choices -->
+    <string name="pref_camera_flashmode_entry_auto">Outo</string>
+    <string name="pref_camera_flashmode_entry_on">Aan</string>
+    <string name="pref_camera_flashmode_entry_off">Af</string>
+    <string name="pref_camera_flashmode_entry_torch">Flitslig</string>
+    <string name="pref_camera_flashmode_entry_led">Led</string>
+
+    <!-- Default white balance setting. -->
+    <string name="pref_camera_whitebalance_default" translatable="false">auto</string>
+
+    <!-- Settings screen, white balance title -->
+    <string name="pref_camera_whitebalance_title">AWB</string>
+
+    <!-- Settings screen, White balance dialog radio button choices -->
+    <string name="pref_camera_whitebalance_entry_auto">Outo</string>
+    <string name="pref_camera_whitebalance_entry_incandescent" translatable="false">Incandescent</string>
+    <string name="pref_camera_whitebalance_entry_daylight" translatable="false">Daylight</string>
+    <string name="pref_camera_whitebalance_entry_fluorescent" translatable="false">Fluorescent</string>
+    <string name="pref_camera_whitebalance_entry_cloudy" translatable="false">Cloudy</string>
+    <string name="pref_camera_whitebalance_entry_value_incandescent" translatable="false">incandescent</string>
+    <string name="pref_camera_whitebalance_entry_value_daylight" translatable="false">daylight</string>
+    <string name="pref_camera_whitebalance_entry_value_cloudy_daylight" translatable="false">cloudy-daylight</string>
+
+    <string name="pref_hdr_default" translatable="false">on</string>
+    <string name="pref_motion_photo_default" translatable="false">off</string>
+    <!-- Default scene mode setting. -->
+    <string name="pref_camera_scenemode_default" translatable="false">auto</string>
+    <string name="pref_camera_scene_frame_default" translatable="false">1</string>
+    <string name="pref_camera_scene_frame_title" translatable="false">Scene frame</string>
+    <!-- Settings screen, Select Scene mode -->
+    <string name="pref_camera_scenemode_title" translatable="false">Scene mode</string>
+    <string name="pref_hdr_title">Lewende HDR</string>
+    <string name="pref_motion_photo_title">beweging</string>
+
+    <!-- Settings menu, scene mode choices -->
+    <string name="pref_camera_scenemode_entry_auto" translatable="false">Auto</string>
+    <string name="pref_camera_scenemode_entry_night" translatable="false">Night</string>
+    <!-- Scene mode optimized for taking images in the sunset. -->
+    <string name="pref_camera_scenemode_entry_sunset" translatable="false">Sunset</string>
+    <!-- Scene mode optimized for taking indoor low-lights pictures. [CHAR LIMIT=16] -->
+    <string name="pref_camera_scenemode_entry_party" translatable="false">Party</string>
+    <string name="pref_restore_detail">Stel instellings terug</string>
+
+    <!-- Exposure settings in preference -->
+    <string name="pref_exposure_title">EV</string>
+    <string name="pref_exposure_default" translatable="false">0</string>
+
+    <!-- Camera format string for new image files. Passed to java.text.SimpleDateFormat. -->
+    <string name="image_file_name_format" translatable="false">"'IMG'_yyyyMMdd_HHmmssSSS"</string>
+
+    <!-- Video Camera format string for new video files. Passed to java.text.SimpleDateFormat. -->
+    <string name="video_file_name_format" translatable="false">"'VID'_yyyyMMdd_HHmmssSSS"</string>
+
+    <!-- The text shown on the bottom-left corner of the screen to indicate that the saving is in process [CHAR LIMIT=13] -->
+    <string name="sugar_face_beauty_custom" translatable="false">Custom</string>
+    <string name="sugar_eyes_beauty" translatable="false">Eyes</string>
+    <string name="sugar_face_thin" translatable="false">Sharp</string>
+    <string name="sugar_skin_smooth" translatable="false">Smooth</string>
+
+    <string name="adjust_progress" translatable="false">+%s</string>
+    <string name="face_beauty_custom_skin_info" translatable="false">Skin</string>
+    <string name="face_beauty_custom_eyes_info" translatable="false">Eyes</string>
+    <string name="face_beauty_custom_thin_info" translatable="false">Thin</string>
+    <string name="face_beauty_custom_rosy_info" translatable="false">Rosy</string>
+    <string name="face_beauty_custom_whitening_info" translatable="false">Whitening</string>
+
+    <string name="portrait_custom_info" translatable="false">Blur</string>
+
+    <string name="pref_restore_default" translatable="false">on</string>
+    <string name="pref_camera_volume_key_title">Volumeknoppies</string>
+    <string name="pref_camera_volume_key_shoot">Skiet</string>
+    <string name="pref_camera_volume_key_zoom">Zoem</string>
+    <string name="pref_camera_volume_key_volume">Volume</string>
+    <string name="recording_time" translatable="false">00:00:00</string>
+    <string name="timeLapse_recording_time" translatable="false">00:00 | 00:00</string>
+    <string name="photo_incapture">Besig om foto te neem</string>
+    <string name="pref_shutterspeed_default" translatable="false">0</string>
+    <string name="toast_location_started" translatable="false">location started</string>
+    <string name="toast_location_success" translatable="false">location success</string>
+    <string name="toast_device_denayed">toestel ontoeganklik</string>
+    <string name="toast_device_connect_failed">toestelverbinding ongeslaagd</string>
+    <string name="toast_start_preview_failed">aanvangsvooruitsig ongeslaagd</string>
+    <string name="toast_storage_full">bergingsruimte is vol</string>
+    <string name="toast_low_power_disable_flash">Lae battery, nie in staat om flitslig te open nie.</string>
+    <string name="toast_video_size_max">Die grootte van die video is tot by die limiet.</string>
+    <string name="toast_continue_snap_max">Die telling van die aanhoudende skoot is tot op die limiet.</string>
+    <string name="toast_video_error">Video kan nie opgeneem word in die huidige toestand nie</string>
+    <string name="toast_video_start_fail">Mikrofoon in gebruik en kan nie opgeneem word nie</string>
+    <string name="toast_video_init_size_error">Die grootte van die video is tot op die limiet.</string>
+    <string name="toast_long_press_unavilable">Moenie \'n voortdurende skoot ondersteun nie.</string>
+    <string name="toast_continuous_shot_off">Voortdurende skoot is nie beskikbaar nie.</string>
+    <string name="toast_thumbnail_empty">"nie-foto"</string>
+
+    <string name="toast_auto_zoom" translatable="false">Auto zoom has been opened</string>
+    <string name="toast_video_stabilization">stabiliseerder is geaktiveer</string>
+
+    <string name="toast_steady_capture">Moenie die foon skuif terwyl jy vasvang nie.</string>
+
+    <string name="toast_dual_camera_opened" translatable="false">Dual Camera opened</string>
+    <string name="toast_dual_camera_closed" translatable="false">Dual Camera closed</string>
+
+    <!-- Pref -->
+
+    <string name="pref_video_time_lapse_frame_interval_x5" translatable="false">X5</string>
+    <string name="pref_video_time_lapse_frame_interval_x10" translatable="false">X10</string>
+    <string name="pref_video_time_lapse_frame_interval_x60" translatable="false">X60</string>
+    <string name="pref_video_time_lapse_frame_interval_x180" translatable="false">X180</string>
+    <string name="pref_video_time_lapse_frame_interval_x300" translatable="false">X300</string>
+
+
+    <string name="pref_video_quality_entry_medium" translatable="false">480P</string>
+    <string name="pref_video_quality_entry_high" translatable="false">720P</string>
+    <string name="pref_video_quality_entry_high_plus" translatable="false">720P+</string>
+    <string name="pref_video_quality_entry_fine" translatable="false">1080P</string>
+    <string name="pref_video_quality_entry_4k" translatable="false">4K</string>
+    <string name="pref_video_quality_entry_full">Vol</string>
+    <string name="pref_video_quality_entry_fine_X" translatable="false">1080P+</string>
+    <string name="pref_video_stabilization_entry_on">Aan</string>
+    <string name="pref_video_stabilization_entry_off">Af</string>
+    <string name="pref_video_stabilization_entry_standard">Standaard</string>
+    <string name="pref_video_stabilization_entry_super">Super</string>
+    <string name="pref_video_3dnr_entry_on" translatable="false">On</string>
+    <string name="pref_video_3dnr_entry_off" translatable="false">Off</string>
+    <string name="pref_video_autozoom_entry_on" translatable="false">On</string>
+    <string name="pref_video_autozoom_entry_off" translatable="false">Off</string>
+    <string name="pref_camera_picturesize_title">Prent-grootte</string>
+    <string name="pref_camera_picturesize_entry_4608x3456" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_4656x3496" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_4160x3120" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_4096x3072" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_3968x2976" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_3672x2754" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_3600x2700" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_3264x2448" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_5120x3840" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_5184x3880" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_8000x6000" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_8192x6144" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_9216x6912" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_1280x720" translatable="false">16:9</string>
+    <string name="pref_camera_picturesize_entry_2560x1440" translatable="false">16:9</string>
+    <string name="pref_camera_picturesize_entry_3072x1728" translatable="false">16:9</string>
+    <string name="pref_camera_picturesize_entry_3328x1872" translatable="false">16:9</string>
+    <string name="pref_camera_picturesize_entry_3840x2160" translatable="false">16:9</string>
+    <string name="pref_camera_picturesize_entry_4096x2304" translatable="false">16:9</string>
+    <string name="pref_camera_picturesize_entry_4608x2592" translatable="false">16:9</string>
+    <string name="pref_camera_picturesize_entry_5120x2880" translatable="false">16:9</string>
+    <string name="pref_camera_picturesize_entry_5184x2916" translatable="false">16:9</string>
+    <string name="pref_camera_picturesize_entry_2304x1728" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_2328x1748" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_2592x1936" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_2592x1940" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_2592x1944" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_2048x1536" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_2304x1296" translatable="false">16:9</string>
+    <string name="pref_camera_picturesize_entry_2328x1304" translatable="false">16:9</string>
+    <string name="pref_camera_picturesize_entry_1920x1080" translatable="false">16:9</string>
+    <string name="pref_camera_picturesize_entry_1600x1200" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_1280x960" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_1024x768" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_640x480" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_720x720" translatable="false">1:1</string>
+    <string name="pref_camera_picturesize_entry_320x240" translatable="false">4:3</string>
+    <string name="pref_camera_picturesize_entry_1080x1080" translatable="false">1:1</string>
+    <string name="pref_camera_picturesize_entry_1600x1600" translatable="false">1:1</string>
+    <string name="pref_camera_picturesize_entry_1748x1748" translatable="false">1:1</string>
+    <string name="pref_camera_picturesize_entry_1944x1944" translatable="false">1:1</string>
+    <string name="pref_camera_picturesize_entry_2976x2976" translatable="false">1:1</string>
+    <string name="pref_camera_picturesize_entry_2224x2224" translatable="false">1:1</string>
+    <string name="pref_camera_picturesize_entry_2992x2992" translatable="false">1:1</string>
+    <string name="pref_camera_picturesize_entry_3000x3000" translatable="false">1:1</string>
+    <string name="pref_camera_picturesize_entry_3016x3016" translatable="false">1:1</string>
+    <string name="pref_camera_picturesize_entry_3060x3060" translatable="false">1:1</string>
+    <string name="pref_camera_picturesize_entry_3072x3072" translatable="false">1:1</string>
+    <string name="pref_camera_picturesize_entry_3120x3120" translatable="false">1:1</string>
+    <string name="pref_camera_picturesize_entry_3472x3472" translatable="false">1:1</string>
+    <string name="pref_camera_picturesize_entry_3488x3488" translatable="false">1:1</string>
+
+    <string name="pref_camera_picturesize_entry_1440x720" translatable="false">18:9</string>
+    <string name="pref_camera_picturesize_entry_2016x1008" translatable="false">18:9</string>
+    <string name="pref_camera_picturesize_entry_2304x1152" translatable="false">18:9</string>
+    <string name="pref_camera_picturesize_entry_3168x1584" translatable="false">18:9</string>
+    <string name="pref_camera_picturesize_entry_3744x1872" translatable="false">18:9</string>
+    <string name="pref_camera_picturesize_entry_4032x2016" translatable="false">18:9</string>
+    <string name="pref_camera_picturesize_entry_4608x2304" translatable="false">18:9</string>
+    <string name="pref_camera_picturesize_entry_5184x2592" translatable="false">18:9</string>
+
+    <string name="pref_camera_picturesize_entry_4640x2198" translatable="false">19:9</string>
+    <string name="pref_camera_picturesize_entry_4598x2178" translatable="false">19:9</string>
+    <string name="pref_camera_picturesize_entry_4560x2160" translatable="false">19:9</string>
+    <string name="pref_camera_picturesize_entry_4180x1980" translatable="false">19:9</string>
+    <string name="pref_camera_picturesize_entry_4160x1970" translatable="false">19:9</string>
+    <string name="pref_camera_picturesize_entry_4032x1910" translatable="false">19:9</string>
+    <string name="pref_camera_picturesize_entry_3592x1872" translatable="false">19:9</string>
+    <string name="pref_camera_picturesize_entry_3040x1440" translatable="false">19:9</string>
+    <string name="pref_camera_picturesize_entry_2592x1228" translatable="false">19:9</string>
+    <string name="pref_camera_picturesize_entry_2432x1152" translatable="false">19:9</string>
+    <string name="pref_camera_picturesize_entry_2280x1080" translatable="false">19:9</string>
+    <string name="pref_camera_picturesize_entry_1520x720" translatable="false">19:9</string>
+
+    <string name="pref_camera_picturesize_entry_3952x1872" translatable="false">19.5:9</string>
+    <string name="pref_camera_picturesize_entry_4056x1872" translatable="false">19.5:9</string>
+    <string name="pref_camera_picturesize_entry_4032x1856" translatable="false">19.5:9</string>
+    <string name="pref_camera_picturesize_entry_4208x1936" translatable="false">19.5:9</string>
+    <string name="pref_camera_picturesize_entry_4608x2144" translatable="false">19.5:9</string>
+    <string name="pref_camera_picturesize_entry_4608x2128" translatable="false">19.5:9</string>
+    <string name="pref_camera_picturesize_entry_3744x1728" translatable="false">19.5:9</string>
+    <string name="pref_camera_picturesize_entry_3120x1440" translatable="false">19.5:9</string>
+    <string name="pref_camera_picturesize_entry_2496x1152" translatable="false">19.5:9</string>
+
+
+    <string name="pref_camera_picturesize_entry_4624x2080" translatable="false">20:9</string>
+    <string name="pref_camera_picturesize_entry_4160x1872" translatable="false">20:9</string>
+    <string name="pref_camera_picturesize_entry_4096x1848" translatable="false">20:9</string>
+    <string name="pref_camera_picturesize_entry_4080x1836" translatable="false">20:9</string>
+    <string name="pref_camera_picturesize_entry_3200x1440" translatable="false">20:9</string>
+    <string name="pref_camera_picturesize_entry_2560x1152" translatable="false">20:9</string>
+    <string name="pref_camera_picturesize_entry_2400x1080" translatable="false">20:9</string>
+    <string name="pref_camera_picturesize_entry_2328x1048" translatable="false">20:9</string>
+
+    <string name="pref_camera_picturesize_entry_3264x1440" translatable="false">20.5:9</string>
+    <string name="pref_camera_picturesize_entry_1632x720" translatable="false">20.5:9</string>
+
+    <string name="pref_camera_picturesize_entry_1x1" translatable="false">1:1</string>
+    <string name="pref_camera_picturesize_entry_16x9" translatable="false">16:9</string>
+    <string name="pref_camera_picturesize_entry_4x3" translatable="false">4:3</string>
+
+    <string name="pref_camera_picture_aspect_ratio_title">Prent se hoogte en breedteverhouding</string>
+    <string name="pref_camera_picture_aspect_ratio_entry_1x1" translatable="false">1:1</string>
+    <string name="pref_camera_picture_aspect_ratio_entry_16x9" translatable="false">16:9</string>
+    <string name="pref_camera_picture_aspect_ratio_entry_18x9" translatable="false">18:9</string>
+    <string name="pref_camera_picture_aspect_ratio_entry_19x9" translatable="false">19:9</string>
+    <string name="pref_camera_picture_aspect_ratio_entry_19_5x9" translatable="false">19.5:9</string>
+    <string name="pref_camera_picture_aspect_ratio_entry_20x9" translatable="false">20:9</string>
+    <string name="pref_camera_picture_aspect_ratio_entry_20_5x9" translatable="false">20.5:9</string>
+    <string name="pref_camera_picture_aspect_ratio_entry_4x3" translatable="false">4:3</string>
+
+    <string name="pref_camera_picturesize_entry_16_9">Volskerm</string>
+    <string name="pref_camera_picturesize_entry_4_3">Normaal</string>
+    <string name="pref_camera_picturesize_entry_1_1">Reghoek</string>
+    <!-- ISO -->
+    <string name="pref_camera_iso_default" translatable="false">auto</string>
+    <string name="pref_camera_iso_title" translatable="false">ISO</string>
+    <string name="manual_focus_title" translatable="false">M focus</string>
+    <!-- <string name="pref_camera_edge_default" translatable="false">middle</string> -->
+    <string name="pref_camera_edge_title" translatable="false">Sharpness</string>
+    <string name="pref_camera_hue_default" translatable="false">middle</string>
+    <string name="pref_camera_hue_title" translatable="false">Hue</string>
+
+    <!-- <string name="pref_camera_saturation_default" translatable="false">middle</string> -->
+    <string name="pref_camera_saturation_title">Versadiging</string>
+    <string name="pref_camera_brightness_default" translatable="false">middle</string>
+    <string name="pref_camera_brightness_title">Helderheid</string>
+    <string name="pref_camera_contrast_default" translatable="false">middle</string>
+    <string name="pref_camera_contrast_title">Kontras</string>
+    <string name="pref_camera_dip_entry_low" translatable="false">Low</string>
+    <string name="pref_camera_dip_entry_middle" translatable="false">Medium</string>
+    <string name="pref_camera_dip_entry_high" translatable="false">High</string>
+
+    <!-- color effect -->
+    <string name="pref_camera_coloreffect_default" translatable="false">none</string>
+
+    <!-- Settings screen, Select Color effect title -->
+    <string name="pref_camera_coloreffect_title" translatable="false">Color effect</string>
+
+    <!-- Settings screen, Color effect dialog radio button choices -->
+    <string name="pref_camera_coloreffect_entry_none" translatable="false">None</string>
+    <string name="pref_camera_coloreffect_entry_mono" translatable="false">Mono</string>
+    <string name="pref_camera_coloreffect_entry_sepia" translatable="false">Sepia</string>
+    <string name="pref_camera_coloreffect_entry_negative" translatable="false">Negative</string>
+    <!-- Color effect that overexposes and reverses some of the tones. -->
+    <string name="pref_camera_coloreffect_entry_solarize" translatable="false">Solarize</string>
+    <string name="pref_camera_coloreffect_entry_posterize" translatable="false">Posterize</string>
+    <string name="pref_camera_coloreffect_entry_whiteboard" translatable="false">Whiteboard</string>
+    <string name="pref_camera_coloreffect_entry_blackboard" translatable="false">Blackboard</string>
+    <string name="pref_camera_coloreffect_entry_aqua" translatable="false">Aqua</string>
+    <string name="pref_camera_coloreffect_entry_pastel" translatable="false">Pastel</string>
+    <string name="pref_camera_coloreffect_entry_mosaic" translatable="false">Mosaic</string>
+    <string name="pref_camera_coloreffect_entry_redtint" translatable="false">Red tint</string>
+    <string name="pref_camera_coloreffect_entry_bluetint" translatable="false">Blue tint</string>
+    <string name="pref_camera_coloreffect_entry_greentint" translatable="false">Green tint</string>
+    <string name="pref_camera_coloreffect_entry_sepiablue" translatable="false">Sepia Blue</string>
+    <string name="pref_camera_coloreffect_entry_sepiagreen" translatable="false">Sepia Green</string>
+
+    <!-- self timer -->
+    <string name="pref_camera_selftimer_default" translatable="false">0</string>
+    <string name="pref_camera_selftimer_title">Self-tydhouer</string>
+    <string name="pref_camera_selftimer_entry_off">Af</string>
+    <string name="pref_camera_selftimer_entry_3">3 sekondes</string>
+    <string name="pref_camera_selftimer_entry_10">10 sekondes</string>
+
+    <!-- anti-flicker -->
+    <!-- string name="pref_camera_antibanding_default" translatable="false">auto</string -->
+    <string name="pref_camera_antibanding_title">Anti-flikker</string>
+    <string name="pref_camera_antibanding_entry_auto">Outo</string>
+    <string name="pref_camera_antibanding_entry_50hz">50Hz</string>
+    <string name="pref_camera_antibanding_entry_60hz">60Hz</string>
+
+    <!-- Scene mode Mediatek plus -->
+    <!-- Scene mode that takes an image with as little noise as possible so details of the subject are maintained. -->
+    <string name="pref_camera_scenemode_entry_portrait" translatable="false">Portrait</string>
+    <!-- Scene mode that takes an image of a landscape assuming all subjects are relatively far from the phone. -->
+    <string name="pref_camera_scenemode_entry_landscape" translatable="false">Landscape</string>
+    <!-- Scene mode that takes night shots with long exposure and flash to illuminate the subject while still capturing darker detail in the background. -->
+    <string name="pref_camera_scenemode_entry_night_portrait" translatable="false">Night portrait</string>
+    <!-- Scene mode to be used in a stage show. -->
+    <string name="pref_camera_scenemode_entry_theatre" translatable="false">Theatre</string>
+    <!-- Scene mode optimized for taking images on the beach. -->
+    <string name="pref_camera_scenemode_entry_beach" translatable="false">Beach</string>
+    <!-- Scene mode optimized for taking images in the snow. -->
+    <string name="pref_camera_scenemode_entry_snow" translatable="false">Snow</string>
+    <!-- Scene mode for taking a photo as sharp as possible. -->
+    <string name="pref_camera_scenemode_entry_steadyphoto" translatable="false">Steady photo</string>
+    <!-- Scene mode optimized for taking images of fireworks. -->
+    <string name="pref_camera_scenemode_entry_fireworks" translatable="false">Fireworks</string>
+    <string name="pref_camera_scenemode_entry_sports" translatable="false">Sports</string>
+    <string name="pref_camera_scenemode_entry_candlelight" translatable="false">Candle light</string>
+    <!-- for CMCC feature -->
+    <string name="pref_camera_scenemode_entry_normal" translatable="false">Normal</string>
+
+    <!-- Video Camera -->
+    <!-- EIS setting -->
+    <string name="pref_camera_eis_title">EIS</string>
+    <string name="pref_camera_eis_default" translatable="false">off</string>
+    <string name="pref_camera_eis_on">Aan</string>
+    <string name="pref_camera_eis_off">Af</string>
+
+    <!-- microphone switch -->
+    <!-- string name="pref_camera_recordaudio_default" translatable="false">off</string -->
+    <string name="pref_camera_recordaudio_title">Videodemp</string>
+    <string name="pref_camera_recordaudio_entry_off">Af</string>
+    <string name="pref_camera_recordaudio_entry_on">Aan</string>
+
+
+    <!-- ZSD songyutao -->
+    <string name="pref_camera_zsd_title" translatable="false">ZSD</string>
+    <string name="pref_chroma_flash_title" translatable="false">Smart flash</string>
+
+    <!-- continuous shot speed -->
+    <string name="pref_camera_continuous_number_title">Voortdurende skoot</string>
+
+
+    <string name="pref_voice_capture">Stemopname</string>
+    <string name="pref_voice_default" translatable="false">off</string>
+    <string name="pref_voice_entry_off">af</string>
+    <string name="pref_voice_entry_on">aan</string>
+
+    <!-- Face Detection properties  songyutao set FD dafault on -->
+    <string name="pref_camera_face_detect_title">Gesigsherkenning</string>
+    <string name="pref_camera_face_detect_default" translatable="false">on</string>
+    <string name="pref_camera_face_detect_entry_off">Af</string>
+    <string name="pref_camera_face_detect_entry_on">Aan</string>
+    <string name="pref_camera_record_location_title">Stoor ligging</string>
+    <string name="pref_camera_thumb_title">Filmrol</string>
+
+    <string name="pref_camera_pic_frame_entry_off">Af</string>
+    <string name="pref_camera_pic_frame_entry_on">Aan</string>
+    <string name="pref_shutter_touch_title">Tik dit om \'n foto te neem</string>
+    <string name="pref_shutter_smile_default" translatable="false">off</string>
+    <string name="pref_shutter_smile_title">Glimlagskoot</string>
+    <string name="pref_shutter_hand_default" translatable="false">off</string>
+    <string name="pref_shutter_hand_title">Handskoot</string>
+    <string name="pref_shutter_watermark_title">Watermerk</string>
+    <string name="pref_shutter_watermark_default" translatable="false">off</string>
+    <string name="pref_camera_watermark_entry_off">Af</string>
+    <string name="pref_camera_watermark_entry_on">Aan</string>
+    <string name="pref_camera_asd_title">ASD</string>
+    <string name="pref_camera_asd_entry_off">Af</string>
+    <string name="pref_camera_asd_entry_on">Aan</string>
+
+    <string name="pref_camera_shutter_sound_title">Sluiterklank</string>
+    <string name="pref_camera_shutter_sound_entry_off">Af</string>
+    <string name="pref_camera_shutter_sound_entry_on">Aan</string>
+    <string name="pref_camera_pic_level_title">Gradiënteerder</string>
+    <string name="pref_camera_pic_level_entry_off">Af</string>
+    <string name="pref_camera_pic_level_entry_on">Aan</string>
+    <string name="pref_continuous_onoff_default" translatable="false">on</string>
+    <string name="pref_capture_mirror_title">Weerspieëlende Vorentoekamera</string>
+    <string name="pref_camera_save_pos_title">Berging</string>
+    <string name="pref_camera_save_pos_entry_t">SD-kaart</string>
+    <string name="pref_camera_save_pos_entry_p">Foon</string>
+    <string name="pref_camera_save_pos_entry_u">usb otg</string>
+    <string name="pref_video_record_red_light_entry_off">af</string>
+    <string name="pref_video_record_red_light_entry_on">aan</string>
+
+    <string name="pref_camera_mesh_line_title">Rooster</string>
+    <string name="pref_camera_high_picture_size_title">Hoë Prent-grootte</string>
+
+    <string name="pref_pic_struct_title">Raamlyne</string>
+    <string name="pref_video_record_red_light_key_title">Opneemliggie-aanwyser</string>
+    <string name="pref_pic_struct_default" translatable="false">off</string>
+    <string name="pref_pic_struct_entry_off">Af</string>
+    <string name="pref_pic_struct_entry_enneahedral">Roosterlyne</string>
+    <string name="manual">KENNER</string>
+    <string name="photo_mode">FOTO</string>
+    <string name="panorama_mode">PANO</string>
+    <string name="beauty_mode">Gesigskoonheid</string>
+    <string name="radio_switch_to_hdr">HDR</string>
+
+    <string name="radio_switch_to_facebeauty_custom">Gesigskoonheid</string>
+    <!-- application infomation -->
+    <string name="app_name">Kamera</string>
+    <string name="pref_camera_selftimer_entry_5">5 sekondes</string>
+    <string name="night_mode">Nag</string>
+    <string name="capture_keep_steady_hint">Hou phone (1) stil</string>
+    <string name="radio_switch_to_beautyvideo">Skoonheidsvideo</string>
+    <string name="timelapse_mode">TYDSVERLOOP</string>
+
+    <!-- add by zzp for pano-->
+    <string name="panorama_move_phone">Skuif asseblief Phone(1) eweredig al langs die middellyn</string>
+    <string name="panorama_night_move_phone">Druk die sluiter en bring die sirkel in lyn met die kol; die super panorama-modus is meer geskik vir die afneem van nagtonele.</string>
+    <string name="panorama_move_keep_line">Hou die pyl op die lyn</string>
+    <string name="panorama_move_slow">Stadiger</string>
+    <string name="panorama_night_capture_move_toast">Skuif phone (1) om die sirkel in lyn met die kol te bring</string>
+    <string name="panorama_arcsoft_guide_shutter">Druk sluiterknoppie en skuif jou foon \n stadig in een rigting</string>
+    <string name="panorama_arcsoft_warn_slowly">Beweeg asseblief jou foon stadig</string>
+    <string name="panorama_arcsoft_warn_back">Waarskuwing skuif terug</string>
+
+    <string name="panorama_arcsoft_warn_up">Skuif Op</string>
+    <string name="panorama_arcsoft_warn_down">Skuif af</string>
+    <string name="panorama_arcsoft_warn_left">Skuif links</string>
+    <string name="panorama_arcsoft_warn_right">Skuif regs</string>
+    <string name="panorama_arcsoft_switch_capture_direction_guide">Tik die pyltjie om vasleggingaanwysings te verander</string>
+    <string name="panorama_capture_guide">Bring die pyltjie in lyn met die verwysingslyn</string>
+    <string name="panorama_toggle_mode_standard">STANDAARD</string>
+    <string name="panorama_toggle_mode_super">SUPER</string>
+    <!--time line 20141227-->
+    <string name="radio_switch_to_pip">DubbelAansig</string>
+
+    <string name="setting_title">KAMERA-INSTELLINGS</string>
+    <string name="expert_setting_title">Kundige Modus-kenmerke</string>
+    <string name="hold_shutter_setting_title">Druk en hou sluiter in</string>
+    <string name="video_encode_title">Video-enkodering</string>
+    <string name="group_general_title">Algemeen</string>
+    <string name="group_photo_title">Foto</string>
+    <string name="group_video_title">Video</string>
+    <string name="mode_title">Modusse</string>
+    <string name="setting_top_full_hint">Kan nie nog items byvoeg nie.</string>
+
+    <string name="panorama_arcsoft_cannot_use_guide">Gebruik asseblief Panorama in portretmodus</string>
+
+    <string name="radio_switch_to_refocus">Slimfokus</string>
+    <string name="radio_switch_to_chromaflash">Slimflits</string>
+    <string name="radio_switch_to_clearsight">HelderSig</string>
+
+    <string name="setting_guide_message">Klik op voeg by die kortpadbalk of \n Sleep om die kortpad by te voeg</string>
+    <string name="skip_setting_guide">EK HET DIT</string>
+
+    <string name="permission_title">Verleen toegang</string>
+    <string name="enable_permission_procedure">Jy kan toestemmings verander in Instellings &gt; Toepassings &gt; %1$s &gt; Toestemmings</string>
+    <string name="toast_storage_full_sdcard_to_internal">SD-kaartberging is vol,stoor na interne berging</string>
+    <string name="toast_storage_damaged_sdcard_to_internal">Stoor lêer na SD-kaart het misluk, stoor na interne berging</string>
+    <string name="toast_storage_full_internal_to_sdcard">Interne berging is vol, stoor na SD-kaartberging</string>
+    <string name="toast_storage_full_clean_up_to_free_space">Foonbergingspasie is vol. Maak asseblief skoon om spasie beskikbaar te stel</string>
+    <string name="secure_camera_can_not_request_permission">Ontsluit asseblief eers jou foon ten einde toestemmingsversoek te aanvaar/weier</string>
+
+    <string name="shutcauts_frontcamera">Neem ’n selfie</string>
+    <string name="shutcauts_backcamera">Neem ’n foto</string>
+
+    <string name="shutcauts_frontvideo">Neem ’n video (selfie) op</string>
+    <string name="shutcauts_backvideo">Neem ’n video op</string>
+    <string name="pref_camera_status_detect_title">Statusbespeuring</string>
+
+    <string name="pref_camera_raw_file_title">RAW-lêer</string>
+    <string name="pref_camera_filter_title">Filter</string>
+    <string name="pref_dual_camera_title">Dubbelkamera</string>
+    <string name="pref_dual_camera_default">af</string>
+    <string name="portrait_mode">PORTRET</string>
+
+    <string name="pref_camera_pref_entry_auto">Outo</string>
+
+    <string name="confirm_mode_tip">Tik om na %1$s modus te wissel</string>
+
+    <string name="focal_switch_scale_tip" translatable="false">Tap on the icon to open Telephoto mode</string>
+    <string name="front_wide_switch_tip" translatable="false">Tap on the icon to activate group selfie</string>
+    <string name="low_memory_limit" translatable="false">Your system is in low memory, some features limit capture size</string>
+    <string name="portrait_background_blur">Portret</string>
+    <string name="portrait_of_face_beauty">Gesigskoonheid</string>
+
+    <string name="asd_result_hdr">HDR geaktiveer</string>
+    <string name="toast_face_undetected_at_portrait" translatable="false">No face detected within 2 meters</string>
+    <string name="toast_face_undetected_at_sticker" translatable="false">No face detected</string>
+    <string name="toast_view_pic_vivid_at_superpixel" translatable="false">Capture more details on picture with Super Pixel</string>
+    <string name="front_face_detected_first_tip" translatable="false">Look at the lens for better selfies</string>
+
+    <string name="u_screen_selfie_count_down_cancel">Kanselleer</string>
+    <string name="video_beauty_switch_on">Aan</string>
+    <string name="video_beauty_switch_off">Af</string>
+
+    <string name="image_processing_toast">Beeldprosessering</string>
+    <string name="short_video_not_found">Hierdie video is nie gevind nie</string>
+
+    <!-- for Android O's CTS-->
+    <string name="camera_review_done_desc">Klaar</string>
+    <string name="camera_review_retake_desc">Neem weer</string>
+    <string name="bokeh_mode">PORTRET</string>
+    <string name="toast_dual_camera_bokeh">Skiet voorwerpe binne 2 meter vir die beste resultate</string>
+
+    <!-- for qcom slowmotion-->
+    <string name="pref_camera_hfr_entry_2x">X2</string>
+    <string name="pref_camera_hfr_entry_3x">X3</string>
+    <string name="pref_camera_hfr_entry_4x">X4</string>
+
+    <string name="pref_camera_hfr_value_2x" translatable="false">hfr60</string>
+    <string name="pref_camera_hfr_value_3x" translatable="false">hfr90</string>
+    <string name="pref_camera_hfr_value_4x" translatable="false">hfr120</string>
+    <string name="slow_motion_mode">STADIGE AKSIE</string>
+    <string name="pref_camera_hsr_value_off" translatable="false">off</string>
+    <string name="pref_camera_hsr_value_2x" translatable="false">hsr60</string>
+    <string name="pref_camera_hsr_entry_2x" translatable="false">X2</string>
+    <string name="pref_camera_hsr_entry_off" translatable="false">Off</string>
+
+    <string name="pref_camera_sticker_title">Plakker</string>
+    <string name="pref_gender_estimate_title">Geslagskatting</string>
+    <string name="pref_gender_estimate_entry_on">Aan</string>
+    <string name="pref_gender_estimate_entry_off">Af</string>
+
+    <string name="toast_motion_photo_opened">Bewegingsfoto AAN</string>
+
+    <!--add for ai scene detection -->
+    <string name="ai_scene_tips_food">Kos</string>
+    <string name="ai_scene_tips_portrait">Portret</string>
+    <string name="ai_scene_tips_foliage">Plant</string>
+    <string name="ai_scene_tips_sky">Blou lug</string>
+    <string name="ai_scene_tips_text">Teks</string>
+
+    <!-- add for faceplus asd detection -->
+    <string name="faceplus_asd_tips_face">Portret</string>
+    <string name="faceplus_asd_tips_food">Kos</string>
+    <string name="faceplus_asd_tips_fruits">Vrugte</string>
+    <string name="faceplus_asd_tips_flower">Blom</string>
+    <string name="faceplus_asd_tips_flowersea">Blommesee</string>
+    <string name="faceplus_asd_tips_sandbeach">Sand</string>
+    <string name="faceplus_asd_tips_snow">Sneeu</string>
+    <string name="faceplus_asd_tips_bluesky">Lug</string>
+    <string name="faceplus_asd_tips_night">Nag</string>
+    <string name="faceplus_asd_tips_sunrise">Sonop en sonsondergang</string>
+    <string name="faceplus_asd_tips_qr">QR-kode</string>
+    <string name="faceplus_asd_tips_businesscard">Naamkaart</string>
+    <string name="faceplus_asd_tips_whiteboard">Witbord</string>
+    <string name="faceplus_asd_tips_idcard">ID</string>
+    <string name="faceplus_asd_tips_bankcard">Kredietkaart</string>
+    <string name="faceplus_asd_tips_cat">Kat</string>
+    <string name="faceplus_asd_tips_dog">Hond</string>
+    <string name="faceplus_asd_tips_meadow">Weiland</string>
+    <string name="faceplus_asd_tips_plants">Plant</string>
+
+    <string name="video_recording">Neem video op</string>
+    <string name="motion_photo">Bewegingsfoto</string>
+    <string name="switch_to_wide_lens_toast" translatable="false">Opening wide angle lens</string>
+    <string name="time_lapse_not_save"> Ons kan nie jou tydsverloop stoor nie. Jou video moet ten minste %1$d sekondes wees.</string>
+    <string name="pref_shutter_speed_title">Sluiterspoed</string>
+    <string name="radio_switch_to_dual_bokeh_for_custom">Bokeh</string>
+    <string name="toast_video_recording_in_call_state">Kan nie klank tydens ’n oproep opneem nie.</string>
+    <string name="pref_camera_ai_title">Toneelbespeuring</string>
+
+    <string name="toast_video_3dnr_on">Video-nagaansig geakiveer</string>
+    <string name="toast_storage_unavailable">SD-kaart is nie beskikbaar nie</string>
+    <string name="toast_landscape_open_wide_tips">Wissel na ultrawye hoek om selfs meer landskap of vriende vas te lê.</string>
+
+    <string name="enable_sd_permission_title">Kamera benodig SD-kaarttoegang</string>
+    <string name="enable_sd_permission_content">Bekyk jou instellings, en laat toegang toe tot \“DCIM\” in \“SD-kaart\”.</string>
+    <string name="macro_mode">MAKRO</string>
+    <string name="super_macro_tip">Skiet voorwerpe teen 4 cm vir beste resultate</string>
+    <string name="bokeh_offfline_processing" translatable="false">Offline bokeh data processing……</string>
+    <string name="pref_google_lens" translatable="false">Google Lens</string>
+    <string name="never">Nooit</string>
+    <string name="toast_high_temp_disable_flash">Temperatuur is te hoog, kan nie flitslig oopmaak nie. </string>
+    <string name="toast_high_temp_shutdown_camera">Temperatuur is te hoog, die kamera sal na 5 sekondes gestop word. </string>
+    <string name="provider_authority" translatable="false">com.nothing.camera.provider.SpecialTypeProvider</string>
+
+
+    <string name="bokeh_type_name">Bokeh</string>
+    <string name="bokeh_type_description">Hierdie spesiale tipe stel jou in staat om bokeh-effek te wysig.</string>
+    <string name="hdr_type_name">Foto HDR</string>
+    <string name="hdr_type_description">Meer bewaringsbesonderhede in beligte omgewing</string>
+    <string name="ai_type_name">AI</string>
+    <string name="ai_type_description">Pas die regte grense outomaties aan by foto met behulp van AI-toneelopsporing</string>
+    <string name="timelapse_type_name">Tydsverloop</string>
+    <string name="timelapse_type_description">Wys ’n lang video met hoë spoed in ’n kort tyd</string>
+    <string name="don_t_cover_the_lens">Moenie die lens bedek nie</string>
+    <string name="pref_video_time_lapse_frame_interval_title">Tydsinterval</string>
+
+    <string name="toast_qr_code_detected">QR-kode is bespeur..\nTik om te besoek</string>
+    <string name="toast_qr_code_detected_type_esim">eSIM-profiel is bespeur.\nTik om e-SIM te aktiveer</string>
+    <string name="toast_qr_code_detected_type_url">QR-kode is bespeur.\nTik om die skakel te besoek</string>
+    <string name="toast_qr_code_detected_type_string">QR-kode is bespeur.\nTik om in Google te soek.</string>
+    <string name="toast_bar_code_detected_type_string">Staafkode is bespeur.\nTik om die skakel te besoek</string>
+    <string name="toast_bar_code_detected_type_number">Produkstaafkode is bespeur.\nTap om die produk te soek.</string>
+    <string name="turn_off_qr_code">Skakel QR-kode af</string>
+
+    <string name="pref_video_quality_entry_fine_text">Fyn</string>
+    <string name="pref_video_quality_entry_high_text">Hoog</string>
+
+    <string name="pref_exposure_metering_title">BeligtingsMeting</string>
+    <string name="pref_exposure_metering_entry_frame_average">Raamgemiddeld</string>
+    <string name="pref_exposure_metering_entry_center_weighted">Sentraal aangepas</string>
+    <string name="pref_exposure_metering_entry_spot_metering">Kolmeting</string>
+    <string name="toast_disable_torch">Deaktiveer flitslig om te voorkom dat flits oorverhit</string>
+    <string name="high_temperature_title_hint">Hoë temperatuur</string>
+    <string name="high_temperature_confirm_text">OK</string>
+    <string name="high_temperature_exit_text">Sluit nou</string>
+    <string name="high_temperature_forbid_flash">Flits onbeskikbaar. Koel phone (1) af voordat jy voortgaan.</string>
+    <string name="high_temperature_forbid_video_recording">Stop opname. Koel phone (1) af voordat jy voortgaan.</string>
+    <string name="high_temperature_close_camera">Kamera sal aan die einde van die aftelling afsluit.</string>
+
+    <string name="google_location_dialog_title" translatable="false">Add location information to photos you take with your camera app?</string>
+    <string name="google_location_dialog_message" translatable="false">This means your photos will contain information about where they were taken.</string>
+    <string name="google_location_dialog_message_lear_more" translatable="false"><a href='https://support.google.com/photos/answer/9921876'>Learn more</a></string>
+    <string name="google_location_dialog_positive" translatable="false">Enable Camera Location</string>
+
+    <string name="pref_video_fps">FPS</string>
+    <string name="pref_video_encoder">Video-enkodering</string>
+    <string name="more">MEER</string>
+    <string name="panorama_night_mode">PanoNag</string>
+    <string name="long_press_shutter_button">Druk en hou sluiter in</string>
+    <string name="continuous_shot_entry">Multiskoot</string>
+    <string name="continuous_shot_value" translatable="false">continuous_shot</string>
+    <string name="video_recording_value" translatable="false">video_recording</string>
+    <string name="pref_camera_wb_temp_title">Kleurtemperatuur</string>
+    <string name="pref_camera_entry_value_off" translatable="false">off</string>
+    <string name="pref_camera_entry_value_on" translatable="false">on</string>
+    <string name="pref_camera_entry_off">Af</string>
+    <string name="pref_camera_entry_on">Aan</string>
+    <string name="pref_camera_whitebalance_entry_custom" >pasgemaak</string>
+    <string name="pref_video_night_title">Nagvideo</string>
+    <string name="video_ois_title">OIS</string>
+    <string name="pref_photo_mfnr_title">mfnr</string>
+    <string name="remosaic_mode">Hermosaiek</string>
+    <string name="test" translatable="false">Test</string>
+
+    <string name="pref_high_definition_title">Hoë Definisie</string>
+    <string name="pref_pro_raw_title">Rouvaslegging</string>
+    <string name="beauty_video_mode">Skoonheidsvideo</string>
+    <string name="focus_locked_hint">Blootstelling en Fokus Gesluit</string>
+    <string name="perf_summary_record_location">Berg liggingsinligting in foto- en video-besonderhede</string>
+    <string name="perf_summary_capture_mirror">Weerspieël links of regs wanneer die voorkamera vir fotografie en video-opname gebruik word.</string>
+    <string name="perf_summary_touch_capture">Tik die skerm om ’n foto te neem</string>
+    <string name="perf_summary_asd">Pas optimale instellings outomaties toe vir verskillende voorwerpe soos blomme, diere en die lug.</string>
+    <string name="perf_summary_expert">Pas slegs toe op Deskundige-Modus</string>
+    <string name="pref_histogram_title">Histogram</string>
+    <string name="perf_summary_level_meter">Lorem ipsum dolor sit amet, consectetur adipiscing elit</string>
+    <string name="perf_summary_video_encode">H.265-enkodering kan berging stoor, maar mag dalk nie deur sommige toepassings en webwerwe gesteun word nie.</string>
+    <string name="perf_summary_h264">Beter versoenbaarheid</string>
+    <string name="perf_summary_h265">Beter bergingsdoeltreffendheid</string>
+    <string name="perf_expert_features">Kundige Modus-kenmerke</string>
+    <string name="reset_setting_description">Herstel kamera-instellings na verstek</string>
+    <string name="reset_button_reset">Herstel</string>
+    <string name="reset_button_cancel">Kanselleer</string>
+    <string name="perf_title_level_meter">Vlak</string>
+
+    <string name="video_pause_hint">GEPOUSEER</string>
+
+    <string name="filter_name_none" >Oorspronklike</string>
+    <string name="filter_name_1" translatable="false">West</string>
+    <string name="filter_name_2" translatable="false">Palma</string>
+    <string name="filter_name_3" translatable="false">Metro</string>
+    <string name="filter_name_4" translatable="false">Eiffel</string>
+    <string name="filter_name_5" translatable="false">Blush</string>
+    <string name="filter_name_6" translatable="false">Modena</string>
+    <string name="filter_name_7" translatable="false">Reel</string>
+    <string name="filter_name_8" translatable="false">Vogue</string>
+    <string name="filter_name_9" translatable="false">Ollie</string>
+    <string name="filter_name_10" translatable="false">Bazaar</string>
+    <string name="filter_name_11" translatable="false">Alpaca</string>
+    <string name="filter_name_12" translatable="false">Vista</string>
+
+    <string name="pref_llhdr_title" translatable="false">llhdr</string>
+    <string name="pref_llhdr_lux" translatable="false">lux</string>
+
+    <!-- camera toast -->
+    <string name="toast_motion_photo_closed">Bewegingsfoto AF</string>
+    <string name="toast_high_picture_size_opened">50 MP Ultra HD</string>
+    <string name="toast_high_picture_size_closed">12 MP HD</string>
+    <string name="toast_flash_led_opened">Glyph-ligvulling</string>
+    <string name="toast_high_definition_opened">HD Portret AAN</string>
+    <string name="toast_high_definition_closed">HD Portret AF</string>
+    <string name="toast_burst_shot_forbid">Multiskoot is onbeskikbaar in hierdie modus</string>
+    <string name="toast_function_not_available">Onbeskikbaar vir 50MP Ultra HD</string>
+    <string name="toast_zoom_not_available">Zoem is nie in hierdie modus beskikbaar nie</string>
+    <string name="toast_manual_ultra_wide_opened">Ultrawyd</string>
+    <string name="toast_manual_restore_parameter">Is na verstekinstellings teruggelaai</string>
+
+    <string name="toast_doc_mode">Dokument</string>
+    <string name="toast_night_mode">Nagmodus</string>
+
+    <string name="toast_video_eis_off">Stabilisering AF</string>
+    <string name="toast_video_eis_stander">Stabilisering AAN</string>
+    <string name="toast_video_eis_super">Ultrastabilisering AAN</string>
+
+    <string name="toast_time_lapse_speed_for_car">Voorgestelde toneel: Bewegende verkeer</string>
+    <string name="toast_time_lapse_speed_for_crowd">Voorgestelde toneel: Voetgangerskare</string>
+    <string name="toast_time_lapse_speed_for_fast_cloud">Voorgestelde toneel: Vinnigbewegende wolke</string>
+    <string name="toast_time_lapse_speed_for_sun">Voorgestelde toneel: Sonop / sonsondergang</string>
+    <string name="toast_time_lapse_speed_for_slow_cloud">Voorgestelde toneel: Stadigbewegende wolke</string>
+    <string name="toast_time_lapse_speed_for_shadow">Voorgestelde toneel: Bewegende skaduwees</string>
+    <string name="toast_time_lapse_speed_for_night">Voorgestelde toneel: Naglug</string>
+
+
+    <string name="slider_beauty_text_hint">SKOONHEID</string>
+    <string name="slider_portrait_text_hint">BOKEH</string>
+    <string name="slider_time_lapse_text_hint">SPOED</string>
+    <string name="mode_edit_title_hint">WYSIG</string>
+    <string name="mode_edit_main_interface_hint">Hoofmodusse</string>
+    <string name="mode_edit_more_interface_hint">Nog Modusse</string>
+    <string name="mode_edit_drag_hint">Hou en sleep om te herrangskik</string>
+</resources>
